@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f900_DM_KHOA));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
+            this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
+            this.m_cmd_sua = new DevExpress.XtraEditors.SimpleButton();
             this.m_grc_dm_khoa = new DevExpress.XtraGrid.GridControl();
             this.m_grv_dm_khoa = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.m_grvcol_ma_giang_vien = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -40,14 +44,10 @@
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
-            this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
-            this.m_cmd_sua = new DevExpress.XtraEditors.SimpleButton();
             this.tableLayoutPanel1.SuspendLayout();
+            this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_khoa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_dm_khoa)).BeginInit();
-            this.panel15.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -65,6 +65,44 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(805, 445);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // panel15
+            // 
+            this.panel15.Controls.Add(this.m_cmd_them);
+            this.panel15.Controls.Add(this.m_cmd_xoa);
+            this.panel15.Controls.Add(this.m_cmd_sua);
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel15.Location = new System.Drawing.Point(396, 406);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(406, 36);
+            this.panel15.TabIndex = 2;
+            // 
+            // m_cmd_them
+            // 
+            this.m_cmd_them.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_them.Image")));
+            this.m_cmd_them.Location = new System.Drawing.Point(58, 4);
+            this.m_cmd_them.Name = "m_cmd_them";
+            this.m_cmd_them.Size = new System.Drawing.Size(88, 35);
+            this.m_cmd_them.TabIndex = 0;
+            this.m_cmd_them.Text = "Thêm";
+            // 
+            // m_cmd_xoa
+            // 
+            this.m_cmd_xoa.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_xoa.Image")));
+            this.m_cmd_xoa.Location = new System.Drawing.Point(293, 7);
+            this.m_cmd_xoa.Name = "m_cmd_xoa";
+            this.m_cmd_xoa.Size = new System.Drawing.Size(92, 35);
+            this.m_cmd_xoa.TabIndex = 0;
+            this.m_cmd_xoa.Text = "Xóa";
+            // 
+            // m_cmd_sua
+            // 
+            this.m_cmd_sua.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_sua.Image")));
+            this.m_cmd_sua.Location = new System.Drawing.Point(170, 7);
+            this.m_cmd_sua.Name = "m_cmd_sua";
+            this.m_cmd_sua.Size = new System.Drawing.Size(92, 35);
+            this.m_cmd_sua.TabIndex = 0;
+            this.m_cmd_sua.Text = "Cập nhật";
             // 
             // m_grc_dm_khoa
             // 
@@ -145,44 +183,6 @@
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 7;
             // 
-            // panel15
-            // 
-            this.panel15.Controls.Add(this.m_cmd_them);
-            this.panel15.Controls.Add(this.m_cmd_xoa);
-            this.panel15.Controls.Add(this.m_cmd_sua);
-            this.panel15.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel15.Location = new System.Drawing.Point(396, 406);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(406, 36);
-            this.panel15.TabIndex = 2;
-            // 
-            // m_cmd_them
-            // 
-            this.m_cmd_them.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_them.Image")));
-            this.m_cmd_them.Location = new System.Drawing.Point(32, 4);
-            this.m_cmd_them.Name = "m_cmd_them";
-            this.m_cmd_them.Size = new System.Drawing.Size(88, 35);
-            this.m_cmd_them.TabIndex = 0;
-            this.m_cmd_them.Text = "Thêm";
-            // 
-            // m_cmd_xoa
-            // 
-            this.m_cmd_xoa.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_xoa.Image")));
-            this.m_cmd_xoa.Location = new System.Drawing.Point(293, 7);
-            this.m_cmd_xoa.Name = "m_cmd_xoa";
-            this.m_cmd_xoa.Size = new System.Drawing.Size(92, 35);
-            this.m_cmd_xoa.TabIndex = 0;
-            this.m_cmd_xoa.Text = "Xóa";
-            // 
-            // m_cmd_sua
-            // 
-            this.m_cmd_sua.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_sua.Image")));
-            this.m_cmd_sua.Location = new System.Drawing.Point(170, 7);
-            this.m_cmd_sua.Name = "m_cmd_sua";
-            this.m_cmd_sua.Size = new System.Drawing.Size(92, 35);
-            this.m_cmd_sua.TabIndex = 0;
-            this.m_cmd_sua.Text = "Cập nhật";
-            // 
             // f900_DM_KHOA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -193,9 +193,9 @@
             this.Text = "f900_DM_KHOA";
             this.Load += new System.EventHandler(this.f900_DM_KHOA_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.panel15.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_khoa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_dm_khoa)).EndInit();
-            this.panel15.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
