@@ -43,13 +43,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BondUS.dll" size="32768">
-      <assemblyIdentity name="BondUS" version="1.0.5812.32329" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="BondUS" version="1.0.5812.38824" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>DxPpz2j6EtNhbjZacRWYKyat+gQ=</dsig:DigestValue>
+        <dsig:DigestValue>OAsBTxYjGXRczZjzoKw8mW0/6xg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -630,14 +630,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HeThongQuanLyHocTap.exe" size="13329352">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HeThongQuanLyHocTap.exe" size="13329864">
       <assemblyIdentity name="HeThongQuanLyHocTap" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>MLuyhh1YYg7jtt4HyNW8HwlcJqU=</dsig:DigestValue>
+        <dsig:DigestValue>FNfGkbgJ3E0XpWfK5dVNbf1qTK8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -649,7 +649,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>hKnSSpNusM4srZoP2OtCbWmXFTQ=</dsig:DigestValue>
+        <dsig:DigestValue>yaRaTy30By7pspYsju9Yk0kvro4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -661,7 +661,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>oZtFbvNwqpGaQMY6FzQUgqjhhrM=</dsig:DigestValue>
+        <dsig:DigestValue>uEh90OJFXt2z1EYru6K695t01yo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -679,13 +679,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPCOREDS.dll" size="172032">
-      <assemblyIdentity name="IPCOREDS" version="1.0.5812.32323" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="IPCOREDS" version="1.0.5812.38822" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>vM1H+h4xV2Hx/kvQB31oAdC6jI8=</dsig:DigestValue>
+        <dsig:DigestValue>nZk/VCv5cmiuLAwcW/dRLRC6vuI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -697,7 +697,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>eURFs7KNItTygTMgEGUt2mUoAlk=</dsig:DigestValue>
+        <dsig:DigestValue>+4W55S+IfKRvdr+yErMxI4R6rFk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -709,7 +709,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>+IT+D/qhosynLjdE2kY2yVHi5YI=</dsig:DigestValue>
+        <dsig:DigestValue>gQoP/ErfuIjz3OsvD5lEqyBKUKw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -721,7 +721,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>18i9SwvPSbj58Bw/pdI9ZP4K9+o=</dsig:DigestValue>
+        <dsig:DigestValue>2ftMWtvIsajjev+yeeAT3T9v6EY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -733,7 +733,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>k/oNpfiUa3L8U+xyuJnpTaKCoa0=</dsig:DigestValue>
+        <dsig:DigestValue>/2WUatLJ1BBUQQoqZFbw7AEoqdo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -803,13 +803,13 @@
       <dsig:DigestValue>sO52mryYLMRjBR8Ctg5NdhZOwhg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="HeThongQuanLyHocTap.exe.config" size="3759">
+  <file name="HeThongQuanLyHocTap.exe.config" size="3700">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>p4L7ObuG3I6iftN2+B4ntl7tx5c=</dsig:DigestValue>
+      <dsig:DigestValue>y+5JjSL4Qq5PcHN4ITYgeXRUt3A=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

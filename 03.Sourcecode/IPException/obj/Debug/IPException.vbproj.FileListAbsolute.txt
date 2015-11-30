@@ -52,3 +52,9 @@ C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPException\bin\IPException.xml
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPException\obj\Debug\IPException.dll
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPException\obj\Debug\IPException.xml
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPException\obj\Debug\IPException.pdb
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPException\bin\IPException.dll
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPException\bin\IPException.pdb
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPException\bin\IPException.xml
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPException\obj\Debug\IPException.dll
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPException\obj\Debug\IPException.xml
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPException\obj\Debug\IPException.pdb

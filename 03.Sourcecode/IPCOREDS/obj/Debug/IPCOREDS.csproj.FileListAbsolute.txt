@@ -51,3 +51,8 @@ C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.pdb
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.dll
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.pdb
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.csprojResolveAssemblyReference.cache
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll.config
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.pdb
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.dll
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.pdb

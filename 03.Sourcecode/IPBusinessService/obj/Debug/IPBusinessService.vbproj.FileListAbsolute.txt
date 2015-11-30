@@ -88,3 +88,13 @@ C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPBusinessService\obj\Debug\IPBusin
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.dll
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.xml
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.pdb
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\bin\IPBusinessService.dll
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\bin\IPBusinessService.pdb
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\bin\IPBusinessService.xml
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\bin\IPException.dll
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\bin\IPException.pdb
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\bin\IPException.xml
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.vbprojResolveAssemblyReference.cache
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.dll
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.xml
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.pdb

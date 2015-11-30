@@ -61,3 +61,10 @@ C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPData\bin\IPData.xml
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPData\obj\Debug\IPData.dll
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPData\obj\Debug\IPData.xml
 C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\IPData\obj\Debug\IPData.pdb
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPData\bin\IPData.dll.config
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPData\bin\IPData.dll
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPData\bin\IPData.pdb
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPData\bin\IPData.xml
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPData\obj\Debug\IPData.dll
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPData\obj\Debug\IPData.xml
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPData\obj\Debug\IPData.pdb
