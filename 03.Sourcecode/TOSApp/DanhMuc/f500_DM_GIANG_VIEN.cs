@@ -110,6 +110,42 @@ namespace TOSApp.DanhMuc
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
-       
+
+        private void m_cmd_them_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                f501_DM_GIANG_VIEN_DE f500 = new f501_DM_GIANG_VIEN_DE();
+                f500.ShowDialog();
+                load_data_2_grid();
+            }
+            catch (Exception v_e)
+            {
+                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
+            }
+        }
+
+        private void m_cmd_sua_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (check_du_lieu_dau_vao())
+                {
+                   
+                    MessageBox.Show("Cập nhật thành công!");
+                    load_data_2_grid();
+                }
+            }
+            catch (Exception v_e)
+            {
+                MessageBox.Show("Đã xảy ra lỗi trong quá trình xử lý!");
+            }
+        }
+
+        private bool check_du_lieu_dau_vao()
+        {
+           
+            return true;
+        }
     }
 }

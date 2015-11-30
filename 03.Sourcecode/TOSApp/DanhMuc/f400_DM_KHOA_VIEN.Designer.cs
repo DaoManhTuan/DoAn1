@@ -36,32 +36,32 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.m_txt_ma_khoa_vien = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.m_txt_ten_khoa_vien = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.m_cbo_loai_khoa_vien = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_cap_nhat = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.m_cbo_loai_khoa_vien = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.m_txt_ma_khoa_vien = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_khoa_vien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_dm_khoa_vien)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // m_grc_dm_khoa_vien
@@ -139,7 +139,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.29871F));
             this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel4, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel7, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panel7, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 16);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -147,31 +147,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(733, 53);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.m_txt_ma_khoa_vien);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(3, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(212, 47);
-            this.panel2.TabIndex = 0;
-            // 
-            // m_txt_ma_khoa_vien
-            // 
-            this.m_txt_ma_khoa_vien.Location = new System.Drawing.Point(84, 13);
-            this.m_txt_ma_khoa_vien.Name = "m_txt_ma_khoa_vien";
-            this.m_txt_ma_khoa_vien.Size = new System.Drawing.Size(125, 20);
-            this.m_txt_ma_khoa_vien.TabIndex = 9;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Mã khoa viện";
             // 
             // panel4
             // 
@@ -198,6 +173,37 @@
             this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Tên khoa Viện";
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.m_cbo_loai_khoa_vien);
+            this.panel7.Controls.Add(this.label3);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel7.Location = new System.Drawing.Point(3, 3);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(212, 47);
+            this.panel7.TabIndex = 1;
+            // 
+            // m_cbo_loai_khoa_vien
+            // 
+            this.m_cbo_loai_khoa_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbo_loai_khoa_vien.Items.AddRange(new object[] {
+            "Khoa",
+            "Viện",
+            "Chương trình đặc biệt"});
+            this.m_cbo_loai_khoa_vien.Location = new System.Drawing.Point(70, 13);
+            this.m_cbo_loai_khoa_vien.Name = "m_cbo_loai_khoa_vien";
+            this.m_cbo_loai_khoa_vien.Size = new System.Drawing.Size(121, 21);
+            this.m_cbo_loai_khoa_vien.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(61, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Khoa/Viện:";
             // 
             // panel3
             // 
@@ -256,35 +262,31 @@
             this.m_cmd_them.Text = "Thêm";
             this.m_cmd_them.Click += new System.EventHandler(this.m_cmd_them_Click);
             // 
-            // panel7
+            // panel2
             // 
-            this.panel7.Controls.Add(this.m_cbo_loai_khoa_vien);
-            this.panel7.Controls.Add(this.label3);
-            this.panel7.Location = new System.Drawing.Point(221, 3);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(200, 47);
-            this.panel7.TabIndex = 1;
+            this.panel2.Controls.Add(this.m_txt_ma_khoa_vien);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(221, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(212, 47);
+            this.panel2.TabIndex = 2;
             // 
-            // m_cbo_loai_khoa_vien
+            // m_txt_ma_khoa_vien
             // 
-            this.m_cbo_loai_khoa_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.m_cbo_loai_khoa_vien.Items.AddRange(new object[] {
-            "Khoa",
-            "Viện",
-            "Chương trình đặc biệt"});
-            this.m_cbo_loai_khoa_vien.Location = new System.Drawing.Point(70, 13);
-            this.m_cbo_loai_khoa_vien.Name = "m_cbo_loai_khoa_vien";
-            this.m_cbo_loai_khoa_vien.Size = new System.Drawing.Size(121, 21);
-            this.m_cbo_loai_khoa_vien.TabIndex = 0;
+            this.m_txt_ma_khoa_vien.Location = new System.Drawing.Point(84, 13);
+            this.m_txt_ma_khoa_vien.Name = "m_txt_ma_khoa_vien";
+            this.m_txt_ma_khoa_vien.Size = new System.Drawing.Size(125, 20);
+            this.m_txt_ma_khoa_vien.TabIndex = 9;
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Khoa/Viện:";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Mã khoa viện";
             // 
             // f400_DM_KHOA_VIEN
             // 
@@ -300,15 +302,15 @@
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -324,10 +326,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox m_txt_ten_khoa_vien;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox m_txt_ma_khoa_vien;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private DevExpress.XtraGrid.Columns.GridColumn PHAN_LOAI;
         private System.Windows.Forms.Panel panel5;
@@ -338,5 +337,8 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.ComboBox m_cbo_loai_khoa_vien;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox m_txt_ma_khoa_vien;
+        private System.Windows.Forms.Label label1;
     }
 }

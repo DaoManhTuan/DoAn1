@@ -48,6 +48,7 @@
             this.m_rdb_gt_nam = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.m_cbo_khoa_vien = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.m_txt_que_quan = new System.Windows.Forms.TextBox();
@@ -56,20 +57,19 @@
             this.panel10 = new System.Windows.Forms.Panel();
             this.m_grc_dm_giang_vien = new DevExpress.XtraGrid.GridControl();
             this.m_grv_dm_giang_vien = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.MA_GIANG_VIEN = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_sua = new DevExpress.XtraEditors.SimpleButton();
-            this.MA_GIANG_VIEN = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.m_cbo_khoa_vien = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -278,6 +278,14 @@
             this.panel7.Size = new System.Drawing.Size(384, 43);
             this.panel7.TabIndex = 0;
             // 
+            // m_cbo_khoa_vien
+            // 
+            this.m_cbo_khoa_vien.FormattingEnabled = true;
+            this.m_cbo_khoa_vien.Location = new System.Drawing.Point(111, 12);
+            this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
+            this.m_cbo_khoa_vien.Size = new System.Drawing.Size(255, 21);
+            this.m_cbo_khoa_vien.TabIndex = 1;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -360,6 +368,14 @@
             this.m_grv_dm_giang_vien.OptionsFind.AlwaysVisible = true;
             this.m_grv_dm_giang_vien.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.m_grv_dm_giang_vien_FocusedRowChanged);
             // 
+            // MA_GIANG_VIEN
+            // 
+            this.MA_GIANG_VIEN.Caption = "Mã giảng viên";
+            this.MA_GIANG_VIEN.FieldName = "MA_GIANG_VIEN";
+            this.MA_GIANG_VIEN.Name = "MA_GIANG_VIEN";
+            this.MA_GIANG_VIEN.Visible = true;
+            this.MA_GIANG_VIEN.VisibleIndex = 0;
+            // 
             // gridColumn2
             // 
             this.gridColumn2.Caption = "Họ tên ";
@@ -367,22 +383,6 @@
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
-            // 
-            // gridColumn3
-            // 
-            this.gridColumn3.Caption = "Ngày sinh";
-            this.gridColumn3.FieldName = "NGAY_SINH";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 4;
-            // 
-            // gridColumn4
-            // 
-            this.gridColumn4.Caption = "Quê quán";
-            this.gridColumn4.FieldName = "QUE_QUAN";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 6;
             // 
             // gridColumn5
             // 
@@ -407,6 +407,22 @@
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 3;
+            // 
+            // gridColumn4
+            // 
+            this.gridColumn4.Caption = "Quê quán";
+            this.gridColumn4.FieldName = "QUE_QUAN";
+            this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.Visible = true;
+            this.gridColumn4.VisibleIndex = 6;
+            // 
+            // gridColumn3
+            // 
+            this.gridColumn3.Caption = "Ngày sinh";
+            this.gridColumn3.FieldName = "NGAY_SINH";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 4;
             // 
             // gridView1
             // 
@@ -441,6 +457,7 @@
             this.m_cmd_them.Size = new System.Drawing.Size(88, 35);
             this.m_cmd_them.TabIndex = 0;
             this.m_cmd_them.Text = "Thêm";
+            this.m_cmd_them.Click += new System.EventHandler(this.m_cmd_them_Click);
             // 
             // m_cmd_xoa
             // 
@@ -460,22 +477,7 @@
             this.m_cmd_sua.Size = new System.Drawing.Size(92, 35);
             this.m_cmd_sua.TabIndex = 0;
             this.m_cmd_sua.Text = "Cập nhật";
-            // 
-            // MA_GIANG_VIEN
-            // 
-            this.MA_GIANG_VIEN.Caption = "Mã giảng viên";
-            this.MA_GIANG_VIEN.FieldName = "MA_GIANG_VIEN";
-            this.MA_GIANG_VIEN.Name = "MA_GIANG_VIEN";
-            this.MA_GIANG_VIEN.Visible = true;
-            this.MA_GIANG_VIEN.VisibleIndex = 0;
-            // 
-            // m_cbo_khoa_vien
-            // 
-            this.m_cbo_khoa_vien.FormattingEnabled = true;
-            this.m_cbo_khoa_vien.Location = new System.Drawing.Point(111, 12);
-            this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
-            this.m_cbo_khoa_vien.Size = new System.Drawing.Size(255, 21);
-            this.m_cbo_khoa_vien.TabIndex = 1;
+            this.m_cmd_sua.Click += new System.EventHandler(this.m_cmd_sua_Click);
             // 
             // f500_DM_GIANG_VIEN
             // 
