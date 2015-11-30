@@ -1,0 +1,1027 @@
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csprojResolveAssemblyReference.cache
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.Properties.Resources.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csproj.GenerateResource.Cache
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe.licenses
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\bin\Debug\Reports\Templates\Readme.txt
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DVMC.exe.config
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DVMC.exe.manifest
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DVMC.application
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DVMC.exe
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DVMC.XmlSerializers.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DVMC.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\BondUS.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\C1.Common.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1FlexGrid.Classic.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1FlexGrid.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1Input.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Charts.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Win.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Data.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.UI.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Office.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.PivotGrid.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Printing.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.RichEdit.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Sparkline.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.SpellChecker.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.UI.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Xpo.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraBars.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.UI.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.Wizard.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraEditors.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Win.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGrid.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraLayout.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraMap.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPivotGrid.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPrinting.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.Extensions.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Extensions.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraSpellChecker.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraTreeList.v14.1.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPCommon.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPCOREDS.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPData.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPException.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPUserService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\mcombobox.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\SiSButton.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\SiSMenu.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\System.Data.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\System.Deployment.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\System.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\System.Drawing.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\System.EnterpriseServices.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\System.Web.Services.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\System.Windows.Forms.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\System.Xml.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\System.Xml.Linq.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPCOREDS.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\BondUS.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPData.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPData.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPException.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPException.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPUserService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPUserService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Win.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Data.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.UI.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Office.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.PivotGrid.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Printing.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.RichEdit.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Sparkline.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.SpellChecker.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.UI.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Xpo.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraBars.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.UI.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.Wizard.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraEditors.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Win.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGrid.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraLayout.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPivotGrid.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPrinting.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.Extensions.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Extensions.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraSpellChecker.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraTreeList.v14.1.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPCommon.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\IPCommon.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Data.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Data.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Data.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Data.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Utils.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Utils.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Utils.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Utils.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe.manifest
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.application
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.XmlSerializers.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.HT.f000_main.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.NghiepVu.f101_tiep_nhan_ho_so.resources
+C:\Users\van\Desktop\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csprojResolveAssemblyReference.cache
+C:\Users\van\Desktop\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.HT.f000_main.resources
+C:\Users\van\Desktop\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.NghiepVu.f101_ho_so_thi_sinh.resources
+C:\Users\van\Desktop\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.NghiepVu.f102_ds_trung_tuyen.resources
+C:\Users\van\Desktop\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.Properties.Resources.resources
+C:\Users\van\Desktop\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csproj.GenerateResource.Cache
+C:\Users\van\Desktop\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe.licenses
+C:\Users\van\Desktop\project\03.Sourcecode\TOSApp\bin\Release\DVMC.exe.config
+C:\Users\van\Desktop\Phân tích và thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csprojResolveAssemblyReference.cache
+C:\Users\van\Desktop\Phân tích và thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.HT.f000_main.resources
+C:\Users\van\Desktop\Phân tích và thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.NghiepVu.f101_ho_so_thi_sinh.resources
+C:\Users\van\Desktop\Phân tích và thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.NghiepVu.f102_ds_trung_tuyen.resources
+C:\Users\van\Desktop\Phân tích và thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.Properties.Resources.resources
+C:\Users\van\Desktop\Phân tích và thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csproj.GenerateResource.Cache
+C:\Users\van\Desktop\Phân tích và thiết kế hệ thống\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe.licenses
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DVMC.exe.config
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csprojResolveAssemblyReference.cache
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.HT.f000_main.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.Properties.Resources.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csproj.GenerateResource.Cache
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe.licenses
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\bin\Debug\Reports\Templates\Readme.txt
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\BondUS.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\C1.Common.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1FlexGrid.Classic.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1FlexGrid.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1Input.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Charts.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Win.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Data.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.UI.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Office.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.PivotGrid.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Printing.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.RichEdit.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Sparkline.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.SpellChecker.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.UI.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Xpo.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraBars.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.UI.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.Wizard.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraEditors.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Win.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGrid.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraLayout.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraMap.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPivotGrid.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPrinting.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.Extensions.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Extensions.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraSpellChecker.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraTreeList.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPCommon.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPCOREDS.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPData.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPException.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPUserService.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\mcombobox.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\SiSButton.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\SiSMenu.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\System.Data.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\System.Deployment.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\System.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\System.Drawing.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\System.EnterpriseServices.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\System.Web.Services.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\System.Windows.Forms.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\System.Xml.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\System.Xml.Linq.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPCOREDS.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\BondUS.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPData.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPData.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPException.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPException.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPUserService.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPUserService.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Win.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Data.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.UI.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Office.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.PivotGrid.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Printing.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.RichEdit.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Sparkline.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.SpellChecker.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.UI.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.Xpo.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraBars.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.UI.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.Wizard.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraEditors.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Win.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGrid.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraLayout.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPivotGrid.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPrinting.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.Extensions.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Extensions.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraSpellChecker.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraTreeList.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPCommon.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\IPCommon.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Data.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Data.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Data.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Data.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Utils.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Utils.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Utils.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Utils.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe.manifest
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.application
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.XmlSerializers.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DVMC.exe.manifest
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DVMC.application
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DVMC.exe
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DVMC.XmlSerializers.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\bin\Release\DVMC.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f100_DM_SINH_VIEN.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f101_DM_SINH_VIEN_DE.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f200_DM_LOP_HOC.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f201_DM_LOP_HOC_DE.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f300_DM_LOP_THI.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f301_DM_LOP_THI_DE.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f400_DM_KHOA_VIEN.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f401_DM_KHOA_VIEN_DE.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f500_DM_GIANG_VIEN.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f501_DM_GIANG_VIEN_DE.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f600_DM_HOC_PHAN.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f601_DM_HOC_PHAN_DE.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f700_DM_BANG_DIEM.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\project\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.f0001_register.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DVMC.exe.config
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.XmlSerializers.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\bin\Debug\Reports\Templates\Readme.txt
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DVMC.exe.manifest
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DVMC.application
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DVMC.exe
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DVMC.XmlSerializers.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DVMC.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\BondUS.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\C1.Common.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1FlexGrid.Classic.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1FlexGrid.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1Input.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Charts.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Win.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Data.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.UI.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Office.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.PivotGrid.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Printing.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.RichEdit.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Sparkline.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.SpellChecker.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.UI.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Xpo.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraBars.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.UI.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.Wizard.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraEditors.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Win.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGrid.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraLayout.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraMap.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPivotGrid.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPrinting.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.Extensions.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Core.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Extensions.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraSpellChecker.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraTreeList.v14.1.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPCommon.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPCOREDS.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPData.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPException.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPUserService.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\mcombobox.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\SiSButton.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\SiSMenu.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\System.Data.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\System.Deployment.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\System.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\System.Drawing.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\System.EnterpriseServices.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\System.Web.Services.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\System.Windows.Forms.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\System.Xml.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\System.Xml.Linq.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPCOREDS.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\BondUS.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPData.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPData.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPException.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPException.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPUserService.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPUserService.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Win.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Data.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.UI.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Office.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.PivotGrid.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Printing.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.RichEdit.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Sparkline.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.SpellChecker.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.UI.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.Xpo.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraBars.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.UI.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.Wizard.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraEditors.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Win.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGrid.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraLayout.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPivotGrid.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPrinting.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.Extensions.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Core.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Extensions.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraSpellChecker.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraTreeList.v14.1.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPCommon.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\IPCommon.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.pdb
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.xml
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Data.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Data.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Data.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Data.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Utils.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Utils.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Utils.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Utils.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csprojResolveAssemblyReference.cache
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f100_DM_SINH_VIEN.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f200_DM_LOP_HOC.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f400_DM_KHOA_VIEN.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f500_DM_GIANG_VIEN.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f600_DM_HOC_PHAN.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f800_DM_HOC_KY.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.f001_register.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.f999_main.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.Properties.Resources.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csproj.GenerateResource.Cache
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe.licenses
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.exe.manifest
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\DVMC.application
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.f000_login.resources
+C:\Users\van\Desktop\ĐỒ ÁN 1\đồ án 1\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f101_DM_SINH_VIEN_DE.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\bin\Debug\Reports\Templates\Readme.txt
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\BondUS.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\C1.Common.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1FlexGrid.Classic.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1FlexGrid.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\C1.Win.C1Input.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Charts.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Win.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Data.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.UI.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Office.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.PivotGrid.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Printing.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.RichEdit.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Sparkline.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.SpellChecker.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.UI.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Xpo.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraBars.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.UI.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.Wizard.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraEditors.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Win.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGrid.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraLayout.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraMap.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPivotGrid.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPrinting.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.Extensions.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Core.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Extensions.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraSpellChecker.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraTreeList.v14.1.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPCommon.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPCOREDS.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPData.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPException.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPUserService.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\mcombobox.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\SiSButton.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\SiSMenu.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\System.Data.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\System.Deployment.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\System.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\System.Drawing.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\System.EnterpriseServices.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\System.Web.Services.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\System.Windows.Forms.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\System.Xml.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\System.Xml.Linq.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPBusinessService.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPCOREDS.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\BondUS.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPData.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPData.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPException.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPException.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPSystemAdmin.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPUserService.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPUserService.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Dashboard.v14.1.Win.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Data.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.DataAccess.v14.1.UI.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Office.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.PivotGrid.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Printing.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.RichEdit.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Sparkline.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.SpellChecker.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Utils.v14.1.UI.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.Xpo.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraBars.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.UI.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraCharts.v14.1.Wizard.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraEditors.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGauges.v14.1.Win.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraGrid.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraLayout.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPivotGrid.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraPrinting.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraRichEdit.v14.1.Extensions.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Core.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraScheduler.v14.1.Extensions.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraSpellChecker.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\DevExpress.XtraTreeList.v14.1.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPCommon.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\IPCommon.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\Newtonsoft.Json.xml
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Dashboard.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Dashboard.v14.1.Win.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Data.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Data.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Data.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Data.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.DataAccess.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Utils.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Utils.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Utils.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Utils.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Utils.v14.1.UI.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraLayout.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraRichEdit.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraRichEdit.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.Core.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraScheduler.v14.1.Extensions.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraSpellChecker.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\de\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\es\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csprojResolveAssemblyReference.cache
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f100_DM_SINH_VIEN.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f101_DM_SINH_VIEN_DE.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f200_DM_LOP_HOC.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f400_DM_KHOA_VIEN.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f500_DM_GIANG_VIEN.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f600_DM_HOC_PHAN.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f800_DM_HOC_KY.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.f000_login.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.f001_register.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.f999_main.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.Properties.Resources.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.csproj.GenerateResource.Cache
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f900_DM_KHOA.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\HeThongQuanLyHocTap.exe.config
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\HeThongQuanLyHocTap.exe.manifest
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\HeThongQuanLyHocTap.application
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\HeThongQuanLyHocTap.exe
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\HeThongQuanLyHocTap.XmlSerializers.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\bin\Release\HeThongQuanLyHocTap.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\HeThongQuanLyHocTap.exe.licenses
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\HeThongQuanLyHocTap.exe.manifest
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\HeThongQuanLyHocTap.application
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\HeThongQuanLyHocTap.exe
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\HeThongQuanLyHocTap.pdb
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\HeThongQuanLyHocTap.XmlSerializers.dll
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f401_DM_KHOA_VIEN_DE.resources
+C:\Users\ManhTuan\Desktop\DoAn\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f501_DM_GIANG_VIEN_DE.resources

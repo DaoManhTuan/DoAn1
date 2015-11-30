@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="systemcpl_dll_01_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\systemcpl_dll_01_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Journal_exe_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Journal_exe_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ieframe_dll_64_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ieframe_dll_64_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_03_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_03_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_23_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_23_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FeedbackTool_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FeedbackTool_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_11_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_11_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xpsrchvw_exe_03_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xpsrchvw_exe_03_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_dll_281_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_dll_281_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ndfapi_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ndfapi_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesp1_dll_03_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesp1_dll_03_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab_exe_09_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab_exe_09_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="themeui_dll_04_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\themeui_dll_04_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sapi_cpl_05_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sapi_cpl_05_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1448360691_Microsoft_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1448360691_Microsoft_flag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_199_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_199_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ieframe_dll_52_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ieframe_dll_52_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_01_13 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_01_13 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_27_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_27_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesp1_dll_07_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesp1_dll_07_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mstscax_dll_05_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mstscax_dll_05_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_dll_067_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_dll_067_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sbdrop_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sbdrop_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_207_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_207_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_193_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_193_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab32_dll_01_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab32_dll_01_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesp1_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesp1_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_111_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_111_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_103_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_103_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wsecedit_dll_04_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wsecedit_dll_04_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab_exe_10_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab_exe_10_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyring_dll_03_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyring_dll_03_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FeedbackTool_dll_04_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FeedbackTool_dll_04_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ieframe_dll_65_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ieframe_dll_65_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab32res_dll_27_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab32res_dll_27_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_118_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_118_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_20_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_20_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NetProjW_dll_01_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NetProjW_dll_01_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeviceCenter_dll_10_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeviceCenter_dll_10_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cabview_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cabview_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_16_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_16_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wsecedit_dll_03_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wsecedit_dll_03_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ieframe_dll_12_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ieframe_dll_12_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RASMM_dll_04_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RASMM_dll_04_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accessibilitycpl_dll_09_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accessibilitycpl_dll_09_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IpsOptInSrv_exe_01_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IpsOptInSrv_exe_01_07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msoobeui_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msoobeui_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_121_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_121_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_122_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_122_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIHub_dll_02_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UIHub_dll_02_09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WMPhoto_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WMPhoto_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_01_136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_01_136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="srchadmin_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\srchadmin_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sysmon_ocx_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sysmon_ocx_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_13_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_13_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ieframe_dll_14_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ieframe_dll_14_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_12_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_12_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="perfmon_exe_01_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perfmon_exe_01_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeviceCenter_dll_07_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeviceCenter_dll_07_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyring_dll_08_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyring_dll_08_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DXPTaskRingtone_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DXPTaskRingtone_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InkWatson_exe_01_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InkWatson_exe_01_07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSOERES_dll_08_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSOERES_dll_08_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesp1_dll_04_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesp1_dll_04_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyring_dll_04_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyring_dll_04_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FeedbackTool_dll_03_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FeedbackTool_dll_03_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wucltux_dll_10_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wucltux_dll_10_09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_02_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_02_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_05_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_05_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bkhn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bkhn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_01_13 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_01_13 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_03_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_03_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DXP_dll_03_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DXP_dll_03_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_206_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_206_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EhStorShell_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EhStorShell_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyring_dll_01_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyring_dll_01_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intl_cpl_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intl_cpl_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PresentationHost_exe_04_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PresentationHost_exe_04_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_016_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_016_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WMPSideShowGadget_exe_01_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WMPSideShowGadget_exe_01_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mydocs_dll_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mydocs_dll_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wsecedit_dll_02_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wsecedit_dll_02_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WinMail_exe_04_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WinMail_exe_04_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NAPSTAT_EXE_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NAPSTAT_EXE_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="odbcint_dll_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\odbcint_dll_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesp1_dll_08_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesp1_dll_08_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_01_1310" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_01_1310.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PresentationHost_exe_03_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PresentationHost_exe_03_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sysmain_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sysmain_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wpdshext_dll_15_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wpdshext_dll_15_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_01_138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_01_138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab32res_dll_21_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab32res_dll_21_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_197_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_197_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSOERES_dll_01_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSOERES_dll_01_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_01_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_01_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powershell_ise_exe_02_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powershell_ise_exe_02_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_14_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_14_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab_exe_08_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab_exe_08_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sidebar_exe_02_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sidebar_exe_02_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slui_exe_03_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slui_exe_03_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_09_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_09_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesp1_dll_09_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesp1_dll_09_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SensorsCpl_dll_01_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SensorsCpl_dll_01_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hwrreg_exe_01_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hwrreg_exe_01_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyring_dll_13_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyring_dll_13_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_007_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_007_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmploc_DLL_007_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wmploc_DLL_007_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biocpl_dll_01_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biocpl_dll_01_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wcnwiz_dll_06_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wcnwiz_dll_06_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_10_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_10_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab_exe_05_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab_exe_05_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_120_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_120_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_17_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_17_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oledb32_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oledb32_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Journal_exe_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Journal_exe_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wabmig_exe_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wabmig_exe_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSOERES_dll_09_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSOERES_dll_09_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SnippingTool_exe_01_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SnippingTool_exe_01_09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OobeFldr_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OobeFldr_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_13_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_13_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_28_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_28_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_107_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_107_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_dll_299_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_dll_299_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powershell_exe_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powershell_exe_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeviceCenter_dll_03_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeviceCenter_dll_03_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="networkexplorer_dll_21_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\networkexplorer_dll_21_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_189_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_189_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_11_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_11_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msieftp_dll_04_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msieftp_dll_04_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_171_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_171_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DxpTaskSync_dll_03_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DxpTaskSync_dll_03_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="irprops_cpl_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\irprops_cpl_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loadmxf_exe_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loadmxf_exe_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_187_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_187_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_10_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_10_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wpdshext_dll_16_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wpdshext_dll_16_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PresentationHost_exe_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PresentationHost_exe_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wordpad_exe_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wordpad_exe_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="networkexplorer_dll_23_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\networkexplorer_dll_23_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subject.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmploc_DLL_067_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wmploc_DLL_067_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sapi_cpl_06_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sapi_cpl_06_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_185_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_185_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSOERES_dll_06_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSOERES_dll_06_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab32res_dll_18_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab32res_dll_18_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyring_dll_16_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyring_dll_16_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_dll_129_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_dll_129_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_dll_235_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_dll_235_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_110_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_110_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_16_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_16_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msdtc_exe_01_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msdtc_exe_01_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_19_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_19_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_192_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_192_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmploc_DLL_065_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wmploc_DLL_065_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="networkexplorer_dll_20_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\networkexplorer_dll_20_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_male_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_male_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mspaint_exe_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mspaint_exe_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_01_137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_01_137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FeedbackTool_dll_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FeedbackTool_dll_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SafeZoneCPL_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SafeZoneCPL_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wcnwiz_dll_04_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wcnwiz_dll_04_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmploc_DLL_066_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wmploc_DLL_066_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_dll_279_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_dll_279_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab32res_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab32res_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_08_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_08_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_205_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_205_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_15_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_15_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wwanmm_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wwanmm_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icardres_dll_08_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icardres_dll_08_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_12_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_12_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msra_exe_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msra_exe_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icardres_dll_09_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icardres_dll_09_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WinMail_exe_03_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WinMail_exe_03_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab_exe_07_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab_exe_07_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_186_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_186_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InkWatson_exe_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InkWatson_exe_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icardres_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icardres_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_006_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_006_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netprof_dll_05_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\netprof_dll_05_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1960-91647" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1960-91647.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powershell_ise_exe_01_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powershell_ise_exe_01_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_191_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_191_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_168_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_168_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlickLearningWizard_exe_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlickLearningWizard_exe_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joy_cpl_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joy_cpl_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_15_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_15_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Journal_exe_03_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Journal_exe_03_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wordpad_exe_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wordpad_exe_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xpsrchvw_exe_05_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xpsrchvw_exe_05_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sccls_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sccls_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_dll_272_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_dll_272_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_04_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_04_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_25_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_25_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesp1_dll_05_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesp1_dll_05_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_188_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_188_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="themeui_dll_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\themeui_dll_01_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_06_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_06_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cyclop Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cyclop Folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_008_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_008_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netcenter_dll_19_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\netcenter_dll_19_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_09_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_09_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesp1_dll_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesp1_dll_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab32res_dll_10_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab32res_dll_10_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ieframe_dll_10_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ieframe_dll_10_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_21_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_21_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PresentationHost_exe_02_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PresentationHost_exe_02_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_18_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_18_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mssvp_dll_06_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mssvp_dll_06_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_202_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_202_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiagPackage_dll_01_139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiagPackage_dll_01_139.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_26_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_26_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesp1_dll_06_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesp1_dll_06_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icardres_dll_10_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icardres_dll_10_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_14_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_14_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_dll_280_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_dll_280_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_190_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_190_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ncpa_cpl_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ncpa_cpl_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSOERES_dll_07_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSOERES_dll_07_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_060_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_060_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netcenter_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\netcenter_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wsecedit_dll_05_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wsecedit_dll_05_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_22_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_22_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="networkmap_dll_03_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\networkmap_dll_03_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msdasqlr_dll_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msdasqlr_dll_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontext_dll_17_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontext_dll_17_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlickLearningWizard_exe_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlickLearningWizard_exe_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnLineIDCpl_dll_02_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnLineIDCpl_dll_02_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDORes_dll_24_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDORes_dll_24_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_203_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_203_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_119_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_119_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyring_dll_02_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyring_dll_02_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wab32res_dll_22_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wab32res_dll_22_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msdt_exe_04_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msdt_exe_04_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netcenter_dll_03_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\netcenter_dll_03_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resmon_exe_01_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resmon_exe_01_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timedate_cpl_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timedate_cpl_01_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xpsrchvw_exe_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xpsrchvw_exe_02_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_009_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_009_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageres_dll_108_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_dll_108_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="khoavien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khoavien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
