@@ -28,6 +28,7 @@ namespace TOSApp.DanhMuc
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithTableName(v_ds, "V_DM_KHOA_VIEN");
             m_grc_dm_khoa_vien.DataSource = v_ds.Tables[0];
+           m_cbo_loai_khoa_vien.SelectedIndex=0;
         }
 
         private void m_cmd_xoa_Click(object sender, EventArgs e)

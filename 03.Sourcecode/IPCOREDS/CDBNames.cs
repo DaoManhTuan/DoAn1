@@ -67,5 +67,28 @@ namespace IPCOREDS.CDBNames
         public const string NGAY_SINH = "NGAY_SINH";
         public const string TRANG_THAI_HSD = "TRANG_THAI_HSD";
     }
+    public class v_dm_lop_hoc
+    {
+        public const string ID = "ID";
+        public const string MA_LOP_HOC = "MA_LOP_HOC";
+        public const string ID_HOC_PHAN = "ID_HOC_PHAN";
+        public const string MA_HOC_PHAN = "MA_HOC_PHAN";
+        public const string TEN_HOC_PHAN = "TEN_HOC_PHAN";
+        public const string ID_GIANG_VIEN = "ID_GIANG_VIEN";
+        public const string MA_GIANG_VIEN = "MA_GIANG_VIEN";
+        public const string TEN_GIANG_VIEN = "TEN_GIANG_VIEN";
+        public const string ID_HOC_KY = "ID_HOC_KY";
+        public const string MA_HOC_KY = "MA_HOC_KY";
+        public const string TRANG_THAI_HSD = "TRANG_THAI_HSD";
+    }
+    public class dm_lop_hoc
+    {
+        public const string ID = "ID";
+        public const string MA_LOP_HOC = "MA_LOP_HOC";
+        public const string ID_HOC_PHAN = "ID_HOC_PHAN";
+        public const string ID_GIANG_VIEN = "ID_GIANG_VIEN";
+        public const string ID_HOC_KY = "ID_HOC_KY";
+        public const string TRANG_THAI_HSD = "TRANG_THAI_HSD";
+    }
 
 }

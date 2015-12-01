@@ -172,6 +172,7 @@
             this.m_txt_ma_so_sinh_vien.Name = "m_txt_ma_so_sinh_vien";
             this.m_txt_ma_so_sinh_vien.Size = new System.Drawing.Size(222, 20);
             this.m_txt_ma_so_sinh_vien.TabIndex = 1;
+            this.m_txt_ma_so_sinh_vien.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_ma_so_sinh_vien_KeyPress);
             // 
             // label11
             // 
@@ -224,6 +225,7 @@
             this.m_txt_so_dien_thoai.Name = "m_txt_so_dien_thoai";
             this.m_txt_so_dien_thoai.Size = new System.Drawing.Size(222, 20);
             this.m_txt_so_dien_thoai.TabIndex = 1;
+            this.m_txt_so_dien_thoai.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_so_dien_thoai_KeyPress);
             // 
             // label8
             // 

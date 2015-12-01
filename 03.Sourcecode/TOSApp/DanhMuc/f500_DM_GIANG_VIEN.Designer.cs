@@ -143,6 +143,7 @@
             // 
             this.m_txt_ma_giang_vien.Location = new System.Drawing.Point(116, 12);
             this.m_txt_ma_giang_vien.Name = "m_txt_ma_giang_vien";
+            this.m_txt_ma_giang_vien.ReadOnly = true;
             this.m_txt_ma_giang_vien.Size = new System.Drawing.Size(241, 20);
             this.m_txt_ma_giang_vien.TabIndex = 7;
             // 
@@ -168,9 +169,11 @@
             // m_txt_so_dien_thoai
             // 
             this.m_txt_so_dien_thoai.Location = new System.Drawing.Point(116, 11);
+            this.m_txt_so_dien_thoai.MaxLength = 11;
             this.m_txt_so_dien_thoai.Name = "m_txt_so_dien_thoai";
             this.m_txt_so_dien_thoai.Size = new System.Drawing.Size(241, 20);
             this.m_txt_so_dien_thoai.TabIndex = 7;
+            this.m_txt_so_dien_thoai.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_so_dien_thoai_KeyPress);
             // 
             // label4
             // 

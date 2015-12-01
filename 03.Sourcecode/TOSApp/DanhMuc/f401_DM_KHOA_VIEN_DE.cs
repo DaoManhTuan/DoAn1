@@ -43,6 +43,7 @@ namespace TOSApp.DanhMuc
                 v_us.dcTRANG_THAI_HSD = 7;//mặc định khoa viện vừa được tạo có trạng thái đang hoạt động
                 v_us.Insert();
                 MessageBox.Show("Thêm thành công Khoa/Viện có mã: " + m_txt_ten_khoa_vien.Text);
+                this.Close();
                 }
             }
             catch (Exception v_e)

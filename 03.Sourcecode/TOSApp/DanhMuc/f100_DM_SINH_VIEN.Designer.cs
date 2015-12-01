@@ -74,11 +74,11 @@
             this.m_cbo_trang_thai = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.m_cbo_lop_sinh_vien = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
             this.m_cbo_khoa_vien = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.m_cbo_lop_sinh_vien = new System.Windows.Forms.ComboBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
@@ -433,6 +433,7 @@
             this.m_txt_ma_so_sinh_vien.Name = "m_txt_ma_so_sinh_vien";
             this.m_txt_ma_so_sinh_vien.Size = new System.Drawing.Size(229, 20);
             this.m_txt_ma_so_sinh_vien.TabIndex = 1;
+            this.m_txt_ma_so_sinh_vien.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_ma_so_sinh_vien_KeyPress);
             // 
             // label1
             // 
@@ -585,9 +586,11 @@
             // 
             this.m_txt_so_dien_thoai.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.m_txt_so_dien_thoai.Location = new System.Drawing.Point(0, 33);
+            this.m_txt_so_dien_thoai.MaxLength = 11;
             this.m_txt_so_dien_thoai.Name = "m_txt_so_dien_thoai";
             this.m_txt_so_dien_thoai.Size = new System.Drawing.Size(229, 20);
             this.m_txt_so_dien_thoai.TabIndex = 9;
+            this.m_txt_so_dien_thoai.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_so_dien_thoai_KeyPress);
             // 
             // label8
             // 
@@ -664,35 +667,6 @@
             this.panel4.Size = new System.Drawing.Size(229, 52);
             this.panel4.TabIndex = 1;
             // 
-            // m_cbo_lop_sinh_vien
-            // 
-            this.m_cbo_lop_sinh_vien.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_cbo_lop_sinh_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.m_cbo_lop_sinh_vien.FormattingEnabled = true;
-            this.m_cbo_lop_sinh_vien.Location = new System.Drawing.Point(0, 31);
-            this.m_cbo_lop_sinh_vien.Name = "m_cbo_lop_sinh_vien";
-            this.m_cbo_lop_sinh_vien.Size = new System.Drawing.Size(230, 21);
-            this.m_cbo_lop_sinh_vien.TabIndex = 5;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 11);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 13);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Lớp sinh viên";
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.label9);
-            this.panel10.Controls.Add(this.m_cbo_lop_sinh_vien);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel10.Location = new System.Drawing.Point(943, 3);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(230, 52);
-            this.panel10.TabIndex = 0;
-            // 
             // m_cbo_khoa_vien
             // 
             this.m_cbo_khoa_vien.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -712,6 +686,35 @@
             this.label7.Size = new System.Drawing.Size(58, 13);
             this.label7.TabIndex = 0;
             this.label7.Text = "Khoa/Viện";
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.label9);
+            this.panel10.Controls.Add(this.m_cbo_lop_sinh_vien);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel10.Location = new System.Drawing.Point(943, 3);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(230, 52);
+            this.panel10.TabIndex = 0;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(3, 11);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(70, 13);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Lớp sinh viên";
+            // 
+            // m_cbo_lop_sinh_vien
+            // 
+            this.m_cbo_lop_sinh_vien.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.m_cbo_lop_sinh_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbo_lop_sinh_vien.FormattingEnabled = true;
+            this.m_cbo_lop_sinh_vien.Location = new System.Drawing.Point(0, 31);
+            this.m_cbo_lop_sinh_vien.Name = "m_cbo_lop_sinh_vien";
+            this.m_cbo_lop_sinh_vien.Size = new System.Drawing.Size(230, 21);
+            this.m_cbo_lop_sinh_vien.TabIndex = 5;
             // 
             // panel12
             // 

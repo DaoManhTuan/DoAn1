@@ -63,6 +63,7 @@ namespace TOSApp.DanhMuc
 
         private void load_data_2_thong_tin_chi_tiet(DataRow v_dr)
         {
+            m_dr = v_dr;
             m_txt_ma_giang_vien.Text = v_dr["MA_GIANG_VIEN"].ToString();
             m_txt_ho_ten_GV.Text = v_dr["TEN_GIANG_VIEN"].ToString();
             m_txt_so_dien_thoai.Text = v_dr["SDT"].ToString();
@@ -115,8 +116,8 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                f501_DM_GIANG_VIEN_DE f500 = new f501_DM_GIANG_VIEN_DE();
-                f500.ShowDialog();
+                f501_DM_GIANG_VIEN_DE f501 = new f501_DM_GIANG_VIEN_DE();
+                f501.ShowDialog();
                 load_data_2_grid();
             }
             catch (Exception v_e)
@@ -131,8 +132,19 @@ namespace TOSApp.DanhMuc
             {
                 if (check_du_lieu_dau_vao())
                 {
-                   
-                    MessageBox.Show("Cập nhật thành công!");
+                    US_DM_GIANG_VIEN v_us = new US_DM_GIANG_VIEN(CIPConvert.ToDecimal(m_dr["ID"].ToString()));
+                    v_us.strTEN_GIANG_VIEN = m_txt_ho_ten_GV.Text;
+                    v_us.strSDT = m_txt_so_dien_thoai.Text;
+                    v_us.strQUE_QUAN = m_txt_que_quan.Text;
+                    if (m_rdb_gt_nam.Checked)
+                    {
+                        v_us.strGIOI_TINH = "N";
+                    }
+                    else v_us.strGIOI_TINH = "W";
+                    v_us.dcID_KHOA_VIEN = CIPConvert.ToDecimal(m_cbo_khoa_vien.SelectedValue);
+                    v_us.datNGAY_SINH = (DateTime)m_dat_ngay_sinh.Value;
+                    v_us.Update();
+                    MessageBox.Show("Cập nhật thành công giảng viên!");
                     load_data_2_grid();
                 }
             }
@@ -146,6 +158,12 @@ namespace TOSApp.DanhMuc
         {
            
             return true;
+        }
+
+        private void m_txt_so_dien_thoai_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
         }
     }
 }

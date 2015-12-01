@@ -94,13 +94,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="C1.Win.C1FlexGrid, Version=2.5.20044.189, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>F:\Du_An\DVMC\03.Sourcecode\TOSApp\bin\Debug\C1.Win.C1FlexGrid.dll</HintPath>
-    </Reference>
-    <Reference Include="C1.Win.C1Input">
-      <HintPath>F:\Du_An\DVMC\03.Sourcecode\TOSApp\C1.Win.C1Input.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -138,8 +131,11 @@
     <Compile Include="US_DM_HOC_PHAN.cs" />
     <Compile Include="US_DM_KHOA.cs" />
     <Compile Include="US_DM_KHOA_VIEN.cs" />
+    <Compile Include="US_DM_LOP_HOC.cs" />
     <Compile Include="US_DM_LOP_SINH_VIEN.cs" />
     <Compile Include="US_DM_SINH_VIEN.cs" />
+    <Compile Include="US_V_DM_HOC_PHAN.cs" />
+    <Compile Include="US_V_DM_LOP_HOC.cs" />
     <Compile Include="US_V_DM_SINH_VIEN.cs" />
   </ItemGroup>
   <ItemGroup>

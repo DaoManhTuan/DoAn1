@@ -293,18 +293,6 @@
     <Compile Include="DanhMuc\f201_DM_LOP_HOC_DE.Designer.cs">
       <DependentUpon>f201_DM_LOP_HOC_DE.cs</DependentUpon>
     </Compile>
-    <Compile Include="DanhMuc\f300_DM_LOP_THI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DanhMuc\f300_DM_LOP_THI.Designer.cs">
-      <DependentUpon>f300_DM_LOP_THI.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DanhMuc\f301_DM_LOP_THI_DE.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DanhMuc\f301_DM_LOP_THI_DE.Designer.cs">
-      <DependentUpon>f301_DM_LOP_THI_DE.cs</DependentUpon>
-    </Compile>
     <Compile Include="DanhMuc\f400_DM_KHOA_VIEN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -415,12 +403,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\f201_DM_LOP_HOC_DE.resx">
       <DependentUpon>f201_DM_LOP_HOC_DE.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DanhMuc\f300_DM_LOP_THI.resx">
-      <DependentUpon>f300_DM_LOP_THI.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DanhMuc\f301_DM_LOP_THI_DE.resx">
-      <DependentUpon>f301_DM_LOP_THI_DE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\f400_DM_KHOA_VIEN.resx">
       <DependentUpon>f400_DM_KHOA_VIEN.cs</DependentUpon>

@@ -38,10 +38,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.m_cbo_khoa_vien = new System.Windows.Forms.ComboBox();
-            this.m_cbo_bo_mon = new System.Windows.Forms.ComboBox();
             this.m_rdb_gt_nu = new System.Windows.Forms.RadioButton();
             this.m_rdb_gt_nam = new System.Windows.Forms.RadioButton();
-            this.label6 = new System.Windows.Forms.Label();
             this.m_txt_sdt = new System.Windows.Forms.TextBox();
             this.m_txt_ma_giang_vien = new System.Windows.Forms.TextBox();
             this.m_txt_ho_ten_giang_vien = new System.Windows.Forms.TextBox();
@@ -57,6 +55,7 @@
             // 
             // m_dat_ngay_sinh
             // 
+            this.m_dat_ngay_sinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.m_dat_ngay_sinh.Location = new System.Drawing.Point(486, 26);
             this.m_dat_ngay_sinh.Name = "m_dat_ngay_sinh";
             this.m_dat_ngay_sinh.Size = new System.Drawing.Size(198, 20);
@@ -64,12 +63,11 @@
             // 
             // m_txt_que_quan
             // 
-            this.m_txt_que_quan.Location = new System.Drawing.Point(159, 180);
+            this.m_txt_que_quan.Location = new System.Drawing.Point(159, 135);
             this.m_txt_que_quan.Multiline = true;
             this.m_txt_que_quan.Name = "m_txt_que_quan";
             this.m_txt_que_quan.Size = new System.Drawing.Size(198, 62);
             this.m_txt_que_quan.TabIndex = 1;
-            this.m_txt_que_quan.TextChanged += new System.EventHandler(this.m_txt_que_quan_TextChanged);
             // 
             // label7
             // 
@@ -92,7 +90,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(46, 138);
+            this.label5.Location = new System.Drawing.Point(395, 131);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 0;
@@ -101,12 +99,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(46, 180);
+            this.label4.Location = new System.Drawing.Point(46, 135);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 13);
             this.label4.TabIndex = 0;
             this.label4.Text = "Quê quán";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label2
             // 
@@ -129,10 +126,8 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.m_cbo_khoa_vien);
-            this.groupBox1.Controls.Add(this.m_cbo_bo_mon);
             this.groupBox1.Controls.Add(this.m_rdb_gt_nu);
             this.groupBox1.Controls.Add(this.m_rdb_gt_nam);
-            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.m_txt_sdt);
             this.groupBox1.Controls.Add(this.m_txt_ma_giang_vien);
             this.groupBox1.Controls.Add(this.m_txt_ho_ten_giang_vien);
@@ -152,7 +147,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tinh chi tiết giảng viên";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // m_cbo_khoa_vien
             // 
@@ -161,21 +155,11 @@
             this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
             this.m_cbo_khoa_vien.Size = new System.Drawing.Size(198, 21);
             this.m_cbo_khoa_vien.TabIndex = 7;
-            this.m_cbo_khoa_vien.SelectedIndexChanged += new System.EventHandler(this.m_cbo_bo_mon_SelectedIndexChanged);
-            // 
-            // m_cbo_bo_mon
-            // 
-            this.m_cbo_bo_mon.FormattingEnabled = true;
-            this.m_cbo_bo_mon.Location = new System.Drawing.Point(486, 135);
-            this.m_cbo_bo_mon.Name = "m_cbo_bo_mon";
-            this.m_cbo_bo_mon.Size = new System.Drawing.Size(198, 21);
-            this.m_cbo_bo_mon.TabIndex = 7;
-            this.m_cbo_bo_mon.SelectedIndexChanged += new System.EventHandler(this.m_cbo_bo_mon_SelectedIndexChanged);
             // 
             // m_rdb_gt_nu
             // 
             this.m_rdb_gt_nu.AutoSize = true;
-            this.m_rdb_gt_nu.Location = new System.Drawing.Point(272, 136);
+            this.m_rdb_gt_nu.Location = new System.Drawing.Point(553, 131);
             this.m_rdb_gt_nu.Name = "m_rdb_gt_nu";
             this.m_rdb_gt_nu.Size = new System.Drawing.Size(39, 17);
             this.m_rdb_gt_nu.TabIndex = 6;
@@ -186,7 +170,8 @@
             // m_rdb_gt_nam
             // 
             this.m_rdb_gt_nam.AutoSize = true;
-            this.m_rdb_gt_nam.Location = new System.Drawing.Point(159, 136);
+            this.m_rdb_gt_nam.Checked = true;
+            this.m_rdb_gt_nam.Location = new System.Drawing.Point(486, 131);
             this.m_rdb_gt_nam.Name = "m_rdb_gt_nam";
             this.m_rdb_gt_nam.Size = new System.Drawing.Size(47, 17);
             this.m_rdb_gt_nam.TabIndex = 6;
@@ -194,27 +179,20 @@
             this.m_rdb_gt_nam.Text = "Nam";
             this.m_rdb_gt_nam.UseVisualStyleBackColor = true;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(395, 138);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(43, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Bộ môn";
-            // 
             // m_txt_sdt
             // 
             this.m_txt_sdt.Location = new System.Drawing.Point(486, 80);
+            this.m_txt_sdt.MaxLength = 11;
             this.m_txt_sdt.Name = "m_txt_sdt";
             this.m_txt_sdt.Size = new System.Drawing.Size(198, 20);
             this.m_txt_sdt.TabIndex = 5;
-            this.m_txt_sdt.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.m_txt_sdt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_sdt_KeyPress);
             // 
             // m_txt_ma_giang_vien
             // 
             this.m_txt_ma_giang_vien.Location = new System.Drawing.Point(159, 26);
             this.m_txt_ma_giang_vien.Name = "m_txt_ma_giang_vien";
+            this.m_txt_ma_giang_vien.ReadOnly = true;
             this.m_txt_ma_giang_vien.Size = new System.Drawing.Size(198, 20);
             this.m_txt_ma_giang_vien.TabIndex = 5;
             // 
@@ -233,7 +211,6 @@
             this.label1.Size = new System.Drawing.Size(70, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Số điện thoại";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label8
             // 
@@ -251,6 +228,7 @@
             this.m_cmd_Cancel.Size = new System.Drawing.Size(75, 23);
             this.m_cmd_Cancel.TabIndex = 0;
             this.m_cmd_Cancel.Text = "Cancel";
+            this.m_cmd_Cancel.Click += new System.EventHandler(this.m_cmd_Cancel_Click);
             // 
             // m_cmd_OK
             // 
@@ -259,6 +237,7 @@
             this.m_cmd_OK.Size = new System.Drawing.Size(75, 23);
             this.m_cmd_OK.TabIndex = 0;
             this.m_cmd_OK.Text = "OK";
+            this.m_cmd_OK.Click += new System.EventHandler(this.m_cmd_OK_Click);
             // 
             // panel1
             // 
@@ -306,10 +285,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton m_rdb_gt_nu;
         private System.Windows.Forms.RadioButton m_rdb_gt_nam;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox m_txt_ma_giang_vien;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox m_cbo_bo_mon;
         private System.Windows.Forms.ComboBox m_cbo_khoa_vien;
     }
 }

@@ -29,89 +29,127 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.m_cmd_Cancel = new DevExpress.XtraEditors.SimpleButton();
+            this.m_cmd_OK = new DevExpress.XtraEditors.SimpleButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.m_cbo_giang_vien = new System.Windows.Forms.ComboBox();
+            this.m_cbo_hoc_phan = new System.Windows.Forms.ComboBox();
+            this.m_cbo_hoc_ky = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.m_txt_ma_lop_hoc = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.simpleButton2);
-            this.panel1.Controls.Add(this.simpleButton1);
+            this.panel1.Controls.Add(this.m_cmd_Cancel);
+            this.panel1.Controls.Add(this.m_cmd_OK);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 230);
+            this.panel1.Location = new System.Drawing.Point(0, 185);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(364, 70);
+            this.panel1.Size = new System.Drawing.Size(325, 70);
             this.panel1.TabIndex = 0;
             // 
-            // simpleButton2
+            // m_cmd_Cancel
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(233, 25);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton2.TabIndex = 0;
-            this.simpleButton2.Text = "Cancel";
+            this.m_cmd_Cancel.Location = new System.Drawing.Point(233, 25);
+            this.m_cmd_Cancel.Name = "m_cmd_Cancel";
+            this.m_cmd_Cancel.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_Cancel.TabIndex = 0;
+            this.m_cmd_Cancel.Text = "Cancel";
+            this.m_cmd_Cancel.Click += new System.EventHandler(this.m_cmd_Cancel_Click);
             // 
-            // simpleButton1
+            // m_cmd_OK
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(128, 25);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton1.TabIndex = 0;
-            this.simpleButton1.Text = "OK";
+            this.m_cmd_OK.Location = new System.Drawing.Point(128, 25);
+            this.m_cmd_OK.Name = "m_cmd_OK";
+            this.m_cmd_OK.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_OK.TabIndex = 0;
+            this.m_cmd_OK.Text = "OK";
+            this.m_cmd_OK.Click += new System.EventHandler(this.m_cmd_OK_Click);
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.comboBox3);
-            this.panel2.Controls.Add(this.comboBox2);
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.m_cbo_giang_vien);
+            this.panel2.Controls.Add(this.m_cbo_hoc_phan);
+            this.panel2.Controls.Add(this.m_cbo_hoc_ky);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.textBox2);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.m_txt_ma_lop_hoc);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(364, 230);
+            this.panel2.Size = new System.Drawing.Size(325, 185);
             this.panel2.TabIndex = 1;
             // 
-            // textBox2
+            // m_cbo_giang_vien
             // 
-            this.textBox2.Location = new System.Drawing.Point(128, 61);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 20);
-            this.textBox2.TabIndex = 1;
+            this.m_cbo_giang_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbo_giang_vien.FormattingEnabled = true;
+            this.m_cbo_giang_vien.Location = new System.Drawing.Point(128, 105);
+            this.m_cbo_giang_vien.Name = "m_cbo_giang_vien";
+            this.m_cbo_giang_vien.Size = new System.Drawing.Size(180, 21);
+            this.m_cbo_giang_vien.TabIndex = 2;
             // 
-            // label2
+            // m_cbo_hoc_phan
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(34, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Tên lớp học";
+            this.m_cbo_hoc_phan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbo_hoc_phan.FormattingEnabled = true;
+            this.m_cbo_hoc_phan.Location = new System.Drawing.Point(128, 66);
+            this.m_cbo_hoc_phan.Name = "m_cbo_hoc_phan";
+            this.m_cbo_hoc_phan.Size = new System.Drawing.Size(180, 21);
+            this.m_cbo_hoc_phan.TabIndex = 2;
+            this.m_cbo_hoc_phan.SelectedIndexChanged += new System.EventHandler(this.m_cbo_hoc_phan_SelectedIndexChanged);
             // 
-            // textBox1
+            // m_cbo_hoc_ky
             // 
-            this.textBox1.Location = new System.Drawing.Point(128, 25);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 20);
-            this.textBox1.TabIndex = 1;
+            this.m_cbo_hoc_ky.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbo_hoc_ky.FormattingEnabled = true;
+            this.m_cbo_hoc_ky.Location = new System.Drawing.Point(128, 143);
+            this.m_cbo_hoc_ky.Name = "m_cbo_hoc_ky";
+            this.m_cbo_hoc_ky.Size = new System.Drawing.Size(180, 21);
+            this.m_cbo_hoc_ky.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(34, 146);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Học kỳ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(34, 66);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(54, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Học phần";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(34, 105);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Giảng viên";
+            // 
+            // m_txt_ma_lop_hoc
+            // 
+            this.m_txt_ma_lop_hoc.Location = new System.Drawing.Point(128, 25);
+            this.m_txt_ma_lop_hoc.Name = "m_txt_ma_lop_hoc";
+            this.m_txt_ma_lop_hoc.ReadOnly = true;
+            this.m_txt_ma_lop_hoc.Size = new System.Drawing.Size(180, 20);
+            this.m_txt_ma_lop_hoc.TabIndex = 1;
             // 
             // label1
             // 
@@ -122,62 +160,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã lớp học";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(34, 101);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Giảng viên";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 137);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Học phần";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(34, 177);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Học kỳ";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(128, 174);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(180, 21);
-            this.comboBox1.TabIndex = 2;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(128, 137);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(180, 21);
-            this.comboBox2.TabIndex = 2;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(128, 101);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(180, 21);
-            this.comboBox3.TabIndex = 2;
-            // 
             // f201_DM_LOP_HOC_DE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 300);
+            this.ClientSize = new System.Drawing.Size(325, 255);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "f201_DM_LOP_HOC_DE";
@@ -193,17 +180,15 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox m_txt_ma_lop_hoc;
         private System.Windows.Forms.Label label1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton m_cmd_Cancel;
+        private DevExpress.XtraEditors.SimpleButton m_cmd_OK;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox m_cbo_giang_vien;
+        private System.Windows.Forms.ComboBox m_cbo_hoc_phan;
+        private System.Windows.Forms.ComboBox m_cbo_hoc_ky;
     }
 }

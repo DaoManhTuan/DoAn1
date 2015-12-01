@@ -135,6 +135,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_DM_KHOA_VIEN.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_DM_LOP_HOC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_LOP_HOC.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_DM_LOP_SINH_VIEN.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -144,6 +149,16 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_DM_SINH_VIEN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_HOC_PHAN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_HOC_PHAN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_LOP_HOC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_LOP_HOC.xsd</DependentUpon>
     </Compile>
     <Compile Include="DS_V_DM_SINH_VIEN.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -202,6 +217,17 @@
     <None Include="DS_DM_KHOA_VIEN.xss">
       <DependentUpon>DS_DM_KHOA_VIEN.xsd</DependentUpon>
     </None>
+    <None Include="DS_DM_LOP_HOC.xsc">
+      <DependentUpon>DS_DM_LOP_HOC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_LOP_HOC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_LOP_HOC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_LOP_HOC.xss">
+      <DependentUpon>DS_DM_LOP_HOC.xsd</DependentUpon>
+    </None>
     <None Include="DS_DM_LOP_SINH_VIEN.xsc">
       <DependentUpon>DS_DM_LOP_SINH_VIEN.xsd</DependentUpon>
     </None>
@@ -223,6 +249,28 @@
     </None>
     <None Include="DS_DM_SINH_VIEN.xss">
       <DependentUpon>DS_DM_SINH_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_HOC_PHAN.xsc">
+      <DependentUpon>DS_V_DM_HOC_PHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_HOC_PHAN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_HOC_PHAN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_HOC_PHAN.xss">
+      <DependentUpon>DS_V_DM_HOC_PHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_LOP_HOC.xsc">
+      <DependentUpon>DS_V_DM_LOP_HOC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_LOP_HOC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_LOP_HOC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_LOP_HOC.xss">
+      <DependentUpon>DS_V_DM_LOP_HOC.xsd</DependentUpon>
     </None>
     <None Include="DS_V_DM_SINH_VIEN.xsc">
       <DependentUpon>DS_V_DM_SINH_VIEN.xsd</DependentUpon>

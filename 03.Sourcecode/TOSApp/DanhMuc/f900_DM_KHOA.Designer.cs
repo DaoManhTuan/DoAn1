@@ -70,7 +70,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.18182F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 72.72727F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(805, 445);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(805, 465);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel15
@@ -79,9 +79,9 @@
             this.panel15.Controls.Add(this.m_cmd_xoa);
             this.panel15.Controls.Add(this.m_cmd_sua);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel15.Location = new System.Drawing.Point(396, 406);
+            this.panel15.Location = new System.Drawing.Point(396, 425);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(406, 36);
+            this.panel15.Size = new System.Drawing.Size(406, 37);
             this.panel15.TabIndex = 2;
             this.panel15.Paint += new System.Windows.Forms.PaintEventHandler(this.panel15_Paint);
             // 
@@ -116,10 +116,10 @@
             // 
             this.m_grc_dm_khoa.Cursor = System.Windows.Forms.Cursors.Default;
             this.m_grc_dm_khoa.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.m_grc_dm_khoa.Location = new System.Drawing.Point(3, 83);
+            this.m_grc_dm_khoa.Location = new System.Drawing.Point(3, 87);
             this.m_grc_dm_khoa.MainView = this.m_grv_dm_khoa;
             this.m_grc_dm_khoa.Name = "m_grc_dm_khoa";
-            this.m_grc_dm_khoa.Size = new System.Drawing.Size(799, 317);
+            this.m_grc_dm_khoa.Size = new System.Drawing.Size(799, 332);
             this.m_grc_dm_khoa.TabIndex = 0;
             this.m_grc_dm_khoa.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.m_grv_dm_khoa});
@@ -236,7 +236,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(805, 445);
+            this.ClientSize = new System.Drawing.Size(805, 465);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "f900_DM_KHOA";
             this.Text = "f900_DM_KHOA";
