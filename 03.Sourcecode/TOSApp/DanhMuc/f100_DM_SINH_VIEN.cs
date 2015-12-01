@@ -20,7 +20,6 @@ namespace TOSApp.DanhMuc
         public f100_DM_SINH_VIEN()
         {
             InitializeComponent();
-            load_data_2_grid();
         }
 
         bool m_bol_check = false;
@@ -56,6 +55,7 @@ namespace TOSApp.DanhMuc
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithTableName(v_ds, "V_DM_SINH_VIEN");
             m_grc_dm_sinh_vien.DataSource = v_ds.Tables[0];
+            load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
         }
 
         private void m_cmd_thoat_Click(object sender, EventArgs e)
@@ -132,7 +132,7 @@ namespace TOSApp.DanhMuc
                     MessageBox.Show("Hãy chọn sinh viên cần xóa!");
                 }
             }
-            catch (Exception v_e)
+            catch 
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
@@ -147,8 +147,6 @@ namespace TOSApp.DanhMuc
                 {
                     if (check_du_lieu_truoc_luu(v_dr) == true)
                     {
-
-
                         //update DM sinh viên
                         US_DM_SINH_VIEN v_us = new US_DM_SINH_VIEN(CIPConvert.ToDecimal(v_dr["ID"].ToString()));
 
@@ -175,7 +173,7 @@ namespace TOSApp.DanhMuc
                     MessageBox.Show("hãy chọn 1 sinh viên!");
                 }
             }
-            catch (Exception v_e)
+            catch
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
@@ -275,8 +273,8 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                load_data_2_grid();
                 load_data_2_cbo();
+                load_data_2_grid();
             }
             catch
             {

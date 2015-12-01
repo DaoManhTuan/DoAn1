@@ -18,10 +18,7 @@ namespace TOSApp.DanhMuc
         public f500_DM_GIANG_VIEN()
         {
             InitializeComponent();
-            load_data_2_grid();
-            load_data_2_cbo_khoa_vien();
         }
-        DataRow m_dr;
         private void load_data_2_grid()
         {
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
@@ -29,6 +26,7 @@ namespace TOSApp.DanhMuc
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithTableName(v_ds, "V_DM_GIANG_VIEN");
             m_grc_dm_giang_vien.DataSource = v_ds.Tables[0];
+            load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
         }
         private void load_data_2_cbo_khoa_vien()
         {            
@@ -63,7 +61,6 @@ namespace TOSApp.DanhMuc
 
         private void load_data_2_thong_tin_chi_tiet(DataRow v_dr)
         {
-            m_dr = v_dr;
             m_txt_ma_giang_vien.Text = v_dr["MA_GIANG_VIEN"].ToString();
             m_txt_ho_ten_GV.Text = v_dr["TEN_GIANG_VIEN"].ToString();
             m_txt_so_dien_thoai.Text = v_dr["SDT"].ToString();
@@ -90,7 +87,6 @@ namespace TOSApp.DanhMuc
                 if (v_dr != null)
                 {
                     US_DM_GIANG_VIEN v_us = new US_DM_GIANG_VIEN(CIPConvert.ToDecimal(v_dr["ID"].ToString()));
-
                     DialogResult result = new DialogResult();
                     result = MessageBox.Show("Bạn có chắc chắc muốn xóa giảng viên ?" + v_us.strTEN_GIANG_VIEN, "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
                     if (result == DialogResult.Yes)
@@ -106,7 +102,7 @@ namespace TOSApp.DanhMuc
                     MessageBox.Show("Hãy chọn giảng viên cần xóa!");
                 }
             }
-            catch (Exception v_e)
+            catch
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
@@ -120,7 +116,7 @@ namespace TOSApp.DanhMuc
                 f501.ShowDialog();
                 load_data_2_grid();
             }
-            catch (Exception v_e)
+            catch
             {
                 MessageBox.Show("Đã xảy ra lỗi hệ thống!");
             }
@@ -131,37 +127,44 @@ namespace TOSApp.DanhMuc
             try
             {
                 DataRow v_dr = m_grv_dm_giang_vien.GetDataRow(m_grv_dm_giang_vien.FocusedRowHandle);
-                if (v_dr==null)
+                if (v_dr != null)
+                {
+                    if (check_du_lieu_dau_vao())
+                    {
+                        US_DM_GIANG_VIEN v_us = new US_DM_GIANG_VIEN(CIPConvert.ToDecimal(v_dr["ID"].ToString()));
+                        v_us.strTEN_GIANG_VIEN = m_txt_ho_ten_GV.Text;
+                        v_us.strSDT = m_txt_so_dien_thoai.Text;
+                        v_us.strQUE_QUAN = m_txt_que_quan.Text;
+                        if (m_rdb_gt_nam.Checked)
+                        {
+                            v_us.strGIOI_TINH = "N";
+                        }
+                        else v_us.strGIOI_TINH = "W";
+                        v_us.dcID_KHOA_VIEN = CIPConvert.ToDecimal(m_cbo_khoa_vien.SelectedValue);
+                        v_us.datNGAY_SINH = (DateTime)m_dat_ngay_sinh.Value;
+                        v_us.Update();
+                        MessageBox.Show("Cập nhật thành công giảng viên!");
+                        load_data_2_grid();
+                    }
+                }
+                else
                 {
                     MessageBox.Show("Hãy chọn 1 dòng dữ liệu!");
                 }
-                if (check_du_lieu_dau_vao()&& v_dr!=null)
-                {
-                    US_DM_GIANG_VIEN v_us = new US_DM_GIANG_VIEN(CIPConvert.ToDecimal(v_dr["ID"].ToString()));
-                    v_us.strTEN_GIANG_VIEN = m_txt_ho_ten_GV.Text;
-                    v_us.strSDT = m_txt_so_dien_thoai.Text;
-                    v_us.strQUE_QUAN = m_txt_que_quan.Text;
-                    if (m_rdb_gt_nam.Checked)
-                    {
-                        v_us.strGIOI_TINH = "N";
-                    }
-                    else v_us.strGIOI_TINH = "W";
-                    v_us.dcID_KHOA_VIEN = CIPConvert.ToDecimal(m_cbo_khoa_vien.SelectedValue);
-                    v_us.datNGAY_SINH = (DateTime)m_dat_ngay_sinh.Value;
-                    v_us.Update();
-                    MessageBox.Show("Cập nhật thành công giảng viên!");
-                    load_data_2_grid();
-                }
             }
-            catch (Exception v_e)
+            catch
             {
-                MessageBox.Show("Đã xảy ra lỗi trong quá trình xử lý!");
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
 
         private bool check_du_lieu_dau_vao()
         {
-           
+           if(m_txt_ho_ten_GV.Text =="")
+           {
+               MessageBox.Show("Nhập họ tên giảng viên");
+               return false;
+           }
             return true;
         }
 
@@ -169,6 +172,12 @@ namespace TOSApp.DanhMuc
         {
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
                 e.Handled = true;
+        }
+
+        private void f500_DM_GIANG_VIEN_Load(object sender, EventArgs e)
+        {
+            load_data_2_cbo_khoa_vien();
+            load_data_2_grid();
         }
     }
 }

@@ -18,15 +18,13 @@ namespace TOSApp.DanhMuc
         public f800_DM_HOC_KY()
         {
             InitializeComponent();
-            load_data_2_grid();
         }
-        DataRow m_dr;
         private void load_data_2_grid()
         {
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithTableName(v_ds, "DM_HOC_KY");
+            v_us.FillDatasetWithTableName(v_ds, "V_DM_HOC_KY");
             m_grc_dm_hoc_ky.DataSource = v_ds.Tables[0];
             load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
 
@@ -41,7 +39,6 @@ namespace TOSApp.DanhMuc
                 if (v_dr != null)
                 {
                     US_DM_HOC_KY v_us = new US_DM_HOC_KY(CIPConvert.ToDecimal(v_dr["ID"].ToString()));
-
                     DialogResult result = new DialogResult();
                     result = MessageBox.Show("Bạn có chắc chắc muốn xóa học kỳ ?" + v_us.strMA_HOC_KY, "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
                     if (result == DialogResult.Yes)
@@ -57,7 +54,7 @@ namespace TOSApp.DanhMuc
                     MessageBox.Show("Hãy chọn học kỳ cần xóa!");
                 }
             }
-            catch (Exception v_e)
+            catch
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
@@ -90,7 +87,6 @@ namespace TOSApp.DanhMuc
 
         private void load_data_2_thong_tin_chi_tiet(DataRow v_dr)
         {
-            m_dr = v_dr;
             m_txt_ma_hoc_ky.Text = v_dr["MA_HOC_KY"].ToString();
             m_txt_nam_bat_dau.Text = v_dr["NAM_HOC_BAT_DAU"].ToString();
             m_txt_nam_ket_thuc.Text = v_dr["NAM_HOC_KET_THUC"].ToString();
@@ -105,20 +101,22 @@ namespace TOSApp.DanhMuc
                 {
                     MessageBox.Show("Hãy chọn 1 dòng dữ liệu!");
                 }
-                if (check_du_lieu_truoc_luu()&& v_dr!=null)
+                else
                 {
-                    US_DM_HOC_KY v_us = new US_DM_HOC_KY((decimal)v_dr["ID"]);
-                    v_us.strMA_HOC_KY = m_txt_ma_hoc_ky.Text;
-                    v_us.dcNAM_HOC_BAT_DAU = CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text);
-                    v_us.dcNAM_HOC_KET_THUC = CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text);
-                    v_us.Update();                 
-                    MessageBox.Show("Cập nhật thành công học kỳ:" + m_txt_ma_hoc_ky.Text);
-                    load_data_2_grid();
+                    if (check_du_lieu_truoc_luu())
+                    {
+                        US_DM_HOC_KY v_us = new US_DM_HOC_KY((decimal)v_dr["ID"]);
+                        v_us.strMA_HOC_KY = m_txt_ma_hoc_ky.Text;
+                        v_us.dcNAM_HOC_BAT_DAU = CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text);
+                        v_us.dcNAM_HOC_KET_THUC = CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text);
+                        v_us.Update();
+                        MessageBox.Show("Cập nhật thành công học kỳ:" + m_txt_ma_hoc_ky.Text);
+                        load_data_2_grid();
+                    }
                 }
             }
-            catch (Exception v)
+            catch
             {
-
                 MessageBox.Show("Đã xảy ra lỗi trong quá trình xử lý!");
             }
         }
@@ -132,16 +130,22 @@ namespace TOSApp.DanhMuc
             }
             if (m_txt_nam_ket_thuc.Text.Contains(" ")||m_txt_nam_bat_dau.Text.Contains(" "))
             {
+                MessageBox.Show("Năm bắt đầu và kết thúc không được chứ khoảng trắng");
                 return false;
             }
-            if (CIPConvert.ToDecimal( m_txt_nam_bat_dau.Text)<2010||CIPConvert.ToDecimal( m_txt_nam_bat_dau.Text)>2020)
+            if (CIPConvert.ToDecimal( m_txt_nam_bat_dau.Text)<2010||CIPConvert.ToDecimal( m_txt_nam_bat_dau.Text)>2100)
             {
-                MessageBox.Show("Năm bắt đầu chưa chính xác phải nằm trong 2010 -2020");
+                MessageBox.Show("Năm bắt đầu chưa chính xác! (phải nằm trong 2010 -2100)");
                 return false;
             }
-            if (CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text) < 2010 || CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text) > 2020)
+            if (CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text) < 2010 || CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text) > 2100)
             {
-                MessageBox.Show("Năm kết thúc chưa chính xác phải nằm trong 1930 -1994");
+                MessageBox.Show("Năm kết thúc chưa chính xác! (phải nằm trong 2010 -2100)");
+                return false;
+            }
+            if (CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text) >= CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text))
+            {
+                MessageBox.Show("Năm kết thúc phải lớn hơn năm bắt đầu");
                 return false;
             }
             return true;
@@ -158,7 +162,7 @@ namespace TOSApp.DanhMuc
             catch (Exception v)
             {
 
-                MessageBox.Show("Đã xảy ra lỗi trong quá trình xử lý!");
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
 
@@ -169,6 +173,17 @@ namespace TOSApp.DanhMuc
         }
 
         private void m_txt_nam_ket_thuc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
+        }
+
+        private void f800_DM_HOC_KY_Load(object sender, EventArgs e)
+        {
+            load_data_2_grid();
+        }
+
+        private void m_txt_ma_hoc_ky_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
                 e.Handled = true;

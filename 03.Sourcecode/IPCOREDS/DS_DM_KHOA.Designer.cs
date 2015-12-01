@@ -822,8 +822,8 @@ namespace IPCOREDS.DS_DM_KHOATableAdapters {
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[DM_KHOA] ([KHOA], [NAM_BAT_DAU], [TRANG_THAI_HSD]) VALUES (@KH" +
-                "OA, @NAM_BAT_DAU, @TRANG_THAI_HSD);\r\nSELECT ID, KHOA, NAM_BAT_DAU, TRANG_THAI_HS" +
-                "D FROM DM_KHOA WHERE (ID = SCOPE_IDENTITY())";
+                "OA, @NAM_BAT_DAU, @TRANG_THAI_HSD);\nSELECT ID, KHOA, NAM_BAT_DAU, TRANG_THAI_HSD" +
+                " FROM DM_KHOA WHERE (ID = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@KHOA", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "KHOA", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@NAM_BAT_DAU", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "NAM_BAT_DAU", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));

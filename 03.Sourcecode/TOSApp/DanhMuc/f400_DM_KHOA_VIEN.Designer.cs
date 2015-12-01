@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f400_DM_KHOA_VIEN));
             this.m_grc_dm_khoa_vien = new DevExpress.XtraGrid.GridControl();
             this.m_grv_dm_khoa_vien = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -48,8 +49,9 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.m_cmd_cap_nhat = new DevExpress.XtraEditors.SimpleButton();
+            this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_khoa_vien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_dm_khoa_vien)).BeginInit();
@@ -62,6 +64,7 @@
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // m_grc_dm_khoa_vien
@@ -71,13 +74,123 @@
             this.m_grc_dm_khoa_vien.Location = new System.Drawing.Point(0, 0);
             this.m_grc_dm_khoa_vien.MainView = this.m_grv_dm_khoa_vien;
             this.m_grc_dm_khoa_vien.Name = "m_grc_dm_khoa_vien";
-            this.m_grc_dm_khoa_vien.Size = new System.Drawing.Size(739, 242);
+            this.m_grc_dm_khoa_vien.Size = new System.Drawing.Size(898, 242);
             this.m_grc_dm_khoa_vien.TabIndex = 0;
             this.m_grc_dm_khoa_vien.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.m_grv_dm_khoa_vien});
             // 
             // m_grv_dm_khoa_vien
             // 
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButton.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButton.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButton.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButton.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButtonActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButtonActive.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButtonActive.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButtonActive.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButtonActive.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.ColumnFilterButtonActive.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.Empty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.Empty.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.Empty.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.EvenRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.EvenRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.EvenRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.EvenRow.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.EvenRow.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.EvenRow.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FilterCloseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.FilterCloseButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.FilterCloseButton.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.FilterCloseButton.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FilterCloseButton.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FilterCloseButton.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FilterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.FilterPanel.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.FilterPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.FilterPanel.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FilterPanel.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FixedLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(133)))), ((int)(((byte)(195)))));
+            this.m_grv_dm_khoa_vien.Appearance.FixedLine.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FocusedCell.BackColor = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.FocusedCell.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.FocusedCell.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FocusedCell.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FocusedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(109)))), ((int)(((byte)(189)))));
+            this.m_grv_dm_khoa_vien.Appearance.FocusedRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(139)))), ((int)(((byte)(206)))));
+            this.m_grv_dm_khoa_vien.Appearance.FocusedRow.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FocusedRow.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FocusedRow.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FooterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.FooterPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.FooterPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.FooterPanel.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FooterPanel.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.FooterPanel.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.GroupButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.GroupButton.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupButton.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_khoa_vien.Appearance.GroupFooter.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_khoa_vien.Appearance.GroupFooter.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.GroupFooter.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupFooter.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupFooter.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.GroupPanel.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.GroupPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.GroupPanel.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupPanel.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_khoa_vien.Appearance.GroupRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_khoa_vien.Appearance.GroupRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.GroupRow.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupRow.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.GroupRow.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.HeaderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_khoa_vien.Appearance.HeaderPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_khoa_vien.Appearance.HeaderPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.HeaderPanel.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.HeaderPanel.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.HeaderPanel.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(170)))), ((int)(((byte)(225)))));
+            this.m_grv_dm_khoa_vien.Appearance.HideSelectionRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_dm_khoa_vien.Appearance.HideSelectionRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.HideSelectionRow.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.HideSelectionRow.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.HideSelectionRow.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.HorzLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.HorzLine.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.OddRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.OddRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.OddRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.OddRow.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.OddRow.Options.UseBorderColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.OddRow.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.Preview.Font = new System.Drawing.Font("Verdana", 7.5F);
+            this.m_grv_dm_khoa_vien.Appearance.Preview.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_dm_khoa_vien.Appearance.Preview.Options.UseFont = true;
+            this.m_grv_dm_khoa_vien.Appearance.Preview.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.Row.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_khoa_vien.Appearance.Row.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.Row.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.RowSeparator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_khoa_vien.Appearance.RowSeparator.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.RowSeparator.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_dm_khoa_vien.Appearance.SelectedRow.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.SelectedRow.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.SelectedRow.Options.UseForeColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.TopNewRow.BackColor = System.Drawing.Color.White;
+            this.m_grv_dm_khoa_vien.Appearance.TopNewRow.Options.UseBackColor = true;
+            this.m_grv_dm_khoa_vien.Appearance.VertLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_khoa_vien.Appearance.VertLine.Options.UseBackColor = true;
             this.m_grv_dm_khoa_vien.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn3,
             this.gridColumn2,
@@ -88,6 +201,7 @@
             this.m_grv_dm_khoa_vien.OptionsBehavior.ReadOnly = true;
             this.m_grv_dm_khoa_vien.OptionsFind.AlwaysVisible = true;
             this.m_grv_dm_khoa_vien.OptionsView.ShowAutoFilterRow = true;
+            this.m_grv_dm_khoa_vien.PaintStyleName = "Office2003";
             this.m_grv_dm_khoa_vien.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.m_grv_dm_khoa_vien_FocusedRowChanged);
             // 
             // gridColumn3
@@ -120,7 +234,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(739, 72);
+            this.panel1.Size = new System.Drawing.Size(898, 72);
             this.panel1.TabIndex = 6;
             // 
             // groupBox1
@@ -129,7 +243,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(739, 72);
+            this.groupBox1.Size = new System.Drawing.Size(898, 72);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin chi tiết Khoa/Viện";
@@ -148,7 +262,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(733, 53);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(892, 53);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel2
@@ -156,9 +270,9 @@
             this.panel2.Controls.Add(this.m_txt_ma_khoa_vien);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Location = new System.Drawing.Point(269, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(212, 47);
+            this.panel2.Size = new System.Drawing.Size(260, 47);
             this.panel2.TabIndex = 2;
             // 
             // m_txt_ma_khoa_vien
@@ -182,9 +296,9 @@
             this.panel4.Controls.Add(this.m_txt_ten_khoa_vien);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(439, 3);
+            this.panel4.Location = new System.Drawing.Point(535, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(291, 47);
+            this.panel4.Size = new System.Drawing.Size(354, 47);
             this.panel4.TabIndex = 0;
             // 
             // m_txt_ten_khoa_vien
@@ -208,9 +322,9 @@
             this.panel7.Controls.Add(this.m_cbo_loai_khoa_vien);
             this.panel7.Controls.Add(this.label3);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(221, 3);
+            this.panel7.Location = new System.Drawing.Point(3, 3);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(212, 47);
+            this.panel7.Size = new System.Drawing.Size(260, 47);
             this.panel7.TabIndex = 1;
             // 
             // m_cbo_loai_khoa_vien
@@ -242,7 +356,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 72);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(739, 300);
+            this.panel3.Size = new System.Drawing.Size(898, 300);
             this.panel3.TabIndex = 7;
             // 
             // panel6
@@ -251,43 +365,55 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(739, 242);
+            this.panel6.Size = new System.Drawing.Size(898, 242);
             this.panel6.TabIndex = 2;
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.m_cmd_xoa);
-            this.panel5.Controls.Add(this.m_cmd_cap_nhat);
-            this.panel5.Controls.Add(this.m_cmd_them);
+            this.panel5.Controls.Add(this.panel8);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel5.Location = new System.Drawing.Point(0, 242);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(739, 58);
+            this.panel5.Size = new System.Drawing.Size(898, 58);
             this.panel5.TabIndex = 1;
             // 
-            // m_cmd_xoa
+            // panel8
             // 
-            this.m_cmd_xoa.Location = new System.Drawing.Point(632, 23);
-            this.m_cmd_xoa.Name = "m_cmd_xoa";
-            this.m_cmd_xoa.Size = new System.Drawing.Size(75, 23);
-            this.m_cmd_xoa.TabIndex = 0;
-            this.m_cmd_xoa.Text = "Xóa";
-            this.m_cmd_xoa.Click += new System.EventHandler(this.m_cmd_xoa_Click);
+            this.panel8.Controls.Add(this.m_cmd_cap_nhat);
+            this.panel8.Controls.Add(this.m_cmd_xoa);
+            this.panel8.Controls.Add(this.m_cmd_them);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel8.Location = new System.Drawing.Point(538, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(360, 58);
+            this.panel8.TabIndex = 1;
             // 
             // m_cmd_cap_nhat
             // 
-            this.m_cmd_cap_nhat.Location = new System.Drawing.Point(511, 23);
+            this.m_cmd_cap_nhat.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_cap_nhat.Image")));
+            this.m_cmd_cap_nhat.Location = new System.Drawing.Point(133, 15);
             this.m_cmd_cap_nhat.Name = "m_cmd_cap_nhat";
-            this.m_cmd_cap_nhat.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_cap_nhat.Size = new System.Drawing.Size(100, 40);
             this.m_cmd_cap_nhat.TabIndex = 0;
             this.m_cmd_cap_nhat.Text = "Cập nhật";
             this.m_cmd_cap_nhat.Click += new System.EventHandler(this.m_cmd_cap_nhat_Click);
             // 
+            // m_cmd_xoa
+            // 
+            this.m_cmd_xoa.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_xoa.Image")));
+            this.m_cmd_xoa.Location = new System.Drawing.Point(254, 15);
+            this.m_cmd_xoa.Name = "m_cmd_xoa";
+            this.m_cmd_xoa.Size = new System.Drawing.Size(86, 40);
+            this.m_cmd_xoa.TabIndex = 0;
+            this.m_cmd_xoa.Text = "Xóa";
+            this.m_cmd_xoa.Click += new System.EventHandler(this.m_cmd_xoa_Click);
+            // 
             // m_cmd_them
             // 
-            this.m_cmd_them.Location = new System.Drawing.Point(388, 23);
+            this.m_cmd_them.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_them.Image")));
+            this.m_cmd_them.Location = new System.Drawing.Point(10, 15);
             this.m_cmd_them.Name = "m_cmd_them";
-            this.m_cmd_them.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_them.Size = new System.Drawing.Size(88, 40);
             this.m_cmd_them.TabIndex = 0;
             this.m_cmd_them.Text = "Thêm";
             this.m_cmd_them.Click += new System.EventHandler(this.m_cmd_them_Click);
@@ -296,11 +422,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(739, 372);
+            this.ClientSize = new System.Drawing.Size(898, 372);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Name = "f400_DM_KHOA_VIEN";
-            this.Text = "f400_DM_KHOA_VIEN";
+            this.Text = "DANH MỤC KHOA VIỆN";
+            this.Load += new System.EventHandler(this.f400_DM_KHOA_VIEN_Load);
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_khoa_vien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_dm_khoa_vien)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -315,6 +442,7 @@
             this.panel3.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -344,5 +472,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox m_txt_ma_khoa_vien;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel8;
     }
 }

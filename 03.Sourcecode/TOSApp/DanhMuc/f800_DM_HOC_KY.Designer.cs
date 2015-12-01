@@ -240,9 +240,11 @@
             // m_txt_ma_hoc_ky
             // 
             this.m_txt_ma_hoc_ky.Location = new System.Drawing.Point(143, 18);
+            this.m_txt_ma_hoc_ky.MaxLength = 5;
             this.m_txt_ma_hoc_ky.Name = "m_txt_ma_hoc_ky";
             this.m_txt_ma_hoc_ky.Size = new System.Drawing.Size(140, 20);
             this.m_txt_ma_hoc_ky.TabIndex = 1;
+            this.m_txt_ma_hoc_ky.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_ma_hoc_ky_KeyPress);
             // 
             // label1
             // 
@@ -267,6 +269,116 @@
             // 
             // m_grv_dm_hoc_ky
             // 
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButton.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButton.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButton.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButton.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButtonActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButtonActive.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButtonActive.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButtonActive.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButtonActive.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.ColumnFilterButtonActive.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.Empty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.Empty.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.Empty.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.EvenRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.EvenRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.EvenRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.EvenRow.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.EvenRow.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.EvenRow.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FilterCloseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.FilterCloseButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.FilterCloseButton.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.FilterCloseButton.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FilterCloseButton.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FilterCloseButton.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FilterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.FilterPanel.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.FilterPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.FilterPanel.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FilterPanel.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FixedLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(133)))), ((int)(((byte)(195)))));
+            this.m_grv_dm_hoc_ky.Appearance.FixedLine.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FocusedCell.BackColor = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.FocusedCell.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.FocusedCell.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FocusedCell.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FocusedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(109)))), ((int)(((byte)(189)))));
+            this.m_grv_dm_hoc_ky.Appearance.FocusedRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(139)))), ((int)(((byte)(206)))));
+            this.m_grv_dm_hoc_ky.Appearance.FocusedRow.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FocusedRow.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FocusedRow.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FooterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.FooterPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.FooterPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.FooterPanel.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FooterPanel.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.FooterPanel.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.GroupButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.GroupButton.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupButton.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_hoc_ky.Appearance.GroupFooter.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_hoc_ky.Appearance.GroupFooter.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.GroupFooter.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupFooter.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupFooter.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.GroupPanel.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.GroupPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.GroupPanel.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupPanel.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_hoc_ky.Appearance.GroupRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_hoc_ky.Appearance.GroupRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.GroupRow.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupRow.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.GroupRow.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.HeaderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_hoc_ky.Appearance.HeaderPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_hoc_ky.Appearance.HeaderPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.HeaderPanel.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.HeaderPanel.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.HeaderPanel.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(170)))), ((int)(((byte)(225)))));
+            this.m_grv_dm_hoc_ky.Appearance.HideSelectionRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_dm_hoc_ky.Appearance.HideSelectionRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.HideSelectionRow.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.HideSelectionRow.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.HideSelectionRow.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.HorzLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.HorzLine.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.OddRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.OddRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.OddRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.OddRow.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.OddRow.Options.UseBorderColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.OddRow.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.Preview.Font = new System.Drawing.Font("Verdana", 7.5F);
+            this.m_grv_dm_hoc_ky.Appearance.Preview.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_dm_hoc_ky.Appearance.Preview.Options.UseFont = true;
+            this.m_grv_dm_hoc_ky.Appearance.Preview.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.Row.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_hoc_ky.Appearance.Row.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.Row.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.RowSeparator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_hoc_ky.Appearance.RowSeparator.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.RowSeparator.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_dm_hoc_ky.Appearance.SelectedRow.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.SelectedRow.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.SelectedRow.Options.UseForeColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.TopNewRow.BackColor = System.Drawing.Color.White;
+            this.m_grv_dm_hoc_ky.Appearance.TopNewRow.Options.UseBackColor = true;
+            this.m_grv_dm_hoc_ky.Appearance.VertLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_hoc_ky.Appearance.VertLine.Options.UseBackColor = true;
             this.m_grv_dm_hoc_ky.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.MA_HOC_KY,
             this.NAM_HOC_BAT_DAU,
@@ -277,6 +389,7 @@
             this.m_grv_dm_hoc_ky.OptionsBehavior.ReadOnly = true;
             this.m_grv_dm_hoc_ky.OptionsFind.AlwaysVisible = true;
             this.m_grv_dm_hoc_ky.OptionsView.ShowAutoFilterRow = true;
+            this.m_grv_dm_hoc_ky.PaintStyleName = "Office2003";
             this.m_grv_dm_hoc_ky.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.m_grv_dm_khoa_FocusedRowChanged);
             // 
             // MA_HOC_KY
@@ -310,7 +423,8 @@
             this.ClientSize = new System.Drawing.Size(1067, 490);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "f800_DM_HOC_KY";
-            this.Text = "f800_DM_HOC_KY";
+            this.Text = "DANH MỤC HỌC KỲ";
+            this.Load += new System.EventHandler(this.f800_DM_HOC_KY_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

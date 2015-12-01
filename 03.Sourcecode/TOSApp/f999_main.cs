@@ -156,7 +156,7 @@ namespace TOSApp
             try
             {
                 f110_DM_LOP_SINH_VIEN v_f110 = new f110_DM_LOP_SINH_VIEN();
-                v_f110.Parent = this;
+                v_f110.MdiParent = this;
                 v_f110.Show();
             }
             catch

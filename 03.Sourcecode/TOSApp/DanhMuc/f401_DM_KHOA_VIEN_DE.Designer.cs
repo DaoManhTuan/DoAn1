@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f401_DM_KHOA_VIEN_DE));
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.m_cbo_phan_loai_khoa_vien = new System.Windows.Forms.ComboBox();
@@ -69,10 +70,6 @@
             // 
             this.m_cbo_phan_loai_khoa_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_phan_loai_khoa_vien.FormattingEnabled = true;
-            this.m_cbo_phan_loai_khoa_vien.Items.AddRange(new object[] {
-            "Khoa",
-            "Viện",
-            "Chương trình đặc biệt"});
             this.m_cbo_phan_loai_khoa_vien.Location = new System.Drawing.Point(128, 51);
             this.m_cbo_phan_loai_khoa_vien.Name = "m_cbo_phan_loai_khoa_vien";
             this.m_cbo_phan_loai_khoa_vien.Size = new System.Drawing.Size(180, 21);
@@ -84,7 +81,7 @@
             this.m_txt_ten_khoa_vien.Multiline = true;
             this.m_txt_ten_khoa_vien.Name = "m_txt_ten_khoa_vien";
             this.m_txt_ten_khoa_vien.Size = new System.Drawing.Size(180, 67);
-            this.m_txt_ten_khoa_vien.TabIndex = 1;
+            this.m_txt_ten_khoa_vien.TabIndex = 3;
             // 
             // label2
             // 
@@ -113,11 +110,12 @@
             // 
             // m_cmd_Cancel
             // 
+            this.m_cmd_Cancel.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_Cancel.Image")));
             this.m_cmd_Cancel.Location = new System.Drawing.Point(233, 25);
             this.m_cmd_Cancel.Name = "m_cmd_Cancel";
-            this.m_cmd_Cancel.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_Cancel.Size = new System.Drawing.Size(75, 33);
             this.m_cmd_Cancel.TabIndex = 0;
-            this.m_cmd_Cancel.Text = "Cancel";
+            this.m_cmd_Cancel.Text = "Thoát";
             this.m_cmd_Cancel.Click += new System.EventHandler(this.m_cmd_Cancel_Click);
             // 
             // panel1
@@ -132,9 +130,10 @@
             // 
             // m_cmd_OK
             // 
-            this.m_cmd_OK.Location = new System.Drawing.Point(128, 25);
+            this.m_cmd_OK.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_OK.Image")));
+            this.m_cmd_OK.Location = new System.Drawing.Point(31, 25);
             this.m_cmd_OK.Name = "m_cmd_OK";
-            this.m_cmd_OK.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_OK.Size = new System.Drawing.Size(75, 33);
             this.m_cmd_OK.TabIndex = 0;
             this.m_cmd_OK.Text = "OK";
             this.m_cmd_OK.Click += new System.EventHandler(this.m_cmd_OK_Click);
@@ -146,8 +145,11 @@
             this.ClientSize = new System.Drawing.Size(332, 266);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "f401_DM_KHOA_VIEN_DE";
-            this.Text = "f401_DM_KHOA_VIEN_DE";
+            this.Text = "THÊM MỚI KHOA /VIỆN";
+            this.Load += new System.EventHandler(this.f401_DM_KHOA_VIEN_DE_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f501_DM_GIANG_VIEN_DE));
             this.m_dat_ngay_sinh = new System.Windows.Forms.DateTimePicker();
             this.m_txt_que_quan = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -150,6 +151,7 @@
             // 
             // m_cbo_khoa_vien
             // 
+            this.m_cbo_khoa_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_khoa_vien.FormattingEnabled = true;
             this.m_cbo_khoa_vien.Location = new System.Drawing.Point(486, 177);
             this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
@@ -223,18 +225,20 @@
             // 
             // m_cmd_Cancel
             // 
-            this.m_cmd_Cancel.Location = new System.Drawing.Point(609, 26);
+            this.m_cmd_Cancel.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_Cancel.Image")));
+            this.m_cmd_Cancel.Location = new System.Drawing.Point(609, 17);
             this.m_cmd_Cancel.Name = "m_cmd_Cancel";
-            this.m_cmd_Cancel.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_Cancel.Size = new System.Drawing.Size(75, 32);
             this.m_cmd_Cancel.TabIndex = 0;
-            this.m_cmd_Cancel.Text = "Cancel";
+            this.m_cmd_Cancel.Text = "Thoát";
             this.m_cmd_Cancel.Click += new System.EventHandler(this.m_cmd_Cancel_Click);
             // 
             // m_cmd_OK
             // 
-            this.m_cmd_OK.Location = new System.Drawing.Point(475, 26);
+            this.m_cmd_OK.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_OK.Image")));
+            this.m_cmd_OK.Location = new System.Drawing.Point(475, 17);
             this.m_cmd_OK.Name = "m_cmd_OK";
-            this.m_cmd_OK.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_OK.Size = new System.Drawing.Size(75, 32);
             this.m_cmd_OK.TabIndex = 0;
             this.m_cmd_OK.Text = "OK";
             this.m_cmd_OK.Click += new System.EventHandler(this.m_cmd_OK_Click);
@@ -251,13 +255,17 @@
             // 
             // f501_DM_GIANG_VIEN_DE
             // 
+            this.AcceptButton = this.m_cmd_OK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(712, 312);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "f501_DM_GIANG_VIEN_DE";
-            this.Text = "f501_DM_GIANG_VIEN_DE";
+            this.Text = "THÊM MỚI GIẢNG VIÊN";
+            this.Load += new System.EventHandler(this.f501_DM_GIANG_VIEN_DE_Load);
             this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

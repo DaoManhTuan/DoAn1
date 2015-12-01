@@ -15,7 +15,6 @@ namespace TOSApp.DanhMuc
         public f501_DM_GIANG_VIEN_DE()
         {
             InitializeComponent();
-            load_data_2_form();
         }
 
         private void load_data_2_form()
@@ -27,7 +26,7 @@ namespace TOSApp.DanhMuc
 
         private void load_data_2_cbo_khoa_vien()
         {
-            WinFormControls.load_data_to_combobox("DM_KHOA_VIEN", "ID", "TEN_KHOA_VIEN", " WHERE trang_thai_hsd=7", WinFormControls.eTAT_CA.YES, m_cbo_khoa_vien);
+            WinFormControls.load_data_to_combobox("DM_KHOA_VIEN", "ID", "TEN_KHOA_VIEN", " WHERE trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_khoa_vien);
         }
 
         private void load_data_2_ma_giang_vien()
@@ -36,7 +35,7 @@ namespace TOSApp.DanhMuc
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithQuery(v_ds, "select * from dm_giang_vien");
-            m_txt_ma_giang_vien.Text = (v_ds.Tables[0].Rows.Count + 1).ToString();
+            m_txt_ma_giang_vien.Text = (CIPConvert.ToDecimal( v_ds.Tables[0].Rows[v_ds.Tables[0].Rows.Count -1]["MA_GIANG_VIEN"].ToString()) + 1).ToString();
         }
 
       
@@ -78,11 +77,7 @@ namespace TOSApp.DanhMuc
                 MessageBox.Show("Hãy điền họ tên giảng viên!");
                 return false;
             }
-            if (m_dat_ngay_sinh.Value.Year >=1994)
-            {
-                MessageBox.Show("Hãy chọn lại,ngày sinh chưa hợp lý!");
-                return false;
-            }
+            
             return true;
         }
 
@@ -95,6 +90,12 @@ namespace TOSApp.DanhMuc
         {
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
                 e.Handled = true;
+        }
+
+        private void f501_DM_GIANG_VIEN_DE_Load(object sender, EventArgs e)
+        {
+            load_data_2_form();
+
         }
     }
 }

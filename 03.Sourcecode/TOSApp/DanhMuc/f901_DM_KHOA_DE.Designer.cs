@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f901_DM_KHOA_DE));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -103,9 +104,11 @@
             // m_txt_nam_bat_dau
             // 
             this.m_txt_nam_bat_dau.Location = new System.Drawing.Point(104, 26);
+            this.m_txt_nam_bat_dau.MaxLength = 4;
             this.m_txt_nam_bat_dau.Name = "m_txt_nam_bat_dau";
             this.m_txt_nam_bat_dau.Size = new System.Drawing.Size(128, 20);
-            this.m_txt_nam_bat_dau.TabIndex = 1;
+            this.m_txt_nam_bat_dau.TabIndex = 2;
+            this.m_txt_nam_bat_dau.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_nam_bat_dau_KeyPress);
             // 
             // label2
             // 
@@ -154,15 +157,17 @@
             // 
             // m_cmd_cancel
             // 
+            this.m_cmd_cancel.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_cancel.Image")));
             this.m_cmd_cancel.Location = new System.Drawing.Point(148, 19);
             this.m_cmd_cancel.Name = "m_cmd_cancel";
             this.m_cmd_cancel.Size = new System.Drawing.Size(80, 29);
             this.m_cmd_cancel.TabIndex = 1;
-            this.m_cmd_cancel.Text = "Cancel";
+            this.m_cmd_cancel.Text = "Thoát";
             this.m_cmd_cancel.Click += new System.EventHandler(this.m_cmd_cancel_Click);
             // 
             // m_cmd_OK
             // 
+            this.m_cmd_OK.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_OK.Image")));
             this.m_cmd_OK.Location = new System.Drawing.Point(35, 19);
             this.m_cmd_OK.Name = "m_cmd_OK";
             this.m_cmd_OK.Size = new System.Drawing.Size(84, 29);
@@ -172,12 +177,15 @@
             // 
             // f901_DM_KHOA_DE
             // 
+            this.AcceptButton = this.m_cmd_OK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "f901_DM_KHOA_DE";
-            this.Text = "f901_DM_KHOA_DE";
+            this.Text = "THÊM MỚI KHÓA";
             this.groupBox1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);

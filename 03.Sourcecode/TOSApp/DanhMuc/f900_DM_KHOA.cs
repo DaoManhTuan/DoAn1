@@ -25,16 +25,15 @@ namespace TOSApp.DanhMuc
             load_data_2_grid();
           
         }
-        DataRow m_dr;
-     
-
+        
         private void load_data_2_grid()
         {
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithTableName(v_ds, "DM_KHOA");
+            v_us.FillDatasetWithTableName(v_ds, "V_DM_KHOA");
             m_grc_dm_khoa.DataSource = v_ds.Tables[0];
+            load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
 
         }
 
@@ -63,7 +62,7 @@ namespace TOSApp.DanhMuc
                     MessageBox.Show("Hãy chọn khoa khóa cần xóa!");
                 }
             }
-            catch (Exception v_e)
+            catch
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
@@ -98,7 +97,6 @@ namespace TOSApp.DanhMuc
 
         private void load_data_2_thong_tin_chi_tiet(DataRow v_dr)
         {
-            m_dr = v_dr;
             m_txt_khoa.Text = v_dr["KHOA"].ToString();
             m_txt_nam_bat_dau.Text = v_dr["NAM_BAT_DAU"].ToString();
         }
@@ -107,18 +105,26 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                if (check_du_lieu_truoc_luu())
-                {
-                    US_DM_KHOA v_us = new US_DM_KHOA((decimal)m_dr["ID"]);
-                    v_us.strKHOA = m_txt_khoa.Text;
-                    v_us.dcTRANG_THAI_HSD = 7;
-                    v_us.dcNAM_BAT_DAU =CIPConvert.ToDecimal( m_txt_nam_bat_dau.Text);
-                    v_us.Update();
-                    MessageBox.Show("Cập nhật thành công khóa:"+m_txt_khoa.Text);
-                    load_data_2_grid();
-                }
+                 DataRow v_dr = m_grv_dm_khoa.GetDataRow(m_grv_dm_khoa.FocusedRowHandle);
+                 if (v_dr != null)
+                 {
+                     if (check_du_lieu_truoc_luu())
+                     {
+                         US_DM_KHOA v_us = new US_DM_KHOA((decimal)v_dr["ID"]);
+                         v_us.strKHOA = m_txt_khoa.Text;
+                         v_us.dcTRANG_THAI_HSD = 7;
+                         v_us.dcNAM_BAT_DAU = CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text);
+                         v_us.Update();
+                         MessageBox.Show("Cập nhật thành công khóa:" + m_txt_khoa.Text);
+                         load_data_2_grid();
+                     }
+                 }
+                else
+                 {
+                     MessageBox.Show("Chọn 1 dòng!");
+                 }
             }
-            catch (Exception v)
+            catch
             {
 
                 MessageBox.Show("Đã xảy ra lỗi trong quá trình xử lý!");
@@ -127,8 +133,14 @@ namespace TOSApp.DanhMuc
 
         private bool check_du_lieu_truoc_luu()
         {
-            if (m_txt_nam_bat_dau.Text==" "||m_txt_khoa.Text==" ")
+            if (m_txt_nam_bat_dau.Text==""||m_txt_khoa.Text=="")
             {
+                MessageBox.Show("Nhập đủ thông tin!");
+                return false;
+            }
+            if (CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text) < 2010 || CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text) > 2100)
+            {
+                MessageBox.Show("Năm bắt đầu chưa chính xác!( phải nằm trong 2010 -2100)");
                 return false;
             }
             return true;
@@ -142,9 +154,17 @@ namespace TOSApp.DanhMuc
 
         private void m_cmd_them_Click(object sender, EventArgs e)
         {
-            f901_DM_KHOA_DE f901 = new f901_DM_KHOA_DE();
-            f901.ShowDialog();
-            load_data_2_grid();
+            try
+            {
+                f901_DM_KHOA_DE f901 = new f901_DM_KHOA_DE();
+                f901.ShowDialog();
+                load_data_2_grid();
+            }
+            catch
+            {
+                MessageBox.Show("Đã xảy ra lỗi trong quá trình xử lý!");
+            }
+            
         }
 
 

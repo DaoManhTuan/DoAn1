@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f101_DM_SINH_VIEN_DE));
             this.panel1 = new System.Windows.Forms.Panel();
             this.m_cmd_Cancel = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_OK = new DevExpress.XtraEditors.SimpleButton();
@@ -93,18 +94,20 @@
             // 
             // m_cmd_Cancel
             // 
-            this.m_cmd_Cancel.Location = new System.Drawing.Point(609, 26);
+            this.m_cmd_Cancel.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_Cancel.Image")));
+            this.m_cmd_Cancel.Location = new System.Drawing.Point(609, 17);
             this.m_cmd_Cancel.Name = "m_cmd_Cancel";
-            this.m_cmd_Cancel.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_Cancel.Size = new System.Drawing.Size(75, 32);
             this.m_cmd_Cancel.TabIndex = 0;
-            this.m_cmd_Cancel.Text = "Cancel";
+            this.m_cmd_Cancel.Text = "Thoát";
             this.m_cmd_Cancel.Click += new System.EventHandler(this.m_cmd_Cancel_Click);
             // 
             // m_cmd_OK
             // 
-            this.m_cmd_OK.Location = new System.Drawing.Point(486, 26);
+            this.m_cmd_OK.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_OK.Image")));
+            this.m_cmd_OK.Location = new System.Drawing.Point(486, 17);
             this.m_cmd_OK.Name = "m_cmd_OK";
-            this.m_cmd_OK.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_OK.Size = new System.Drawing.Size(75, 32);
             this.m_cmd_OK.TabIndex = 0;
             this.m_cmd_OK.Text = "OK";
             this.m_cmd_OK.Click += new System.EventHandler(this.m_cmd_OK_Click);
@@ -127,7 +130,7 @@
             this.groupBox2.Size = new System.Drawing.Size(730, 299);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Thông tinh chi tiết sinh viên";
+            this.groupBox2.Text = "Thông tinh chi tiết";
             // 
             // tableLayoutPanel2
             // 
@@ -198,7 +201,7 @@
             this.m_txt_que_quan.Location = new System.Drawing.Point(115, 11);
             this.m_txt_que_quan.Name = "m_txt_que_quan";
             this.m_txt_que_quan.Size = new System.Drawing.Size(222, 20);
-            this.m_txt_que_quan.TabIndex = 1;
+            this.m_txt_que_quan.TabIndex = 11;
             // 
             // label4
             // 
@@ -224,7 +227,7 @@
             this.m_txt_so_dien_thoai.Location = new System.Drawing.Point(115, 14);
             this.m_txt_so_dien_thoai.Name = "m_txt_so_dien_thoai";
             this.m_txt_so_dien_thoai.Size = new System.Drawing.Size(222, 20);
-            this.m_txt_so_dien_thoai.TabIndex = 1;
+            this.m_txt_so_dien_thoai.TabIndex = 9;
             this.m_txt_so_dien_thoai.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_so_dien_thoai_KeyPress);
             // 
             // label8
@@ -253,7 +256,7 @@
             this.m_rdb_nu.Location = new System.Drawing.Point(181, 18);
             this.m_rdb_nu.Name = "m_rdb_nu";
             this.m_rdb_nu.Size = new System.Drawing.Size(39, 17);
-            this.m_rdb_nu.TabIndex = 5;
+            this.m_rdb_nu.TabIndex = 7;
             this.m_rdb_nu.Text = "Nữ";
             this.m_rdb_nu.UseVisualStyleBackColor = true;
             // 
@@ -264,7 +267,7 @@
             this.m_rdb_nam.Location = new System.Drawing.Point(115, 18);
             this.m_rdb_nam.Name = "m_rdb_nam";
             this.m_rdb_nam.Size = new System.Drawing.Size(47, 17);
-            this.m_rdb_nam.TabIndex = 5;
+            this.m_rdb_nam.TabIndex = 6;
             this.m_rdb_nam.TabStop = true;
             this.m_rdb_nam.Text = "Nam";
             this.m_rdb_nam.UseVisualStyleBackColor = true;
@@ -320,7 +323,7 @@
             this.m_txt_ho_ten_sinh_vien.Location = new System.Drawing.Point(115, 15);
             this.m_txt_ho_ten_sinh_vien.Name = "m_txt_ho_ten_sinh_vien";
             this.m_txt_ho_ten_sinh_vien.Size = new System.Drawing.Size(222, 20);
-            this.m_txt_ho_ten_sinh_vien.TabIndex = 1;
+            this.m_txt_ho_ten_sinh_vien.TabIndex = 2;
             // 
             // label2
             // 
@@ -349,7 +352,7 @@
             this.m_cbo_trang_thai.Location = new System.Drawing.Point(110, 11);
             this.m_cbo_trang_thai.Name = "m_cbo_trang_thai";
             this.m_cbo_trang_thai.Size = new System.Drawing.Size(222, 21);
-            this.m_cbo_trang_thai.TabIndex = 3;
+            this.m_cbo_trang_thai.TabIndex = 10;
             // 
             // label10
             // 
@@ -377,7 +380,7 @@
             this.m_cbo_khoa.Location = new System.Drawing.Point(110, 17);
             this.m_cbo_khoa.Name = "m_cbo_khoa";
             this.m_cbo_khoa.Size = new System.Drawing.Size(222, 21);
-            this.m_cbo_khoa.TabIndex = 1;
+            this.m_cbo_khoa.TabIndex = 3;
             this.m_cbo_khoa.SelectedIndexChanged += new System.EventHandler(this.m_cbo_khoa_SelectedIndexChanged);
             // 
             // label6
@@ -406,7 +409,7 @@
             this.m_cbo_lop_sinh_vien.Location = new System.Drawing.Point(110, 13);
             this.m_cbo_lop_sinh_vien.Name = "m_cbo_lop_sinh_vien";
             this.m_cbo_lop_sinh_vien.Size = new System.Drawing.Size(222, 21);
-            this.m_cbo_lop_sinh_vien.TabIndex = 2;
+            this.m_cbo_lop_sinh_vien.TabIndex = 8;
             // 
             // label9
             // 
@@ -443,11 +446,12 @@
             this.m_cbo_khoa_vien.Location = new System.Drawing.Point(110, 14);
             this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
             this.m_cbo_khoa_vien.Size = new System.Drawing.Size(222, 21);
-            this.m_cbo_khoa_vien.TabIndex = 2;
+            this.m_cbo_khoa_vien.TabIndex = 5;
             this.m_cbo_khoa_vien.SelectedIndexChanged += new System.EventHandler(this.m_cbo_khoa_vien_SelectedIndexChanged);
             // 
             // f101_DM_SINH_VIEN_DE
             // 
+            this.AcceptButton = this.m_cmd_OK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(730, 366);
@@ -456,7 +460,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "f101_DM_SINH_VIEN_DE";
-            this.Text = "f101_DM_SINH_VIEN_DE";
+            this.Text = "THÊM SINH VIÊN";
             this.Load += new System.EventHandler(this.f101_DM_SINH_VIEN_DE_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

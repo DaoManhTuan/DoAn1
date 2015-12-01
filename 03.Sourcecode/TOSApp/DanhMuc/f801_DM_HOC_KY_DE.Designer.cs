@@ -91,7 +91,7 @@
             this.m_cmd_cancel.Name = "m_cmd_cancel";
             this.m_cmd_cancel.Size = new System.Drawing.Size(89, 32);
             this.m_cmd_cancel.TabIndex = 4;
-            this.m_cmd_cancel.Text = "Cancel";
+            this.m_cmd_cancel.Text = "Thoát";
             this.m_cmd_cancel.Click += new System.EventHandler(this.m_cmd_cancel_Click);
             // 
             // m_cmd_ok
@@ -139,9 +139,11 @@
             // m_txt_ma_hoc_ky
             // 
             this.m_txt_ma_hoc_ky.Location = new System.Drawing.Point(156, 25);
+            this.m_txt_ma_hoc_ky.MaxLength = 5;
             this.m_txt_ma_hoc_ky.Name = "m_txt_ma_hoc_ky";
             this.m_txt_ma_hoc_ky.Size = new System.Drawing.Size(123, 20);
             this.m_txt_ma_hoc_ky.TabIndex = 0;
+            this.m_txt_ma_hoc_ky.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_ma_hoc_ky_KeyPress);
             // 
             // label1
             // 

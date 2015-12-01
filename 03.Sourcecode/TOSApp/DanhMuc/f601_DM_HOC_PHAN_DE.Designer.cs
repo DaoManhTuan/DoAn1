@@ -55,7 +55,7 @@
             this.m_txt_ten_hoc_phan.Multiline = true;
             this.m_txt_ten_hoc_phan.Name = "m_txt_ten_hoc_phan";
             this.m_txt_ten_hoc_phan.Size = new System.Drawing.Size(180, 43);
-            this.m_txt_ten_hoc_phan.TabIndex = 1;
+            this.m_txt_ten_hoc_phan.TabIndex = 3;
             // 
             // label2
             // 
@@ -97,18 +97,19 @@
             // 
             // m_cbo_khoa_vien
             // 
+            this.m_cbo_khoa_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_khoa_vien.FormattingEnabled = true;
             this.m_cbo_khoa_vien.Location = new System.Drawing.Point(169, 16);
             this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
             this.m_cbo_khoa_vien.Size = new System.Drawing.Size(180, 21);
-            this.m_cbo_khoa_vien.TabIndex = 6;
+            this.m_cbo_khoa_vien.TabIndex = 1;
             // 
             // m_txt_so_tin_chi_hoc_phan
             // 
             this.m_txt_so_tin_chi_hoc_phan.Location = new System.Drawing.Point(169, 145);
             this.m_txt_so_tin_chi_hoc_phan.Name = "m_txt_so_tin_chi_hoc_phan";
             this.m_txt_so_tin_chi_hoc_phan.Size = new System.Drawing.Size(180, 20);
-            this.m_txt_so_tin_chi_hoc_phan.TabIndex = 5;
+            this.m_txt_so_tin_chi_hoc_phan.TabIndex = 4;
             this.m_txt_so_tin_chi_hoc_phan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_so_tin_chi_hoc_phan_KeyPress);
             // 
             // m_txt_so_tin_chi_hoc_phi
@@ -116,7 +117,7 @@
             this.m_txt_so_tin_chi_hoc_phi.Location = new System.Drawing.Point(169, 187);
             this.m_txt_so_tin_chi_hoc_phi.Name = "m_txt_so_tin_chi_hoc_phi";
             this.m_txt_so_tin_chi_hoc_phi.Size = new System.Drawing.Size(180, 20);
-            this.m_txt_so_tin_chi_hoc_phi.TabIndex = 4;
+            this.m_txt_so_tin_chi_hoc_phi.TabIndex = 5;
             this.m_txt_so_tin_chi_hoc_phi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_so_tin_chi_hoc_phi_KeyPress);
             // 
             // label6
@@ -133,14 +134,14 @@
             this.m_txt_ma_hoc_phan.Location = new System.Drawing.Point(169, 51);
             this.m_txt_ma_hoc_phan.Name = "m_txt_ma_hoc_phan";
             this.m_txt_ma_hoc_phan.Size = new System.Drawing.Size(180, 20);
-            this.m_txt_ma_hoc_phan.TabIndex = 1;
+            this.m_txt_ma_hoc_phan.TabIndex = 2;
             // 
             // m_txt_trong_so
             // 
             this.m_txt_trong_so.Location = new System.Drawing.Point(169, 227);
             this.m_txt_trong_so.Name = "m_txt_trong_so";
             this.m_txt_trong_so.Size = new System.Drawing.Size(180, 20);
-            this.m_txt_trong_so.TabIndex = 1;
+            this.m_txt_trong_so.TabIndex = 6;
             this.m_txt_trong_so.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_trong_so_KeyPress);
             // 
             // label5
@@ -193,7 +194,7 @@
             // m_cmd_ok
             // 
             this.m_cmd_ok.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_ok.Image")));
-            this.m_cmd_ok.Location = new System.Drawing.Point(169, 25);
+            this.m_cmd_ok.Location = new System.Drawing.Point(29, 25);
             this.m_cmd_ok.Name = "m_cmd_ok";
             this.m_cmd_ok.Size = new System.Drawing.Size(75, 33);
             this.m_cmd_ok.TabIndex = 0;
@@ -202,13 +203,16 @@
             // 
             // f601_DM_HOC_PHAN_DE
             // 
+            this.AcceptButton = this.m_cmd_ok;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(396, 338);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "f601_DM_HOC_PHAN_DE";
-            this.Text = "f601_DM_HOC_PHAN_DE";
+            this.Text = "THÊM MỚI HỌC PHẦN";
             this.Load += new System.EventHandler(this.f601_DM_HOC_PHAN_DE_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

@@ -25,9 +25,8 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                load_data_2_grid();
                 load_data_2_to_cbo_khoa_vien();
-                load_data_2_thong_tin_chi_tiet(m_grv_dm_hoc_phan.GetDataRow(m_grv_dm_hoc_phan.FocusedRowHandle));
+                load_data_2_grid();
             }
             catch
             {
@@ -39,7 +38,7 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                WinFormControls.load_data_to_combobox_with_query(m_cbo_khoa_vien, "ID", "TEN_KHOA_VIEN", WinFormControls.eTAT_CA.YES, "SELECT ID, TEN_KHOA_VIEN FROM DM_KHOA_VIEN WHERE PHAN_LOAI IN (3,4)");
+                WinFormControls.load_data_to_combobox_with_query(m_cbo_khoa_vien, "ID", "TEN_KHOA_VIEN", WinFormControls.eTAT_CA.YES, "SELECT ID, TEN_KHOA_VIEN FROM DM_KHOA_VIEN WHERE PHAN_LOAI IN (3,4) AND TRANG_THAI_HSD = 7");
             }
             catch
             {
@@ -56,6 +55,7 @@ namespace TOSApp.DanhMuc
                 v_ds.Tables.Add(new DataTable());
                 v_us.FillDatasetWithTableName(v_ds, "V_DM_HOC_PHAN");
                 m_grc_dm_hoc_phan.DataSource = v_ds.Tables[0];
+                load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
             }
             catch
             {

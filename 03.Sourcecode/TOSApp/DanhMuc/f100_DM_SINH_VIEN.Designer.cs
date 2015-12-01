@@ -739,7 +739,7 @@
             // m_cmd_them
             // 
             this.m_cmd_them.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_them.Image")));
-            this.m_cmd_them.Location = new System.Drawing.Point(32, 7);
+            this.m_cmd_them.Location = new System.Drawing.Point(47, 7);
             this.m_cmd_them.Name = "m_cmd_them";
             this.m_cmd_them.Size = new System.Drawing.Size(88, 35);
             this.m_cmd_them.TabIndex = 0;
@@ -773,7 +773,7 @@
             this.ClientSize = new System.Drawing.Size(1188, 512);
             this.Controls.Add(this.panel2);
             this.Name = "f100_DM_SINH_VIEN";
-            this.Text = "f100_DM_SINH_VIEN";
+            this.Text = "DANH MỤC SINH VIÊN";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.f100_DM_SINH_VIEN_Load);
             this.panel2.ResumeLayout(false);

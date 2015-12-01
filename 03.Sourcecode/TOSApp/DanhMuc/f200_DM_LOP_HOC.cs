@@ -18,14 +18,12 @@ namespace TOSApp.DanhMuc
         public f200_DM_LOP_HOC()
         {
             InitializeComponent();
-            load_data_2_grid();
-            load_data_2_cbo();
         }
         DataRow m_dr;
         private void load_data_2_cbo()
         {
             load_data_2_cbo_hoc_phan();
-            load_data_2_cbo_giang_vien();
+            //load_data_2_cbo_giang_vien();
             load_data_2_cbo_hoc_ky();
         }
 
@@ -34,10 +32,10 @@ namespace TOSApp.DanhMuc
             WinFormControls.load_data_to_combobox("DM_HOC_KY", "ID", "MA_HOC_KY", " where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_hoc_ky);
         }
 
-        private void load_data_2_cbo_giang_vien()
-        {
-            WinFormControls.load_data_to_combobox("DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
-        }
+        //private void load_data_2_cbo_giang_vien()
+        //{
+        //    WinFormControls.load_data_to_combobox("DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
+        //}
 
         private void load_data_2_cbo_hoc_phan()
         {
@@ -50,6 +48,7 @@ namespace TOSApp.DanhMuc
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithTableName(v_ds, "V_DM_LOP_HOC");
             m_grc_dm_lop_hoc.DataSource = v_ds.Tables[0];
+            load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
         }
 
         private void m_cbo_hoc_phan_SelectedIndexChanged(object sender, EventArgs e)
@@ -57,6 +56,7 @@ namespace TOSApp.DanhMuc
             US_V_DM_HOC_PHAN v_us = new US_V_DM_HOC_PHAN((decimal)m_cbo_hoc_phan.SelectedValue);
             decimal id_khoa_vien = v_us.dcID_KHOA_VIEN;
             WinFormControls.load_data_to_combobox("DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where trang_thai_hsd=7 and ID_KHOA_VIEN=" + id_khoa_vien, WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
+            m_txt_ma_hoc_phan.Text = v_us.strMA_HOC_PHAN.ToString();
 
         }
 
@@ -89,7 +89,6 @@ namespace TOSApp.DanhMuc
             m_dr = v_dr;
             US_V_DM_LOP_HOC v_us = new US_V_DM_LOP_HOC((decimal)v_dr["ID"]);
             m_txt_ma_lop_hoc.Text = v_us.strMA_LOP_HOC;
-            m_txt_ma_hoc_phan.Text = v_us.strMA_HOC_PHAN;
             m_cbo_hoc_phan.SelectedValue = (decimal)v_us.dcID_HOC_PHAN;
             m_cbo_hoc_ky.SelectedValue = (decimal)v_us.dcID_HOC_KY;
             m_cbo_giang_vien.SelectedValue = (decimal)v_us.dcID_GIANG_VIEN;
@@ -182,6 +181,12 @@ namespace TOSApp.DanhMuc
             {
                 MessageBox.Show("Đã xảy ra lỗi hệ thống!");
             }
+        }
+
+        private void f200_DM_LOP_HOC_Load(object sender, EventArgs e)
+        {
+            load_data_2_cbo();
+            load_data_2_grid();
         }
     }
 }

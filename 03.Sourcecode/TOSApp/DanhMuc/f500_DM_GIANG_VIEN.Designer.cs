@@ -283,6 +283,7 @@
             // 
             // m_cbo_khoa_vien
             // 
+            this.m_cbo_khoa_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_khoa_vien.FormattingEnabled = true;
             this.m_cbo_khoa_vien.Location = new System.Drawing.Point(111, 12);
             this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
@@ -358,6 +359,116 @@
             // 
             // m_grv_dm_giang_vien
             // 
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButton.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButton.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButton.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButton.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButtonActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButtonActive.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButtonActive.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButtonActive.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButtonActive.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.ColumnFilterButtonActive.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.Empty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.Empty.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.Empty.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.EvenRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.EvenRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.EvenRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.EvenRow.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.EvenRow.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.EvenRow.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FilterCloseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.FilterCloseButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.FilterCloseButton.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.FilterCloseButton.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FilterCloseButton.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FilterCloseButton.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FilterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.FilterPanel.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.FilterPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.FilterPanel.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FilterPanel.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FixedLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(133)))), ((int)(((byte)(195)))));
+            this.m_grv_dm_giang_vien.Appearance.FixedLine.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FocusedCell.BackColor = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.FocusedCell.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.FocusedCell.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FocusedCell.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FocusedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(109)))), ((int)(((byte)(189)))));
+            this.m_grv_dm_giang_vien.Appearance.FocusedRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(139)))), ((int)(((byte)(206)))));
+            this.m_grv_dm_giang_vien.Appearance.FocusedRow.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FocusedRow.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FocusedRow.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FooterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.FooterPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.FooterPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.FooterPanel.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FooterPanel.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.FooterPanel.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.GroupButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.GroupButton.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupButton.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_giang_vien.Appearance.GroupFooter.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_giang_vien.Appearance.GroupFooter.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.GroupFooter.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupFooter.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupFooter.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.GroupPanel.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.GroupPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.GroupPanel.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupPanel.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_giang_vien.Appearance.GroupRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_giang_vien.Appearance.GroupRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.GroupRow.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupRow.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.GroupRow.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.HeaderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_giang_vien.Appearance.HeaderPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.m_grv_dm_giang_vien.Appearance.HeaderPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.HeaderPanel.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.HeaderPanel.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.HeaderPanel.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(170)))), ((int)(((byte)(225)))));
+            this.m_grv_dm_giang_vien.Appearance.HideSelectionRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_dm_giang_vien.Appearance.HideSelectionRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.HideSelectionRow.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.HideSelectionRow.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.HideSelectionRow.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.HorzLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.HorzLine.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.OddRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.OddRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.OddRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.OddRow.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.OddRow.Options.UseBorderColor = true;
+            this.m_grv_dm_giang_vien.Appearance.OddRow.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.Preview.Font = new System.Drawing.Font("Verdana", 7.5F);
+            this.m_grv_dm_giang_vien.Appearance.Preview.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_dm_giang_vien.Appearance.Preview.Options.UseFont = true;
+            this.m_grv_dm_giang_vien.Appearance.Preview.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.Row.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_dm_giang_vien.Appearance.Row.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.Row.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.RowSeparator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_dm_giang_vien.Appearance.RowSeparator.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.RowSeparator.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_dm_giang_vien.Appearance.SelectedRow.ForeColor = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.SelectedRow.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.SelectedRow.Options.UseForeColor = true;
+            this.m_grv_dm_giang_vien.Appearance.TopNewRow.BackColor = System.Drawing.Color.White;
+            this.m_grv_dm_giang_vien.Appearance.TopNewRow.Options.UseBackColor = true;
+            this.m_grv_dm_giang_vien.Appearance.VertLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_dm_giang_vien.Appearance.VertLine.Options.UseBackColor = true;
             this.m_grv_dm_giang_vien.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.MA_GIANG_VIEN,
             this.gridColumn2,
@@ -372,6 +483,7 @@
             this.m_grv_dm_giang_vien.OptionsBehavior.ReadOnly = true;
             this.m_grv_dm_giang_vien.OptionsFind.AlwaysVisible = true;
             this.m_grv_dm_giang_vien.OptionsView.ShowAutoFilterRow = true;
+            this.m_grv_dm_giang_vien.PaintStyleName = "Office2003";
             this.m_grv_dm_giang_vien.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.m_grv_dm_giang_vien_FocusedRowChanged);
             // 
             // MA_GIANG_VIEN
@@ -493,7 +605,8 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Name = "f500_DM_GIANG_VIEN";
-            this.Text = "f500_DM_GIANG_VIEN";
+            this.Text = "DANH MỤC GIẢNG VIÊN";
+            this.Load += new System.EventHandler(this.f500_DM_GIANG_VIEN_Load);
             this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);

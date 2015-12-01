@@ -37,7 +37,7 @@ namespace TOSApp.DanhMuc
                     this.Close();
                 }
             }
-            catch (Exception v)
+            catch
             {
                 
                 MessageBox.Show("Đã xảy ra lỗi hệ thống!");
@@ -46,13 +46,23 @@ namespace TOSApp.DanhMuc
 
         private bool check_du_lieu_truoc_luu()
         {
-            if (m_txt_nam_bat_dau.Text == " " || m_txt_khoa.Text == " ")
+            if (m_txt_nam_bat_dau.Text == "" || m_txt_khoa.Text == "")
             {
+                MessageBox.Show("Nhập đủ thông tin!");
+                return false;
+            }
+            if (CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text) < 2010 || CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text) > 2100)
+            {
+                MessageBox.Show("Năm bắt đầu chưa chính xác!( phải nằm trong 2010 -2100)");
                 return false;
             }
             return true;
         }
 
-       
+        private void m_txt_nam_bat_dau_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
+        }
     }
 }
