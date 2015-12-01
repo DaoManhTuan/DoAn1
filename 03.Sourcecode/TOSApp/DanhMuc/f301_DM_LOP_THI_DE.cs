@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace TOSApp.DanhMuc
 {
-    public partial class f301_DM_LOP_THI_DE : Form
+    public partial class f301_DM_LOP_SINH_VIEN_DE : Form
     {
-        public f301_DM_LOP_THI_DE()
+        public f301_DM_LOP_SINH_VIEN_DE()
         {
             InitializeComponent();
         }

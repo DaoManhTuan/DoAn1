@@ -269,6 +269,18 @@
     <Compile Include="DanhMuc\f101_DM_SINH_VIEN_DE.Designer.cs">
       <DependentUpon>f101_DM_SINH_VIEN_DE.cs</DependentUpon>
     </Compile>
+    <Compile Include="DanhMuc\f110_DM_LOP_SINH_VIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\f110_DM_LOP_SINH_VIEN.Designer.cs">
+      <DependentUpon>f110_DM_LOP_SINH_VIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhMuc\f111_DM_LOP_SINH_VIEN_DE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\f111_DM_LOP_SINH_VIEN_DE.Designer.cs">
+      <DependentUpon>f111_DM_LOP_SINH_VIEN_DE.cs</DependentUpon>
+    </Compile>
     <Compile Include="DanhMuc\f200_DM_LOP_HOC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -391,6 +403,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\f101_DM_SINH_VIEN_DE.resx">
       <DependentUpon>f101_DM_SINH_VIEN_DE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\f110_DM_LOP_SINH_VIEN.resx">
+      <DependentUpon>f110_DM_LOP_SINH_VIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\f111_DM_LOP_SINH_VIEN_DE.resx">
+      <DependentUpon>f111_DM_LOP_SINH_VIEN_DE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\f200_DM_LOP_HOC.resx">
       <DependentUpon>f200_DM_LOP_HOC.cs</DependentUpon>

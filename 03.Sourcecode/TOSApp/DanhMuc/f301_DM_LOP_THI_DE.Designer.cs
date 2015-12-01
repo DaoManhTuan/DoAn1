@@ -1,6 +1,6 @@
 ﻿namespace TOSApp.DanhMuc
 {
-    partial class f301_DM_LOP_THI_DE
+    partial class f301_DM_LOP_SINH_VIEN_DE
     {
         /// <summary>
         /// Required designer variable.

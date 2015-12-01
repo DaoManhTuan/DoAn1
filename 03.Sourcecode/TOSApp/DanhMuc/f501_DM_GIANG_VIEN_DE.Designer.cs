@@ -37,19 +37,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.m_cbo_khoa_vien = new System.Windows.Forms.ComboBox();
+            this.m_cbo_bo_mon = new System.Windows.Forms.ComboBox();
             this.m_rdb_gt_nu = new System.Windows.Forms.RadioButton();
             this.m_rdb_gt_nam = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.m_txt_sdt = new System.Windows.Forms.TextBox();
+            this.m_txt_ma_giang_vien = new System.Windows.Forms.TextBox();
             this.m_txt_ho_ten_giang_vien = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.m_cmd_Cancel = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_OK = new DevExpress.XtraEditors.SimpleButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.m_txt_ma_giang_vien = new System.Windows.Forms.TextBox();
-            this.m_cbo_bo_mon = new System.Windows.Forms.ComboBox();
-            this.m_cbo_khoa_vien = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -151,8 +151,26 @@
             this.groupBox1.Size = new System.Drawing.Size(712, 248);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tinh chi tiết sinh viên";
+            this.groupBox1.Text = "Thông tinh chi tiết giảng viên";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // m_cbo_khoa_vien
+            // 
+            this.m_cbo_khoa_vien.FormattingEnabled = true;
+            this.m_cbo_khoa_vien.Location = new System.Drawing.Point(486, 177);
+            this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
+            this.m_cbo_khoa_vien.Size = new System.Drawing.Size(198, 21);
+            this.m_cbo_khoa_vien.TabIndex = 7;
+            this.m_cbo_khoa_vien.SelectedIndexChanged += new System.EventHandler(this.m_cbo_bo_mon_SelectedIndexChanged);
+            // 
+            // m_cbo_bo_mon
+            // 
+            this.m_cbo_bo_mon.FormattingEnabled = true;
+            this.m_cbo_bo_mon.Location = new System.Drawing.Point(486, 135);
+            this.m_cbo_bo_mon.Name = "m_cbo_bo_mon";
+            this.m_cbo_bo_mon.Size = new System.Drawing.Size(198, 21);
+            this.m_cbo_bo_mon.TabIndex = 7;
+            this.m_cbo_bo_mon.SelectedIndexChanged += new System.EventHandler(this.m_cbo_bo_mon_SelectedIndexChanged);
             // 
             // m_rdb_gt_nu
             // 
@@ -193,6 +211,13 @@
             this.m_txt_sdt.TabIndex = 5;
             this.m_txt_sdt.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
+            // m_txt_ma_giang_vien
+            // 
+            this.m_txt_ma_giang_vien.Location = new System.Drawing.Point(159, 26);
+            this.m_txt_ma_giang_vien.Name = "m_txt_ma_giang_vien";
+            this.m_txt_ma_giang_vien.Size = new System.Drawing.Size(198, 20);
+            this.m_txt_ma_giang_vien.TabIndex = 5;
+            // 
             // m_txt_ho_ten_giang_vien
             // 
             this.m_txt_ho_ten_giang_vien.Location = new System.Drawing.Point(159, 84);
@@ -209,6 +234,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Số điện thoại";
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(46, 32);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(74, 13);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Mã giảng viên";
             // 
             // m_cmd_Cancel
             // 
@@ -235,40 +269,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(712, 64);
             this.panel1.TabIndex = 2;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(46, 32);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(74, 13);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Mã giảng viên";
-            // 
-            // m_txt_ma_giang_vien
-            // 
-            this.m_txt_ma_giang_vien.Location = new System.Drawing.Point(159, 26);
-            this.m_txt_ma_giang_vien.Name = "m_txt_ma_giang_vien";
-            this.m_txt_ma_giang_vien.Size = new System.Drawing.Size(198, 20);
-            this.m_txt_ma_giang_vien.TabIndex = 5;
-            // 
-            // m_cbo_bo_mon
-            // 
-            this.m_cbo_bo_mon.FormattingEnabled = true;
-            this.m_cbo_bo_mon.Location = new System.Drawing.Point(486, 135);
-            this.m_cbo_bo_mon.Name = "m_cbo_bo_mon";
-            this.m_cbo_bo_mon.Size = new System.Drawing.Size(198, 21);
-            this.m_cbo_bo_mon.TabIndex = 7;
-            this.m_cbo_bo_mon.SelectedIndexChanged += new System.EventHandler(this.m_cbo_bo_mon_SelectedIndexChanged);
-            // 
-            // m_cbo_khoa_vien
-            // 
-            this.m_cbo_khoa_vien.FormattingEnabled = true;
-            this.m_cbo_khoa_vien.Location = new System.Drawing.Point(486, 177);
-            this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
-            this.m_cbo_khoa_vien.Size = new System.Drawing.Size(198, 21);
-            this.m_cbo_khoa_vien.TabIndex = 7;
-            this.m_cbo_khoa_vien.SelectedIndexChanged += new System.EventHandler(this.m_cbo_bo_mon_SelectedIndexChanged);
             // 
             // f501_DM_GIANG_VIEN_DE
             // 
