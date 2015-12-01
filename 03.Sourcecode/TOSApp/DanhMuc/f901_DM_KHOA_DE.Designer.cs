@@ -31,20 +31,20 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.m_cbo_khoa = new System.Windows.Forms.ComboBox();
+            this.m_txt_nam_bat_dau = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.m_cbo_nam_bat_dau = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.m_txt_khoa = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.m_cmd_ok = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_cancel = new DevExpress.XtraEditors.SimpleButton();
+            this.m_cmd_OK = new DevExpress.XtraEditors.SimpleButton();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,19 +90,9 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(272, 167);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.m_cbo_khoa);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(266, 77);
-            this.panel1.TabIndex = 0;
-            // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.m_cbo_nam_bat_dau);
+            this.panel2.Controls.Add(this.m_txt_nam_bat_dau);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 86);
@@ -110,22 +100,12 @@
             this.panel2.Size = new System.Drawing.Size(266, 78);
             this.panel2.TabIndex = 1;
             // 
-            // label1
+            // m_txt_nam_bat_dau
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Khóa";
-            // 
-            // m_cbo_khoa
-            // 
-            this.m_cbo_khoa.FormattingEnabled = true;
-            this.m_cbo_khoa.Location = new System.Drawing.Point(104, 23);
-            this.m_cbo_khoa.Name = "m_cbo_khoa";
-            this.m_cbo_khoa.Size = new System.Drawing.Size(121, 21);
-            this.m_cbo_khoa.TabIndex = 1;
+            this.m_txt_nam_bat_dau.Location = new System.Drawing.Point(104, 26);
+            this.m_txt_nam_bat_dau.Name = "m_txt_nam_bat_dau";
+            this.m_txt_nam_bat_dau.Size = new System.Drawing.Size(128, 20);
+            this.m_txt_nam_bat_dau.TabIndex = 1;
             // 
             // label2
             // 
@@ -136,40 +116,59 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Năm bắt đầu";
             // 
-            // m_cbo_nam_bat_dau
+            // panel1
             // 
-            this.m_cbo_nam_bat_dau.FormattingEnabled = true;
-            this.m_cbo_nam_bat_dau.Location = new System.Drawing.Point(104, 26);
-            this.m_cbo_nam_bat_dau.Name = "m_cbo_nam_bat_dau";
-            this.m_cbo_nam_bat_dau.Size = new System.Drawing.Size(121, 21);
-            this.m_cbo_nam_bat_dau.TabIndex = 2;
+            this.panel1.Controls.Add(this.m_txt_khoa);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(266, 77);
+            this.panel1.TabIndex = 0;
+            // 
+            // m_txt_khoa
+            // 
+            this.m_txt_khoa.Location = new System.Drawing.Point(104, 26);
+            this.m_txt_khoa.Name = "m_txt_khoa";
+            this.m_txt_khoa.Size = new System.Drawing.Size(128, 20);
+            this.m_txt_khoa.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(29, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Khóa";
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.m_cmd_cancel);
-            this.panel3.Controls.Add(this.m_cmd_ok);
+            this.panel3.Controls.Add(this.m_cmd_OK);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 176);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(272, 64);
             this.panel3.TabIndex = 1;
             // 
-            // m_cmd_ok
-            // 
-            this.m_cmd_ok.Location = new System.Drawing.Point(35, 19);
-            this.m_cmd_ok.Name = "m_cmd_ok";
-            this.m_cmd_ok.Size = new System.Drawing.Size(49, 29);
-            this.m_cmd_ok.TabIndex = 0;
-            this.m_cmd_ok.Text = "OK";
-            // 
             // m_cmd_cancel
             // 
-            this.m_cmd_cancel.Location = new System.Drawing.Point(184, 19);
+            this.m_cmd_cancel.Location = new System.Drawing.Point(148, 19);
             this.m_cmd_cancel.Name = "m_cmd_cancel";
-            this.m_cmd_cancel.Size = new System.Drawing.Size(44, 29);
+            this.m_cmd_cancel.Size = new System.Drawing.Size(80, 29);
             this.m_cmd_cancel.TabIndex = 1;
             this.m_cmd_cancel.Text = "Cancel";
-            this.m_cmd_cancel.Click += new System.EventHandler(this.simpleButton2_Click);
+            this.m_cmd_cancel.Click += new System.EventHandler(this.m_cmd_cancel_Click);
+            // 
+            // m_cmd_OK
+            // 
+            this.m_cmd_OK.Location = new System.Drawing.Point(35, 19);
+            this.m_cmd_OK.Name = "m_cmd_OK";
+            this.m_cmd_OK.Size = new System.Drawing.Size(84, 29);
+            this.m_cmd_OK.TabIndex = 0;
+            this.m_cmd_OK.Text = "OK";
+            this.m_cmd_OK.Click += new System.EventHandler(this.m_cmd_OK_Click);
             // 
             // f901_DM_KHOA_DE
             // 
@@ -182,10 +181,10 @@
             this.groupBox1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -199,11 +198,11 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox m_cbo_nam_bat_dau;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox m_cbo_khoa;
         private System.Windows.Forms.Panel panel3;
         private DevExpress.XtraEditors.SimpleButton m_cmd_cancel;
-        private DevExpress.XtraEditors.SimpleButton m_cmd_ok;
+        private DevExpress.XtraEditors.SimpleButton m_cmd_OK;
+        private System.Windows.Forms.TextBox m_txt_nam_bat_dau;
+        private System.Windows.Forms.TextBox m_txt_khoa;
     }
 }

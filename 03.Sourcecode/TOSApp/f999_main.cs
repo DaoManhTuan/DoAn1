@@ -112,7 +112,7 @@ namespace TOSApp
             try
             {
                 f900_DM_KHOA v_f900 = new f900_DM_KHOA();
-                v_f900.Parent = this;
+                v_f900.MdiParent = this;
                 v_f900.Show();
             }
             catch

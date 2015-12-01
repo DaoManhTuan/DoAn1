@@ -6,7 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using IPCOREUS;
+using IP.Core.IPCommon;
 namespace TOSApp.DanhMuc
 {
     public partial class f901_DM_KHOA_DE : Form
@@ -16,9 +17,42 @@ namespace TOSApp.DanhMuc
             InitializeComponent();
         }
 
-        private void simpleButton2_Click(object sender, EventArgs e)
+        private void m_cmd_cancel_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
+
+        private void m_cmd_OK_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (check_du_lieu_truoc_luu())
+                {
+                    US_DM_KHOA v_us = new US_DM_KHOA();
+                    v_us.strKHOA = m_txt_khoa.Text;
+                    v_us.dcTRANG_THAI_HSD = 7;
+                    v_us.dcNAM_BAT_DAU = CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text);
+                    v_us.Insert();
+                    MessageBox.Show("Thêm mới thành công khóa:" +m_txt_khoa.Text);
+                    this.Close();
+                }
+            }
+            catch (Exception v)
+            {
+                
+                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
+            }
+        }
+
+        private bool check_du_lieu_truoc_luu()
+        {
+            if (m_txt_nam_bat_dau.Text == " " || m_txt_khoa.Text == " ")
+            {
+                return false;
+            }
+            return true;
+        }
+
+       
     }
 }
