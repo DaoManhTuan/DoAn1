@@ -17,11 +17,17 @@ namespace TOSApp
         public f999_main()
         {
             InitializeComponent();
-            
             phan_quyen_user(User.id_nhom);
          
         }
-        
+        f100_DM_SINH_VIEN f100;
+        f500_DM_GIANG_VIEN f500;
+        f400_DM_KHOA_VIEN f400;
+        f600_DM_HOC_PHAN f600;
+        f200_DM_LOP_HOC f200;
+        f800_DM_HOC_KY f800;
+        f900_DM_KHOA f900;
+        f110_DM_LOP_SINH_VIEN f110;
         private void phan_quyen_user( decimal id_nhom)
         {
             
@@ -46,14 +52,27 @@ namespace TOSApp
             }
             
         }
-
+        public bool IsFormOpen(Form checkForm)
+        {
+            foreach (Form form in Application.OpenForms)
+                if (form.Name == checkForm.Name)
+                    return true;
+            return false;
+        }
         private void m_cmd_sinh_vien_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             try
             {
-                f100_DM_SINH_VIEN f100 = new f100_DM_SINH_VIEN();
-                f100.MdiParent = this;
-                f100.Show();
+                if (f100 ==null || !IsFormOpen(f100))
+                {
+                    f100 = new f100_DM_SINH_VIEN();
+                    f100.MdiParent = this;
+                    f100.Show();
+                }
+                else
+                {
+                    f100.Focus();
+                }
             }
             catch
             {
@@ -66,9 +85,16 @@ namespace TOSApp
         {
             try
             {
-                f500_DM_GIANG_VIEN f500 = new f500_DM_GIANG_VIEN();
-                f500.MdiParent = this;
-                f500.Show();
+                if (f500 == null || !IsFormOpen(f500))
+                {
+                    f500 = new f500_DM_GIANG_VIEN();
+                    f500.MdiParent = this;
+                    f500.Show();
+                }
+                else
+                {
+                    f500.Focus();
+                }
             }
             catch
             {
@@ -81,9 +107,17 @@ namespace TOSApp
         {
             try
             {
-                f400_DM_KHOA_VIEN f400 = new f400_DM_KHOA_VIEN();
-                f400.MdiParent = this;
-                f400.Show();
+
+                if (f400 == null || !IsFormOpen(f400))
+                {
+                    f400 = new f400_DM_KHOA_VIEN();
+                    f400.MdiParent = this;
+                    f400.Show();
+                }
+                else
+                {
+                    f400.Focus();
+                }
             }
             catch
             {
@@ -96,9 +130,16 @@ namespace TOSApp
         {
             try
             {
-                f600_DM_HOC_PHAN f600 = new f600_DM_HOC_PHAN();
-                f600.MdiParent = this;
-                f600.Show();
+                if (f600 == null || !IsFormOpen(f600))
+                {
+                    f600 = new f600_DM_HOC_PHAN();
+                    f600.MdiParent = this;
+                    f600.Show();
+                }
+                else
+                {
+                    f600.Focus();
+                }
             }
             catch
             {
@@ -111,9 +152,16 @@ namespace TOSApp
         {
             try
             {
-                f200_DM_LOP_HOC f200 = new f200_DM_LOP_HOC();
-                f200.MdiParent = this;
-                f200.Show();
+                if (f200 == null || !IsFormOpen(f200))
+                {
+                    f200 = new f200_DM_LOP_HOC();
+                    f200.MdiParent = this;
+                    f200.Show();
+                }
+                else
+                {
+                    f200.Focus();
+                }
             }
             catch
             {
@@ -126,9 +174,16 @@ namespace TOSApp
         {
             try
             {
-                f800_DM_HOC_KY f800 = new f800_DM_HOC_KY();
-                f800.MdiParent = this;
-                f800.Show();
+                if (f800 == null || !IsFormOpen(f800))
+                {
+                    f800 = new f800_DM_HOC_KY();
+                    f800.MdiParent = this;
+                    f800.Show();
+                }
+                else
+                {
+                    f800.Focus();
+                }
             }
             catch
             {
@@ -141,9 +196,16 @@ namespace TOSApp
         {
             try
             {
-                f900_DM_KHOA v_f900 = new f900_DM_KHOA();
-                v_f900.MdiParent = this;
-                v_f900.Show();
+                if (f900 == null || !IsFormOpen(f900))
+                {
+                    f900 = new f900_DM_KHOA();
+                    f900.MdiParent = this;
+                    f900.Show();
+                }
+                else
+                {
+                    f900.Focus();
+                }
             }
             catch
             {
@@ -155,9 +217,16 @@ namespace TOSApp
         {
             try
             {
-                f110_DM_LOP_SINH_VIEN v_f110 = new f110_DM_LOP_SINH_VIEN();
-                v_f110.MdiParent = this;
-                v_f110.Show();
+                if (f110 == null || !IsFormOpen(f110))
+                {
+                    f110 = new f110_DM_LOP_SINH_VIEN();
+                    f110.MdiParent = this;
+                    f110.Show();
+                }
+                else
+                {
+                    f110.Focus();
+                }
             }
             catch
             {
@@ -168,7 +237,6 @@ namespace TOSApp
         private void m_cmd_dang_xuat_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             User.trang_thai_dang_nhap = false;
-          
             this.Close();
 
         }

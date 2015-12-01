@@ -11,7 +11,6 @@ namespace TOSApp
        public static string mat_khau;
        public static decimal id_nhom;
        public static bool trang_thai_dang_nhap= false;
-
         public static string GetMD5(string txt)
         {
             string str = "";

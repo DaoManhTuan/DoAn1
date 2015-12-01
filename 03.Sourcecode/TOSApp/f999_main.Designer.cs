@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f999_main));
-            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.m_cmd_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_giang_vien = new DevExpress.XtraBars.BarButtonItem();
@@ -298,6 +297,7 @@
             // 
             this.m_cmd_khoa.Caption = "Khóa";
             this.m_cmd_khoa.Id = 1;
+            this.m_cmd_khoa.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_khoa.LargeGlyph")));
             this.m_cmd_khoa.Name = "m_cmd_khoa";
             this.m_cmd_khoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_khoa_ItemClick);
             // 
@@ -305,6 +305,7 @@
             // 
             this.m_cmd_lop_sinh_vien.Caption = "Lớp sinh viên";
             this.m_cmd_lop_sinh_vien.Id = 2;
+            this.m_cmd_lop_sinh_vien.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_lop_sinh_vien.LargeGlyph")));
             this.m_cmd_lop_sinh_vien.Name = "m_cmd_lop_sinh_vien";
             this.m_cmd_lop_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_lop_sinh_vien_ItemClick);
             // 

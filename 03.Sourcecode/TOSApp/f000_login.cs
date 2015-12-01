@@ -14,55 +14,45 @@ namespace TOSApp
         public f000_login()
         {
             InitializeComponent();
-         
+
         }
 
         private void m_cmd_dang_nhap_Click(object sender, EventArgs e)
         {
             try
             {
-                if (check_du_lieu())
+                US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+                DataSet v_ds = new DataSet();
+                v_ds.Tables.Add(new DataTable());
+                v_us.FillDatasetWithQuery(v_ds, "select * from user_name where tai_khoan= '" + m_txt_user.Text + "'and mat_khau='" + User.GetMD5(m_txt_password.Text) + "'");
+                if (v_ds.Tables[0].Rows.Count != 1)
                 {
-                    US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
-                    DataSet v_ds = new DataSet();
-                    v_ds.Tables.Add(new DataTable());
-                    v_us.FillDatasetWithQuery(v_ds, "select * from user_name where tai_khoan= '" + m_txt_user.Text + "'and mat_khau='" + User.GetMD5(m_txt_password.Text)+"'");
-                    if (v_ds.Tables[0].Rows.Count != 1)
-                    {
-                        MessageBox.Show("Tài khoản hoặc mật khẩu không đúng!");
-                        return;
-                    }
-                    else
-                    {
-                        User.id_nhom =(decimal) v_ds.Tables[0].Rows[0]["ID_NHOM"];
-                        User.tai_khoan = v_ds.Tables[0].Rows[0]["TAI_KHOAN"].ToString();
-                        User.mat_khau = v_ds.Tables[0].Rows[0]["MAT_KHAU"].ToString();
+                    m_lab_eror.Text = "Tài khoản hoặc mật khẩu không đúng!";
+                    return;
+                }
+                else
+                {
+                    User.id_nhom = (decimal)v_ds.Tables[0].Rows[0]["ID_NHOM"];
+                    User.tai_khoan = v_ds.Tables[0].Rows[0]["TAI_KHOAN"].ToString();
+                    User.mat_khau = v_ds.Tables[0].Rows[0]["MAT_KHAU"].ToString();
 
-                        this.Hide();
-                        f999_main f999 = new f999_main();
-                        f999.ShowDialog();
-                        //this.Close();
+                    this.Hide();
+                    f999_main f999 = new f999_main();
+                    User.trang_thai_dang_nhap = true;
+                    f999.ShowDialog();
+                    if (User.trang_thai_dang_nhap == false)
+                    {
+                        this.Show();
+                        m_txt_password.Text = "";
                     }
                 }
             }
-            catch (Exception v_e)
+
+            catch
             {
-                MessageBox.Show("Đã xảy ra lỗi trong quá trình đăng nhập" + v_e);
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
 
             }
-        }
-
-        private bool check_du_lieu()
-        {
-            if (m_txt_password.Text==" "||m_txt_user.Text== " "||m_txt_user.TextLength==0||m_txt_password.TextLength==0)
-            {
-                return false;
-            }
-            if (User.trang_thai_dang_nhap)
-            {
-                return false;
-            }
-            return true;
         }
 
         private void m_cmd_thoat_Click(object sender, EventArgs e)
@@ -84,5 +74,16 @@ namespace TOSApp
                 MessageBox.Show("Đã xảy ra lỗi hệ thống!");
             }
         }
+
+        private void m_txt_user_Click(object sender, EventArgs e)
+        {
+            m_lab_eror.Text = "";
+        }
+
+        private void m_txt_password_Click(object sender, EventArgs e)
+        {
+            m_lab_eror.Text = "";
+        }
+
     }
 }
