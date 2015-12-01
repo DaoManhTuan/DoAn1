@@ -155,5 +155,9 @@ namespace TOSApp.DanhMuc
             return true;
         }
 
+        private void panel14_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

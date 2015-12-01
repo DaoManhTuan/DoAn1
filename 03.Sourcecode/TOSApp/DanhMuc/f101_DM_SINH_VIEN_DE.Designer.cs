@@ -338,6 +338,7 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(356, 50);
             this.panel14.TabIndex = 1;
+            this.panel14.Paint += new System.Windows.Forms.PaintEventHandler(this.panel14_Paint);
             // 
             // m_cbo_trang_thai
             // 
