@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DevExpress.XtraBars.Ribbon;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,8 +17,36 @@ namespace TOSApp
         public f999_main()
         {
             InitializeComponent();
+            
+            phan_quyen_user(User.id_nhom);
          
         }
+        
+        private void phan_quyen_user( decimal id_nhom)
+        {
+            
+            US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+            DataSet v_ds = new DataSet();
+            v_ds.Tables.Add(new DataTable());
+            v_us.FillDatasetWithQuery(v_ds, "select * from phan_quyen_nhom_user where trang_thai_hsd=7 and id_nhom =" +id_nhom);
+            ArrayList visiblePages = ribbonControl1.TotalPageCategory.GetVisiblePages();
+
+            foreach (RibbonPage page in visiblePages)
+            {
+                for (int i = 0; i < v_ds.Tables[0].Rows.Count; i++)
+                {
+                    if (page.Name == v_ds.Tables[0].Rows[i]["CONTROL"].ToString())
+                    {
+
+                        page.Visible = false;
+                        break;
+                    }
+                    else page.Visible = true;
+                }
+            }
+            
+        }
+
         private void m_cmd_sinh_vien_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             try
@@ -133,6 +163,14 @@ namespace TOSApp
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
+        }
+
+        private void m_cmd_dang_xuat_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            User.trang_thai_dang_nhap = false;
+          
+            this.Close();
+
         }
     }
 }

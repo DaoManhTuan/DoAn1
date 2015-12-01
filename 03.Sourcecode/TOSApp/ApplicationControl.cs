@@ -34,7 +34,8 @@ namespace TOSApp
             System.Threading.Thread.CurrentThread.CurrentCulture =
                 new System.Globalization.CultureInfo("vi-VN");
             //f100_DM_SINH_VIEN v_f = new f100_DM_SINH_VIEN();
-            f999_main v_f = new f999_main();
+            //f999_main v_f = new f999_main();
+            f000_login v_f = new f000_login();
             v_f.ShowDialog();
         }
     }

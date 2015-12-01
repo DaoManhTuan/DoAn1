@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f999_main));
-            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager();
-            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu();
+            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.m_cmd_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_giang_vien = new DevExpress.XtraBars.BarButtonItem();
@@ -50,32 +51,32 @@
             this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
             this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
             this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
-            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_dang_xuat = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.m_cmd_khoa = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
+            this.m_rb_quan_ky_danh_muc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup8 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.m_rib_dm_khoa = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.m_dm_lop_sinh_vien = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.m_rb_quan_ly_nghiep_vu = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.m_rb_tra_cuu = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup13 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup14 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.m_rb_quan_tri_he_thong = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.m_rd_bao_cao_thong_ke = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup12 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.m_rib_dm_khoa = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.m_dm_lop_sinh_vien = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.m_cmd_khoa = new DevExpress.XtraBars.BarButtonItem();
-            this.m_cmd_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
@@ -115,7 +116,7 @@
             this.barButtonItem15,
             this.barSubItem2,
             this.barSubItem3,
-            this.barButtonItem16,
+            this.m_cmd_dang_xuat,
             this.barButtonItem17,
             this.barButtonItem18,
             this.m_cmd_khoa,
@@ -125,11 +126,11 @@
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.PageHeaderItemLinks.Add(this.barSubItem3);
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.ribbonPage1,
-            this.ribbonPage2,
-            this.ribbonPage5,
-            this.ribbonPage3,
-            this.ribbonPage4});
+            this.m_rb_quan_ky_danh_muc,
+            this.m_rb_quan_ly_nghiep_vu,
+            this.m_rb_tra_cuu,
+            this.m_rb_quan_tri_he_thong,
+            this.m_rd_bao_cao_thong_ke});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.MacOffice;
             this.ribbonControl1.Size = new System.Drawing.Size(1182, 148);
             // 
@@ -270,15 +271,16 @@
             this.barSubItem3.Caption = "barSubItem3";
             this.barSubItem3.Id = 18;
             this.barSubItem3.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem16),
+            new DevExpress.XtraBars.LinkPersistInfo(this.m_cmd_dang_xuat),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem17)});
             this.barSubItem3.Name = "barSubItem3";
             // 
-            // barButtonItem16
+            // m_cmd_dang_xuat
             // 
-            this.barButtonItem16.Caption = "Đăng xuất";
-            this.barButtonItem16.Id = 19;
-            this.barButtonItem16.Name = "barButtonItem16";
+            this.m_cmd_dang_xuat.Caption = "Đăng xuất";
+            this.m_cmd_dang_xuat.Id = 19;
+            this.m_cmd_dang_xuat.Name = "m_cmd_dang_xuat";
+            this.m_cmd_dang_xuat.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_dang_xuat_ItemClick);
             // 
             // barButtonItem17
             // 
@@ -292,9 +294,23 @@
             this.barButtonItem18.Id = 21;
             this.barButtonItem18.Name = "barButtonItem18";
             // 
-            // ribbonPage1
+            // m_cmd_khoa
             // 
-            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.m_cmd_khoa.Caption = "Khóa";
+            this.m_cmd_khoa.Id = 1;
+            this.m_cmd_khoa.Name = "m_cmd_khoa";
+            this.m_cmd_khoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_khoa_ItemClick);
+            // 
+            // m_cmd_lop_sinh_vien
+            // 
+            this.m_cmd_lop_sinh_vien.Caption = "Lớp sinh viên";
+            this.m_cmd_lop_sinh_vien.Id = 2;
+            this.m_cmd_lop_sinh_vien.Name = "m_cmd_lop_sinh_vien";
+            this.m_cmd_lop_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_lop_sinh_vien_ItemClick);
+            // 
+            // m_rb_quan_ky_danh_muc
+            // 
+            this.m_rb_quan_ky_danh_muc.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1,
             this.ribbonPageGroup4,
             this.ribbonPageGroup5,
@@ -303,9 +319,9 @@
             this.ribbonPageGroup8,
             this.m_rib_dm_khoa,
             this.m_dm_lop_sinh_vien});
-            this.ribbonPage1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage1.Image")));
-            this.ribbonPage1.Name = "ribbonPage1";
-            this.ribbonPage1.Text = "Quản lý danh mục";
+            this.m_rb_quan_ky_danh_muc.Image = ((System.Drawing.Image)(resources.GetObject("m_rb_quan_ky_danh_muc.Image")));
+            this.m_rb_quan_ky_danh_muc.Name = "m_rb_quan_ky_danh_muc";
+            this.m_rb_quan_ky_danh_muc.Text = "Quản lý danh mục";
             // 
             // ribbonPageGroup1
             // 
@@ -349,27 +365,39 @@
             this.ribbonPageGroup8.Name = "ribbonPageGroup8";
             this.ribbonPageGroup8.Text = "Danh mục học kỳ";
             // 
-            // ribbonPage2
+            // m_rib_dm_khoa
             // 
-            this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.m_rib_dm_khoa.ItemLinks.Add(this.m_cmd_khoa);
+            this.m_rib_dm_khoa.Name = "m_rib_dm_khoa";
+            this.m_rib_dm_khoa.Text = "Danh mục khóa";
+            // 
+            // m_dm_lop_sinh_vien
+            // 
+            this.m_dm_lop_sinh_vien.ItemLinks.Add(this.m_cmd_lop_sinh_vien);
+            this.m_dm_lop_sinh_vien.Name = "m_dm_lop_sinh_vien";
+            this.m_dm_lop_sinh_vien.Text = "Danh mục lớp sinh viên";
+            // 
+            // m_rb_quan_ly_nghiep_vu
+            // 
+            this.m_rb_quan_ly_nghiep_vu.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup2});
-            this.ribbonPage2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage2.Image")));
-            this.ribbonPage2.Name = "ribbonPage2";
-            this.ribbonPage2.Text = "Quản lý nghiệp vụ";
+            this.m_rb_quan_ly_nghiep_vu.Image = ((System.Drawing.Image)(resources.GetObject("m_rb_quan_ly_nghiep_vu.Image")));
+            this.m_rb_quan_ly_nghiep_vu.Name = "m_rb_quan_ly_nghiep_vu";
+            this.m_rb_quan_ly_nghiep_vu.Text = "Quản lý nghiệp vụ";
             // 
             // ribbonPageGroup2
             // 
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "ribbonPageGroup2";
             // 
-            // ribbonPage5
+            // m_rb_tra_cuu
             // 
-            this.ribbonPage5.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.m_rb_tra_cuu.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup13,
             this.ribbonPageGroup14});
-            this.ribbonPage5.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage5.Image")));
-            this.ribbonPage5.Name = "ribbonPage5";
-            this.ribbonPage5.Text = "Tra cứu";
+            this.m_rb_tra_cuu.Image = ((System.Drawing.Image)(resources.GetObject("m_rb_tra_cuu.Image")));
+            this.m_rb_tra_cuu.Name = "m_rb_tra_cuu";
+            this.m_rb_tra_cuu.Text = "Tra cứu";
             // 
             // ribbonPageGroup13
             // 
@@ -385,14 +413,14 @@
             this.ribbonPageGroup14.Name = "ribbonPageGroup14";
             this.ribbonPageGroup14.Text = "Điểm thi";
             // 
-            // ribbonPage3
+            // m_rb_quan_tri_he_thong
             // 
-            this.ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.m_rb_quan_tri_he_thong.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup3,
             this.ribbonPageGroup9});
-            this.ribbonPage3.Image = global::TOSApp.Properties.Resources._1448360691_Microsoft_flag;
-            this.ribbonPage3.Name = "ribbonPage3";
-            this.ribbonPage3.Text = "Quản trị hệ thống ";
+            this.m_rb_quan_tri_he_thong.Image = global::TOSApp.Properties.Resources._1448360691_Microsoft_flag;
+            this.m_rb_quan_tri_he_thong.Name = "m_rb_quan_tri_he_thong";
+            this.m_rb_quan_tri_he_thong.Text = "Quản trị hệ thống ";
             // 
             // ribbonPageGroup3
             // 
@@ -408,15 +436,15 @@
             this.ribbonPageGroup9.Name = "ribbonPageGroup9";
             this.ribbonPageGroup9.Text = "Thêm mới tài khoản người dùng";
             // 
-            // ribbonPage4
+            // m_rd_bao_cao_thong_ke
             // 
-            this.ribbonPage4.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.m_rd_bao_cao_thong_ke.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup10,
             this.ribbonPageGroup11,
             this.ribbonPageGroup12});
-            this.ribbonPage4.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage4.Image")));
-            this.ribbonPage4.Name = "ribbonPage4";
-            this.ribbonPage4.Text = "Báo cáo thống kê";
+            this.m_rd_bao_cao_thong_ke.Image = ((System.Drawing.Image)(resources.GetObject("m_rd_bao_cao_thong_ke.Image")));
+            this.m_rd_bao_cao_thong_ke.Name = "m_rd_bao_cao_thong_ke";
+            this.m_rd_bao_cao_thong_ke.Text = "Báo cáo thống kê";
             // 
             // ribbonPageGroup10
             // 
@@ -438,32 +466,6 @@
             this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem11);
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
             this.ribbonPageGroup12.Text = "Danh sách sinh viên nhận học bổng";
-            // 
-            // m_rib_dm_khoa
-            // 
-            this.m_rib_dm_khoa.ItemLinks.Add(this.m_cmd_khoa);
-            this.m_rib_dm_khoa.Name = "m_rib_dm_khoa";
-            this.m_rib_dm_khoa.Text = "Danh mục khóa";
-            // 
-            // m_dm_lop_sinh_vien
-            // 
-            this.m_dm_lop_sinh_vien.ItemLinks.Add(this.m_cmd_lop_sinh_vien);
-            this.m_dm_lop_sinh_vien.Name = "m_dm_lop_sinh_vien";
-            this.m_dm_lop_sinh_vien.Text = "Danh mục lớp sinh viên";
-            // 
-            // m_cmd_khoa
-            // 
-            this.m_cmd_khoa.Caption = "Khóa";
-            this.m_cmd_khoa.Id = 1;
-            this.m_cmd_khoa.Name = "m_cmd_khoa";
-            this.m_cmd_khoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_khoa_ItemClick);
-            // 
-            // m_cmd_lop_sinh_vien
-            // 
-            this.m_cmd_lop_sinh_vien.Caption = "Lớp sinh viên";
-            this.m_cmd_lop_sinh_vien.Id = 2;
-            this.m_cmd_lop_sinh_vien.Name = "m_cmd_lop_sinh_vien";
-            this.m_cmd_lop_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_lop_sinh_vien_ItemClick);
             // 
             // f999_main
             // 
@@ -506,24 +508,24 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem15;
         private DevExpress.XtraBars.BarSubItem barSubItem2;
         private DevExpress.XtraBars.BarSubItem barSubItem3;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem16;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_dang_xuat;
         private DevExpress.XtraBars.BarButtonItem barButtonItem17;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
+        private DevExpress.XtraBars.Ribbon.RibbonPage m_rb_quan_ly_nghiep_vu;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage5;
+        private DevExpress.XtraBars.Ribbon.RibbonPage m_rb_tra_cuu;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup13;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup14;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage3;
+        private DevExpress.XtraBars.Ribbon.RibbonPage m_rb_quan_tri_he_thong;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup9;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
+        private DevExpress.XtraBars.Ribbon.RibbonPage m_rb_quan_ky_danh_muc;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup5;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup6;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup7;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup8;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage4;
+        private DevExpress.XtraBars.Ribbon.RibbonPage m_rd_bao_cao_thong_ke;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup11;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup12;

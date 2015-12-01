@@ -28,31 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.m_txt_mat_khau = new System.Windows.Forms.TextBox();
+            this.m_txt_tai_khoan = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.m_txt_mat_khau_2 = new System.Windows.Forms.TextBox();
+            this.m_cmd_OK = new DevExpress.XtraEditors.SimpleButton();
+            this.m_cmd_thoat = new DevExpress.XtraEditors.SimpleButton();
             this.label4 = new System.Windows.Forms.Label();
+            this.m_rdb_nhan_vien = new System.Windows.Forms.RadioButton();
+            this.m_rdb_sinh_vien = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
-            // textBox2
+            // m_txt_mat_khau
             // 
-            this.textBox2.Location = new System.Drawing.Point(126, 98);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(176, 20);
-            this.textBox2.TabIndex = 5;
+            this.m_txt_mat_khau.Location = new System.Drawing.Point(126, 98);
+            this.m_txt_mat_khau.Name = "m_txt_mat_khau";
+            this.m_txt_mat_khau.PasswordChar = '*';
+            this.m_txt_mat_khau.Size = new System.Drawing.Size(176, 20);
+            this.m_txt_mat_khau.TabIndex = 5;
             // 
-            // textBox1
+            // m_txt_tai_khoan
             // 
-            this.textBox1.Location = new System.Drawing.Point(126, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 20);
-            this.textBox1.TabIndex = 6;
+            this.m_txt_tai_khoan.Location = new System.Drawing.Point(126, 39);
+            this.m_txt_tai_khoan.Name = "m_txt_tai_khoan";
+            this.m_txt_tai_khoan.Size = new System.Drawing.Size(176, 20);
+            this.m_txt_tai_khoan.TabIndex = 6;
             // 
             // label2
             // 
@@ -81,29 +83,31 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Nhập lại mật khẩu";
             // 
-            // textBox3
+            // m_txt_mat_khau_2
             // 
-            this.textBox3.Location = new System.Drawing.Point(126, 143);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PasswordChar = '*';
-            this.textBox3.Size = new System.Drawing.Size(176, 20);
-            this.textBox3.TabIndex = 5;
+            this.m_txt_mat_khau_2.Location = new System.Drawing.Point(126, 143);
+            this.m_txt_mat_khau_2.Name = "m_txt_mat_khau_2";
+            this.m_txt_mat_khau_2.PasswordChar = '*';
+            this.m_txt_mat_khau_2.Size = new System.Drawing.Size(176, 20);
+            this.m_txt_mat_khau_2.TabIndex = 5;
             // 
-            // simpleButton1
+            // m_cmd_OK
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(126, 195);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton1.TabIndex = 7;
-            this.simpleButton1.Text = "Xác nhận";
+            this.m_cmd_OK.Location = new System.Drawing.Point(126, 225);
+            this.m_cmd_OK.Name = "m_cmd_OK";
+            this.m_cmd_OK.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_OK.TabIndex = 7;
+            this.m_cmd_OK.Text = "Xác nhận";
+            this.m_cmd_OK.Click += new System.EventHandler(this.m_cmd_OK_Click);
             // 
-            // simpleButton2
+            // m_cmd_thoat
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(227, 195);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton2.TabIndex = 7;
-            this.simpleButton2.Text = "Thoát";
+            this.m_cmd_thoat.Location = new System.Drawing.Point(227, 225);
+            this.m_cmd_thoat.Name = "m_cmd_thoat";
+            this.m_cmd_thoat.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_thoat.TabIndex = 7;
+            this.m_cmd_thoat.Text = "Thoát";
+            this.m_cmd_thoat.Click += new System.EventHandler(this.m_cmd_thoat_Click);
             // 
             // label4
             // 
@@ -114,21 +118,45 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "<Tài khoản là mã sinh viên>";
             // 
-            // f0001_register
+            // m_rdb_nhan_vien
+            // 
+            this.m_rdb_nhan_vien.AutoSize = true;
+            this.m_rdb_nhan_vien.Location = new System.Drawing.Point(126, 182);
+            this.m_rdb_nhan_vien.Name = "m_rdb_nhan_vien";
+            this.m_rdb_nhan_vien.Size = new System.Drawing.Size(74, 17);
+            this.m_rdb_nhan_vien.TabIndex = 9;
+            this.m_rdb_nhan_vien.TabStop = true;
+            this.m_rdb_nhan_vien.Text = "Nhân viên";
+            this.m_rdb_nhan_vien.UseVisualStyleBackColor = true;
+            // 
+            // m_rdb_sinh_vien
+            // 
+            this.m_rdb_sinh_vien.AutoSize = true;
+            this.m_rdb_sinh_vien.Location = new System.Drawing.Point(227, 182);
+            this.m_rdb_sinh_vien.Name = "m_rdb_sinh_vien";
+            this.m_rdb_sinh_vien.Size = new System.Drawing.Size(69, 17);
+            this.m_rdb_sinh_vien.TabIndex = 9;
+            this.m_rdb_sinh_vien.TabStop = true;
+            this.m_rdb_sinh_vien.Text = "Sinh viên";
+            this.m_rdb_sinh_vien.UseVisualStyleBackColor = true;
+            // 
+            // f001_register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 241);
+            this.ClientSize = new System.Drawing.Size(340, 271);
+            this.Controls.Add(this.m_rdb_sinh_vien);
+            this.Controls.Add(this.m_rdb_nhan_vien);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.m_cmd_thoat);
+            this.Controls.Add(this.m_cmd_OK);
+            this.Controls.Add(this.m_txt_mat_khau_2);
+            this.Controls.Add(this.m_txt_mat_khau);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.m_txt_tai_khoan);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "f0001_register";
+            this.Name = "f001_register";
             this.Text = "f0001_register";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -137,14 +165,16 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox m_txt_mat_khau;
+        private System.Windows.Forms.TextBox m_txt_tai_khoan;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private System.Windows.Forms.TextBox m_txt_mat_khau_2;
+        private DevExpress.XtraEditors.SimpleButton m_cmd_OK;
+        private DevExpress.XtraEditors.SimpleButton m_cmd_thoat;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RadioButton m_rdb_nhan_vien;
+        private System.Windows.Forms.RadioButton m_rdb_sinh_vien;
     }
 }
