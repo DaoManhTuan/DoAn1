@@ -41,11 +41,11 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.m_txt_nam_bat_dau = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.m_txt_khoa = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.m_txt_nam_bat_dau = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_khoa)).BeginInit();
@@ -133,7 +133,10 @@
             this.m_grvcol_nam_bat_dau});
             this.m_grv_dm_khoa.GridControl = this.m_grc_dm_khoa;
             this.m_grv_dm_khoa.Name = "m_grv_dm_khoa";
+            this.m_grv_dm_khoa.OptionsBehavior.Editable = false;
+            this.m_grv_dm_khoa.OptionsBehavior.ReadOnly = true;
             this.m_grv_dm_khoa.OptionsFind.AlwaysVisible = true;
+            this.m_grv_dm_khoa.OptionsView.ShowAutoFilterRow = true;
             this.m_grv_dm_khoa.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.m_grv_dm_khoa_FocusedRowChanged);
             // 
             // m_grvcol_khoa
@@ -189,6 +192,15 @@
             this.panel2.Size = new System.Drawing.Size(391, 56);
             this.panel2.TabIndex = 1;
             // 
+            // m_txt_nam_bat_dau
+            // 
+            this.m_txt_nam_bat_dau.Location = new System.Drawing.Point(114, 18);
+            this.m_txt_nam_bat_dau.MaxLength = 4;
+            this.m_txt_nam_bat_dau.Name = "m_txt_nam_bat_dau";
+            this.m_txt_nam_bat_dau.Size = new System.Drawing.Size(149, 20);
+            this.m_txt_nam_bat_dau.TabIndex = 1;
+            this.m_txt_nam_bat_dau.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_nam_bat_dau_KeyPress);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -224,15 +236,6 @@
             this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Khóa";
-            // 
-            // m_txt_nam_bat_dau
-            // 
-            this.m_txt_nam_bat_dau.Location = new System.Drawing.Point(114, 18);
-            this.m_txt_nam_bat_dau.MaxLength = 4;
-            this.m_txt_nam_bat_dau.Name = "m_txt_nam_bat_dau";
-            this.m_txt_nam_bat_dau.Size = new System.Drawing.Size(149, 20);
-            this.m_txt_nam_bat_dau.TabIndex = 1;
-            this.m_txt_nam_bat_dau.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_nam_bat_dau_KeyPress);
             // 
             // f900_DM_KHOA
             // 

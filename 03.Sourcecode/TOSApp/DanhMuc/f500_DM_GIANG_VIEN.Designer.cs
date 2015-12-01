@@ -368,7 +368,10 @@
             this.gridColumn3});
             this.m_grv_dm_giang_vien.GridControl = this.m_grc_dm_giang_vien;
             this.m_grv_dm_giang_vien.Name = "m_grv_dm_giang_vien";
+            this.m_grv_dm_giang_vien.OptionsBehavior.Editable = false;
+            this.m_grv_dm_giang_vien.OptionsBehavior.ReadOnly = true;
             this.m_grv_dm_giang_vien.OptionsFind.AlwaysVisible = true;
+            this.m_grv_dm_giang_vien.OptionsView.ShowAutoFilterRow = true;
             this.m_grv_dm_giang_vien.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.m_grv_dm_giang_vien_FocusedRowChanged);
             // 
             // MA_GIANG_VIEN

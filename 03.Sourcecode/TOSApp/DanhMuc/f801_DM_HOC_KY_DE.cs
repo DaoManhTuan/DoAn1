@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using IPCOREUS;
+using IP.Core.IPCommon;
 
 namespace TOSApp.DanhMuc
 {
@@ -16,13 +18,71 @@ namespace TOSApp.DanhMuc
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void m_cmd_cancel_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void m_cmd_ok_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (check_du_lieu_truoc_luu())
+                {
+                    US_DM_HOC_KY v_us = new US_DM_HOC_KY();
+                    v_us.dcTRANG_THAI_HSD = 7;
+                    v_us.dcNAM_HOC_BAT_DAU = CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text);
+                    v_us.dcNAM_HOC_KET_THUC = CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text);
+                    v_us.strMA_HOC_KY = m_txt_ma_hoc_ky.Text;
+                    v_us.Insert();
+                    this.Close();
+                    MessageBox.Show("Thêm thành công học kỳ:"+m_txt_ma_hoc_ky.Text);
+                }
+            }
+            catch (Exception v)
+            {
+                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
+            }
         }
+
+        private bool check_du_lieu_truoc_luu()
+        {
+            if (m_txt_ma_hoc_ky.Text == " " || m_txt_nam_bat_dau.Text == " " || m_txt_nam_ket_thuc.Text == " ")
+            {
+                MessageBox.Show("Dữ liệu chưa chính xác!");
+                return false;
+            }
+            if (m_txt_nam_ket_thuc.Text.Contains(" ") || m_txt_nam_bat_dau.Text.Contains(" "))
+            {
+                return false;
+            }
+            if (CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text) < 2010 || CIPConvert.ToDecimal(m_txt_nam_bat_dau.Text) > 2020)
+            {
+                MessageBox.Show("Năm bắt đầu chưa chính xác phải nằm trong 2010 -2020");
+                return false;
+            }
+            if (CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text) < 2010 || CIPConvert.ToDecimal(m_txt_nam_ket_thuc.Text) > 2020)
+            {
+                MessageBox.Show("Năm kết thúc chưa chính xác phải nằm trong 1930 -1994");
+                return false;
+            }
+            return true;
+        }
+
+        private void m_txt_nam_hoc_bat_dau_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
+        }
+
+        private void m_txt_nam_hoc_ket_thuc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
+        }
+
+      
+
+      
     }
 }

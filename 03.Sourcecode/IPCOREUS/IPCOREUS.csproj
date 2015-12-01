@@ -128,6 +128,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="US_DM_GIANG_VIEN.cs" />
+    <Compile Include="US_DM_HOC_KY.cs" />
     <Compile Include="US_DM_HOC_PHAN.cs" />
     <Compile Include="US_DM_KHOA.cs" />
     <Compile Include="US_DM_KHOA_VIEN.cs" />

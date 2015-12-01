@@ -7,8 +7,15 @@ using System.Configuration;
 
 namespace IPCOREDS.CDBNames
 {
-    
 
+    public class dm_hoc_ky
+    {
+        public const string ID = "ID";
+        public const string MA_HOC_KY = "MA_HOC_KY";
+        public const string NAM_HOC_BAT_DAU = "NAM_HOC_BAT_DAU";
+        public const string NAM_HOC_KET_THUC = "NAM_HOC_KET_THUC";
+        public const string TRANG_THAI_HSD = "TRANG_THAI_HSD";
+    }
     public class DM_SINH_VIEN
     {
         public const string ID = "ID";

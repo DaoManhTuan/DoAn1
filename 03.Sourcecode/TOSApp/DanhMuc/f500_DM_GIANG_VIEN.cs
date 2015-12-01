@@ -130,9 +130,14 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                if (check_du_lieu_dau_vao())
+                DataRow v_dr = m_grv_dm_giang_vien.GetDataRow(m_grv_dm_giang_vien.FocusedRowHandle);
+                if (v_dr==null)
                 {
-                    US_DM_GIANG_VIEN v_us = new US_DM_GIANG_VIEN(CIPConvert.ToDecimal(m_dr["ID"].ToString()));
+                    MessageBox.Show("Hãy chọn 1 dòng dữ liệu!");
+                }
+                if (check_du_lieu_dau_vao()&& v_dr!=null)
+                {
+                    US_DM_GIANG_VIEN v_us = new US_DM_GIANG_VIEN(CIPConvert.ToDecimal(v_dr["ID"].ToString()));
                     v_us.strTEN_GIANG_VIEN = m_txt_ho_ten_GV.Text;
                     v_us.strSDT = m_txt_so_dien_thoai.Text;
                     v_us.strQUE_QUAN = m_txt_que_quan.Text;
