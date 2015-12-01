@@ -120,6 +120,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_DM_GIANG_VIEN.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_DM_HOC_PHAN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_HOC_PHAN.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_DM_KHOA.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -163,6 +168,17 @@
     </None>
     <None Include="DS_DM_GIANG_VIEN.xss">
       <DependentUpon>DS_DM_GIANG_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_HOC_PHAN.xsc">
+      <DependentUpon>DS_DM_HOC_PHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_HOC_PHAN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_HOC_PHAN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_HOC_PHAN.xss">
+      <DependentUpon>DS_DM_HOC_PHAN.xsd</DependentUpon>
     </None>
     <None Include="DS_DM_KHOA.xsc">
       <DependentUpon>DS_DM_KHOA.xsd</DependentUpon>
@@ -240,6 +256,16 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IPBusinessService\IPBusinessService.vbproj">
+      <Project>{73ca732c-2cfb-4a14-b0b9-f43763b1c2f3}</Project>
+      <Name>IPBusinessService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IPCommon\IPCommon.vbproj">
+      <Project>{2a74f1d1-c0ee-41fe-a708-a83b285accf2}</Project>
+      <Name>IPCommon</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

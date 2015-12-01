@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f999_main));
-            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.m_cmd_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_giang_vien = new DevExpress.XtraBars.BarButtonItem();
@@ -73,6 +72,10 @@
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup12 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.m_rib_dm_khoa = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.m_dm_lop_sinh_vien = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.m_cmd_khoa = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
@@ -114,9 +117,11 @@
             this.barSubItem3,
             this.barButtonItem16,
             this.barButtonItem17,
-            this.barButtonItem18});
+            this.barButtonItem18,
+            this.m_cmd_khoa,
+            this.m_cmd_lop_sinh_vien});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 1;
+            this.ribbonControl1.MaxItemId = 3;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.PageHeaderItemLinks.Add(this.barSubItem3);
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -295,7 +300,9 @@
             this.ribbonPageGroup5,
             this.ribbonPageGroup6,
             this.ribbonPageGroup7,
-            this.ribbonPageGroup8});
+            this.ribbonPageGroup8,
+            this.m_rib_dm_khoa,
+            this.m_dm_lop_sinh_vien});
             this.ribbonPage1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage1.Image")));
             this.ribbonPage1.Name = "ribbonPage1";
             this.ribbonPage1.Text = "Quản lý danh mục";
@@ -432,6 +439,32 @@
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
             this.ribbonPageGroup12.Text = "Danh sách sinh viên nhận học bổng";
             // 
+            // m_rib_dm_khoa
+            // 
+            this.m_rib_dm_khoa.ItemLinks.Add(this.m_cmd_khoa);
+            this.m_rib_dm_khoa.Name = "m_rib_dm_khoa";
+            this.m_rib_dm_khoa.Text = "Danh mục khóa";
+            // 
+            // m_dm_lop_sinh_vien
+            // 
+            this.m_dm_lop_sinh_vien.ItemLinks.Add(this.m_cmd_lop_sinh_vien);
+            this.m_dm_lop_sinh_vien.Name = "m_dm_lop_sinh_vien";
+            this.m_dm_lop_sinh_vien.Text = "Danh mục lớp sinh viên";
+            // 
+            // m_cmd_khoa
+            // 
+            this.m_cmd_khoa.Caption = "Khóa";
+            this.m_cmd_khoa.Id = 1;
+            this.m_cmd_khoa.Name = "m_cmd_khoa";
+            this.m_cmd_khoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_khoa_ItemClick);
+            // 
+            // m_cmd_lop_sinh_vien
+            // 
+            this.m_cmd_lop_sinh_vien.Caption = "Lớp sinh viên";
+            this.m_cmd_lop_sinh_vien.Id = 2;
+            this.m_cmd_lop_sinh_vien.Name = "m_cmd_lop_sinh_vien";
+            this.m_cmd_lop_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_lop_sinh_vien_ItemClick);
+            // 
             // f999_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -495,5 +528,9 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup11;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup12;
         private DevExpress.XtraBars.BarButtonItem barButtonItem18;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_khoa;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_lop_sinh_vien;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_rib_dm_khoa;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_dm_lop_sinh_vien;
     }
 }

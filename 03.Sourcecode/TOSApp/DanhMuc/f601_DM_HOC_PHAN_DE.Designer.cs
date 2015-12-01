@@ -28,33 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f601_DM_HOC_PHAN_DE));
+            this.m_txt_ten_hoc_phan = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.m_cbo_khoa_vien = new System.Windows.Forms.ComboBox();
+            this.m_txt_so_tin_chi_hoc_phan = new System.Windows.Forms.TextBox();
+            this.m_txt_so_tin_chi_hoc_phi = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.m_txt_ma_hoc_phan = new System.Windows.Forms.TextBox();
+            this.m_txt_trong_so = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.m_cmd_thoat = new DevExpress.XtraEditors.SimpleButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.m_cmd_ok = new DevExpress.XtraEditors.SimpleButton();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox2
+            // m_txt_ten_hoc_phan
             // 
-            this.textBox2.Location = new System.Drawing.Point(169, 87);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 43);
-            this.textBox2.TabIndex = 1;
+            this.m_txt_ten_hoc_phan.Location = new System.Drawing.Point(169, 87);
+            this.m_txt_ten_hoc_phan.Multiline = true;
+            this.m_txt_ten_hoc_phan.Name = "m_txt_ten_hoc_phan";
+            this.m_txt_ten_hoc_phan.Size = new System.Drawing.Size(180, 43);
+            this.m_txt_ten_hoc_phan.TabIndex = 1;
             // 
             // label2
             // 
@@ -68,7 +69,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 15);
+            this.label1.Location = new System.Drawing.Point(34, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 13);
             this.label1.TabIndex = 0;
@@ -76,12 +77,14 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.comboBoxEdit2);
-            this.panel2.Controls.Add(this.comboBoxEdit1);
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.m_cbo_khoa_vien);
+            this.panel2.Controls.Add(this.m_txt_so_tin_chi_hoc_phan);
+            this.panel2.Controls.Add(this.m_txt_so_tin_chi_hoc_phi);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.m_txt_ten_hoc_phan);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.textBox4);
+            this.panel2.Controls.Add(this.m_txt_ma_hoc_phan);
+            this.panel2.Controls.Add(this.m_txt_trong_so);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
@@ -89,54 +92,70 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(396, 255);
+            this.panel2.Size = new System.Drawing.Size(396, 268);
             this.panel2.TabIndex = 7;
             // 
-            // comboBoxEdit2
+            // m_cbo_khoa_vien
             // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(169, 144);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(180, 20);
-            this.comboBoxEdit2.TabIndex = 2;
+            this.m_cbo_khoa_vien.FormattingEnabled = true;
+            this.m_cbo_khoa_vien.Location = new System.Drawing.Point(169, 16);
+            this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
+            this.m_cbo_khoa_vien.Size = new System.Drawing.Size(180, 21);
+            this.m_cbo_khoa_vien.TabIndex = 6;
             // 
-            // comboBoxEdit1
+            // m_txt_so_tin_chi_hoc_phan
             // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(169, 54);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(180, 20);
-            this.comboBoxEdit1.TabIndex = 2;
+            this.m_txt_so_tin_chi_hoc_phan.Location = new System.Drawing.Point(169, 145);
+            this.m_txt_so_tin_chi_hoc_phan.Name = "m_txt_so_tin_chi_hoc_phan";
+            this.m_txt_so_tin_chi_hoc_phan.Size = new System.Drawing.Size(180, 20);
+            this.m_txt_so_tin_chi_hoc_phan.TabIndex = 5;
+            this.m_txt_so_tin_chi_hoc_phan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_so_tin_chi_hoc_phan_KeyPress);
             // 
-            // textBox1
+            // m_txt_so_tin_chi_hoc_phi
             // 
-            this.textBox1.Location = new System.Drawing.Point(169, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 20);
-            this.textBox1.TabIndex = 1;
+            this.m_txt_so_tin_chi_hoc_phi.Location = new System.Drawing.Point(169, 187);
+            this.m_txt_so_tin_chi_hoc_phi.Name = "m_txt_so_tin_chi_hoc_phi";
+            this.m_txt_so_tin_chi_hoc_phi.Size = new System.Drawing.Size(180, 20);
+            this.m_txt_so_tin_chi_hoc_phi.TabIndex = 4;
+            this.m_txt_so_tin_chi_hoc_phi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_so_tin_chi_hoc_phi_KeyPress);
             // 
-            // textBox4
+            // label6
             // 
-            this.textBox4.Location = new System.Drawing.Point(169, 184);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(180, 20);
-            this.textBox4.TabIndex = 1;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(34, 190);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(93, 13);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Số tín chỉ học phí";
+            // 
+            // m_txt_ma_hoc_phan
+            // 
+            this.m_txt_ma_hoc_phan.Location = new System.Drawing.Point(169, 51);
+            this.m_txt_ma_hoc_phan.Name = "m_txt_ma_hoc_phan";
+            this.m_txt_ma_hoc_phan.Size = new System.Drawing.Size(180, 20);
+            this.m_txt_ma_hoc_phan.TabIndex = 1;
+            // 
+            // m_txt_trong_so
+            // 
+            this.m_txt_trong_so.Location = new System.Drawing.Point(169, 227);
+            this.m_txt_trong_so.Name = "m_txt_trong_so";
+            this.m_txt_trong_so.Size = new System.Drawing.Size(180, 20);
+            this.m_txt_trong_so.TabIndex = 1;
+            this.m_txt_trong_so.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_trong_so_KeyPress);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(34, 191);
+            this.label5.Location = new System.Drawing.Point(34, 234);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 13);
+            this.label5.Size = new System.Drawing.Size(49, 13);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Hệ số điểm quá trình";
+            this.label5.Text = "Trọng số";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 151);
+            this.label4.Location = new System.Drawing.Point(34, 19);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 13);
             this.label4.TabIndex = 0;
@@ -145,51 +164,54 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(34, 57);
+            this.label3.Location = new System.Drawing.Point(34, 152);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Số tín chỉ học phần";
             // 
-            // simpleButton2
+            // m_cmd_thoat
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(274, 25);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton2.TabIndex = 0;
-            this.simpleButton2.Text = "Cancel";
+            this.m_cmd_thoat.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_thoat.Image")));
+            this.m_cmd_thoat.Location = new System.Drawing.Point(274, 25);
+            this.m_cmd_thoat.Name = "m_cmd_thoat";
+            this.m_cmd_thoat.Size = new System.Drawing.Size(75, 33);
+            this.m_cmd_thoat.TabIndex = 0;
+            this.m_cmd_thoat.Text = "Thoát";
+            this.m_cmd_thoat.Click += new System.EventHandler(this.m_cmd_thoat_Click);
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.simpleButton2);
-            this.panel1.Controls.Add(this.simpleButton1);
+            this.panel1.Controls.Add(this.m_cmd_thoat);
+            this.panel1.Controls.Add(this.m_cmd_ok);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 255);
+            this.panel1.Location = new System.Drawing.Point(0, 268);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(396, 70);
             this.panel1.TabIndex = 6;
             // 
-            // simpleButton1
+            // m_cmd_ok
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(169, 25);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton1.TabIndex = 0;
-            this.simpleButton1.Text = "OK";
+            this.m_cmd_ok.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_ok.Image")));
+            this.m_cmd_ok.Location = new System.Drawing.Point(169, 25);
+            this.m_cmd_ok.Name = "m_cmd_ok";
+            this.m_cmd_ok.Size = new System.Drawing.Size(75, 33);
+            this.m_cmd_ok.TabIndex = 0;
+            this.m_cmd_ok.Text = "OK";
+            this.m_cmd_ok.Click += new System.EventHandler(this.m_cmd_ok_Click);
             // 
             // f601_DM_HOC_PHAN_DE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 325);
+            this.ClientSize = new System.Drawing.Size(396, 338);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "f601_DM_HOC_PHAN_DE";
             this.Text = "f601_DM_HOC_PHAN_DE";
+            this.Load += new System.EventHandler(this.f601_DM_HOC_PHAN_DE_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -197,19 +219,21 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox m_txt_ten_hoc_phan;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton m_cmd_thoat;
         private System.Windows.Forms.Panel panel1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
+        private DevExpress.XtraEditors.SimpleButton m_cmd_ok;
         private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox m_txt_trong_so;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox m_txt_ma_hoc_phan;
+        private System.Windows.Forms.TextBox m_txt_so_tin_chi_hoc_phi;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox m_txt_so_tin_chi_hoc_phan;
+        private System.Windows.Forms.ComboBox m_cbo_khoa_vien;
     }
 }
