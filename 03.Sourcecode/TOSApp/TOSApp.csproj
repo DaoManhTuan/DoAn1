@@ -377,6 +377,24 @@
     <Compile Include="HeThong\f1000_thong_tin_nguoi_dung.Designer.cs">
       <DependentUpon>f1000_thong_tin_nguoi_dung.cs</DependentUpon>
     </Compile>
+    <Compile Include="NghiepVu\f100_quan_ly_diem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NghiepVu\f100_quan_ly_diem.Designer.cs">
+      <DependentUpon>f100_quan_ly_diem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NghiepVu\f200_xu_ly_diem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NghiepVu\f200_xu_ly_diem.Designer.cs">
+      <DependentUpon>f200_xu_ly_diem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NghiepVu\f300_tra_cuu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NghiepVu\f300_tra_cuu.Designer.cs">
+      <DependentUpon>f300_tra_cuu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.cs">
@@ -454,6 +472,9 @@
       <DependentUpon>f1000_thong_tin_nguoi_dung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="NghiepVu\f100_quan_ly_diem.resx">
+      <DependentUpon>f100_quan_ly_diem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -514,7 +535,6 @@
   <ItemGroup>
     <Folder Include="BaoCao\" />
     <Folder Include="bin\Release\" />
-    <Folder Include="NghiepVu\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.ico" />

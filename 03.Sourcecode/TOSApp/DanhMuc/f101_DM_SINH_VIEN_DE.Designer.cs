@@ -172,6 +172,7 @@
             // m_txt_ma_so_sinh_vien
             // 
             this.m_txt_ma_so_sinh_vien.Location = new System.Drawing.Point(110, 15);
+            this.m_txt_ma_so_sinh_vien.MaxLength = 8;
             this.m_txt_ma_so_sinh_vien.Name = "m_txt_ma_so_sinh_vien";
             this.m_txt_ma_so_sinh_vien.Size = new System.Drawing.Size(222, 20);
             this.m_txt_ma_so_sinh_vien.TabIndex = 1;
@@ -225,6 +226,7 @@
             // m_txt_so_dien_thoai
             // 
             this.m_txt_so_dien_thoai.Location = new System.Drawing.Point(115, 14);
+            this.m_txt_so_dien_thoai.MaxLength = 11;
             this.m_txt_so_dien_thoai.Name = "m_txt_so_dien_thoai";
             this.m_txt_so_dien_thoai.Size = new System.Drawing.Size(222, 20);
             this.m_txt_so_dien_thoai.TabIndex = 9;
@@ -343,7 +345,6 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(356, 50);
             this.panel14.TabIndex = 1;
-            this.panel14.Paint += new System.Windows.Forms.PaintEventHandler(this.panel14_Paint);
             // 
             // m_cbo_trang_thai
             // 

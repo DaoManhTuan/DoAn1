@@ -17,8 +17,9 @@ namespace TOSApp.DanhMuc
         {
             InitializeComponent();
         }
-
+        
         bool m_bl_check = false;
+
         private void f101_DM_SINH_VIEN_DE_Load(object sender, EventArgs e)
         {
             try
@@ -85,7 +86,6 @@ namespace TOSApp.DanhMuc
             }
         }
 
-
         private void m_cmd_Cancel_Click(object sender, EventArgs e)
         {
             try
@@ -103,7 +103,7 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                if (check_du_lieu_truoc_luu() == true)
+                if (check_du_lieu_truoc_luu())
                 {
                     US_DM_SINH_VIEN v_us = new US_DM_SINH_VIEN();
                     v_us.strMA_SINH_VIEN = m_txt_ma_so_sinh_vien.Text;
@@ -155,11 +155,7 @@ namespace TOSApp.DanhMuc
             return true;
         }
 
-        private void panel14_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
+        
         private void m_txt_so_dien_thoai_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
@@ -171,5 +167,6 @@ namespace TOSApp.DanhMuc
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
                 e.Handled = true;
         }
+
     }
 }

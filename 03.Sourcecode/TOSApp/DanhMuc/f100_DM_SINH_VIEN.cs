@@ -57,6 +57,7 @@ namespace TOSApp.DanhMuc
             v_us.FillDatasetWithTableName(v_ds, "V_DM_SINH_VIEN");
             m_grc_dm_sinh_vien.DataSource = v_ds.Tables[0];
             load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
+            
         }
 
         private void m_cmd_thoat_Click(object sender, EventArgs e)
@@ -150,7 +151,6 @@ namespace TOSApp.DanhMuc
                     {
                         //update DM sinh viên
                         US_DM_SINH_VIEN v_us = new US_DM_SINH_VIEN(CIPConvert.ToDecimal(v_dr["ID"].ToString()));
-
                         v_us.strMA_SINH_VIEN = m_txt_ma_so_sinh_vien.Text;
                         v_us.strTEN_SINH_VIEN = m_txt_ho_ten_sinh_vien.Text;
                         v_us.strSDT = m_txt_so_dien_thoai.Text;
@@ -164,7 +164,6 @@ namespace TOSApp.DanhMuc
                         v_us.dcID_LOP_SINH_VIEN = CIPConvert.ToDecimal(m_cbo_lop_sinh_vien.SelectedValue);
                         v_us.dcTRANG_THAI = CIPConvert.ToDecimal(m_cbo_trang_thai.SelectedValue);
                         v_us.Update();
-
                         MessageBox.Show("Cập nhật thành công!");
                         load_data_2_grid();
                     }
@@ -296,6 +295,5 @@ namespace TOSApp.DanhMuc
                 e.Handled = true;
         }
 
-       
     }
 }

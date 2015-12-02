@@ -37,7 +37,7 @@ namespace TOSApp
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithQuery(v_ds, "select * from phan_quyen_nhom_user where trang_thai_hsd=7 and id_nhom =" +id_nhom);
-            ArrayList visiblePages = ribbonControl1.TotalPageCategory.GetVisiblePages();
+            ArrayList visiblePages = m_rib_main.TotalPageCategory.GetVisiblePages();
 
             foreach (RibbonPage page in visiblePages)
             {
@@ -56,6 +56,7 @@ namespace TOSApp
             
            
         }
+
         public bool IsFormOpen(Form checkForm)
         {
             foreach (Form form in Application.OpenForms)
@@ -99,6 +100,7 @@ namespace TOSApp
                 else
                 {
                     f500.Focus();
+
                 }
             }
             catch
@@ -112,7 +114,6 @@ namespace TOSApp
         {
             try
             {
-
                 if (f400 == null || !IsFormOpen(f400))
                 {
                     f400 = new f400_DM_KHOA_VIEN();
@@ -274,6 +275,21 @@ namespace TOSApp
 
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
+        }
+
+        private void m_cmd_xu_ly_diem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void m_cmd_quan_ly_diem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
         }
 
        

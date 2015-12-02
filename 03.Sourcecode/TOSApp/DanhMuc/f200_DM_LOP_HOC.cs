@@ -19,11 +19,10 @@ namespace TOSApp.DanhMuc
         {
             InitializeComponent();
         }
-        DataRow m_dr;
         private void load_data_2_cbo()
         {
             load_data_2_cbo_hoc_phan();
-            //load_data_2_cbo_giang_vien();
+            load_data_2_cbo_giang_vien();
             load_data_2_cbo_hoc_ky();
         }
 
@@ -32,15 +31,17 @@ namespace TOSApp.DanhMuc
             WinFormControls.load_data_to_combobox("DM_HOC_KY", "ID", "MA_HOC_KY", " where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_hoc_ky);
         }
 
-        //private void load_data_2_cbo_giang_vien()
-        //{
-        //    WinFormControls.load_data_to_combobox("DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
-        //}
+        private void load_data_2_cbo_giang_vien()
+        {
+            WinFormControls.load_data_to_combobox("DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
+        }
 
         private void load_data_2_cbo_hoc_phan()
         {
             WinFormControls.load_data_to_combobox("DM_HOC_PHAN", "ID", "TEN_HOC_PHAN", " where trang_thai_hsd= 7", WinFormControls.eTAT_CA.NO, m_cbo_hoc_phan);
+
         }
+
         private void load_data_2_grid()
         {
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
@@ -68,11 +69,12 @@ namespace TOSApp.DanhMuc
                 Point pt = view.GridControl.PointToClient(Control.MousePosition);
                 DoRowClick(view, pt);
             }
-            catch (Exception v_e)
+            catch
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
+
         private void DoRowClick(GridView view, Point pt)
         {
             GridHitInfo info = view.CalcHitInfo(pt);
@@ -86,7 +88,6 @@ namespace TOSApp.DanhMuc
 
         private void load_data_2_thong_tin_chi_tiet(DataRow v_dr)
         {
-            m_dr = v_dr;
             US_V_DM_LOP_HOC v_us = new US_V_DM_LOP_HOC((decimal)v_dr["ID"]);
             m_txt_ma_lop_hoc.Text = v_us.strMA_LOP_HOC;
             m_cbo_hoc_phan.SelectedValue = (decimal)v_us.dcID_HOC_PHAN;
@@ -115,10 +116,10 @@ namespace TOSApp.DanhMuc
                 }
                 else
                 {
-                    MessageBox.Show("Hãy chọn giảng viên cần xóa!");
+                    MessageBox.Show("Hãy chọn lớp học cần xóa!");
                 }
             }
-            catch (Exception v_e)
+            catch
             {
                 MessageBox.Show("Đã xảy ra lỗi hệ thống!");
             }
@@ -128,38 +129,46 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                if (check_du_lieu_truoc_khi_luu())
+                DataRow v_dr = m_grv_dm_lop_hoc.GetDataRow(m_grv_dm_lop_hoc.FocusedRowHandle);
+                if( v_dr == null)
                 {
-                    US_DM_LOP_HOC v_us = new US_DM_LOP_HOC((decimal)m_dr["ID"]);
-                    v_us.strMA_LOP_HOC = m_txt_ma_lop_hoc.Text;
-                    v_us.dcID_GIANG_VIEN = (decimal)m_cbo_giang_vien.SelectedValue;
-                    v_us.dcID_HOC_PHAN = (decimal)m_cbo_hoc_phan.SelectedValue;
-                    v_us.dcID_HOC_KY = (decimal)m_cbo_hoc_ky.SelectedValue;
-                    v_us.Update();
-                    MessageBox.Show("Cập nhật thành công");
-                    load_data_2_grid();
+                    MessageBox.Show("Chọn 1 dòng!");
+                }
+                else
+                {
+                    if (check_du_lieu_truoc_khi_luu(v_dr))
+                    {
+                        US_DM_LOP_HOC v_us = new US_DM_LOP_HOC((decimal)v_dr["ID"]);
+                        v_us.strMA_LOP_HOC = m_txt_ma_lop_hoc.Text;
+                        v_us.dcID_GIANG_VIEN = (decimal)m_cbo_giang_vien.SelectedValue;
+                        v_us.dcID_HOC_PHAN = (decimal)m_cbo_hoc_phan.SelectedValue;
+                        v_us.dcID_HOC_KY = (decimal)m_cbo_hoc_ky.SelectedValue;
+                        v_us.Update();
+                        MessageBox.Show("Cập nhật thành công");
+                        load_data_2_grid();
+                    }
                 }
             }
-            catch (Exception v)
+            catch
             {
-                MessageBox.Show("Đã xảy ra lỗi");
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống");
             }
         }
 
-        private bool check_du_lieu_truoc_khi_luu()
+        private bool check_du_lieu_truoc_khi_luu(DataRow v_dr)
         {
             if (m_txt_ma_hoc_phan.Text == "" || m_txt_ma_lop_hoc.Text == "")
             {
                 return false;
             }
-            if (m_txt_ma_lop_hoc.Text == m_dr["MA_LOP_HOC"].ToString())
+            if (m_txt_ma_lop_hoc.Text == v_dr["MA_LOP_HOC"].ToString())
             {
                 return true;
             }
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithQuery(v_ds, "select * from dm_lop_hoc where ma_lop_hoc=" + m_txt_ma_lop_hoc.Text);
+            v_us.FillDatasetWithQuery(v_ds, "select * from dm_lop_hoc where ma_lop_hoc = '" + m_txt_ma_lop_hoc.Text+"'");
 
             if (v_ds.Tables[0].Rows.Count > 0)
             {
@@ -177,9 +186,9 @@ namespace TOSApp.DanhMuc
                 f201.ShowDialog();
                 load_data_2_grid();
             }
-            catch (Exception v_e)
+            catch
             {
-                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
 
@@ -188,5 +197,9 @@ namespace TOSApp.DanhMuc
             load_data_2_cbo();
             load_data_2_grid();
         }
+
+       
+
+
     }
 }

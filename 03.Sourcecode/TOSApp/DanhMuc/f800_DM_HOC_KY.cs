@@ -74,6 +74,7 @@ namespace TOSApp.DanhMuc
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
+
         private void DoRowClick(GridView view, Point pt)
         {
             GridHitInfo info = view.CalcHitInfo(pt);

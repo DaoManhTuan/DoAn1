@@ -47,11 +47,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.m_txt_ma_hoc_phan = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.m_cbo_hoc_ky = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.m_cbo_hoc_phan = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -370,15 +370,6 @@
             this.m_txt_ma_hoc_phan.Size = new System.Drawing.Size(211, 20);
             this.m_txt_ma_hoc_phan.TabIndex = 8;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 17);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Mã học phần";
-            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.m_cbo_hoc_ky);
@@ -414,6 +405,15 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(334, 54);
             this.panel8.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Mã học phần";
             // 
             // panel4
             // 

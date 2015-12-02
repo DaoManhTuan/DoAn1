@@ -19,7 +19,8 @@ namespace TOSApp.DanhMuc
         {
             InitializeComponent();
         }
-        private void load_data_2_grid()
+
+        public void load_data_2_grid()
         {
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
@@ -28,11 +29,11 @@ namespace TOSApp.DanhMuc
             m_grc_dm_giang_vien.DataSource = v_ds.Tables[0];
             load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
         }
+
         private void load_data_2_cbo_khoa_vien()
         {            
             WinFormControls.load_data_to_combobox("DM_KHOA_VIEN", "ID", "TEN_KHOA_VIEN", "WHERE TRANG_THAI_HSD = 7", WinFormControls.eTAT_CA.NO, m_cbo_khoa_vien);        
         }
-
 
         private void m_grv_dm_giang_vien_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
         {

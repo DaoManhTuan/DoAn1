@@ -430,6 +430,7 @@
             // 
             this.m_txt_ma_so_sinh_vien.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.m_txt_ma_so_sinh_vien.Location = new System.Drawing.Point(0, 32);
+            this.m_txt_ma_so_sinh_vien.MaxLength = 8;
             this.m_txt_ma_so_sinh_vien.Name = "m_txt_ma_so_sinh_vien";
             this.m_txt_ma_so_sinh_vien.Size = new System.Drawing.Size(229, 20);
             this.m_txt_ma_so_sinh_vien.TabIndex = 1;
