@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // f200_xu_ly_diem
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "f200_xu_ly_diem";
+            this.ClientSize = new System.Drawing.Size(588, 261);
+            this.Name = "f200_xu_ly_diem";
+            this.Text = "Xử lý điểm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
