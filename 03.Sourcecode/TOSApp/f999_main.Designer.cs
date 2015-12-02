@@ -58,7 +58,7 @@
             this.m_cmd_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_quan_ly_diem = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_xu_ly_diem = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_tra_cuu = new DevExpress.XtraBars.BarButtonItem();
             this.m_rb_quan_ky_danh_muc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -128,7 +128,7 @@
             this.m_cmd_lop_sinh_vien,
             this.m_cmd_quan_ly_diem,
             this.m_cmd_xu_ly_diem,
-            this.barButtonItem1});
+            this.m_cmd_tra_cuu});
             this.m_rib_main.Location = new System.Drawing.Point(0, 0);
             this.m_rib_main.MaxItemId = 6;
             this.m_rib_main.Name = "m_rib_main";
@@ -338,14 +338,14 @@
             this.m_cmd_xu_ly_diem.Name = "m_cmd_xu_ly_diem";
             this.m_cmd_xu_ly_diem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_xu_ly_diem_ItemClick);
             // 
-            // barButtonItem1
+            // m_cmd_tra_cuu
             // 
-            this.barButtonItem1.Caption = "Tra cứu";
-            this.barButtonItem1.Glyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.Glyph")));
-            this.barButtonItem1.Id = 5;
-            this.barButtonItem1.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.LargeGlyph")));
-            this.barButtonItem1.Name = "barButtonItem1";
-            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
+            this.m_cmd_tra_cuu.Caption = "Tra cứu";
+            this.m_cmd_tra_cuu.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_tra_cuu.Glyph")));
+            this.m_cmd_tra_cuu.Id = 5;
+            this.m_cmd_tra_cuu.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_tra_cuu.LargeGlyph")));
+            this.m_cmd_tra_cuu.Name = "m_cmd_tra_cuu";
+            this.m_cmd_tra_cuu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_tra_cuu_ItemClick);
             // 
             // m_rb_quan_ky_danh_muc
             // 
@@ -440,7 +440,7 @@
             // 
             // m_rib_tra_cuc
             // 
-            this.m_rib_tra_cuc.ItemLinks.Add(this.barButtonItem1);
+            this.m_rib_tra_cuc.ItemLinks.Add(this.m_cmd_tra_cuu);
             this.m_rib_tra_cuc.Name = "m_rib_tra_cuc";
             this.m_rib_tra_cuc.Text = "Tra cứu";
             // 
@@ -591,7 +591,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_dm_lop_sinh_vien;
         private DevExpress.XtraBars.BarButtonItem m_cmd_quan_ly_diem;
         private DevExpress.XtraBars.BarButtonItem m_cmd_xu_ly_diem;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_tra_cuu;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_rib_xu_ly_diem;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_rib_tra_cuc;
     }

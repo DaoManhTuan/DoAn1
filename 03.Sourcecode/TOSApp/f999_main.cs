@@ -9,7 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using TOSApp.DanhMuc;
-
+using TOSApp.NghiepVu;
+using TOSApp.HeThong;
 namespace TOSApp
 {
     public partial class f999_main : Form
@@ -20,6 +21,7 @@ namespace TOSApp
             phan_quyen_user(User.id_nhom);
          
         }
+        //Form danh mục
         f100_DM_SINH_VIEN f100;
         f500_DM_GIANG_VIEN f500;
         f400_DM_KHOA_VIEN f400;
@@ -28,6 +30,12 @@ namespace TOSApp
         f800_DM_HOC_KY f800;
         f900_DM_KHOA f900;
         f110_DM_LOP_SINH_VIEN f110;
+        // Form nghiệp vụ
+        f100_quan_ly_diem m_f100_quan_ly_diem;
+        f200_xu_ly_diem m_f200_xu_ly_diem;
+        f300_tra_cuu m_f300_tra_cuu;
+        // Form quản trị hệ thống
+        f1000_thong_tin_nguoi_dung f1000;
         List<Control> ControlList = new List<Control>();
 
         private void phan_quyen_user( decimal id_nhom)
@@ -242,8 +250,17 @@ namespace TOSApp
 
         private void m_cmd_dang_xuat_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            User.trang_thai_dang_nhap = false;
-            this.Close();
+            try
+            {
+                User.trang_thai_dang_nhap = false;
+                this.Close();
+            }
+            catch
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+            
 
         }
 
@@ -252,7 +269,7 @@ namespace TOSApp
             try
             {
                 f001_register f001 = new f001_register();
-                f001.Show();
+                f001.ShowDialog();
             }
             catch (Exception)
             {
@@ -266,9 +283,16 @@ namespace TOSApp
            
             try
             {
-                HeThong.f1000_thong_tin_nguoi_dung f1000 = new HeThong.f1000_thong_tin_nguoi_dung();
-                f1000.MdiParent = this;
-                f1000.Show();
+                if (f1000 == null || !IsFormOpen(f1000))
+                {
+                    f1000 = new f1000_thong_tin_nguoi_dung();
+                    f1000.MdiParent = this;
+                    f1000.Show();
+                }
+                else
+                {
+                    f1000.Focus();
+                }
             }
             catch (Exception)
             {
@@ -279,17 +303,68 @@ namespace TOSApp
 
         private void m_cmd_xu_ly_diem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            try
+            {
+                if (m_f200_xu_ly_diem == null || !IsFormOpen(m_f200_xu_ly_diem))
+                {
+                    m_f200_xu_ly_diem = new f200_xu_ly_diem();
+                    m_f200_xu_ly_diem.MdiParent = this;
+                    m_f200_xu_ly_diem.Show();
+                }
+                else
+                {
+                    m_f200_xu_ly_diem.Focus();
+                }
+            }
+            catch (Exception)
+            {
 
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
         }
 
         private void m_cmd_quan_ly_diem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            try
+            {
+                if (m_f100_quan_ly_diem == null || !IsFormOpen(m_f100_quan_ly_diem))
+                {
+                    m_f100_quan_ly_diem = new f100_quan_ly_diem();
+                    m_f100_quan_ly_diem.MdiParent = this;
+                    m_f100_quan_ly_diem.Show();
+                }
+                else
+                {
+                    m_f100_quan_ly_diem.Focus();
+                }
+            }
+            catch (Exception)
+            {
 
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
         }
 
-        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void m_cmd_tra_cuu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            try
+            {
+                if (m_f300_tra_cuu == null || !IsFormOpen(m_f300_tra_cuu))
+                {
+                    m_f300_tra_cuu = new f300_tra_cuu();
+                    m_f300_tra_cuu.MdiParent = this;
+                    m_f300_tra_cuu.Show();
+                }
+                else
+                {
+                    m_f300_tra_cuu.Focus();
+                }
+            }
+            catch (Exception)
+            {
 
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
         }
 
        

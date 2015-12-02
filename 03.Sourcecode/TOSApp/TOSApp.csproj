@@ -478,6 +478,9 @@
     <EmbeddedResource Include="NghiepVu\f200_xu_ly_diem.resx">
       <DependentUpon>f200_xu_ly_diem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NghiepVu\f300_tra_cuu.resx">
+      <DependentUpon>f300_tra_cuu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
