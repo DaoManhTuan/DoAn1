@@ -1537,3 +1537,12 @@ C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\bin\Release\es\DevExpr
 C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\bin\Release\ja\DevExpress.XtraTreeList.v14.1.resources.dll
 C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\bin\Release\ru\DevExpress.XtraTreeList.v14.1.resources.dll
 C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\HeThongQuanLyHocTap.application
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f201_DM_LOP_HOC_DE.resources
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f601_DM_HOC_PHAN_DE.resources
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f801_DM_HOC_KY_DE.resources
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f901_DM_KHOA_DE.resources
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f110_DM_LOP_SINH_VIEN.resources
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.DanhMuc.f111_DM_LOP_SINH_VIEN_DE.resources
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.HeThong.f1000_thong_tin_nguoi_dung.resources
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.NghiepVu.f100_quan_ly_diem.resources
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\TOSApp\obj\x86\Release\TOSApp.NghiepVu.f200_xu_ly_diem.resources
