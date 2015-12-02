@@ -36,14 +36,12 @@
             this.m_txt_mat_khau_2 = new System.Windows.Forms.TextBox();
             this.m_cmd_OK = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_thoat = new DevExpress.XtraEditors.SimpleButton();
-            this.label4 = new System.Windows.Forms.Label();
-            this.m_rdb_nhan_vien = new System.Windows.Forms.RadioButton();
-            this.m_rdb_sinh_vien = new System.Windows.Forms.RadioButton();
+            this.m_txt_output = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // m_txt_mat_khau
             // 
-            this.m_txt_mat_khau.Location = new System.Drawing.Point(126, 98);
+            this.m_txt_mat_khau.Location = new System.Drawing.Point(126, 91);
             this.m_txt_mat_khau.Name = "m_txt_mat_khau";
             this.m_txt_mat_khau.PasswordChar = '*';
             this.m_txt_mat_khau.Size = new System.Drawing.Size(176, 20);
@@ -59,7 +57,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 101);
+            this.label2.Location = new System.Drawing.Point(19, 94);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 4;
@@ -77,7 +75,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 150);
+            this.label3.Location = new System.Drawing.Point(19, 145);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 13);
             this.label3.TabIndex = 4;
@@ -85,7 +83,7 @@
             // 
             // m_txt_mat_khau_2
             // 
-            this.m_txt_mat_khau_2.Location = new System.Drawing.Point(126, 143);
+            this.m_txt_mat_khau_2.Location = new System.Drawing.Point(126, 138);
             this.m_txt_mat_khau_2.Name = "m_txt_mat_khau_2";
             this.m_txt_mat_khau_2.PasswordChar = '*';
             this.m_txt_mat_khau_2.Size = new System.Drawing.Size(176, 20);
@@ -93,7 +91,7 @@
             // 
             // m_cmd_OK
             // 
-            this.m_cmd_OK.Location = new System.Drawing.Point(126, 225);
+            this.m_cmd_OK.Location = new System.Drawing.Point(126, 218);
             this.m_cmd_OK.Name = "m_cmd_OK";
             this.m_cmd_OK.Size = new System.Drawing.Size(75, 23);
             this.m_cmd_OK.TabIndex = 7;
@@ -102,52 +100,27 @@
             // 
             // m_cmd_thoat
             // 
-            this.m_cmd_thoat.Location = new System.Drawing.Point(227, 225);
+            this.m_cmd_thoat.Location = new System.Drawing.Point(227, 218);
             this.m_cmd_thoat.Name = "m_cmd_thoat";
             this.m_cmd_thoat.Size = new System.Drawing.Size(75, 23);
             this.m_cmd_thoat.TabIndex = 7;
             this.m_cmd_thoat.Text = "Thoát";
             this.m_cmd_thoat.Click += new System.EventHandler(this.m_cmd_thoat_Click);
             // 
-            // label4
+            // m_txt_output
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(135, 72);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(140, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "<Tài khoản là mã sinh viên>";
-            // 
-            // m_rdb_nhan_vien
-            // 
-            this.m_rdb_nhan_vien.AutoSize = true;
-            this.m_rdb_nhan_vien.Location = new System.Drawing.Point(126, 182);
-            this.m_rdb_nhan_vien.Name = "m_rdb_nhan_vien";
-            this.m_rdb_nhan_vien.Size = new System.Drawing.Size(74, 17);
-            this.m_rdb_nhan_vien.TabIndex = 9;
-            this.m_rdb_nhan_vien.TabStop = true;
-            this.m_rdb_nhan_vien.Text = "Nhân viên";
-            this.m_rdb_nhan_vien.UseVisualStyleBackColor = true;
-            // 
-            // m_rdb_sinh_vien
-            // 
-            this.m_rdb_sinh_vien.AutoSize = true;
-            this.m_rdb_sinh_vien.Location = new System.Drawing.Point(227, 182);
-            this.m_rdb_sinh_vien.Name = "m_rdb_sinh_vien";
-            this.m_rdb_sinh_vien.Size = new System.Drawing.Size(69, 17);
-            this.m_rdb_sinh_vien.TabIndex = 9;
-            this.m_rdb_sinh_vien.TabStop = true;
-            this.m_rdb_sinh_vien.Text = "Sinh viên";
-            this.m_rdb_sinh_vien.UseVisualStyleBackColor = true;
+            this.m_txt_output.AutoSize = true;
+            this.m_txt_output.Location = new System.Drawing.Point(71, 189);
+            this.m_txt_output.Name = "m_txt_output";
+            this.m_txt_output.Size = new System.Drawing.Size(0, 13);
+            this.m_txt_output.TabIndex = 8;
             // 
             // f001_register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(340, 271);
-            this.Controls.Add(this.m_rdb_sinh_vien);
-            this.Controls.Add(this.m_rdb_nhan_vien);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.m_txt_output);
             this.Controls.Add(this.m_cmd_thoat);
             this.Controls.Add(this.m_cmd_OK);
             this.Controls.Add(this.m_txt_mat_khau_2);
@@ -158,6 +131,7 @@
             this.Controls.Add(this.label1);
             this.Name = "f001_register";
             this.Text = "f0001_register";
+            this.Load += new System.EventHandler(this.f001_register_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,8 +147,6 @@
         private System.Windows.Forms.TextBox m_txt_mat_khau_2;
         private DevExpress.XtraEditors.SimpleButton m_cmd_OK;
         private DevExpress.XtraEditors.SimpleButton m_cmd_thoat;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton m_rdb_nhan_vien;
-        private System.Windows.Forms.RadioButton m_rdb_sinh_vien;
+        private System.Windows.Forms.Label m_txt_output;
     }
 }

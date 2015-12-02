@@ -28,6 +28,8 @@ namespace TOSApp
         f800_DM_HOC_KY f800;
         f900_DM_KHOA f900;
         f110_DM_LOP_SINH_VIEN f110;
+        List<Control> ControlList = new List<Control>();
+
         private void phan_quyen_user( decimal id_nhom)
         {
             
@@ -50,7 +52,9 @@ namespace TOSApp
                     else page.Visible = true;
                 }
             }
+
             
+           
         }
         public bool IsFormOpen(Form checkForm)
         {
@@ -59,6 +63,7 @@ namespace TOSApp
                     return true;
             return false;
         }
+       
         private void m_cmd_sinh_vien_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             try
@@ -240,5 +245,37 @@ namespace TOSApp
             this.Close();
 
         }
+
+        private void m_cmd_tao_tai_khoan_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+                f001_register f001 = new f001_register();
+                f001.Show();
+            }
+            catch (Exception)
+            {
+                
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_thong_tin_nguoi_dung_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+           
+            try
+            {
+                HeThong.f1000_thong_tin_nguoi_dung f1000 = new HeThong.f1000_thong_tin_nguoi_dung();
+                f1000.MdiParent = this;
+                f1000.Show();
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+       
     }
 }

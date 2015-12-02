@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using IP.Core.IPCommon;
 using IPCOREUS;
 using IPCOREDS;
+using DevExpress.XtraEditors;
 
 
 namespace TOSApp.DanhMuc
@@ -275,13 +276,14 @@ namespace TOSApp.DanhMuc
             {
                 load_data_2_cbo();
                 load_data_2_grid();
+               
             }
             catch
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
-
+      
         private void m_txt_so_dien_thoai_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
@@ -293,5 +295,7 @@ namespace TOSApp.DanhMuc
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
                 e.Handled = true;
         }
+
+       
     }
 }

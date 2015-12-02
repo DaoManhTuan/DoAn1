@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f999_main));
-            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager();
-            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu();
+            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.m_cmd_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_giang_vien = new DevExpress.XtraBars.BarButtonItem();
@@ -38,8 +39,8 @@
             this.m_cmd_hoc_phan = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_lop_hoc = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_hoc_ky = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_thong_tin_nguoi_dung = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_tao_tai_khoan = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
@@ -103,8 +104,8 @@
             this.m_cmd_hoc_phan,
             this.m_cmd_lop_hoc,
             this.m_cmd_hoc_ky,
-            this.barButtonItem7,
-            this.barButtonItem8,
+            this.m_cmd_thong_tin_nguoi_dung,
+            this.m_cmd_tao_tai_khoan,
             this.barButtonItem9,
             this.barButtonItem10,
             this.barButtonItem11,
@@ -183,20 +184,22 @@
             this.m_cmd_hoc_ky.Name = "m_cmd_hoc_ky";
             this.m_cmd_hoc_ky.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_hoc_ky_ItemClick);
             // 
-            // barButtonItem7
+            // m_cmd_thong_tin_nguoi_dung
             // 
-            this.barButtonItem7.Caption = "Thông tin người dùng";
-            this.barButtonItem7.Glyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.Glyph")));
-            this.barButtonItem7.Id = 7;
-            this.barButtonItem7.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.LargeGlyph")));
-            this.barButtonItem7.Name = "barButtonItem7";
+            this.m_cmd_thong_tin_nguoi_dung.Caption = "Thông tin người dùng";
+            this.m_cmd_thong_tin_nguoi_dung.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_thong_tin_nguoi_dung.Glyph")));
+            this.m_cmd_thong_tin_nguoi_dung.Id = 7;
+            this.m_cmd_thong_tin_nguoi_dung.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_thong_tin_nguoi_dung.LargeGlyph")));
+            this.m_cmd_thong_tin_nguoi_dung.Name = "m_cmd_thong_tin_nguoi_dung";
+            this.m_cmd_thong_tin_nguoi_dung.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_thong_tin_nguoi_dung_ItemClick);
             // 
-            // barButtonItem8
+            // m_cmd_tao_tai_khoan
             // 
-            this.barButtonItem8.Caption = "Tạo mới tài khoản";
-            this.barButtonItem8.Id = 8;
-            this.barButtonItem8.LargeGlyph = global::TOSApp.Properties.Resources.user_male_add;
-            this.barButtonItem8.Name = "barButtonItem8";
+            this.m_cmd_tao_tai_khoan.Caption = "Tạo mới tài khoản";
+            this.m_cmd_tao_tai_khoan.Id = 8;
+            this.m_cmd_tao_tai_khoan.LargeGlyph = global::TOSApp.Properties.Resources.user_male_add;
+            this.m_cmd_tao_tai_khoan.Name = "m_cmd_tao_tai_khoan";
+            this.m_cmd_tao_tai_khoan.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_tao_tai_khoan_ItemClick);
             // 
             // barButtonItem9
             // 
@@ -426,14 +429,14 @@
             // ribbonPageGroup3
             // 
             this.ribbonPageGroup3.AllowTextClipping = false;
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem7);
+            this.ribbonPageGroup3.ItemLinks.Add(this.m_cmd_thong_tin_nguoi_dung);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "Quản lý thông tin người dùng";
             // 
             // ribbonPageGroup9
             // 
             this.ribbonPageGroup9.AllowTextClipping = false;
-            this.ribbonPageGroup9.ItemLinks.Add(this.barButtonItem8);
+            this.ribbonPageGroup9.ItemLinks.Add(this.m_cmd_tao_tai_khoan);
             this.ribbonPageGroup9.Name = "ribbonPageGroup9";
             this.ribbonPageGroup9.Text = "Thêm mới tài khoản người dùng";
             // 
@@ -496,8 +499,8 @@
         private DevExpress.XtraBars.BarButtonItem m_cmd_hoc_phan;
         private DevExpress.XtraBars.BarButtonItem m_cmd_lop_hoc;
         private DevExpress.XtraBars.BarButtonItem m_cmd_hoc_ky;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem7;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem8;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_thong_tin_nguoi_dung;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_tao_tai_khoan;
         private DevExpress.XtraBars.BarButtonItem barButtonItem9;
         private DevExpress.XtraBars.BarButtonItem barButtonItem10;
         private DevExpress.XtraBars.BarButtonItem barButtonItem11;

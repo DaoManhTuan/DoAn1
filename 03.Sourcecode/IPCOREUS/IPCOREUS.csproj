@@ -135,6 +135,7 @@
     <Compile Include="US_DM_LOP_HOC.cs" />
     <Compile Include="US_DM_LOP_SINH_VIEN.cs" />
     <Compile Include="US_DM_SINH_VIEN.cs" />
+    <Compile Include="US_USER_NAME.cs" />
     <Compile Include="US_V_DM_HOC_PHAN.cs" />
     <Compile Include="US_V_DM_LOP_HOC.cs" />
     <Compile Include="US_V_DM_SINH_VIEN.cs" />
