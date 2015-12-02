@@ -291,3 +291,4 @@ C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCommon\obj\Debug\IPCommon.v
 C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCommon\obj\Debug\IPCommon.dll
 C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCommon\obj\Debug\IPCommon.xml
 C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCommon\obj\Debug\IPCommon.pdb
+C:\Users\ManhTuan\Desktop\DoAn\trunk\03.Sourcecode\IPCommon\obj\Debug\IPCommon.vbprojResolveAssemblyReference.cache
