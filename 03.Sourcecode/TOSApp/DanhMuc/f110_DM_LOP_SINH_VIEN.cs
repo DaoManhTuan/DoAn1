@@ -27,6 +27,7 @@ namespace TOSApp.DanhMuc
                 load_data_2_to_cbo_khoa_vien();
                 load_data_2_khoa();
                 load_data_2_grid();
+                User.phan_quyen_user(this);
             }
             catch
             {
@@ -187,12 +188,18 @@ namespace TOSApp.DanhMuc
                 f111_DM_LOP_SINH_VIEN_DE v_f = new f111_DM_LOP_SINH_VIEN_DE();
                 v_f.ShowDialog();
                 load_data_2_grid();
+                
             }
             catch
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
+
+      
+       
+
+        
 
     }
 }

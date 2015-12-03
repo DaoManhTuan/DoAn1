@@ -65,7 +65,7 @@
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.m_panel_control = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
@@ -84,7 +84,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_giang_vien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_dm_giang_vien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            this.panel9.SuspendLayout();
+            this.m_panel_control.SuspendLayout();
             this.panel15.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -328,7 +328,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.panel10);
-            this.panel1.Controls.Add(this.panel9);
+            this.panel1.Controls.Add(this.m_panel_control);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 117);
             this.panel1.Name = "panel1";
@@ -547,14 +547,14 @@
             this.gridView1.GridControl = this.m_grc_dm_giang_vien;
             this.gridView1.Name = "gridView1";
             // 
-            // panel9
+            // m_panel_control
             // 
-            this.panel9.Controls.Add(this.panel15);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 334);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1176, 48);
-            this.panel9.TabIndex = 2;
+            this.m_panel_control.Controls.Add(this.panel15);
+            this.m_panel_control.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.m_panel_control.Location = new System.Drawing.Point(0, 334);
+            this.m_panel_control.Name = "m_panel_control";
+            this.m_panel_control.Size = new System.Drawing.Size(1176, 48);
+            this.m_panel_control.TabIndex = 2;
             // 
             // panel15
             // 
@@ -627,7 +627,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_giang_vien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_dm_giang_vien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            this.panel9.ResumeLayout(false);
+            this.m_panel_control.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -669,7 +669,7 @@
         private System.Windows.Forms.TextBox m_txt_ho_ten_GV;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel m_panel_control;
         private System.Windows.Forms.Panel panel15;
         private DevExpress.XtraEditors.SimpleButton m_cmd_them;
         private DevExpress.XtraEditors.SimpleButton m_cmd_xoa;

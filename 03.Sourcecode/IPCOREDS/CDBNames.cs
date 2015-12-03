@@ -7,7 +7,37 @@ using System.Configuration;
 
 namespace IPCOREDS.CDBNames
 {
+    public class v_sinh_vien_gpa
+    {
+        public const string ID = "ID";
+        public const string ID_SINH_VIEN = "ID_SINH_VIEN";
+        public const string MA_SINH_VIEN = "MA_SINH_VIEN";
+        public const string TEN_SINH_VIEN = "TEN_SINH_VIEN";
+        public const string ID_LOP_SINH_VIEN = "ID_LOP_SINH_VIEN";
+        public const string LOP_SINH_VIEN = "LOP_SINH_VIEN";
+        public const string ID_KHOA = "ID_KHOA";
+        public const string KHOA = "KHOA";
+        public const string TRANG_THAI_HSD = "TRANG_THAI_HSD";
+        public const string ID_KHOA_VIEN = "ID_KHOA_VIEN";
+        public const string MA_KHOA_VIEN = "MA_KHOA_VIEN";
+        public const string TEN_KHOA_VIEN = "TEN_KHOA_VIEN";
+        public const string Expr1 = "Expr1";
+        public const string Expr2 = "Expr2";
+        public const string GIOI_TINH = "GIOI_TINH";
+        public const string NGAY_SINH = "NGAY_SINH";
+        public const string QUE_QUAN = "QUE_QUAN";
+        public const string SDT = "SDT";
+        public const string TRANG_THAI = "TRANG_THAI";
+        public const string Expr3 = "Expr3";
+        public const string ID_HOC_KY = "ID_HOC_KY";
+        public const string MA_HOC_KY = "MA_HOC_KY";
+        public const string Expr5 = "Expr5";
+        public const string GPA = "GPA";
+        public const string CPA = "CPA";
+        public const string TEN_TRANG_THAI = "TEN_TRANG_THAI";
+    }
 
+ 
     public class dm_hoc_ky
     {
         public const string ID = "ID";

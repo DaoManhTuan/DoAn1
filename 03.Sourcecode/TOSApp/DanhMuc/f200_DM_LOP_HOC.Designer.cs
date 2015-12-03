@@ -47,17 +47,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.m_txt_ma_hoc_phan = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.m_cbo_hoc_ky = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.m_cbo_hoc_phan = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.m_panel_control = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
@@ -74,7 +74,7 @@
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel9.SuspendLayout();
+            this.m_panel_control.SuspendLayout();
             this.panel15.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -370,6 +370,15 @@
             this.m_txt_ma_hoc_phan.Size = new System.Drawing.Size(211, 20);
             this.m_txt_ma_hoc_phan.TabIndex = 8;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Mã học phần";
+            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.m_cbo_hoc_ky);
@@ -406,15 +415,6 @@
             this.panel8.Size = new System.Drawing.Size(334, 54);
             this.panel8.TabIndex = 0;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Mã học phần";
-            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.m_cbo_hoc_phan);
@@ -447,7 +447,7 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.panel10);
-            this.panel3.Controls.Add(this.panel9);
+            this.panel3.Controls.Add(this.m_panel_control);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 138);
             this.panel3.Name = "panel3";
@@ -463,14 +463,14 @@
             this.panel10.Size = new System.Drawing.Size(1024, 389);
             this.panel10.TabIndex = 2;
             // 
-            // panel9
+            // m_panel_control
             // 
-            this.panel9.Controls.Add(this.panel15);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 389);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1024, 49);
-            this.panel9.TabIndex = 1;
+            this.m_panel_control.Controls.Add(this.panel15);
+            this.m_panel_control.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.m_panel_control.Location = new System.Drawing.Point(0, 389);
+            this.m_panel_control.Name = "m_panel_control";
+            this.m_panel_control.Size = new System.Drawing.Size(1024, 49);
+            this.m_panel_control.TabIndex = 1;
             // 
             // panel15
             // 
@@ -540,7 +540,7 @@
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
+            this.m_panel_control.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -576,7 +576,7 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel m_panel_control;
         private System.Windows.Forms.Panel panel15;
         private DevExpress.XtraEditors.SimpleButton m_cmd_them;
         private DevExpress.XtraEditors.SimpleButton m_cmd_xoa;

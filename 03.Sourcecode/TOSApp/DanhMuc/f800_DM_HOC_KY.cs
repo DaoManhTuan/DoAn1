@@ -182,6 +182,7 @@ namespace TOSApp.DanhMuc
         private void f800_DM_HOC_KY_Load(object sender, EventArgs e)
         {
             load_data_2_grid();
+            User.phan_quyen_user(this);
         }
 
         private void m_txt_ma_hoc_ky_KeyPress(object sender, KeyPressEventArgs e)

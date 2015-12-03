@@ -48,7 +48,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.m_panel_control = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.m_cmd_cap_nhat = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
@@ -63,7 +63,7 @@
             this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
+            this.m_panel_control.SuspendLayout();
             this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -270,7 +270,7 @@
             this.panel2.Controls.Add(this.m_txt_ma_khoa_vien);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(269, 3);
+            this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(260, 47);
             this.panel2.TabIndex = 2;
@@ -322,7 +322,7 @@
             this.panel7.Controls.Add(this.m_cbo_loai_khoa_vien);
             this.panel7.Controls.Add(this.label3);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(3, 3);
+            this.panel7.Location = new System.Drawing.Point(269, 3);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(260, 47);
             this.panel7.TabIndex = 1;
@@ -352,7 +352,7 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.panel6);
-            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Controls.Add(this.m_panel_control);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 72);
             this.panel3.Name = "panel3";
@@ -368,14 +368,14 @@
             this.panel6.Size = new System.Drawing.Size(898, 242);
             this.panel6.TabIndex = 2;
             // 
-            // panel5
+            // m_panel_control
             // 
-            this.panel5.Controls.Add(this.panel8);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 242);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(898, 58);
-            this.panel5.TabIndex = 1;
+            this.m_panel_control.Controls.Add(this.panel8);
+            this.m_panel_control.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.m_panel_control.Location = new System.Drawing.Point(0, 242);
+            this.m_panel_control.Name = "m_panel_control";
+            this.m_panel_control.Size = new System.Drawing.Size(898, 58);
+            this.m_panel_control.TabIndex = 1;
             // 
             // panel8
             // 
@@ -441,7 +441,7 @@
             this.panel7.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
+            this.m_panel_control.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -461,7 +461,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel4;
         private DevExpress.XtraGrid.Columns.GridColumn PHAN_LOAI;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel m_panel_control;
         private DevExpress.XtraEditors.SimpleButton m_cmd_them;
         private DevExpress.XtraEditors.SimpleButton m_cmd_cap_nhat;
         private DevExpress.XtraEditors.SimpleButton m_cmd_xoa;

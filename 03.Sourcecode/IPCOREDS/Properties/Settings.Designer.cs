@@ -153,5 +153,16 @@ namespace IPCOREDS.Properties {
                 return ((string)(this["QUAN_LY_DIEMConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=VAN-PC\\SQLEXPRESSR2;Initial Catalog=QUAN_LY_DIEM;Persist Security Inf" +
+            "o=True;User ID=sa;Password=sa")]
+        public string QUAN_LY_DIEMConnectionString1 {
+            get {
+                return ((string)(this["QUAN_LY_DIEMConnectionString1"]));
+            }
+        }
     }
 }

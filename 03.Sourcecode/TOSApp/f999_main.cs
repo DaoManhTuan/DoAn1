@@ -45,10 +45,12 @@ namespace TOSApp
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithQuery(v_ds, "select * from phan_quyen_nhom_user where trang_thai_hsd=7 and id_nhom =" +id_nhom);
+
             ArrayList visiblePages = m_rib_main.TotalPageCategory.GetVisiblePages();
 
             foreach (RibbonPage page in visiblePages)
             {
+              
                 for (int i = 0; i < v_ds.Tables[0].Rows.Count; i++)
                 {
                     if (page.Name == v_ds.Tables[0].Rows[i]["CONTROL"].ToString())
@@ -60,7 +62,12 @@ namespace TOSApp
                     else page.Visible = true;
                 }
             }
-
+            //fix code -> nhục
+            if (User.id_nhom==3)
+            {
+                RibbonPageGroup group = m_rib_main.GetGroupByName("m_rib_quan_ly_diem_thi");
+                group.Visible = false;
+            }
             
            
         }

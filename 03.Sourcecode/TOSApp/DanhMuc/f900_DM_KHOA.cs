@@ -10,6 +10,7 @@ using IPCOREUS;
 using IP.Core.IPCommon;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraGrid.Views.Grid.ViewInfo;
+using Microsoft.Office.Interop.Excel;
 
 namespace TOSApp.DanhMuc
 {
@@ -23,14 +24,14 @@ namespace TOSApp.DanhMuc
         private void f900_DM_KHOA_Load(object sender, EventArgs e)
         {
             load_data_2_grid();
-          
+            User.phan_quyen_user(this);
         }
         
         private void load_data_2_grid()
         {
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
-            v_ds.Tables.Add(new DataTable());
+            v_ds.Tables.Add(new System.Data.DataTable());
             v_us.FillDatasetWithTableName(v_ds, "V_DM_KHOA");
             m_grc_dm_khoa.DataSource = v_ds.Tables[0];
             load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
@@ -75,7 +76,7 @@ namespace TOSApp.DanhMuc
             try
             {
                 GridView view = (GridView)sender;
-                Point pt = view.GridControl.PointToClient(Control.MousePosition);
+               System.Drawing.Point pt = view.GridControl.PointToClient(Control.MousePosition);
                 DoRowClick(view, pt);
             }
             catch
@@ -84,7 +85,7 @@ namespace TOSApp.DanhMuc
             }
         }
 
-        private void DoRowClick(GridView view, Point pt)
+        private void DoRowClick(GridView view,System.Drawing.Point pt)
         {
             GridHitInfo info = view.CalcHitInfo(pt);
             if (info.InRow || info.InRowCell)
@@ -167,6 +168,21 @@ namespace TOSApp.DanhMuc
             
         }
 
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog f = new SaveFileDialog();
+            
+            if (f.ShowDialog()==DialogResult.OK)
+            {               
+                User.xuat_excel(m_grv_dm_khoa, f.FileName);
+            }
+
+            
+        }
+
+       
+
+       
 
 
     }

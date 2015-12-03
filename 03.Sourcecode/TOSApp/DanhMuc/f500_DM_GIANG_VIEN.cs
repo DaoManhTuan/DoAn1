@@ -179,6 +179,7 @@ namespace TOSApp.DanhMuc
         {
             load_data_2_cbo_khoa_vien();
             load_data_2_grid();
+            User.phan_quyen_user(this);
         }
     }
 }

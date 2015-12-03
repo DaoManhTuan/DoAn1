@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f110_DM_LOP_SINH_VIEN));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel15 = new System.Windows.Forms.Panel();
+            this.m_panel_control = new System.Windows.Forms.Panel();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_sua = new DevExpress.XtraEditors.SimpleButton();
@@ -52,7 +52,7 @@
             this.m_grvcol_khoa = new DevExpress.XtraGrid.Columns.GridColumn();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel15.SuspendLayout();
+            this.m_panel_control.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -67,7 +67,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(902, 354);
+            this.groupBox1.Size = new System.Drawing.Size(1131, 519);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin chi tiết";
@@ -76,34 +76,34 @@
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.panel15, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.m_panel_control, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.m_grc_dm_lop_sinh_vien, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 16);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.95934F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 68.08398F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.95668F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(896, 335);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.99696F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.89929F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.103753F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1125, 500);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // panel15
+            // m_panel_control
             // 
-            this.panel15.Controls.Add(this.m_cmd_them);
-            this.panel15.Controls.Add(this.m_cmd_xoa);
-            this.panel15.Controls.Add(this.m_cmd_sua);
-            this.panel15.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel15.Location = new System.Drawing.Point(487, 284);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(406, 48);
-            this.panel15.TabIndex = 4;
+            this.m_panel_control.Controls.Add(this.m_cmd_them);
+            this.m_panel_control.Controls.Add(this.m_cmd_xoa);
+            this.m_panel_control.Controls.Add(this.m_cmd_sua);
+            this.m_panel_control.Dock = System.Windows.Forms.DockStyle.Right;
+            this.m_panel_control.Location = new System.Drawing.Point(716, 456);
+            this.m_panel_control.Name = "m_panel_control";
+            this.m_panel_control.Size = new System.Drawing.Size(406, 41);
+            this.m_panel_control.TabIndex = 4;
             // 
             // m_cmd_them
             // 
             this.m_cmd_them.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_them.Image")));
-            this.m_cmd_them.Location = new System.Drawing.Point(31, 12);
+            this.m_cmd_them.Location = new System.Drawing.Point(35, 3);
             this.m_cmd_them.Name = "m_cmd_them";
             this.m_cmd_them.Size = new System.Drawing.Size(88, 35);
             this.m_cmd_them.TabIndex = 0;
@@ -113,7 +113,7 @@
             // m_cmd_xoa
             // 
             this.m_cmd_xoa.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_xoa.Image")));
-            this.m_cmd_xoa.Location = new System.Drawing.Point(283, 12);
+            this.m_cmd_xoa.Location = new System.Drawing.Point(285, 3);
             this.m_cmd_xoa.Name = "m_cmd_xoa";
             this.m_cmd_xoa.Size = new System.Drawing.Size(92, 35);
             this.m_cmd_xoa.TabIndex = 0;
@@ -123,7 +123,7 @@
             // m_cmd_sua
             // 
             this.m_cmd_sua.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_sua.Image")));
-            this.m_cmd_sua.Location = new System.Drawing.Point(157, 12);
+            this.m_cmd_sua.Location = new System.Drawing.Point(159, 3);
             this.m_cmd_sua.Name = "m_cmd_sua";
             this.m_cmd_sua.Size = new System.Drawing.Size(92, 35);
             this.m_cmd_sua.TabIndex = 0;
@@ -144,8 +144,8 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 72F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(890, 47);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1119, 58);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // panel3
@@ -153,9 +153,9 @@
             this.panel3.Controls.Add(this.m_txt_lop_sinh_vien);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(595, 3);
+            this.panel3.Location = new System.Drawing.Point(748, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(292, 41);
+            this.panel3.Size = new System.Drawing.Size(368, 52);
             this.panel3.TabIndex = 2;
             // 
             // m_txt_lop_sinh_vien
@@ -179,9 +179,9 @@
             this.panel2.Controls.Add(this.m_cbo_ten_khoa_vien);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(299, 3);
+            this.panel2.Location = new System.Drawing.Point(375, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(290, 41);
+            this.panel2.Size = new System.Drawing.Size(367, 52);
             this.panel2.TabIndex = 1;
             // 
             // m_cbo_ten_khoa_vien
@@ -209,7 +209,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(290, 41);
+            this.panel1.Size = new System.Drawing.Size(366, 52);
             this.panel1.TabIndex = 0;
             // 
             // m_cbo_khoa
@@ -234,10 +234,10 @@
             // 
             this.m_grc_dm_lop_sinh_vien.Cursor = System.Windows.Forms.Cursors.Default;
             this.m_grc_dm_lop_sinh_vien.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.m_grc_dm_lop_sinh_vien.Location = new System.Drawing.Point(3, 56);
+            this.m_grc_dm_lop_sinh_vien.Location = new System.Drawing.Point(3, 67);
             this.m_grc_dm_lop_sinh_vien.MainView = this.m_grv_dm_lop_sinh_vien;
             this.m_grc_dm_lop_sinh_vien.Name = "m_grc_dm_lop_sinh_vien";
-            this.m_grc_dm_lop_sinh_vien.Size = new System.Drawing.Size(890, 222);
+            this.m_grc_dm_lop_sinh_vien.Size = new System.Drawing.Size(1119, 383);
             this.m_grc_dm_lop_sinh_vien.TabIndex = 1;
             this.m_grc_dm_lop_sinh_vien.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.m_grv_dm_lop_sinh_vien});
@@ -394,14 +394,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(902, 354);
+            this.ClientSize = new System.Drawing.Size(1131, 519);
             this.Controls.Add(this.groupBox1);
             this.Name = "f110_DM_LOP_SINH_VIEN";
             this.Text = "DANH MỤC LỚP SINH VIÊN";
             this.Load += new System.EventHandler(this.f110_DM_LOP_SINH_VIEN_Load);
             this.groupBox1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel15.ResumeLayout(false);
+            this.m_panel_control.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -423,7 +423,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Panel m_panel_control;
         private DevExpress.XtraEditors.SimpleButton m_cmd_them;
         private DevExpress.XtraEditors.SimpleButton m_cmd_xoa;
         private DevExpress.XtraEditors.SimpleButton m_cmd_sua;

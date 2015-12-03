@@ -4,7 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using DevExpress.XtraGrid.Views.Grid.Customization;
 namespace TOSApp
 {
     class User
@@ -26,10 +26,11 @@ namespace TOSApp
             return str;
         }
 
-        public static void phan_quyen_user(Form m_form)
+        public static void phan_quyen_user(Control m_form)
         {
             List<Control> v_list = new List<Control>();
-            GetAllControl(m_form,v_list);
+            GetAllControls(m_form,v_list);
+            
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
@@ -37,8 +38,7 @@ namespace TOSApp
 
             foreach (Control control in v_list)
             {
-                if (control.GetType() == typeof(DevExpress.XtraEditors.SimpleButton))
-                {
+               
                     for (int i = 0; i < v_ds.Tables[0].Rows.Count; i++)
                     {
                         if (control.Name == v_ds.Tables[0].Rows[i]["CONTROL"].ToString())
@@ -46,20 +46,36 @@ namespace TOSApp
                             control.Visible = false;
                         }
                     }
-                }
+                
             }
         }
 
-        public static void GetAllControl(Control c, List<Control> m_list)
+        private static void GetAllControls(Control container, List<Control> ControlList)
         {
-            foreach (Control control in c.Controls)
+            foreach (Control c in container.Controls)
             {
-                if (control.GetType() == typeof(TextBox))
-                    m_list.Add(control);
-
-                if (control.GetType() == typeof(Panel))
-                    GetAllControl(control , m_list);
+                GetAllControls(c, ControlList);
+                if (c is Panel) ControlList.Add(c);
             }
         }
+        /// <summary>
+        /// hàm này cho phép xuất excel và lưu dữ liệu trong Release
+        /// </summary>
+        /// <param name="v_grv"> tên của gridview</param>
+        /// <param name="name"> tên file mà bạn muốn xuất ra</param>
+        public static void xuat_excel(DevExpress.XtraGrid.Views.Grid.GridView v_grv, string name)
+        {
+            name =name+ ".xls";
+            v_grv.SaveLayoutToXml("tempLayout.xml");
+            foreach (DevExpress.XtraGrid.Columns.GridColumn col in v_grv.Columns)
+            {
+                col.Visible = true;
+            }
+            v_grv.ExportToXls(name);
+            
+            v_grv.RestoreLayoutFromXml("tempLayout.xml");
+        }
+
+       
     }
 }

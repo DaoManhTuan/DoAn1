@@ -59,7 +59,7 @@
             this.m_txt_trong_so = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.m_panel_control = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
@@ -76,7 +76,7 @@
             this.panel8.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel9.SuspendLayout();
+            this.m_panel_control.SuspendLayout();
             this.panel15.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -479,14 +479,14 @@
             this.panel1.Size = new System.Drawing.Size(1032, 283);
             this.panel1.TabIndex = 8;
             // 
-            // panel9
+            // m_panel_control
             // 
-            this.panel9.Controls.Add(this.panel15);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 403);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1032, 53);
-            this.panel9.TabIndex = 9;
+            this.m_panel_control.Controls.Add(this.panel15);
+            this.m_panel_control.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.m_panel_control.Location = new System.Drawing.Point(0, 403);
+            this.m_panel_control.Name = "m_panel_control";
+            this.m_panel_control.Size = new System.Drawing.Size(1032, 53);
+            this.m_panel_control.TabIndex = 9;
             // 
             // panel15
             // 
@@ -536,7 +536,7 @@
             this.ClientSize = new System.Drawing.Size(1032, 456);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel9);
+            this.Controls.Add(this.m_panel_control);
             this.Name = "f600_DM_HOC_PHAN";
             this.Text = "DANH MỤC HỌC PHẦN";
             this.Load += new System.EventHandler(this.f600_DM_HOC_PHAN_Load);
@@ -558,7 +558,7 @@
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
+            this.m_panel_control.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -595,7 +595,7 @@
         private System.Windows.Forms.TextBox m_txt_so_tin_chi_hoc_phi;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox m_txt_so_tin_chi_hoc_phan;
-        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel m_panel_control;
         private System.Windows.Forms.Panel panel15;
         private DevExpress.XtraEditors.SimpleButton m_cmd_them;
         private DevExpress.XtraEditors.SimpleButton m_cmd_xoa;

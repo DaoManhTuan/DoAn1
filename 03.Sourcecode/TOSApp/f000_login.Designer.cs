@@ -69,7 +69,7 @@
             // 
             // m_txt_password
             // 
-            this.m_txt_password.Location = new System.Drawing.Point(134, 189);
+            this.m_txt_password.Location = new System.Drawing.Point(134, 196);
             this.m_txt_password.Name = "m_txt_password";
             this.m_txt_password.PasswordChar = '*';
             this.m_txt_password.Size = new System.Drawing.Size(176, 20);
@@ -116,12 +116,12 @@
             this.AcceptButton = this.m_cmd_dang_nhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(323, 293);
+            this.ClientSize = new System.Drawing.Size(325, 295);
+            this.Controls.Add(this.m_txt_password);
             this.Controls.Add(this.m_lab_eror);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.m_cmd_thoat);
             this.Controls.Add(this.m_cmd_dang_nhap);
-            this.Controls.Add(this.m_txt_password);
             this.Controls.Add(this.m_txt_user);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f800_DM_HOC_KY));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel15 = new System.Windows.Forms.Panel();
+            this.m_panel_control = new System.Windows.Forms.Panel();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_sua = new DevExpress.XtraEditors.SimpleButton();
@@ -53,7 +53,7 @@
             this.NAM_HOC_BAT_DAU = new DevExpress.XtraGrid.Columns.GridColumn();
             this.NAM_HOC_KET_THUC = new DevExpress.XtraGrid.Columns.GridColumn();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel15.SuspendLayout();
+            this.m_panel_control.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -69,7 +69,7 @@
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.panel15, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.m_panel_control, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.groupBox1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.m_grc_dm_hoc_ky, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -82,16 +82,16 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1067, 490);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // panel15
+            // m_panel_control
             // 
-            this.panel15.Controls.Add(this.m_cmd_them);
-            this.panel15.Controls.Add(this.m_cmd_xoa);
-            this.panel15.Controls.Add(this.m_cmd_sua);
-            this.panel15.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel15.Location = new System.Drawing.Point(658, 419);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(406, 68);
-            this.panel15.TabIndex = 3;
+            this.m_panel_control.Controls.Add(this.m_cmd_them);
+            this.m_panel_control.Controls.Add(this.m_cmd_xoa);
+            this.m_panel_control.Controls.Add(this.m_cmd_sua);
+            this.m_panel_control.Dock = System.Windows.Forms.DockStyle.Right;
+            this.m_panel_control.Location = new System.Drawing.Point(658, 419);
+            this.m_panel_control.Name = "m_panel_control";
+            this.m_panel_control.Size = new System.Drawing.Size(406, 68);
+            this.m_panel_control.TabIndex = 3;
             // 
             // m_cmd_them
             // 
@@ -426,7 +426,7 @@
             this.Text = "DANH MỤC HỌC KỲ";
             this.Load += new System.EventHandler(this.f800_DM_HOC_KY_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel15.ResumeLayout(false);
+            this.m_panel_control.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -458,7 +458,7 @@
         private System.Windows.Forms.Label label3;
         private DevExpress.XtraGrid.GridControl m_grc_dm_hoc_ky;
         private DevExpress.XtraGrid.Views.Grid.GridView m_grv_dm_hoc_ky;
-        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Panel m_panel_control;
         private DevExpress.XtraEditors.SimpleButton m_cmd_them;
         private DevExpress.XtraEditors.SimpleButton m_cmd_xoa;
         private DevExpress.XtraEditors.SimpleButton m_cmd_sua;

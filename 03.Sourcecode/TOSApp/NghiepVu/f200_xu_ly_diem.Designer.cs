@@ -313,8 +313,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(908, 430);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.ClientSize = new System.Drawing.Size(646, 302);
             this.Name = "f200_xu_ly_diem";
             this.Text = "Xử lý điểm";
             this.tableLayoutPanel1.ResumeLayout(false);

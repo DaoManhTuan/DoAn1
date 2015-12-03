@@ -196,6 +196,7 @@ namespace TOSApp.DanhMuc
         {
             load_data_2_cbo();
             load_data_2_grid();
+            User.phan_quyen_user(this);
         }
 
        

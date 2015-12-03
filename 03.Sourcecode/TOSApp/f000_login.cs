@@ -14,7 +14,7 @@ namespace TOSApp
         public f000_login()
         {
             InitializeComponent();
-
+          
         }
 
         private void m_cmd_dang_nhap_Click(object sender, EventArgs e)
@@ -84,6 +84,8 @@ namespace TOSApp
         {
             m_lab_eror.Text = "";
         }
+
+       
 
     }
 }

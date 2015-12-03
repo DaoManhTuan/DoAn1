@@ -30,7 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f900_DM_KHOA));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel15 = new System.Windows.Forms.Panel();
+            this.m_panel_control = new System.Windows.Forms.Panel();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_sua = new DevExpress.XtraEditors.SimpleButton();
@@ -47,7 +48,7 @@
             this.m_txt_nam_bat_dau = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel15.SuspendLayout();
+            this.m_panel_control.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_khoa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_dm_khoa)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -60,7 +61,7 @@
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.panel15, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.m_panel_control, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.m_grc_dm_khoa, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.groupBox1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -73,16 +74,27 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(805, 481);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // panel15
+            // m_panel_control
             // 
-            this.panel15.Controls.Add(this.m_cmd_them);
-            this.panel15.Controls.Add(this.m_cmd_xoa);
-            this.panel15.Controls.Add(this.m_cmd_sua);
-            this.panel15.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel15.Location = new System.Drawing.Point(396, 439);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(406, 39);
-            this.panel15.TabIndex = 2;
+            this.m_panel_control.Controls.Add(this.simpleButton1);
+            this.m_panel_control.Controls.Add(this.m_cmd_them);
+            this.m_panel_control.Controls.Add(this.m_cmd_xoa);
+            this.m_panel_control.Controls.Add(this.m_cmd_sua);
+            this.m_panel_control.Dock = System.Windows.Forms.DockStyle.Right;
+            this.m_panel_control.Location = new System.Drawing.Point(254, 439);
+            this.m_panel_control.Name = "m_panel_control";
+            this.m_panel_control.Size = new System.Drawing.Size(548, 39);
+            this.m_panel_control.TabIndex = 2;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Image = global::TOSApp.Properties.Resources.tải_xuống1;
+            this.simpleButton1.Location = new System.Drawing.Point(431, 4);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(94, 33);
+            this.simpleButton1.TabIndex = 1;
+            this.simpleButton1.Text = "Xuất Excel";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // m_cmd_them
             // 
@@ -358,7 +370,7 @@
             this.Text = "DANH MỤC KHÓA";
             this.Load += new System.EventHandler(this.f900_DM_KHOA_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel15.ResumeLayout(false);
+            this.m_panel_control.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_dm_khoa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_dm_khoa)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -371,12 +383,14 @@
 
         }
 
+      
+
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private DevExpress.XtraGrid.GridControl m_grc_dm_khoa;
         private DevExpress.XtraGrid.Views.Grid.GridView m_grv_dm_khoa;
-        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Panel m_panel_control;
         private DevExpress.XtraEditors.SimpleButton m_cmd_them;
         private DevExpress.XtraEditors.SimpleButton m_cmd_xoa;
         private DevExpress.XtraEditors.SimpleButton m_cmd_sua;
@@ -390,5 +404,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox m_txt_khoa;
         private System.Windows.Forms.TextBox m_txt_nam_bat_dau;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

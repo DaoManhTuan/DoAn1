@@ -175,6 +175,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_V_DM_SINH_VIEN.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_V_SINH_VIEN_GPA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_SINH_VIEN_GPA.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -314,6 +319,17 @@
     </None>
     <None Include="DS_V_DM_SINH_VIEN.xss">
       <DependentUpon>DS_V_DM_SINH_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_SINH_VIEN_GPA.xsc">
+      <DependentUpon>DS_V_SINH_VIEN_GPA.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_SINH_VIEN_GPA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_SINH_VIEN_GPA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_SINH_VIEN_GPA.xss">
+      <DependentUpon>DS_V_SINH_VIEN_GPA.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

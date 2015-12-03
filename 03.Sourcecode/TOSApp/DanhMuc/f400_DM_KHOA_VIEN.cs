@@ -155,6 +155,7 @@ namespace TOSApp.DanhMuc
         {
             load_data_2_loai_khoa_vien();
             load_data_2_grid();
+            User.phan_quyen_user(this);
         }
 
         private void load_data_2_loai_khoa_vien()

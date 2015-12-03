@@ -257,6 +257,36 @@
   <ItemGroup>
     <Compile Include="ApplicationControl.cs" />
     <Compile Include="App_Code\CEncryptKeyString.cs" />
+    <Compile Include="BaoCao\f9900_bao_cao_hoc_tap_theo_lop_sin_vien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9900_bao_cao_hoc_tap_theo_lop_sin_vien.Designer.cs">
+      <DependentUpon>f9900_bao_cao_hoc_tap_theo_lop_sin_vien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\f9901_bao_cao_theo_lop_hoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9901_bao_cao_theo_lop_hoc.Designer.cs">
+      <DependentUpon>f9901_bao_cao_theo_lop_hoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\f9902_bao_cao_theo_sinh_vien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9902_bao_cao_theo_sinh_vien.Designer.cs">
+      <DependentUpon>f9902_bao_cao_theo_sinh_vien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\f9903_danh_sach_sinh_vien_nhan_hoc_bong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9903_danh_sach_sinh_vien_nhan_hoc_bong.Designer.cs">
+      <DependentUpon>f9903_danh_sach_sinh_vien_nhan_hoc_bong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\f9904_danh_sach_sinh_vien_canh_cao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9904_danh_sach_sinh_vien_canh_cao.Designer.cs">
+      <DependentUpon>f9904_danh_sach_sinh_vien_canh_cao.cs</DependentUpon>
+    </Compile>
     <Compile Include="DanhMuc\f100_DM_SINH_VIEN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -380,13 +410,13 @@
     <Compile Include="NghiepVu\f100_quan_ly_diem.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NghiepVu\f100_quan_ly_diem.Designer.cs">
+    <Compile Include="NghiepVu\f100_quan_ly_diem.designer.cs">
       <DependentUpon>f100_quan_ly_diem.cs</DependentUpon>
     </Compile>
     <Compile Include="NghiepVu\f200_xu_ly_diem.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NghiepVu\f200_xu_ly_diem.Designer.cs">
+    <Compile Include="NghiepVu\f200_xu_ly_diem.designer.cs">
       <DependentUpon>f200_xu_ly_diem.cs</DependentUpon>
     </Compile>
     <Compile Include="NghiepVu\f300_tra_cuu.cs">
@@ -411,6 +441,18 @@
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
     <Compile Include="WinFormControls.cs" />
+    <EmbeddedResource Include="BaoCao\f9900_bao_cao_hoc_tap_theo_lop_sin_vien.resx">
+      <DependentUpon>f9900_bao_cao_hoc_tap_theo_lop_sin_vien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f9901_bao_cao_theo_lop_hoc.resx">
+      <DependentUpon>f9901_bao_cao_theo_lop_hoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f9902_bao_cao_theo_sinh_vien.resx">
+      <DependentUpon>f9902_bao_cao_theo_sinh_vien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f9904_danh_sach_sinh_vien_canh_cao.resx">
+      <DependentUpon>f9904_danh_sach_sinh_vien_canh_cao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\f100_DM_SINH_VIEN.resx">
       <DependentUpon>f100_DM_SINH_VIEN.cs</DependentUpon>
     </EmbeddedResource>
@@ -539,7 +581,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BaoCao\" />
     <Folder Include="bin\Release\" />
   </ItemGroup>
   <ItemGroup>
@@ -551,6 +592,9 @@
     </Content>
     <Content Include="bin\Debug\UserMsg.xml" />
     <Content Include="C1.Win.C1FlexGrid.dll" />
+    <None Include="Resources\tải xuống1.png" />
+    <None Include="Resources\tải xuống.png" />
+    <None Include="Resources\excel.jpg" />
     <None Include="Resources\khoavien.png" />
     <None Include="Resources\subject.png" />
     <None Include="Resources\gv.png" />
@@ -877,177 +921,188 @@
   <ItemGroup>
     <PublishFile Include="bin\Debug\NumOfMessage.XML">
       <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="bin\Debug\Reports\Output\Readme.txt">
       <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="bin\Debug\Reports\Templates\Readme.txt">
       <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="bin\Debug\UserMsg.xml">
       <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="C1.Win.C1FlexGrid">
       <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="CrystalDecisions.Shared">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="CrystalDecisions.Windows.Forms">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="DevExpress.CodeParser.v14.1">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="DevExpress.Map.v14.1.Core">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="DevExpress.XtraGauges.v14.1.Presets">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="DevExpress.XtraNavBar.v14.1">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="DevExpress.XtraReports.v14.1">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="DevExpress.XtraVerticalGrid.v14.1">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="DevExpress.XtraWizard.v14.1">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="NumOfMessage.XML">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="UserMsg.xml">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
