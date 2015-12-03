@@ -53,12 +53,12 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.m_cbo_ky_hoc = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.m_cmd_xuat_excel = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xem = new DevExpress.XtraEditors.SimpleButton();
             this.m_cbo_mon_hoc = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.m_cbo_ky_hoc = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_bao_cao_hoc_tap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_bao_cao_hoc_tap)).BeginInit();
             this.panel7.SuspendLayout();
@@ -292,6 +292,23 @@
             this.panel1.Size = new System.Drawing.Size(1220, 61);
             this.panel1.TabIndex = 3;
             // 
+            // m_cbo_ky_hoc
+            // 
+            this.m_cbo_ky_hoc.FormattingEnabled = true;
+            this.m_cbo_ky_hoc.Location = new System.Drawing.Point(338, 17);
+            this.m_cbo_ky_hoc.Name = "m_cbo_ky_hoc";
+            this.m_cbo_ky_hoc.Size = new System.Drawing.Size(121, 21);
+            this.m_cbo_ky_hoc.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(280, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Kỳ học";
+            // 
             // m_cmd_xuat_excel
             // 
             this.m_cmd_xuat_excel.Image = global::TOSApp.Properties.Resources.tải_xuống;
@@ -326,23 +343,6 @@
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 0;
             this.label5.Text = "Mã lớp học";
-            // 
-            // m_cbo_ky_hoc
-            // 
-            this.m_cbo_ky_hoc.FormattingEnabled = true;
-            this.m_cbo_ky_hoc.Location = new System.Drawing.Point(338, 17);
-            this.m_cbo_ky_hoc.Name = "m_cbo_ky_hoc";
-            this.m_cbo_ky_hoc.Size = new System.Drawing.Size(121, 21);
-            this.m_cbo_ky_hoc.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(280, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Kỳ học";
             // 
             // f9901_bao_cao_theo_lop_hoc
             // 

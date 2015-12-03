@@ -450,6 +450,9 @@
     <EmbeddedResource Include="BaoCao\f9902_bao_cao_theo_sinh_vien.resx">
       <DependentUpon>f9902_bao_cao_theo_sinh_vien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f9903_danh_sach_sinh_vien_nhan_hoc_bong.resx">
+      <DependentUpon>f9903_danh_sach_sinh_vien_nhan_hoc_bong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BaoCao\f9904_danh_sach_sinh_vien_canh_cao.resx">
       <DependentUpon>f9904_danh_sach_sinh_vien_canh_cao.cs</DependentUpon>
     </EmbeddedResource>
