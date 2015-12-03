@@ -150,27 +150,27 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(27, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mã học kỳ";
+            this.label1.Text = "Mã học kỳ*";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(26, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 13);
+            this.label2.Size = new System.Drawing.Size(97, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Năm học bắt đầu ";
+            this.label2.Text = "Năm học bắt đầu *";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(27, 135);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 13);
+            this.label3.Size = new System.Drawing.Size(96, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Năm học kết thúc";
+            this.label3.Text = "Năm học kết thúc*";
             // 
             // f801_DM_HOC_KY_DE
             // 

@@ -124,27 +124,27 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(34, 146);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 13);
+            this.label5.Size = new System.Drawing.Size(45, 13);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Học kỳ";
+            this.label5.Text = "Học kỳ*";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(34, 66);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 13);
+            this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Học phần";
+            this.label4.Text = "Học phần*";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(34, 105);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
+            this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Giảng viên";
+            this.label3.Text = "Giảng viên*";
             // 
             // m_txt_ma_lop_hoc
             // 
@@ -159,9 +159,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(34, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mã lớp học";
+            this.label1.Text = "Mã lớp học*";
             // 
             // f201_DM_LOP_HOC_DE
             // 

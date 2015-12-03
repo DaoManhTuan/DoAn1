@@ -118,27 +118,27 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(26, 36);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.Size = new System.Drawing.Size(36, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Khóa";
+            this.label3.Text = "Khóa*";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(26, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 13);
+            this.label2.Size = new System.Drawing.Size(80, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Tên khoa viện";
+            this.label2.Text = "Tên khoa viện*";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(26, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.Size = new System.Drawing.Size(74, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Lớp sinh viên";
+            this.label1.Text = "Lớp sinh viên*";
             // 
             // panel2
             // 

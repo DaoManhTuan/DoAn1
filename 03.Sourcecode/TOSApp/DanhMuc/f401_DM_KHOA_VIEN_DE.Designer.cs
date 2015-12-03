@@ -62,9 +62,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(34, 54);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 13);
+            this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Khoa/Viện:";
+            this.label3.Text = "Khoa/Viện*";
             // 
             // m_cbo_phan_loai_khoa_vien
             // 
@@ -88,9 +88,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(34, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.Size = new System.Drawing.Size(81, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Tên khoa Viện";
+            this.label2.Text = "Tên khoa Viện*";
             // 
             // m_txt_ma_khoa_vien
             // 
@@ -104,9 +104,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(34, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 13);
+            this.label1.Size = new System.Drawing.Size(76, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mã khoa viện";
+            this.label1.Text = "Mã khoa viện*";
             // 
             // m_cmd_Cancel
             // 
