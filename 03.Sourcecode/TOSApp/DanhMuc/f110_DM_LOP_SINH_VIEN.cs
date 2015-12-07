@@ -39,7 +39,7 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                WinFormControls.load_data_to_combobox_with_query(m_cbo_khoa, "ID", "KHOA", WinFormControls.eTAT_CA.YES, "SELECT ID, KHOA FROM DM_KHOA WHERE TRANG_THAI_HSD = 7");
+                WinFormControls.load_data_to_combobox_with_query(m_cbo_khoa, "ID", "KHOA", WinFormControls.eTAT_CA.YES, "SELECT ID, KHOA FROM V_DM_KHOA WHERE TRANG_THAI_HSD = 7");
             }
             catch
             {
@@ -51,7 +51,7 @@ namespace TOSApp.DanhMuc
         {
             try
             {
-                WinFormControls.load_data_to_combobox_with_query(m_cbo_ten_khoa_vien, "ID", "TEN_KHOA_VIEN", WinFormControls.eTAT_CA.YES, "SELECT ID, TEN_KHOA_VIEN FROM DM_KHOA_VIEN WHERE PHAN_LOAI IN (3,6,5) AND TRANG_THAI_HSD = 7");
+                WinFormControls.load_data_to_combobox_with_query(m_cbo_ten_khoa_vien, "ID", "TEN_KHOA_VIEN", WinFormControls.eTAT_CA.YES, "SELECT ID, TEN_KHOA_VIEN FROM V_DM_KHOA_VIEN WHERE PHAN_LOAI IN (3,6,5) AND TRANG_THAI_HSD = 7");
             }
             catch
             {

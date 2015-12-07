@@ -24,7 +24,7 @@ namespace TOSApp
                 US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
                 DataSet v_ds = new DataSet();
                 v_ds.Tables.Add(new DataTable());
-                v_us.FillDatasetWithQuery(v_ds, "select * from user_name where tai_khoan= '" + m_txt_user.Text + "'and mat_khau='" + User.GetMD5(m_txt_password.Text) + "'");
+                v_us.FillDatasetWithQuery(v_ds, "select * from user_name where tai_khoan= '" + m_txt_user.Text + "'and mat_khau='" + User.GetMD5(m_txt_password.Text) + "' and trang_thai_hsd = 7");
                 if (v_ds.Tables[0].Rows.Count != 1)
                 {
                     m_lab_eror.Text = "Tài khoản hoặc mật khẩu không đúng!";

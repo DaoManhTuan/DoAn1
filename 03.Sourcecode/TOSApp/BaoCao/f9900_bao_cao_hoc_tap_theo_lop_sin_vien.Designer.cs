@@ -87,7 +87,7 @@
             // m_cmd_xuat_excel
             // 
             this.m_cmd_xuat_excel.Image = global::TOSApp.Properties.Resources.tải_xuống;
-            this.m_cmd_xuat_excel.Location = new System.Drawing.Point(577, 12);
+            this.m_cmd_xuat_excel.Location = new System.Drawing.Point(572, 12);
             this.m_cmd_xuat_excel.Name = "m_cmd_xuat_excel";
             this.m_cmd_xuat_excel.Size = new System.Drawing.Size(103, 30);
             this.m_cmd_xuat_excel.TabIndex = 2;
@@ -344,14 +344,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "PHÒNG ĐÀO TẠO ";
             // 
-            // f9900_bao_cao_hoc_tap_theo_lop_sin_vien
+            // f9900_bao_cao_hoc_tap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1251, 589);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Name = "f9900_bao_cao_hoc_tap_theo_lop_sin_vien";
+            this.Name = "f9900_bao_cao_hoc_tap";
             this.Text = "f9900_bao_cao_hoc_tap";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

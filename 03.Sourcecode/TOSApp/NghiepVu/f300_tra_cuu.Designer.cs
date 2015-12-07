@@ -60,12 +60,6 @@
             this.panel14 = new System.Windows.Forms.Panel();
             this.m_txt_trang_thai = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.m_cbo_ky_hoc = new System.Windows.Forms.ComboBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.m_txt_gpa = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.m_txt_input = new System.Windows.Forms.TextBox();
             this.m_cmd_tim_kiem = new DevExpress.XtraEditors.SimpleButton();
@@ -79,6 +73,18 @@
             this.m_grvcol_diem_qua_trinh = new DevExpress.XtraGrid.Columns.GridColumn();
             this.m_grvcol_diem_thi = new DevExpress.XtraGrid.Columns.GridColumn();
             this.m_grvcol_diem_chu = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.m_cbo_ky_hoc = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.m_txt_gpa = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.m_txt_cpa = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -91,50 +97,55 @@
             this.panel9.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel14.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel11.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_ket_qua_tra_cuu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_ket_qua_tra_cuu)).BeginInit();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.groupBox1, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.groupBox2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.m_grc_ket_qua_tra_cuu, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.m_grc_ket_qua_tra_cuu, 0, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.56311F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.18447F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 58.25243F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1284, 541);
+            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.363296F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.08989F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.73034F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 46.81648F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1284, 601);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.tableLayoutPanel2);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(3, 81);
+            this.groupBox2.Location = new System.Drawing.Point(3, 59);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1278, 141);
+            this.groupBox2.Size = new System.Drawing.Size(1278, 162);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tinh chi tiết sinh viên";
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 6;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnCount = 5;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Controls.Add(this.panel2, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.panel6, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel8, 1, 0);
@@ -142,18 +153,16 @@
             this.tableLayoutPanel2.Controls.Add(this.panel10, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel5, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel9, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.panel7, 5, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel14, 4, 1);
-            this.tableLayoutPanel2.Controls.Add(this.panel3, 2, 1);
-            this.tableLayoutPanel2.Controls.Add(this.panel11, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.panel7, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.panel14, 3, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 16);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 3;
+            this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1272, 122);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1272, 143);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // panel2
@@ -161,17 +170,19 @@
             this.panel2.Controls.Add(this.m_txt_so_dien_thoai);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 54);
+            this.panel2.Location = new System.Drawing.Point(3, 74);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(205, 45);
+            this.panel2.Size = new System.Drawing.Size(248, 66);
             this.panel2.TabIndex = 2;
             // 
             // m_txt_so_dien_thoai
             // 
+            this.m_txt_so_dien_thoai.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.m_txt_so_dien_thoai.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_txt_so_dien_thoai.Location = new System.Drawing.Point(0, 25);
+            this.m_txt_so_dien_thoai.Location = new System.Drawing.Point(0, 46);
             this.m_txt_so_dien_thoai.Name = "m_txt_so_dien_thoai";
-            this.m_txt_so_dien_thoai.Size = new System.Drawing.Size(205, 20);
+            this.m_txt_so_dien_thoai.ReadOnly = true;
+            this.m_txt_so_dien_thoai.Size = new System.Drawing.Size(248, 20);
             this.m_txt_so_dien_thoai.TabIndex = 10;
             // 
             // label8
@@ -190,21 +201,23 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(3, 3);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(205, 45);
+            this.panel6.Size = new System.Drawing.Size(248, 65);
             this.panel6.TabIndex = 0;
             // 
             // m_txt_ho_ten_sinh_vien
             // 
+            this.m_txt_ho_ten_sinh_vien.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.m_txt_ho_ten_sinh_vien.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_txt_ho_ten_sinh_vien.Location = new System.Drawing.Point(0, 25);
+            this.m_txt_ho_ten_sinh_vien.Location = new System.Drawing.Point(0, 45);
             this.m_txt_ho_ten_sinh_vien.Name = "m_txt_ho_ten_sinh_vien";
-            this.m_txt_ho_ten_sinh_vien.Size = new System.Drawing.Size(205, 20);
+            this.m_txt_ho_ten_sinh_vien.ReadOnly = true;
+            this.m_txt_ho_ten_sinh_vien.Size = new System.Drawing.Size(248, 20);
             this.m_txt_ho_ten_sinh_vien.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 9);
+            this.label2.Location = new System.Drawing.Point(3, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 0;
@@ -215,17 +228,19 @@
             this.panel8.Controls.Add(this.m_txt_khoa_hoc);
             this.panel8.Controls.Add(this.label6);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(214, 3);
+            this.panel8.Location = new System.Drawing.Point(257, 3);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(205, 45);
+            this.panel8.Size = new System.Drawing.Size(248, 65);
             this.panel8.TabIndex = 0;
             // 
             // m_txt_khoa_hoc
             // 
+            this.m_txt_khoa_hoc.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.m_txt_khoa_hoc.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_txt_khoa_hoc.Location = new System.Drawing.Point(0, 25);
+            this.m_txt_khoa_hoc.Location = new System.Drawing.Point(0, 45);
             this.m_txt_khoa_hoc.Name = "m_txt_khoa_hoc";
-            this.m_txt_khoa_hoc.Size = new System.Drawing.Size(205, 20);
+            this.m_txt_khoa_hoc.ReadOnly = true;
+            this.m_txt_khoa_hoc.Size = new System.Drawing.Size(248, 20);
             this.m_txt_khoa_hoc.TabIndex = 1;
             // 
             // label6
@@ -242,17 +257,19 @@
             this.panel4.Controls.Add(this.m_txt_khoa_vien);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(425, 3);
+            this.panel4.Location = new System.Drawing.Point(511, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(205, 45);
+            this.panel4.Size = new System.Drawing.Size(248, 65);
             this.panel4.TabIndex = 1;
             // 
             // m_txt_khoa_vien
             // 
+            this.m_txt_khoa_vien.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.m_txt_khoa_vien.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_txt_khoa_vien.Location = new System.Drawing.Point(0, 25);
+            this.m_txt_khoa_vien.Location = new System.Drawing.Point(0, 45);
             this.m_txt_khoa_vien.Name = "m_txt_khoa_vien";
-            this.m_txt_khoa_vien.Size = new System.Drawing.Size(205, 20);
+            this.m_txt_khoa_vien.ReadOnly = true;
+            this.m_txt_khoa_vien.Size = new System.Drawing.Size(248, 20);
             this.m_txt_khoa_vien.TabIndex = 1;
             // 
             // label7
@@ -269,17 +286,19 @@
             this.panel10.Controls.Add(this.m_txt_lop_sinh_vien);
             this.panel10.Controls.Add(this.label9);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel10.Location = new System.Drawing.Point(636, 3);
+            this.panel10.Location = new System.Drawing.Point(765, 3);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(205, 45);
+            this.panel10.Size = new System.Drawing.Size(248, 65);
             this.panel10.TabIndex = 0;
             // 
             // m_txt_lop_sinh_vien
             // 
+            this.m_txt_lop_sinh_vien.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.m_txt_lop_sinh_vien.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_txt_lop_sinh_vien.Location = new System.Drawing.Point(0, 25);
+            this.m_txt_lop_sinh_vien.Location = new System.Drawing.Point(0, 45);
             this.m_txt_lop_sinh_vien.Name = "m_txt_lop_sinh_vien";
-            this.m_txt_lop_sinh_vien.Size = new System.Drawing.Size(205, 20);
+            this.m_txt_lop_sinh_vien.ReadOnly = true;
+            this.m_txt_lop_sinh_vien.Size = new System.Drawing.Size(248, 20);
             this.m_txt_lop_sinh_vien.TabIndex = 1;
             // 
             // label9
@@ -296,18 +315,19 @@
             this.panel5.Controls.Add(this.m_dat_ngay_sinh);
             this.panel5.Controls.Add(this.label3);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(847, 3);
+            this.panel5.Location = new System.Drawing.Point(1019, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(205, 45);
+            this.panel5.Size = new System.Drawing.Size(250, 65);
             this.panel5.TabIndex = 0;
             // 
             // m_dat_ngay_sinh
             // 
             this.m_dat_ngay_sinh.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.m_dat_ngay_sinh.Enabled = false;
             this.m_dat_ngay_sinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.m_dat_ngay_sinh.Location = new System.Drawing.Point(0, 25);
+            this.m_dat_ngay_sinh.Location = new System.Drawing.Point(0, 45);
             this.m_dat_ngay_sinh.Name = "m_dat_ngay_sinh";
-            this.m_dat_ngay_sinh.Size = new System.Drawing.Size(205, 20);
+            this.m_dat_ngay_sinh.Size = new System.Drawing.Size(250, 20);
             this.m_dat_ngay_sinh.TabIndex = 6;
             // 
             // label3
@@ -324,18 +344,20 @@
             this.panel9.Controls.Add(this.m_txt_que_quan);
             this.panel9.Controls.Add(this.label1);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(214, 54);
+            this.panel9.Location = new System.Drawing.Point(257, 74);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(205, 45);
+            this.panel9.Size = new System.Drawing.Size(248, 66);
             this.panel9.TabIndex = 0;
             // 
             // m_txt_que_quan
             // 
+            this.m_txt_que_quan.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.m_txt_que_quan.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_txt_que_quan.Location = new System.Drawing.Point(0, 25);
+            this.m_txt_que_quan.Location = new System.Drawing.Point(0, 46);
             this.m_txt_que_quan.MaxLength = 11;
             this.m_txt_que_quan.Name = "m_txt_que_quan";
-            this.m_txt_que_quan.Size = new System.Drawing.Size(205, 20);
+            this.m_txt_que_quan.ReadOnly = true;
+            this.m_txt_que_quan.Size = new System.Drawing.Size(248, 20);
             this.m_txt_que_quan.TabIndex = 9;
             // 
             // label1
@@ -353,15 +375,16 @@
             this.panel7.Controls.Add(this.label5);
             this.panel7.Controls.Add(this.m_rdb_nam);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(1058, 3);
+            this.panel7.Location = new System.Drawing.Point(511, 74);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(211, 45);
+            this.panel7.Size = new System.Drawing.Size(248, 66);
             this.panel7.TabIndex = 0;
             // 
             // m_rdb_nu
             // 
             this.m_rdb_nu.AutoSize = true;
-            this.m_rdb_nu.Location = new System.Drawing.Point(122, 27);
+            this.m_rdb_nu.Enabled = false;
+            this.m_rdb_nu.Location = new System.Drawing.Point(151, 19);
             this.m_rdb_nu.Name = "m_rdb_nu";
             this.m_rdb_nu.Size = new System.Drawing.Size(39, 17);
             this.m_rdb_nu.TabIndex = 8;
@@ -372,7 +395,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 28);
+            this.label5.Location = new System.Drawing.Point(19, 21);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 0;
@@ -382,7 +405,8 @@
             // 
             this.m_rdb_nam.AutoSize = true;
             this.m_rdb_nam.Checked = true;
-            this.m_rdb_nam.Location = new System.Drawing.Point(69, 25);
+            this.m_rdb_nam.Enabled = false;
+            this.m_rdb_nam.Location = new System.Drawing.Point(86, 19);
             this.m_rdb_nam.Name = "m_rdb_nam";
             this.m_rdb_nam.Size = new System.Drawing.Size(47, 17);
             this.m_rdb_nam.TabIndex = 7;
@@ -395,17 +419,19 @@
             this.panel14.Controls.Add(this.m_txt_trang_thai);
             this.panel14.Controls.Add(this.label10);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel14.Location = new System.Drawing.Point(847, 54);
+            this.panel14.Location = new System.Drawing.Point(765, 74);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(205, 45);
+            this.panel14.Size = new System.Drawing.Size(248, 66);
             this.panel14.TabIndex = 1;
             // 
             // m_txt_trang_thai
             // 
+            this.m_txt_trang_thai.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.m_txt_trang_thai.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_txt_trang_thai.Location = new System.Drawing.Point(0, 25);
+            this.m_txt_trang_thai.Location = new System.Drawing.Point(0, 46);
             this.m_txt_trang_thai.Name = "m_txt_trang_thai";
-            this.m_txt_trang_thai.Size = new System.Drawing.Size(205, 20);
+            this.m_txt_trang_thai.ReadOnly = true;
+            this.m_txt_trang_thai.Size = new System.Drawing.Size(248, 20);
             this.m_txt_trang_thai.TabIndex = 1;
             // 
             // label10
@@ -417,76 +443,21 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Trạng thái";
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.m_cbo_ky_hoc);
-            this.panel3.Controls.Add(this.label11);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(425, 54);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(205, 45);
-            this.panel3.TabIndex = 3;
-            // 
-            // m_cbo_ky_hoc
-            // 
-            this.m_cbo_ky_hoc.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_cbo_ky_hoc.FormattingEnabled = true;
-            this.m_cbo_ky_hoc.Location = new System.Drawing.Point(0, 24);
-            this.m_cbo_ky_hoc.Name = "m_cbo_ky_hoc";
-            this.m_cbo_ky_hoc.Size = new System.Drawing.Size(205, 21);
-            this.m_cbo_ky_hoc.TabIndex = 1;
-            this.m_cbo_ky_hoc.SelectedIndexChanged += new System.EventHandler(this.m_cbo_ky_hoc_SelectedIndexChanged);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(3, 9);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(40, 13);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Kỳ học";
-            // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.m_txt_gpa);
-            this.panel11.Controls.Add(this.label4);
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel11.Location = new System.Drawing.Point(636, 54);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(205, 45);
-            this.panel11.TabIndex = 0;
-            // 
-            // m_txt_gpa
-            // 
-            this.m_txt_gpa.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.m_txt_gpa.Location = new System.Drawing.Point(0, 25);
-            this.m_txt_gpa.Name = "m_txt_gpa";
-            this.m_txt_gpa.Size = new System.Drawing.Size(205, 20);
-            this.m_txt_gpa.TabIndex = 10;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "GPA";
-            // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.m_txt_input);
             this.panel1.Controls.Add(this.m_cmd_tim_kiem);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1278, 72);
+            this.panel1.Size = new System.Drawing.Size(1278, 50);
             this.panel1.TabIndex = 0;
             // 
             // m_txt_input
             // 
             this.m_txt_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m_txt_input.Location = new System.Drawing.Point(5, 26);
+            this.m_txt_input.Location = new System.Drawing.Point(276, 9);
             this.m_txt_input.MaxLength = 8;
             this.m_txt_input.Name = "m_txt_input";
             this.m_txt_input.Size = new System.Drawing.Size(428, 29);
@@ -498,7 +469,7 @@
             this.m_cmd_tim_kiem.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m_cmd_tim_kiem.Appearance.Options.UseFont = true;
             this.m_cmd_tim_kiem.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_tim_kiem.Image")));
-            this.m_cmd_tim_kiem.Location = new System.Drawing.Point(439, 27);
+            this.m_cmd_tim_kiem.Location = new System.Drawing.Point(721, 10);
             this.m_cmd_tim_kiem.Name = "m_cmd_tim_kiem";
             this.m_cmd_tim_kiem.Size = new System.Drawing.Size(125, 29);
             this.m_cmd_tim_kiem.TabIndex = 0;
@@ -509,10 +480,10 @@
             // 
             this.m_grc_ket_qua_tra_cuu.Cursor = System.Windows.Forms.Cursors.Default;
             this.m_grc_ket_qua_tra_cuu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.m_grc_ket_qua_tra_cuu.Location = new System.Drawing.Point(3, 228);
+            this.m_grc_ket_qua_tra_cuu.Location = new System.Drawing.Point(3, 321);
             this.m_grc_ket_qua_tra_cuu.MainView = this.m_grv_ket_qua_tra_cuu;
             this.m_grc_ket_qua_tra_cuu.Name = "m_grc_ket_qua_tra_cuu";
-            this.m_grc_ket_qua_tra_cuu.Size = new System.Drawing.Size(1278, 310);
+            this.m_grc_ket_qua_tra_cuu.Size = new System.Drawing.Size(1278, 277);
             this.m_grc_ket_qua_tra_cuu.TabIndex = 3;
             this.m_grc_ket_qua_tra_cuu.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.m_grv_ket_qua_tra_cuu});
@@ -558,6 +529,7 @@
             // m_grvcol_so_tin_chi_hoc_phan
             // 
             this.m_grvcol_so_tin_chi_hoc_phan.Caption = "Số tín chỉ học phần";
+            this.m_grvcol_so_tin_chi_hoc_phan.FieldName = "SO_TIN_CHI_HOC_PHAN";
             this.m_grvcol_so_tin_chi_hoc_phan.Name = "m_grvcol_so_tin_chi_hoc_phan";
             this.m_grvcol_so_tin_chi_hoc_phan.Visible = true;
             this.m_grvcol_so_tin_chi_hoc_phan.VisibleIndex = 3;
@@ -594,11 +566,137 @@
             this.m_grvcol_diem_chu.Visible = true;
             this.m_grvcol_diem_chu.VisibleIndex = 7;
             // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 3;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.Controls.Add(this.panel3, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.panel12, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.panel11, 2, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1272, 69);
+            this.tableLayoutPanel3.TabIndex = 4;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.tableLayoutPanel3);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Location = new System.Drawing.Point(3, 227);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(1278, 88);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Kết quả học tập";
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.m_cbo_ky_hoc);
+            this.panel12.Controls.Add(this.label12);
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel12.Location = new System.Drawing.Point(3, 3);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(417, 63);
+            this.panel12.TabIndex = 4;
+            // 
+            // m_cbo_ky_hoc
+            // 
+            this.m_cbo_ky_hoc.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.m_cbo_ky_hoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbo_ky_hoc.FormattingEnabled = true;
+            this.m_cbo_ky_hoc.Location = new System.Drawing.Point(0, 42);
+            this.m_cbo_ky_hoc.Name = "m_cbo_ky_hoc";
+            this.m_cbo_ky_hoc.Size = new System.Drawing.Size(417, 21);
+            this.m_cbo_ky_hoc.TabIndex = 1;
+            this.m_cbo_ky_hoc.SelectedIndexChanged += new System.EventHandler(this.m_cbo_ky_hoc_SelectedIndexChanged_1);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(3, 9);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(40, 13);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Kỳ học";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.m_txt_gpa);
+            this.panel3.Controls.Add(this.label11);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(426, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(417, 63);
+            this.panel3.TabIndex = 5;
+            // 
+            // m_txt_gpa
+            // 
+            this.m_txt_gpa.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.m_txt_gpa.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.m_txt_gpa.Location = new System.Drawing.Point(0, 43);
+            this.m_txt_gpa.Name = "m_txt_gpa";
+            this.m_txt_gpa.ReadOnly = true;
+            this.m_txt_gpa.Size = new System.Drawing.Size(417, 20);
+            this.m_txt_gpa.TabIndex = 10;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(3, 9);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(29, 13);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "GPA";
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.m_txt_cpa);
+            this.panel11.Controls.Add(this.label4);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel11.Location = new System.Drawing.Point(849, 3);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(420, 63);
+            this.panel11.TabIndex = 6;
+            // 
+            // m_txt_cpa
+            // 
+            this.m_txt_cpa.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.m_txt_cpa.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.m_txt_cpa.Location = new System.Drawing.Point(0, 43);
+            this.m_txt_cpa.Name = "m_txt_cpa";
+            this.m_txt_cpa.ReadOnly = true;
+            this.m_txt_cpa.Size = new System.Drawing.Size(420, 20);
+            this.m_txt_cpa.TabIndex = 12;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(3, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(28, 13);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "CPA";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(119, 12);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(116, 24);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "Mã sinh viên";
+            // 
             // f300_tra_cuu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 541);
+            this.ClientSize = new System.Drawing.Size(1284, 601);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "f300_tra_cuu";
             this.Text = "Tra cứu";
@@ -624,14 +722,18 @@
             this.panel7.PerformLayout();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_ket_qua_tra_cuu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_ket_qua_tra_cuu)).EndInit();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -666,9 +768,6 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.TextBox m_txt_que_quan;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.TextBox m_txt_gpa;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Label label10;
         private DevExpress.XtraGrid.GridControl m_grc_ket_qua_tra_cuu;
@@ -685,8 +784,17 @@
         private System.Windows.Forms.TextBox m_txt_khoa_vien;
         private System.Windows.Forms.TextBox m_txt_lop_sinh_vien;
         private System.Windows.Forms.TextBox m_txt_trang_thai;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.ComboBox m_cbo_ky_hoc;
+        private System.Windows.Forms.TextBox m_txt_gpa;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.ComboBox m_cbo_ky_hoc;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.TextBox m_txt_cpa;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label13;
     }
 }

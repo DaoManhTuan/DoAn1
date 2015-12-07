@@ -32,7 +32,7 @@ namespace TOSApp.DanhMuc
 
         private void load_data_2_cbo_khoa_vien()
         {            
-            WinFormControls.load_data_to_combobox("DM_KHOA_VIEN", "ID", "TEN_KHOA_VIEN", "WHERE TRANG_THAI_HSD = 7", WinFormControls.eTAT_CA.NO, m_cbo_khoa_vien);        
+            WinFormControls.load_data_to_combobox("V_DM_KHOA_VIEN", "ID", "TEN_KHOA_VIEN", "", WinFormControls.eTAT_CA.NO, m_cbo_khoa_vien);        
         }
 
         private void m_grv_dm_giang_vien_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)

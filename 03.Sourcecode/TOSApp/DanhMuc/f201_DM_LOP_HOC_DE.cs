@@ -36,17 +36,17 @@ namespace TOSApp.DanhMuc
         }
         private void load_data_2_cbo_hoc_ky()
         {
-            WinFormControls.load_data_to_combobox("DM_HOC_KY", "ID", "MA_HOC_KY", " where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_hoc_ky);
+            WinFormControls.load_data_to_combobox("V_DM_HOC_KY", "ID", "MA_HOC_KY", "", WinFormControls.eTAT_CA.NO, m_cbo_hoc_ky);
         }
 
         private void load_data_2_cbo_giang_vien()
         {
-            WinFormControls.load_data_to_combobox("DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
+            WinFormControls.load_data_to_combobox("V_DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", "", WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
         }
 
         private void load_data_2_cbo_hoc_phan()
         {
-            WinFormControls.load_data_to_combobox("DM_HOC_PHAN", "ID", "TEN_HOC_PHAN", " where trang_thai_hsd= 7", WinFormControls.eTAT_CA.NO, m_cbo_hoc_phan);
+            WinFormControls.load_data_to_combobox("V_DM_HOC_PHAN", "ID", "TEN_HOC_PHAN", "", WinFormControls.eTAT_CA.NO, m_cbo_hoc_phan);
         }
 
 
@@ -59,7 +59,7 @@ namespace TOSApp.DanhMuc
         {
             US_V_DM_HOC_PHAN v_us = new US_V_DM_HOC_PHAN((decimal)m_cbo_hoc_phan.SelectedValue);
             decimal id_khoa_vien = v_us.dcID_KHOA_VIEN;
-            WinFormControls.load_data_to_combobox("DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where trang_thai_hsd=7 and ID_KHOA_VIEN=" + id_khoa_vien, WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
+            WinFormControls.load_data_to_combobox("V_DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where ID_KHOA_VIEN=" + id_khoa_vien, WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
         }
 
         private void m_cmd_OK_Click(object sender, EventArgs e)

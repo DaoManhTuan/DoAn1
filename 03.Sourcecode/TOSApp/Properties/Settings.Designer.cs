@@ -25,17 +25,6 @@ namespace TOSApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=HAGOROMO\\ManhTuan;Initial Catalog=HTTS_DHBKHN;Persist Security Info=T" +
-            "rue;User ID=sa;Password=sa")]
-        public string HTTS_DHBKConnectionString {
-            get {
-                return ((string)(this["HTTS_DHBKConnectionString"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("http://210.245.89.37:88/SyncData.asmx")]
         public string TICApp_SCMServices_SyncData {
             get {
@@ -49,6 +38,17 @@ namespace TOSApp.Properties {
         public string TOSApp_WSCallCenter_CallCenterService {
             get {
                 return ((string)(this["TOSApp_WSCallCenter_CallCenterService"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=HAGOROMO\\ManhTuan;Initial Catalog=HTTS_DHBKHN;Persist Security Info=T" +
+            "rue;User ID=sa;Password=sa")]
+        public string HTTS_DHBKConnectionString {
+            get {
+                return ((string)(this["HTTS_DHBKConnectionString"]));
             }
         }
     }

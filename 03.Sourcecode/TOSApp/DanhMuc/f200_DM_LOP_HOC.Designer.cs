@@ -397,6 +397,7 @@
             this.m_cbo_hoc_ky.Name = "m_cbo_hoc_ky";
             this.m_cbo_hoc_ky.Size = new System.Drawing.Size(211, 21);
             this.m_cbo_hoc_ky.TabIndex = 3;
+            this.m_cbo_hoc_ky.SelectedIndexChanged += new System.EventHandler(this.m_cbo_hoc_ky_SelectedIndexChanged);
             // 
             // label5
             // 

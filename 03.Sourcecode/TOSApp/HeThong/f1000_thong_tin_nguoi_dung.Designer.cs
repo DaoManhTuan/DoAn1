@@ -36,19 +36,25 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.m_cbo_nhom = new System.Windows.Forms.ComboBox();
             this.m_txt_tai_khoan = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.m_grc_user_name = new DevExpress.XtraGrid.GridControl();
             this.m_grv_user_name = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.TAI_KHOAN = new DevExpress.XtraGrid.Columns.GridColumn();
             this.TEN_NHOM = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.label2 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_user_name)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_user_name)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -92,36 +98,42 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.m_cbo_nhom);
-            this.panel2.Controls.Add(this.m_txt_tai_khoan);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.tableLayoutPanel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(567, 100);
+            this.panel2.Size = new System.Drawing.Size(567, 65);
             this.panel2.TabIndex = 1;
             // 
             // m_cbo_nhom
             // 
             this.m_cbo_nhom.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_nhom.FormattingEnabled = true;
-            this.m_cbo_nhom.Location = new System.Drawing.Point(365, 23);
+            this.m_cbo_nhom.Location = new System.Drawing.Point(79, 14);
             this.m_cbo_nhom.Name = "m_cbo_nhom";
-            this.m_cbo_nhom.Size = new System.Drawing.Size(168, 21);
+            this.m_cbo_nhom.Size = new System.Drawing.Size(145, 21);
             this.m_cbo_nhom.TabIndex = 2;
             // 
             // m_txt_tai_khoan
             // 
-            this.m_txt_tai_khoan.Location = new System.Drawing.Point(97, 23);
+            this.m_txt_tai_khoan.Location = new System.Drawing.Point(88, 17);
             this.m_txt_tai_khoan.Name = "m_txt_tai_khoan";
-            this.m_txt_tai_khoan.Size = new System.Drawing.Size(153, 20);
+            this.m_txt_tai_khoan.Size = new System.Drawing.Size(146, 20);
             this.m_txt_tai_khoan.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(18, 17);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Nhóm";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 30);
+            this.label1.Location = new System.Drawing.Point(9, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 0;
@@ -131,9 +143,9 @@
             // 
             this.panel3.Controls.Add(this.m_grc_user_name);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 100);
+            this.panel3.Location = new System.Drawing.Point(0, 65);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(567, 299);
+            this.panel3.Size = new System.Drawing.Size(567, 334);
             this.panel3.TabIndex = 2;
             // 
             // m_grc_user_name
@@ -143,7 +155,7 @@
             this.m_grc_user_name.Location = new System.Drawing.Point(0, 0);
             this.m_grc_user_name.MainView = this.m_grv_user_name;
             this.m_grc_user_name.Name = "m_grc_user_name";
-            this.m_grc_user_name.Size = new System.Drawing.Size(567, 299);
+            this.m_grc_user_name.Size = new System.Drawing.Size(567, 334);
             this.m_grc_user_name.TabIndex = 0;
             this.m_grc_user_name.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.m_grv_user_name});
@@ -155,6 +167,8 @@
             this.TEN_NHOM});
             this.m_grv_user_name.GridControl = this.m_grc_user_name;
             this.m_grv_user_name.Name = "m_grv_user_name";
+            this.m_grv_user_name.OptionsBehavior.ReadOnly = true;
+            this.m_grv_user_name.OptionsView.ShowAutoFilterRow = true;
             this.m_grv_user_name.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.m_grv_user_name_FocusedRowChanged);
             // 
             // TAI_KHOAN
@@ -173,14 +187,40 @@
             this.TEN_NHOM.Visible = true;
             this.TEN_NHOM.VisibleIndex = 1;
             // 
-            // label2
+            // tableLayoutPanel1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(303, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Nhóm";
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panel5, 1, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(567, 65);
+            this.tableLayoutPanel1.TabIndex = 3;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.m_txt_tai_khoan);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(3, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(277, 59);
+            this.panel4.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.m_cbo_nhom);
+            this.panel5.Controls.Add(this.label2);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(286, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(278, 59);
+            this.panel5.TabIndex = 1;
             // 
             // f1000_thong_tin_nguoi_dung
             // 
@@ -191,15 +231,19 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "f1000_thong_tin_nguoi_dung";
-            this.Text = "f1000_thong_tin_nguoi_dung";
+            this.Text = "Thông tin người dùng";
             this.Load += new System.EventHandler(this.f1000_thong_tin_nguoi_dung_Load);
             this.panel1.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_user_name)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_user_name)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -220,5 +264,8 @@
         private DevExpress.XtraGrid.Columns.GridColumn TAI_KHOAN;
         private DevExpress.XtraGrid.Columns.GridColumn TEN_NHOM;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
     }
 }

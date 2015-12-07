@@ -115,6 +115,11 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CDBNames.cs" />
+    <Compile Include="DS_DIEM_THI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DIEM_THI.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_DM_GIANG_VIEN.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -155,6 +160,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_DM_SINH_VIEN.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_KET_QUA_HOC_TAP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_KET_QUA_HOC_TAP.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_USER_NAME.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -188,6 +198,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DS_DIEM_THI.xsc">
+      <DependentUpon>DS_DIEM_THI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DIEM_THI.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DIEM_THI.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DIEM_THI.xss">
+      <DependentUpon>DS_DIEM_THI.xsd</DependentUpon>
+    </None>
     <None Include="DS_DM_GIANG_VIEN.xsc">
       <DependentUpon>DS_DM_GIANG_VIEN.xsd</DependentUpon>
     </None>
@@ -275,6 +296,17 @@
     </None>
     <None Include="DS_DM_SINH_VIEN.xss">
       <DependentUpon>DS_DM_SINH_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_KET_QUA_HOC_TAP.xsc">
+      <DependentUpon>DS_KET_QUA_HOC_TAP.xsd</DependentUpon>
+    </None>
+    <None Include="DS_KET_QUA_HOC_TAP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_KET_QUA_HOC_TAP.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_KET_QUA_HOC_TAP.xss">
+      <DependentUpon>DS_KET_QUA_HOC_TAP.xsd</DependentUpon>
     </None>
     <None Include="DS_USER_NAME.xsc">
       <DependentUpon>DS_USER_NAME.xsd</DependentUpon>

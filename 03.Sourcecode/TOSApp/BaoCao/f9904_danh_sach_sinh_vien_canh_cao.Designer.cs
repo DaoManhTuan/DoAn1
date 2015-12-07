@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(699, 372);
+            this.ClientSize = new System.Drawing.Size(813, 437);
             this.Name = "f9904_danh_sach_sinh_vien_canh_cao";
             this.Text = "f9904_danh_sach_sinh_vien_canh_cao";
             this.ResumeLayout(false);

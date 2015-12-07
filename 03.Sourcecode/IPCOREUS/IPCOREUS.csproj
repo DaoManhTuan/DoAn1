@@ -127,6 +127,7 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="US_DIEM_THI.cs" />
     <Compile Include="US_DM_GIANG_VIEN.cs" />
     <Compile Include="US_DM_HOC_KY.cs" />
     <Compile Include="US_DM_HOC_PHAN.cs" />
@@ -135,6 +136,7 @@
     <Compile Include="US_DM_LOP_HOC.cs" />
     <Compile Include="US_DM_LOP_SINH_VIEN.cs" />
     <Compile Include="US_DM_SINH_VIEN.cs" />
+    <Compile Include="US_KET_QUA_HOC_TAP.cs" />
     <Compile Include="US_USER_NAME.cs" />
     <Compile Include="US_V_DM_HOC_PHAN.cs" />
     <Compile Include="US_V_DM_LOP_HOC.cs" />

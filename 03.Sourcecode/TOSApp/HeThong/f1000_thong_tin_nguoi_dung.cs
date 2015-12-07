@@ -22,8 +22,16 @@ namespace TOSApp.HeThong
 
         private void f1000_thong_tin_nguoi_dung_Load(object sender, EventArgs e)
         {
-            load_data_2_grid();
-            load_data_2_cbo();
+            try
+            {
+                load_data_2_cbo();
+                load_data_2_grid();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+            
         }
 
         private void load_data_2_cbo()
@@ -92,7 +100,7 @@ namespace TOSApp.HeThong
                 }
                 else
                 {
-                    MessageBox.Show("Hãy chọn tìa khoản cần xóa!");
+                    MessageBox.Show("Hãy chọn tài khoản cần xóa!");
                 }
             }
             catch
@@ -106,17 +114,24 @@ namespace TOSApp.HeThong
             try
             {
                 DataRow v_dr = m_grv_user_name.GetDataRow(m_grv_user_name.FocusedRowHandle);
-                if (check_du_lieu_truoc_luu())
+                if (v_dr != null)
                 {
-                    US_USER_NAME v_us = new US_USER_NAME(CIPConvert.ToDecimal(v_dr["ID"]));
-                    v_us.strTAI_KHOAN = m_txt_tai_khoan.Text;
-                    v_us.dcID_NHOM = (decimal)m_cbo_nhom.SelectedValue;
-                    v_us.Update();
-                    MessageBox.Show("Cập nhật thành công tài khoản " +m_txt_tai_khoan.Text);
-                    load_data_2_grid();
+                    if (check_du_lieu_truoc_luu())
+                    {
+                        US_USER_NAME v_us = new US_USER_NAME(CIPConvert.ToDecimal(v_dr["ID"].ToString()));
+                        v_us.strTAI_KHOAN = m_txt_tai_khoan.Text;
+                        v_us.dcID_NHOM = (decimal)m_cbo_nhom.SelectedValue;
+                        v_us.Update();
+                        MessageBox.Show("Cập nhật thành công tài khoản " + m_txt_tai_khoan.Text);
+                        load_data_2_grid();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("chọn 1 dòng");
                 }
             }
-            catch (Exception v)
+            catch
             {
 
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
@@ -125,7 +140,7 @@ namespace TOSApp.HeThong
 
         private bool check_du_lieu_truoc_luu()
         {
-            if (m_txt_tai_khoan.Text == " " || m_txt_tai_khoan.TextLength == 0)
+            if (m_txt_tai_khoan.Text == "")
             {
                 MessageBox.Show("Tài khoản chưa đúng!");
                 m_txt_tai_khoan.Focus();
@@ -141,9 +156,9 @@ namespace TOSApp.HeThong
                 v_us.FillDatasetWithQuery(v_ds, "select * from user_name where tai_khoan = '" + m_txt_tai_khoan.Text + "'");
                 if (v_ds.Tables[0].Rows.Count != 0)
                 {
+                    MessageBox.Show("Tài khoản đã tồn tại!");
                     return false;
                 }
-                else return true;
             }
             return true;
         }

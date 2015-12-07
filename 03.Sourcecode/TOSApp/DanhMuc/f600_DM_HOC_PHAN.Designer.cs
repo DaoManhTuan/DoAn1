@@ -230,6 +230,7 @@
             // m_grvcol_so_tin_chi_hoc_phan
             // 
             this.m_grvcol_so_tin_chi_hoc_phan.Caption = "Số tín chỉ học phần";
+            this.m_grvcol_so_tin_chi_hoc_phan.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.m_grvcol_so_tin_chi_hoc_phan.FieldName = "SO_TIN_CHI_HOC_PHAN";
             this.m_grvcol_so_tin_chi_hoc_phan.Name = "m_grvcol_so_tin_chi_hoc_phan";
             this.m_grvcol_so_tin_chi_hoc_phan.Visible = true;
@@ -326,6 +327,7 @@
             this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
             this.m_cbo_khoa_vien.Size = new System.Drawing.Size(234, 21);
             this.m_cbo_khoa_vien.TabIndex = 18;
+            this.m_cbo_khoa_vien.SelectedIndexChanged += new System.EventHandler(this.m_cbo_khoa_vien_SelectedIndexChanged);
             // 
             // label4
             // 

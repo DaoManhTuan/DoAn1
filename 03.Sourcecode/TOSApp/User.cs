@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IP.Core.IPCommon;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -77,5 +78,38 @@ namespace TOSApp
         }
 
        
+        public static string GetDiemChu(decimal v_qua_trinh,decimal v_diem_thi,decimal v_trong_so)
+        {
+            US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+            DataSet v_ds = new DataSet();
+            v_ds.Tables.Add(new DataTable());
+            string v_str_query = "SELECT * FROM dbo.fn_tinh_ket_qua(" + v_qua_trinh.ToString().Replace(',', '.') + "," + v_diem_thi.ToString().Replace(',', '.') + "," + v_trong_so.ToString().Replace(',', '.') + ")";
+            v_us.FillDatasetWithQuery(v_ds, v_str_query);
+            return v_ds.Tables[0].Rows[0][1].ToString();
+        }
+        public static decimal GetDiemSo(decimal v_qua_trinh, decimal v_diem_thi, decimal v_trong_so)
+        {
+            US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+            DataSet v_ds = new DataSet();
+            v_ds.Tables.Add(new DataTable());
+            v_us.FillDatasetWithQuery(v_ds, "SELECT * FROM dbo.fn_tinh_ket_qua(" + v_qua_trinh.ToString() + "," + v_diem_thi.ToString() + "," + v_trong_so.ToString() + ")");
+            return CIPConvert.ToDecimal( v_ds.Tables[0].Rows[0][0].ToString());
+        }
+        public static decimal GetGPA(decimal v_dc_id_sinh_vien, decimal v_dc_id_hoc_ky)
+        {
+            US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+            DataSet v_ds = new DataSet();
+            v_ds.Tables.Add(new DataTable());
+            v_us.FillDatasetWithQuery(v_ds, "SELECT * FROM dbo.fn_ket_qua_hoc_tap(" + v_dc_id_hoc_ky.ToString() + "," + v_dc_id_sinh_vien.ToString() + ")");
+            return CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0][0].ToString());
+        }
+        public static decimal GetCPA(decimal v_dc_id_sinh_vien, decimal v_dc_id_hoc_ky)
+        {
+            US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+            DataSet v_ds = new DataSet();
+            v_ds.Tables.Add(new DataTable());
+            v_us.FillDatasetWithQuery(v_ds, "SELECT * FROM dbo.fn_ket_qua_hoc_tap(" + v_dc_id_hoc_ky.ToString() + "," + v_dc_id_sinh_vien.ToString() + ")");
+            return CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0][1].ToString());
+        }
     }
 }

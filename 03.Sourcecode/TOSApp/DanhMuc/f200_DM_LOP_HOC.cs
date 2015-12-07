@@ -28,17 +28,17 @@ namespace TOSApp.DanhMuc
 
         private void load_data_2_cbo_hoc_ky()
         {
-            WinFormControls.load_data_to_combobox("DM_HOC_KY", "ID", "MA_HOC_KY", " where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_hoc_ky);
+            WinFormControls.load_data_to_combobox("v_DM_HOC_KY", "ID", "MA_HOC_KY", "", WinFormControls.eTAT_CA.NO, m_cbo_hoc_ky);
         }
 
         private void load_data_2_cbo_giang_vien()
         {
-            WinFormControls.load_data_to_combobox("DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where trang_thai_hsd=7", WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
+            WinFormControls.load_data_to_combobox("V_DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", "", WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
         }
 
         private void load_data_2_cbo_hoc_phan()
         {
-            WinFormControls.load_data_to_combobox("DM_HOC_PHAN", "ID", "TEN_HOC_PHAN", " where trang_thai_hsd= 7", WinFormControls.eTAT_CA.NO, m_cbo_hoc_phan);
+            WinFormControls.load_data_to_combobox("V_DM_HOC_PHAN", "ID", "TEN_HOC_PHAN", "", WinFormControls.eTAT_CA.NO, m_cbo_hoc_phan);
 
         }
 
@@ -56,7 +56,7 @@ namespace TOSApp.DanhMuc
         {
             US_V_DM_HOC_PHAN v_us = new US_V_DM_HOC_PHAN((decimal)m_cbo_hoc_phan.SelectedValue);
             decimal id_khoa_vien = v_us.dcID_KHOA_VIEN;
-            WinFormControls.load_data_to_combobox("DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where trang_thai_hsd=7 and ID_KHOA_VIEN=" + id_khoa_vien, WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
+            WinFormControls.load_data_to_combobox("V_DM_GIANG_VIEN", "ID", "TEN_GIANG_VIEN", " Where ID_KHOA_VIEN=" + id_khoa_vien, WinFormControls.eTAT_CA.NO, m_cbo_giang_vien);
             m_txt_ma_hoc_phan.Text = v_us.strMA_HOC_PHAN.ToString();
 
         }
@@ -168,7 +168,7 @@ namespace TOSApp.DanhMuc
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithQuery(v_ds, "select * from dm_lop_hoc where ma_lop_hoc = '" + m_txt_ma_lop_hoc.Text+"'");
+            v_us.FillDatasetWithQuery(v_ds, "select * from V_dm_lop_hoc where ma_lop_hoc = '" + m_txt_ma_lop_hoc.Text+"'");
 
             if (v_ds.Tables[0].Rows.Count > 0)
             {
@@ -197,6 +197,11 @@ namespace TOSApp.DanhMuc
             load_data_2_cbo();
             load_data_2_grid();
             User.phan_quyen_user(this);
+        }
+
+        private void m_cbo_hoc_ky_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
        

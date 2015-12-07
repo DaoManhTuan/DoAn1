@@ -20,17 +20,17 @@ namespace IPCOREDS {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("DS_USER_NAME")]
+    [global::System.Xml.Serialization.XmlRootAttribute("DS_DIEM_THI")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class DS_USER_NAME : global::System.Data.DataSet {
+    public partial class DS_DIEM_THI : global::System.Data.DataSet {
         
-        private USER_NAMEDataTable tableUSER_NAME;
+        private DIEM_THIDataTable tableDIEM_THI;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public DS_USER_NAME() {
+        public DS_DIEM_THI() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -41,7 +41,7 @@ namespace IPCOREDS {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        protected DS_USER_NAME(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected DS_DIEM_THI(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -54,8 +54,8 @@ namespace IPCOREDS {
             if ((this.DetermineSchemaSerializationMode(info, context) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
-                if ((ds.Tables["USER_NAME"] != null)) {
-                    base.Tables.Add(new USER_NAMEDataTable(ds.Tables["USER_NAME"]));
+                if ((ds.Tables["DIEM_THI"] != null)) {
+                    base.Tables.Add(new DIEM_THIDataTable(ds.Tables["DIEM_THI"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -79,9 +79,9 @@ namespace IPCOREDS {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public USER_NAMEDataTable USER_NAME {
+        public DIEM_THIDataTable DIEM_THI {
             get {
-                return this.tableUSER_NAME;
+                return this.tableDIEM_THI;
             }
         }
         
@@ -127,7 +127,7 @@ namespace IPCOREDS {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            DS_USER_NAME cln = ((DS_USER_NAME)(base.Clone()));
+            DS_DIEM_THI cln = ((DS_DIEM_THI)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -152,8 +152,8 @@ namespace IPCOREDS {
                 this.Reset();
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXml(reader);
-                if ((ds.Tables["USER_NAME"] != null)) {
-                    base.Tables.Add(new USER_NAMEDataTable(ds.Tables["USER_NAME"]));
+                if ((ds.Tables["DIEM_THI"] != null)) {
+                    base.Tables.Add(new DIEM_THIDataTable(ds.Tables["DIEM_THI"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -188,10 +188,10 @@ namespace IPCOREDS {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         internal void InitVars(bool initTable) {
-            this.tableUSER_NAME = ((USER_NAMEDataTable)(base.Tables["USER_NAME"]));
+            this.tableDIEM_THI = ((DIEM_THIDataTable)(base.Tables["DIEM_THI"]));
             if ((initTable == true)) {
-                if ((this.tableUSER_NAME != null)) {
-                    this.tableUSER_NAME.InitVars();
+                if ((this.tableDIEM_THI != null)) {
+                    this.tableDIEM_THI.InitVars();
                 }
             }
         }
@@ -199,18 +199,18 @@ namespace IPCOREDS {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "DS_USER_NAME";
+            this.DataSetName = "DS_DIEM_THI";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/DS_USER_NAME.xsd";
+            this.Namespace = "http://tempuri.org/DS_DIEM_THI.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-            this.tableUSER_NAME = new USER_NAMEDataTable();
-            base.Tables.Add(this.tableUSER_NAME);
+            this.tableDIEM_THI = new DIEM_THIDataTable();
+            base.Tables.Add(this.tableDIEM_THI);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private bool ShouldSerializeUSER_NAME() {
+        private bool ShouldSerializeDIEM_THI() {
             return false;
         }
         
@@ -225,7 +225,7 @@ namespace IPCOREDS {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            DS_USER_NAME ds = new DS_USER_NAME();
+            DS_DIEM_THI ds = new DS_DIEM_THI();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -270,29 +270,31 @@ namespace IPCOREDS {
         }
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public delegate void USER_NAMERowChangeEventHandler(object sender, USER_NAMERowChangeEvent e);
+        public delegate void DIEM_THIRowChangeEventHandler(object sender, DIEM_THIRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class USER_NAMEDataTable : global::System.Data.DataTable, global::System.Collections.IEnumerable {
+        public partial class DIEM_THIDataTable : global::System.Data.DataTable, global::System.Collections.IEnumerable {
             
             private global::System.Data.DataColumn columnID;
             
-            private global::System.Data.DataColumn columnTAI_KHOAN;
+            private global::System.Data.DataColumn columnID_SINH_VIEN;
             
-            private global::System.Data.DataColumn columnMAT_KHAU;
+            private global::System.Data.DataColumn columnID_LOP_HOC;
             
-            private global::System.Data.DataColumn columnID_NHOM;
+            private global::System.Data.DataColumn columnDIEM_QUA_TRINH;
             
-            private global::System.Data.DataColumn columnTRANG_THAI_HSD;
+            private global::System.Data.DataColumn columnDIEM_THI;
+            
+            private global::System.Data.DataColumn columnDIEM_CHU;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public USER_NAMEDataTable() {
-                this.TableName = "USER_NAME";
+            public DIEM_THIDataTable() {
+                this.TableName = "DIEM_THI";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -300,7 +302,7 @@ namespace IPCOREDS {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal USER_NAMEDataTable(global::System.Data.DataTable table) {
+            internal DIEM_THIDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -317,7 +319,7 @@ namespace IPCOREDS {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            protected USER_NAMEDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected DIEM_THIDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
             }
@@ -332,33 +334,41 @@ namespace IPCOREDS {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn TAI_KHOANColumn {
+            public global::System.Data.DataColumn ID_SINH_VIENColumn {
                 get {
-                    return this.columnTAI_KHOAN;
+                    return this.columnID_SINH_VIEN;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn MAT_KHAUColumn {
+            public global::System.Data.DataColumn ID_LOP_HOCColumn {
                 get {
-                    return this.columnMAT_KHAU;
+                    return this.columnID_LOP_HOC;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn ID_NHOMColumn {
+            public global::System.Data.DataColumn DIEM_QUA_TRINHColumn {
                 get {
-                    return this.columnID_NHOM;
+                    return this.columnDIEM_QUA_TRINH;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn TRANG_THAI_HSDColumn {
+            public global::System.Data.DataColumn DIEM_THIColumn {
                 get {
-                    return this.columnTRANG_THAI_HSD;
+                    return this.columnDIEM_THI;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn DIEM_CHUColumn {
+                get {
+                    return this.columnDIEM_CHU;
                 }
             }
             
@@ -373,49 +383,50 @@ namespace IPCOREDS {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public USER_NAMERow this[int index] {
+            public DIEM_THIRow this[int index] {
                 get {
-                    return ((USER_NAMERow)(this.Rows[index]));
+                    return ((DIEM_THIRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event USER_NAMERowChangeEventHandler USER_NAMERowChanging;
+            public event DIEM_THIRowChangeEventHandler DIEM_THIRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event USER_NAMERowChangeEventHandler USER_NAMERowChanged;
+            public event DIEM_THIRowChangeEventHandler DIEM_THIRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event USER_NAMERowChangeEventHandler USER_NAMERowDeleting;
+            public event DIEM_THIRowChangeEventHandler DIEM_THIRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event USER_NAMERowChangeEventHandler USER_NAMERowDeleted;
+            public event DIEM_THIRowChangeEventHandler DIEM_THIRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void AddUSER_NAMERow(USER_NAMERow row) {
+            public void AddDIEM_THIRow(DIEM_THIRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public USER_NAMERow AddUSER_NAMERow(string TAI_KHOAN, string MAT_KHAU, decimal ID_NHOM, decimal TRANG_THAI_HSD) {
-                USER_NAMERow rowUSER_NAMERow = ((USER_NAMERow)(this.NewRow()));
+            public DIEM_THIRow AddDIEM_THIRow(decimal ID_SINH_VIEN, decimal ID_LOP_HOC, decimal DIEM_QUA_TRINH, decimal DIEM_THI, string DIEM_CHU) {
+                DIEM_THIRow rowDIEM_THIRow = ((DIEM_THIRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
-                        TAI_KHOAN,
-                        MAT_KHAU,
-                        ID_NHOM,
-                        TRANG_THAI_HSD};
-                rowUSER_NAMERow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowUSER_NAMERow);
-                return rowUSER_NAMERow;
+                        ID_SINH_VIEN,
+                        ID_LOP_HOC,
+                        DIEM_QUA_TRINH,
+                        DIEM_THI,
+                        DIEM_CHU};
+                rowDIEM_THIRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowDIEM_THIRow);
+                return rowDIEM_THIRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public USER_NAMERow FindByID(decimal ID) {
-                return ((USER_NAMERow)(this.Rows.Find(new object[] {
+            public DIEM_THIRow FindByID(decimal ID) {
+                return ((DIEM_THIRow)(this.Rows.Find(new object[] {
                             ID})));
             }
             
@@ -428,7 +439,7 @@ namespace IPCOREDS {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                USER_NAMEDataTable cln = ((USER_NAMEDataTable)(base.Clone()));
+                DIEM_THIDataTable cln = ((DIEM_THIDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -436,17 +447,18 @@ namespace IPCOREDS {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new USER_NAMEDataTable();
+                return new DIEM_THIDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
                 this.columnID = base.Columns["ID"];
-                this.columnTAI_KHOAN = base.Columns["TAI_KHOAN"];
-                this.columnMAT_KHAU = base.Columns["MAT_KHAU"];
-                this.columnID_NHOM = base.Columns["ID_NHOM"];
-                this.columnTRANG_THAI_HSD = base.Columns["TRANG_THAI_HSD"];
+                this.columnID_SINH_VIEN = base.Columns["ID_SINH_VIEN"];
+                this.columnID_LOP_HOC = base.Columns["ID_LOP_HOC"];
+                this.columnDIEM_QUA_TRINH = base.Columns["DIEM_QUA_TRINH"];
+                this.columnDIEM_THI = base.Columns["DIEM_THI"];
+                this.columnDIEM_CHU = base.Columns["DIEM_CHU"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -454,14 +466,16 @@ namespace IPCOREDS {
             private void InitClass() {
                 this.columnID = new global::System.Data.DataColumn("ID", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnID);
-                this.columnTAI_KHOAN = new global::System.Data.DataColumn("TAI_KHOAN", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnTAI_KHOAN);
-                this.columnMAT_KHAU = new global::System.Data.DataColumn("MAT_KHAU", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnMAT_KHAU);
-                this.columnID_NHOM = new global::System.Data.DataColumn("ID_NHOM", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnID_NHOM);
-                this.columnTRANG_THAI_HSD = new global::System.Data.DataColumn("TRANG_THAI_HSD", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnTRANG_THAI_HSD);
+                this.columnID_SINH_VIEN = new global::System.Data.DataColumn("ID_SINH_VIEN", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnID_SINH_VIEN);
+                this.columnID_LOP_HOC = new global::System.Data.DataColumn("ID_LOP_HOC", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnID_LOP_HOC);
+                this.columnDIEM_QUA_TRINH = new global::System.Data.DataColumn("DIEM_QUA_TRINH", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnDIEM_QUA_TRINH);
+                this.columnDIEM_THI = new global::System.Data.DataColumn("DIEM_THI", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnDIEM_THI);
+                this.columnDIEM_CHU = new global::System.Data.DataColumn("DIEM_CHU", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnDIEM_CHU);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
                 this.columnID.AutoIncrement = true;
@@ -470,38 +484,35 @@ namespace IPCOREDS {
                 this.columnID.AllowDBNull = false;
                 this.columnID.ReadOnly = true;
                 this.columnID.Unique = true;
-                this.columnTAI_KHOAN.AllowDBNull = false;
-                this.columnTAI_KHOAN.MaxLength = 50;
-                this.columnMAT_KHAU.AllowDBNull = false;
-                this.columnMAT_KHAU.MaxLength = 50;
-                this.columnID_NHOM.AllowDBNull = false;
-                this.columnTRANG_THAI_HSD.AllowDBNull = false;
+                this.columnID_SINH_VIEN.AllowDBNull = false;
+                this.columnID_LOP_HOC.AllowDBNull = false;
+                this.columnDIEM_CHU.MaxLength = 2;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public USER_NAMERow NewUSER_NAMERow() {
-                return ((USER_NAMERow)(this.NewRow()));
+            public DIEM_THIRow NewDIEM_THIRow() {
+                return ((DIEM_THIRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new USER_NAMERow(builder);
+                return new DIEM_THIRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(USER_NAMERow);
+                return typeof(DIEM_THIRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.USER_NAMERowChanged != null)) {
-                    this.USER_NAMERowChanged(this, new USER_NAMERowChangeEvent(((USER_NAMERow)(e.Row)), e.Action));
+                if ((this.DIEM_THIRowChanged != null)) {
+                    this.DIEM_THIRowChanged(this, new DIEM_THIRowChangeEvent(((DIEM_THIRow)(e.Row)), e.Action));
                 }
             }
             
@@ -509,8 +520,8 @@ namespace IPCOREDS {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.USER_NAMERowChanging != null)) {
-                    this.USER_NAMERowChanging(this, new USER_NAMERowChangeEvent(((USER_NAMERow)(e.Row)), e.Action));
+                if ((this.DIEM_THIRowChanging != null)) {
+                    this.DIEM_THIRowChanging(this, new DIEM_THIRowChangeEvent(((DIEM_THIRow)(e.Row)), e.Action));
                 }
             }
             
@@ -518,8 +529,8 @@ namespace IPCOREDS {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.USER_NAMERowDeleted != null)) {
-                    this.USER_NAMERowDeleted(this, new USER_NAMERowChangeEvent(((USER_NAMERow)(e.Row)), e.Action));
+                if ((this.DIEM_THIRowDeleted != null)) {
+                    this.DIEM_THIRowDeleted(this, new DIEM_THIRowChangeEvent(((DIEM_THIRow)(e.Row)), e.Action));
                 }
             }
             
@@ -527,14 +538,14 @@ namespace IPCOREDS {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.USER_NAMERowDeleting != null)) {
-                    this.USER_NAMERowDeleting(this, new USER_NAMERowChangeEvent(((USER_NAMERow)(e.Row)), e.Action));
+                if ((this.DIEM_THIRowDeleting != null)) {
+                    this.DIEM_THIRowDeleting(this, new DIEM_THIRowChangeEvent(((DIEM_THIRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void RemoveUSER_NAMERow(USER_NAMERow row) {
+            public void RemoveDIEM_THIRow(DIEM_THIRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -543,7 +554,7 @@ namespace IPCOREDS {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DS_USER_NAME ds = new DS_USER_NAME();
+                DS_DIEM_THI ds = new DS_DIEM_THI();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -561,7 +572,7 @@ namespace IPCOREDS {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "USER_NAMEDataTable";
+                attribute2.FixedValue = "DIEM_THIDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -605,70 +616,132 @@ namespace IPCOREDS {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class USER_NAMERow : global::System.Data.DataRow {
+        public partial class DIEM_THIRow : global::System.Data.DataRow {
             
-            private USER_NAMEDataTable tableUSER_NAME;
+            private DIEM_THIDataTable tableDIEM_THI;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal USER_NAMERow(global::System.Data.DataRowBuilder rb) : 
+            internal DIEM_THIRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tableUSER_NAME = ((USER_NAMEDataTable)(this.Table));
+                this.tableDIEM_THI = ((DIEM_THIDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public decimal ID {
                 get {
-                    return ((decimal)(this[this.tableUSER_NAME.IDColumn]));
+                    return ((decimal)(this[this.tableDIEM_THI.IDColumn]));
                 }
                 set {
-                    this[this.tableUSER_NAME.IDColumn] = value;
+                    this[this.tableDIEM_THI.IDColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string TAI_KHOAN {
+            public decimal ID_SINH_VIEN {
                 get {
-                    return ((string)(this[this.tableUSER_NAME.TAI_KHOANColumn]));
+                    return ((decimal)(this[this.tableDIEM_THI.ID_SINH_VIENColumn]));
                 }
                 set {
-                    this[this.tableUSER_NAME.TAI_KHOANColumn] = value;
+                    this[this.tableDIEM_THI.ID_SINH_VIENColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string MAT_KHAU {
+            public decimal ID_LOP_HOC {
                 get {
-                    return ((string)(this[this.tableUSER_NAME.MAT_KHAUColumn]));
+                    return ((decimal)(this[this.tableDIEM_THI.ID_LOP_HOCColumn]));
                 }
                 set {
-                    this[this.tableUSER_NAME.MAT_KHAUColumn] = value;
+                    this[this.tableDIEM_THI.ID_LOP_HOCColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public decimal ID_NHOM {
+            public decimal DIEM_QUA_TRINH {
                 get {
-                    return ((decimal)(this[this.tableUSER_NAME.ID_NHOMColumn]));
+                    try {
+                        return ((decimal)(this[this.tableDIEM_THI.DIEM_QUA_TRINHColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'DIEM_QUA_TRINH\' in table \'DIEM_THI\' is DBNull.", e);
+                    }
                 }
                 set {
-                    this[this.tableUSER_NAME.ID_NHOMColumn] = value;
+                    this[this.tableDIEM_THI.DIEM_QUA_TRINHColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public decimal TRANG_THAI_HSD {
+            public decimal DIEM_THI {
                 get {
-                    return ((decimal)(this[this.tableUSER_NAME.TRANG_THAI_HSDColumn]));
+                    try {
+                        return ((decimal)(this[this.tableDIEM_THI.DIEM_THIColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'DIEM_THI\' in table \'DIEM_THI\' is DBNull.", e);
+                    }
                 }
                 set {
-                    this[this.tableUSER_NAME.TRANG_THAI_HSDColumn] = value;
+                    this[this.tableDIEM_THI.DIEM_THIColumn] = value;
                 }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string DIEM_CHU {
+                get {
+                    try {
+                        return ((string)(this[this.tableDIEM_THI.DIEM_CHUColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'DIEM_CHU\' in table \'DIEM_THI\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableDIEM_THI.DIEM_CHUColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsDIEM_QUA_TRINHNull() {
+                return this.IsNull(this.tableDIEM_THI.DIEM_QUA_TRINHColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetDIEM_QUA_TRINHNull() {
+                this[this.tableDIEM_THI.DIEM_QUA_TRINHColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsDIEM_THINull() {
+                return this.IsNull(this.tableDIEM_THI.DIEM_THIColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetDIEM_THINull() {
+                this[this.tableDIEM_THI.DIEM_THIColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsDIEM_CHUNull() {
+                return this.IsNull(this.tableDIEM_THI.DIEM_CHUColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetDIEM_CHUNull() {
+                this[this.tableDIEM_THI.DIEM_CHUColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -676,22 +749,22 @@ namespace IPCOREDS {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public class USER_NAMERowChangeEvent : global::System.EventArgs {
+        public class DIEM_THIRowChangeEvent : global::System.EventArgs {
             
-            private USER_NAMERow eventRow;
+            private DIEM_THIRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public USER_NAMERowChangeEvent(USER_NAMERow row, global::System.Data.DataRowAction action) {
+            public DIEM_THIRowChangeEvent(DIEM_THIRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public USER_NAMERow Row {
+            public DIEM_THIRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -707,7 +780,7 @@ namespace IPCOREDS {
         }
     }
 }
-namespace IPCOREDS.DS_USER_NAMETableAdapters {
+namespace IPCOREDS.DS_DIEM_THITableAdapters {
     
     
     /// <summary>
@@ -719,7 +792,7 @@ namespace IPCOREDS.DS_USER_NAMETableAdapters {
     [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-    public partial class USER_NAMETableAdapter : global::System.ComponentModel.Component {
+    public partial class DIEM_THITableAdapter : global::System.ComponentModel.Component {
         
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
         
@@ -733,7 +806,7 @@ namespace IPCOREDS.DS_USER_NAMETableAdapters {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public USER_NAMETableAdapter() {
+        public DIEM_THITableAdapter() {
             this.ClearBeforeFill = true;
         }
         
@@ -830,49 +903,56 @@ namespace IPCOREDS.DS_USER_NAMETableAdapters {
             this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
-            tableMapping.DataSetTable = "USER_NAME";
+            tableMapping.DataSetTable = "DIEM_THI";
             tableMapping.ColumnMappings.Add("ID", "ID");
-            tableMapping.ColumnMappings.Add("TAI_KHOAN", "TAI_KHOAN");
-            tableMapping.ColumnMappings.Add("MAT_KHAU", "MAT_KHAU");
-            tableMapping.ColumnMappings.Add("ID_NHOM", "ID_NHOM");
-            tableMapping.ColumnMappings.Add("TRANG_THAI_HSD", "TRANG_THAI_HSD");
+            tableMapping.ColumnMappings.Add("ID_SINH_VIEN", "ID_SINH_VIEN");
+            tableMapping.ColumnMappings.Add("ID_LOP_HOC", "ID_LOP_HOC");
+            tableMapping.ColumnMappings.Add("DIEM_QUA_TRINH", "DIEM_QUA_TRINH");
+            tableMapping.ColumnMappings.Add("DIEM_THI", "DIEM_THI");
+            tableMapping.ColumnMappings.Add("DIEM_CHU", "DIEM_CHU");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[USER_NAME] WHERE (([ID] = @Original_ID) AND ([TAI_KHOAN] = @Or" +
-                "iginal_TAI_KHOAN) AND ([MAT_KHAU] = @Original_MAT_KHAU) AND ([ID_NHOM] = @Origin" +
-                "al_ID_NHOM) AND ([TRANG_THAI_HSD] = @Original_TRANG_THAI_HSD))";
+            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [dbo].[DIEM_THI] WHERE (([ID] = @Original_ID) AND ([ID_SINH_VIEN] = @Original_ID_SINH_VIEN) AND ([ID_LOP_HOC] = @Original_ID_LOP_HOC) AND ((@IsNull_DIEM_QUA_TRINH = 1 AND [DIEM_QUA_TRINH] IS NULL) OR ([DIEM_QUA_TRINH] = @Original_DIEM_QUA_TRINH)) AND ((@IsNull_DIEM_THI = 1 AND [DIEM_THI] IS NULL) OR ([DIEM_THI] = @Original_DIEM_THI)) AND ((@IsNull_DIEM_CHU = 1 AND [DIEM_CHU] IS NULL) OR ([DIEM_CHU] = @Original_DIEM_CHU)))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_TAI_KHOAN", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TAI_KHOAN", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_MAT_KHAU", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAT_KHAU", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_NHOM", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_NHOM", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_TRANG_THAI_HSD", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "TRANG_THAI_HSD", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_SINH_VIEN", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_SINH_VIEN", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_LOP_HOC", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_LOP_HOC", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_DIEM_QUA_TRINH", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_QUA_TRINH", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_DIEM_QUA_TRINH", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 1, "DIEM_QUA_TRINH", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_DIEM_THI", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_THI", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_DIEM_THI", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 1, "DIEM_THI", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_DIEM_CHU", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_CHU", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_DIEM_CHU", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_CHU", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[USER_NAME] ([TAI_KHOAN], [MAT_KHAU], [ID_NHOM], [TRANG_THAI_HS" +
-                "D]) VALUES (@TAI_KHOAN, @MAT_KHAU, @ID_NHOM, @TRANG_THAI_HSD);\r\nSELECT ID, TAI_K" +
-                "HOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID = SCOPE_IDENTIT" +
-                "Y())";
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[DIEM_THI] ([ID_SINH_VIEN], [ID_LOP_HOC], [DIEM_QUA_TRINH], [DIEM_THI], [DIEM_CHU]) VALUES (@ID_SINH_VIEN, @ID_LOP_HOC, @DIEM_QUA_TRINH, @DIEM_THI, @DIEM_CHU);
+SELECT ID, ID_SINH_VIEN, ID_LOP_HOC, DIEM_QUA_TRINH, DIEM_THI, DIEM_CHU FROM DIEM_THI WHERE (ID = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TAI_KHOAN", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TAI_KHOAN", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAT_KHAU", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAT_KHAU", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_NHOM", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_NHOM", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TRANG_THAI_HSD", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "TRANG_THAI_HSD", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_SINH_VIEN", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_SINH_VIEN", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_LOP_HOC", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_LOP_HOC", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DIEM_QUA_TRINH", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 1, "DIEM_QUA_TRINH", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DIEM_THI", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 1, "DIEM_THI", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DIEM_CHU", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_CHU", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[USER_NAME] SET [TAI_KHOAN] = @TAI_KHOAN, [MAT_KHAU] = @MAT_KHAU, [ID_NHOM] = @ID_NHOM, [TRANG_THAI_HSD] = @TRANG_THAI_HSD WHERE (([ID] = @Original_ID) AND ([TAI_KHOAN] = @Original_TAI_KHOAN) AND ([MAT_KHAU] = @Original_MAT_KHAU) AND ([ID_NHOM] = @Original_ID_NHOM) AND ([TRANG_THAI_HSD] = @Original_TRANG_THAI_HSD));
-SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID = @ID)";
+            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[DIEM_THI] SET [ID_SINH_VIEN] = @ID_SINH_VIEN, [ID_LOP_HOC] = @ID_LOP_HOC, [DIEM_QUA_TRINH] = @DIEM_QUA_TRINH, [DIEM_THI] = @DIEM_THI, [DIEM_CHU] = @DIEM_CHU WHERE (([ID] = @Original_ID) AND ([ID_SINH_VIEN] = @Original_ID_SINH_VIEN) AND ([ID_LOP_HOC] = @Original_ID_LOP_HOC) AND ((@IsNull_DIEM_QUA_TRINH = 1 AND [DIEM_QUA_TRINH] IS NULL) OR ([DIEM_QUA_TRINH] = @Original_DIEM_QUA_TRINH)) AND ((@IsNull_DIEM_THI = 1 AND [DIEM_THI] IS NULL) OR ([DIEM_THI] = @Original_DIEM_THI)) AND ((@IsNull_DIEM_CHU = 1 AND [DIEM_CHU] IS NULL) OR ([DIEM_CHU] = @Original_DIEM_CHU)));
+SELECT ID, ID_SINH_VIEN, ID_LOP_HOC, DIEM_QUA_TRINH, DIEM_THI, DIEM_CHU FROM DIEM_THI WHERE (ID = @ID)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TAI_KHOAN", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TAI_KHOAN", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAT_KHAU", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAT_KHAU", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_NHOM", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_NHOM", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TRANG_THAI_HSD", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "TRANG_THAI_HSD", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_SINH_VIEN", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_SINH_VIEN", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_LOP_HOC", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_LOP_HOC", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DIEM_QUA_TRINH", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 1, "DIEM_QUA_TRINH", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DIEM_THI", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 1, "DIEM_THI", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DIEM_CHU", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_CHU", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_TAI_KHOAN", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TAI_KHOAN", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_MAT_KHAU", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAT_KHAU", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_NHOM", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_NHOM", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_TRANG_THAI_HSD", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "TRANG_THAI_HSD", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_SINH_VIEN", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_SINH_VIEN", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_LOP_HOC", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 0, "ID_LOP_HOC", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_DIEM_QUA_TRINH", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_QUA_TRINH", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_DIEM_QUA_TRINH", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 1, "DIEM_QUA_TRINH", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_DIEM_THI", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_THI", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_DIEM_THI", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 1, "DIEM_THI", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_DIEM_CHU", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_CHU", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_DIEM_CHU", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DIEM_CHU", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID", global::System.Data.SqlDbType.Decimal, 9, global::System.Data.ParameterDirection.Input, 18, 0, "ID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -889,7 +969,8 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM dbo.USER_NAME";
+            this._commandCollection[0].CommandText = "SELECT ID, ID_SINH_VIEN, ID_LOP_HOC, DIEM_QUA_TRINH, DIEM_THI, DIEM_CHU FROM dbo." +
+                "DIEM_THI";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -897,7 +978,7 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DS_USER_NAME.USER_NAMEDataTable dataTable) {
+        public virtual int Fill(DS_DIEM_THI.DIEM_THIDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -910,9 +991,9 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DS_USER_NAME.USER_NAMEDataTable GetData() {
+        public virtual DS_DIEM_THI.DIEM_THIDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DS_USER_NAME.USER_NAMEDataTable dataTable = new DS_USER_NAME.USER_NAMEDataTable();
+            DS_DIEM_THI.DIEM_THIDataTable dataTable = new DS_DIEM_THI.DIEM_THIDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -920,15 +1001,15 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DS_USER_NAME.USER_NAMEDataTable dataTable) {
+        public virtual int Update(DS_DIEM_THI.DIEM_THIDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DS_USER_NAME dataSet) {
-            return this.Adapter.Update(dataSet, "USER_NAME");
+        public virtual int Update(DS_DIEM_THI dataSet) {
+            return this.Adapter.Update(dataSet, "DIEM_THI");
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -950,22 +1031,34 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(decimal Original_ID, string Original_TAI_KHOAN, string Original_MAT_KHAU, decimal Original_ID_NHOM, decimal Original_TRANG_THAI_HSD) {
+        public virtual int Delete(decimal Original_ID, decimal Original_ID_SINH_VIEN, decimal Original_ID_LOP_HOC, global::System.Nullable<decimal> Original_DIEM_QUA_TRINH, global::System.Nullable<decimal> Original_DIEM_THI, string Original_DIEM_CHU) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((decimal)(Original_ID));
-            if ((Original_TAI_KHOAN == null)) {
-                throw new global::System.ArgumentNullException("Original_TAI_KHOAN");
+            this.Adapter.DeleteCommand.Parameters[1].Value = ((decimal)(Original_ID_SINH_VIEN));
+            this.Adapter.DeleteCommand.Parameters[2].Value = ((decimal)(Original_ID_LOP_HOC));
+            if ((Original_DIEM_QUA_TRINH.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[3].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[4].Value = ((decimal)(Original_DIEM_QUA_TRINH.Value));
             }
             else {
-                this.Adapter.DeleteCommand.Parameters[1].Value = ((string)(Original_TAI_KHOAN));
+                this.Adapter.DeleteCommand.Parameters[3].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
-            if ((Original_MAT_KHAU == null)) {
-                throw new global::System.ArgumentNullException("Original_MAT_KHAU");
+            if ((Original_DIEM_THI.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[5].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[6].Value = ((decimal)(Original_DIEM_THI.Value));
             }
             else {
-                this.Adapter.DeleteCommand.Parameters[2].Value = ((string)(Original_MAT_KHAU));
+                this.Adapter.DeleteCommand.Parameters[5].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[6].Value = global::System.DBNull.Value;
             }
-            this.Adapter.DeleteCommand.Parameters[3].Value = ((decimal)(Original_ID_NHOM));
-            this.Adapter.DeleteCommand.Parameters[4].Value = ((decimal)(Original_TRANG_THAI_HSD));
+            if ((Original_DIEM_CHU == null)) {
+                this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[8].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[8].Value = ((string)(Original_DIEM_CHU));
+            }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -986,21 +1079,27 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string TAI_KHOAN, string MAT_KHAU, decimal ID_NHOM, decimal TRANG_THAI_HSD) {
-            if ((TAI_KHOAN == null)) {
-                throw new global::System.ArgumentNullException("TAI_KHOAN");
+        public virtual int Insert(decimal ID_SINH_VIEN, decimal ID_LOP_HOC, global::System.Nullable<decimal> DIEM_QUA_TRINH, global::System.Nullable<decimal> DIEM_THI, string DIEM_CHU) {
+            this.Adapter.InsertCommand.Parameters[0].Value = ((decimal)(ID_SINH_VIEN));
+            this.Adapter.InsertCommand.Parameters[1].Value = ((decimal)(ID_LOP_HOC));
+            if ((DIEM_QUA_TRINH.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[2].Value = ((decimal)(DIEM_QUA_TRINH.Value));
             }
             else {
-                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(TAI_KHOAN));
+                this.Adapter.InsertCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
-            if ((MAT_KHAU == null)) {
-                throw new global::System.ArgumentNullException("MAT_KHAU");
+            if ((DIEM_THI.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[3].Value = ((decimal)(DIEM_THI.Value));
             }
             else {
-                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(MAT_KHAU));
+                this.Adapter.InsertCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
-            this.Adapter.InsertCommand.Parameters[2].Value = ((decimal)(ID_NHOM));
-            this.Adapter.InsertCommand.Parameters[3].Value = ((decimal)(TRANG_THAI_HSD));
+            if ((DIEM_CHU == null)) {
+                this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[4].Value = ((string)(DIEM_CHU));
+            }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -1021,37 +1120,55 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string TAI_KHOAN, string MAT_KHAU, decimal ID_NHOM, decimal TRANG_THAI_HSD, decimal Original_ID, string Original_TAI_KHOAN, string Original_MAT_KHAU, decimal Original_ID_NHOM, decimal Original_TRANG_THAI_HSD, decimal ID) {
-            if ((TAI_KHOAN == null)) {
-                throw new global::System.ArgumentNullException("TAI_KHOAN");
+        public virtual int Update(decimal ID_SINH_VIEN, decimal ID_LOP_HOC, global::System.Nullable<decimal> DIEM_QUA_TRINH, global::System.Nullable<decimal> DIEM_THI, string DIEM_CHU, decimal Original_ID, decimal Original_ID_SINH_VIEN, decimal Original_ID_LOP_HOC, global::System.Nullable<decimal> Original_DIEM_QUA_TRINH, global::System.Nullable<decimal> Original_DIEM_THI, string Original_DIEM_CHU, decimal ID) {
+            this.Adapter.UpdateCommand.Parameters[0].Value = ((decimal)(ID_SINH_VIEN));
+            this.Adapter.UpdateCommand.Parameters[1].Value = ((decimal)(ID_LOP_HOC));
+            if ((DIEM_QUA_TRINH.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[2].Value = ((decimal)(DIEM_QUA_TRINH.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[0].Value = ((string)(TAI_KHOAN));
+                this.Adapter.UpdateCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
-            if ((MAT_KHAU == null)) {
-                throw new global::System.ArgumentNullException("MAT_KHAU");
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[1].Value = ((string)(MAT_KHAU));
-            }
-            this.Adapter.UpdateCommand.Parameters[2].Value = ((decimal)(ID_NHOM));
-            this.Adapter.UpdateCommand.Parameters[3].Value = ((decimal)(TRANG_THAI_HSD));
-            this.Adapter.UpdateCommand.Parameters[4].Value = ((decimal)(Original_ID));
-            if ((Original_TAI_KHOAN == null)) {
-                throw new global::System.ArgumentNullException("Original_TAI_KHOAN");
+            if ((DIEM_THI.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[3].Value = ((decimal)(DIEM_THI.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[5].Value = ((string)(Original_TAI_KHOAN));
+                this.Adapter.UpdateCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
-            if ((Original_MAT_KHAU == null)) {
-                throw new global::System.ArgumentNullException("Original_MAT_KHAU");
+            if ((DIEM_CHU == null)) {
+                this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(Original_MAT_KHAU));
+                this.Adapter.UpdateCommand.Parameters[4].Value = ((string)(DIEM_CHU));
             }
-            this.Adapter.UpdateCommand.Parameters[7].Value = ((decimal)(Original_ID_NHOM));
-            this.Adapter.UpdateCommand.Parameters[8].Value = ((decimal)(Original_TRANG_THAI_HSD));
-            this.Adapter.UpdateCommand.Parameters[9].Value = ((decimal)(ID));
+            this.Adapter.UpdateCommand.Parameters[5].Value = ((decimal)(Original_ID));
+            this.Adapter.UpdateCommand.Parameters[6].Value = ((decimal)(Original_ID_SINH_VIEN));
+            this.Adapter.UpdateCommand.Parameters[7].Value = ((decimal)(Original_ID_LOP_HOC));
+            if ((Original_DIEM_QUA_TRINH.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[9].Value = ((decimal)(Original_DIEM_QUA_TRINH.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[9].Value = global::System.DBNull.Value;
+            }
+            if ((Original_DIEM_THI.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[11].Value = ((decimal)(Original_DIEM_THI.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[11].Value = global::System.DBNull.Value;
+            }
+            if ((Original_DIEM_CHU == null)) {
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[13].Value = ((string)(Original_DIEM_CHU));
+            }
+            this.Adapter.UpdateCommand.Parameters[14].Value = ((decimal)(ID));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -1072,8 +1189,8 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string TAI_KHOAN, string MAT_KHAU, decimal ID_NHOM, decimal TRANG_THAI_HSD, decimal Original_ID, string Original_TAI_KHOAN, string Original_MAT_KHAU, decimal Original_ID_NHOM, decimal Original_TRANG_THAI_HSD) {
-            return this.Update(TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD, Original_ID, Original_TAI_KHOAN, Original_MAT_KHAU, Original_ID_NHOM, Original_TRANG_THAI_HSD, Original_ID);
+        public virtual int Update(decimal ID_SINH_VIEN, decimal ID_LOP_HOC, global::System.Nullable<decimal> DIEM_QUA_TRINH, global::System.Nullable<decimal> DIEM_THI, string DIEM_CHU, decimal Original_ID, decimal Original_ID_SINH_VIEN, decimal Original_ID_LOP_HOC, global::System.Nullable<decimal> Original_DIEM_QUA_TRINH, global::System.Nullable<decimal> Original_DIEM_THI, string Original_DIEM_CHU) {
+            return this.Update(ID_SINH_VIEN, ID_LOP_HOC, DIEM_QUA_TRINH, DIEM_THI, DIEM_CHU, Original_ID, Original_ID_SINH_VIEN, Original_ID_LOP_HOC, Original_DIEM_QUA_TRINH, Original_DIEM_THI, Original_DIEM_CHU, Original_ID);
         }
     }
     
@@ -1089,7 +1206,7 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         
         private UpdateOrderOption _updateOrder;
         
-        private USER_NAMETableAdapter _uSER_NAMETableAdapter;
+        private DIEM_THITableAdapter _dIEM_THITableAdapter;
         
         private bool _backupDataSetBeforeUpdate;
         
@@ -1111,12 +1228,12 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
             "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
             "a", "System.Drawing.Design.UITypeEditor")]
-        public USER_NAMETableAdapter USER_NAMETableAdapter {
+        public DIEM_THITableAdapter DIEM_THITableAdapter {
             get {
-                return this._uSER_NAMETableAdapter;
+                return this._dIEM_THITableAdapter;
             }
             set {
-                this._uSER_NAMETableAdapter = value;
+                this._dIEM_THITableAdapter = value;
             }
         }
         
@@ -1139,9 +1256,9 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
                 if ((this._connection != null)) {
                     return this._connection;
                 }
-                if (((this._uSER_NAMETableAdapter != null) 
-                            && (this._uSER_NAMETableAdapter.Connection != null))) {
-                    return this._uSER_NAMETableAdapter.Connection;
+                if (((this._dIEM_THITableAdapter != null) 
+                            && (this._dIEM_THITableAdapter.Connection != null))) {
+                    return this._dIEM_THITableAdapter.Connection;
                 }
                 return null;
             }
@@ -1156,7 +1273,7 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         public int TableAdapterInstanceCount {
             get {
                 int count = 0;
-                if ((this._uSER_NAMETableAdapter != null)) {
+                if ((this._dIEM_THITableAdapter != null)) {
                     count = (count + 1);
                 }
                 return count;
@@ -1168,14 +1285,14 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private int UpdateUpdatedRows(DS_USER_NAME dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(DS_DIEM_THI dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._uSER_NAMETableAdapter != null)) {
-                global::System.Data.DataRow[] updatedRows = dataSet.USER_NAME.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
+            if ((this._dIEM_THITableAdapter != null)) {
+                global::System.Data.DataRow[] updatedRows = dataSet.DIEM_THI.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
                 if (((updatedRows != null) 
                             && (0 < updatedRows.Length))) {
-                    result = (result + this._uSER_NAMETableAdapter.Update(updatedRows));
+                    result = (result + this._dIEM_THITableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
                 }
             }
@@ -1187,13 +1304,13 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private int UpdateInsertedRows(DS_USER_NAME dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(DS_DIEM_THI dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._uSER_NAMETableAdapter != null)) {
-                global::System.Data.DataRow[] addedRows = dataSet.USER_NAME.Select(null, null, global::System.Data.DataViewRowState.Added);
+            if ((this._dIEM_THITableAdapter != null)) {
+                global::System.Data.DataRow[] addedRows = dataSet.DIEM_THI.Select(null, null, global::System.Data.DataViewRowState.Added);
                 if (((addedRows != null) 
                             && (0 < addedRows.Length))) {
-                    result = (result + this._uSER_NAMETableAdapter.Update(addedRows));
+                    result = (result + this._dIEM_THITableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
                 }
             }
@@ -1205,13 +1322,13 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private int UpdateDeletedRows(DS_USER_NAME dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(DS_DIEM_THI dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
-            if ((this._uSER_NAMETableAdapter != null)) {
-                global::System.Data.DataRow[] deletedRows = dataSet.USER_NAME.Select(null, null, global::System.Data.DataViewRowState.Deleted);
+            if ((this._dIEM_THITableAdapter != null)) {
+                global::System.Data.DataRow[] deletedRows = dataSet.DIEM_THI.Select(null, null, global::System.Data.DataViewRowState.Deleted);
                 if (((deletedRows != null) 
                             && (0 < deletedRows.Length))) {
-                    result = (result + this._uSER_NAMETableAdapter.Update(deletedRows));
+                    result = (result + this._dIEM_THITableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
                 }
             }
@@ -1247,15 +1364,15 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public virtual int UpdateAll(DS_USER_NAME dataSet) {
+        public virtual int UpdateAll(DS_DIEM_THI dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
             if ((dataSet.HasChanges() == false)) {
                 return 0;
             }
-            if (((this._uSER_NAMETableAdapter != null) 
-                        && (this.MatchTableAdapterConnection(this._uSER_NAMETableAdapter.Connection) == false))) {
+            if (((this._dIEM_THITableAdapter != null) 
+                        && (this.MatchTableAdapterConnection(this._dIEM_THITableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("All TableAdapters managed by a TableAdapterManager must use the same connection s" +
                         "tring.");
             }
@@ -1291,13 +1408,13 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
             try {
                 // ---- Prepare for update -----------
                 //
-                if ((this._uSER_NAMETableAdapter != null)) {
-                    revertConnections.Add(this._uSER_NAMETableAdapter, this._uSER_NAMETableAdapter.Connection);
-                    this._uSER_NAMETableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
-                    this._uSER_NAMETableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
-                    if (this._uSER_NAMETableAdapter.Adapter.AcceptChangesDuringUpdate) {
-                        this._uSER_NAMETableAdapter.Adapter.AcceptChangesDuringUpdate = false;
-                        adaptersWithAcceptChangesDuringUpdate.Add(this._uSER_NAMETableAdapter.Adapter);
+                if ((this._dIEM_THITableAdapter != null)) {
+                    revertConnections.Add(this._dIEM_THITableAdapter, this._dIEM_THITableAdapter.Connection);
+                    this._dIEM_THITableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
+                    this._dIEM_THITableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
+                    if (this._dIEM_THITableAdapter.Adapter.AcceptChangesDuringUpdate) {
+                        this._dIEM_THITableAdapter.Adapter.AcceptChangesDuringUpdate = false;
+                        adaptersWithAcceptChangesDuringUpdate.Add(this._dIEM_THITableAdapter.Adapter);
                     }
                 }
                 // 
@@ -1358,9 +1475,9 @@ SELECT ID, TAI_KHOAN, MAT_KHAU, ID_NHOM, TRANG_THAI_HSD FROM USER_NAME WHERE (ID
                 if (workConnOpened) {
                     workConnection.Close();
                 }
-                if ((this._uSER_NAMETableAdapter != null)) {
-                    this._uSER_NAMETableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._uSER_NAMETableAdapter]));
-                    this._uSER_NAMETableAdapter.Transaction = null;
+                if ((this._dIEM_THITableAdapter != null)) {
+                    this._dIEM_THITableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._dIEM_THITableAdapter]));
+                    this._dIEM_THITableAdapter.Transaction = null;
                 }
                 if ((0 < adaptersWithAcceptChangesDuringUpdate.Count)) {
                     global::System.Data.Common.DataAdapter[] adapters = new System.Data.Common.DataAdapter[adaptersWithAcceptChangesDuringUpdate.Count];
