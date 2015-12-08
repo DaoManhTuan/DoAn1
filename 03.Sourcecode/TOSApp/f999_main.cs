@@ -43,6 +43,7 @@ namespace TOSApp
         f9902_bao_cao_theo_sinh_vien f9902_bao_cao_theo_sinh_vien;
         f9903_danh_sach_sinh_vien_nhan_hoc_bong f9903_danh_sach_sinh_vien_nhan_hoc_bong;
         f9904_danh_sach_sinh_vien_canh_cao f9904_danh_sach_sinh_vien_canh_cao;
+        f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien;
         List<Control> ControlList = new List<Control>();
 
         private void phan_quyen_user( decimal id_nhom)
@@ -445,6 +446,28 @@ namespace TOSApp
             {
 
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_cpa_lop_sinh_vien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+                if (f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien == null || !IsFormOpen(f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien))
+                {
+                    f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien = new BaoCao.f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien();
+                    f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.MdiParent = this;
+                    f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.Show();
+                }
+                else
+                {
+                    f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.Focus();
+                }
+            }
+            catch (Exception v_e)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
             }
         }
 

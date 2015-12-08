@@ -180,6 +180,7 @@
       <HintPath>C:\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.XtraPrinting.v14.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraRichEdit.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
@@ -286,6 +287,18 @@
     </Compile>
     <Compile Include="BaoCao\f9904_danh_sach_sinh_vien_canh_cao.Designer.cs">
       <DependentUpon>f9904_danh_sach_sinh_vien_canh_cao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.Designer.cs">
+      <DependentUpon>f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\f9906_bao_cao_demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9906_bao_cao_demo.Designer.cs">
+      <DependentUpon>f9906_bao_cao_demo.cs</DependentUpon>
     </Compile>
     <Compile Include="DanhMuc\f100_DM_SINH_VIEN.cs">
       <SubType>Form</SubType>
@@ -426,6 +439,11 @@
       <DependentUpon>f300_tra_cuu.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QUAN_LY_DIEMDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUAN_LY_DIEMDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <Compile Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.cs">
       <DependentUpon>DS_V_DM_DIEM_HOC_VIEN.xsd</DependentUpon>
@@ -455,6 +473,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BaoCao\f9904_danh_sach_sinh_vien_canh_cao.resx">
       <DependentUpon>f9904_danh_sach_sinh_vien_canh_cao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.resx">
+      <DependentUpon>f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f9906_bao_cao_demo.resx">
+      <DependentUpon>f9906_bao_cao_demo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\f100_DM_SINH_VIEN.resx">
       <DependentUpon>f100_DM_SINH_VIEN.cs</DependentUpon>
@@ -561,6 +585,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QUAN_LY_DIEMDataSet.xsc">
+      <DependentUpon>QUAN_LY_DIEMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QUAN_LY_DIEMDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUAN_LY_DIEMDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUAN_LY_DIEMDataSet.xss">
+      <DependentUpon>QUAN_LY_DIEMDataSet.xsd</DependentUpon>
+    </None>
     <None Include="TOSApp_TemporaryKey.pfx" />
     <None Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.datasource">
       <DependentUpon>Reference.map</DependentUpon>

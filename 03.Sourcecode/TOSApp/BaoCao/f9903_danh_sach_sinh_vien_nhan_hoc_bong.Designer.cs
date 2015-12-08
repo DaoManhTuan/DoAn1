@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f9903_danh_sach_sinh_vien_nhan_hoc_bong));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -48,24 +50,22 @@
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.m_cmd_xuat_excel = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xem = new DevExpress.XtraEditors.SimpleButton();
             this.m_cbo_hoc_ky = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_bao_cao_hoc_tap_theo_sv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_bao_cao_hoc_tap_theo_sv)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -78,6 +78,25 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1154, 130);
             this.panel1.TabIndex = 5;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.label10);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel7.Location = new System.Drawing.Point(371, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(301, 130);
+            this.panel7.TabIndex = 2;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(6, 94);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(279, 24);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "BẢNG ĐIỂM SV THEO HỌC KỲ";
             // 
             // panel6
             // 
@@ -171,6 +190,116 @@
             // 
             // m_grv_bao_cao_hoc_tap_theo_sv
             // 
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButton.ForeColor = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButton.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButton.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButton.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButtonActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButtonActive.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButtonActive.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButtonActive.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButtonActive.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.ColumnFilterButtonActive.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Empty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Empty.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Empty.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.EvenRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.EvenRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.EvenRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.EvenRow.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.EvenRow.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.EvenRow.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterCloseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterCloseButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterCloseButton.ForeColor = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterCloseButton.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterCloseButton.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterCloseButton.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterPanel.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterPanel.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FilterPanel.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FixedLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(133)))), ((int)(((byte)(195)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FixedLine.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedCell.BackColor = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedCell.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedCell.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedCell.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(109)))), ((int)(((byte)(189)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(139)))), ((int)(((byte)(206)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedRow.ForeColor = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedRow.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FocusedRow.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FooterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FooterPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FooterPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FooterPanel.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FooterPanel.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.FooterPanel.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupButton.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupButton.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupFooter.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupFooter.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupFooter.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupFooter.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupFooter.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupPanel.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupPanel.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupPanel.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupRow.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupRow.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.GroupRow.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HeaderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HeaderPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HeaderPanel.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HeaderPanel.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HeaderPanel.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HeaderPanel.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(170)))), ((int)(((byte)(225)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HideSelectionRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HideSelectionRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HideSelectionRow.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HideSelectionRow.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HideSelectionRow.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HorzLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.HorzLine.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.OddRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.OddRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.OddRow.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.OddRow.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.OddRow.Options.UseBorderColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.OddRow.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Preview.Font = new System.Drawing.Font("Verdana", 7.5F);
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Preview.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Preview.Options.UseFont = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Preview.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Row.ForeColor = System.Drawing.Color.Black;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Row.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.Row.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.RowSeparator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.RowSeparator.BackColor2 = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.RowSeparator.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.SelectedRow.ForeColor = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.SelectedRow.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.SelectedRow.Options.UseForeColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.TopNewRow.BackColor = System.Drawing.Color.White;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.TopNewRow.Options.UseBackColor = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.VertLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Appearance.VertLine.Options.UseBackColor = true;
             this.m_grv_bao_cao_hoc_tap_theo_sv.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn1,
             this.gridColumn2,
@@ -181,6 +310,9 @@
             this.gridColumn8});
             this.m_grv_bao_cao_hoc_tap_theo_sv.GridControl = this.m_grc_bao_cao_hoc_tap_theo_sv;
             this.m_grv_bao_cao_hoc_tap_theo_sv.Name = "m_grv_bao_cao_hoc_tap_theo_sv";
+            this.m_grv_bao_cao_hoc_tap_theo_sv.OptionsBehavior.Editable = false;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.OptionsBehavior.ReadOnly = true;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.PaintStyleName = "UltraFlat";
             // 
             // gridColumn1
             // 
@@ -248,35 +380,6 @@
             this.panel2.Size = new System.Drawing.Size(1154, 193);
             this.panel2.TabIndex = 0;
             // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.label10);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(371, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(301, 130);
-            this.panel7.TabIndex = 2;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(48, 68);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(212, 24);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "BẢNG ĐIỂM SINH VIÊN";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Controls.Add(this.panel2);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1154, 649);
-            this.panel3.TabIndex = 6;
-            // 
             // panel8
             // 
             this.panel8.Controls.Add(this.m_cmd_xuat_excel);
@@ -326,6 +429,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Kỳ học";
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Controls.Add(this.panel2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1154, 649);
+            this.panel3.TabIndex = 6;
+            // 
             // f9903_danh_sach_sinh_vien_nhan_hoc_bong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -336,6 +449,8 @@
             this.Text = "f9903_danh_sach_sinh_vien_nhan_hoc_bong";
             this.Load += new System.EventHandler(this.f9903_danh_sach_sinh_vien_nhan_hoc_bong_Load);
             this.panel1.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -344,11 +459,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_bao_cao_hoc_tap_theo_sv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_bao_cao_hoc_tap_theo_sv)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel3.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

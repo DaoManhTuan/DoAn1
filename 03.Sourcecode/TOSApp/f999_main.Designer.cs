@@ -84,6 +84,8 @@
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup12 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.m_cmd_cpa_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_rib_main)).BeginInit();
@@ -132,9 +134,10 @@
             this.m_cmd_xu_ly_diem,
             this.m_cmd_tra_cuu,
             this.m_cmd_bc_lop_hoc,
-            this.m_cmd_bc_sinh_vien});
+            this.m_cmd_bc_sinh_vien,
+            this.m_cmd_cpa_lop_sinh_vien});
             this.m_rib_main.Location = new System.Drawing.Point(0, 0);
-            this.m_rib_main.MaxItemId = 8;
+            this.m_rib_main.MaxItemId = 9;
             this.m_rib_main.Name = "m_rib_main";
             this.m_rib_main.PageHeaderItemLinks.Add(this.m_cmd_ca_nhan);
             this.m_rib_main.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -519,7 +522,8 @@
             this.m_rd_bao_cao_thong_ke.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup10,
             this.ribbonPageGroup11,
-            this.ribbonPageGroup12});
+            this.ribbonPageGroup12,
+            this.ribbonPageGroup2});
             this.m_rd_bao_cao_thong_ke.Image = ((System.Drawing.Image)(resources.GetObject("m_rd_bao_cao_thong_ke.Image")));
             this.m_rd_bao_cao_thong_ke.Name = "m_rd_bao_cao_thong_ke";
             this.m_rd_bao_cao_thong_ke.Text = "Báo cáo thống kê";
@@ -546,6 +550,22 @@
             this.ribbonPageGroup12.ItemLinks.Add(this.m_cmd_ds_hoc_bong);
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
             this.ribbonPageGroup12.Text = "Danh sách sinh viên nhận học bổng";
+            // 
+            // ribbonPageGroup2
+            // 
+            this.ribbonPageGroup2.AllowTextClipping = false;
+            this.ribbonPageGroup2.ItemLinks.Add(this.m_cmd_cpa_lop_sinh_vien);
+            this.ribbonPageGroup2.Name = "ribbonPageGroup2";
+            this.ribbonPageGroup2.Text = "CPA lớp sinh viên";
+            // 
+            // m_cmd_cpa_lop_sinh_vien
+            // 
+            this.m_cmd_cpa_lop_sinh_vien.Caption = "CPA lớp sinh viên";
+            this.m_cmd_cpa_lop_sinh_vien.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_cpa_lop_sinh_vien.Glyph")));
+            this.m_cmd_cpa_lop_sinh_vien.Id = 8;
+            this.m_cmd_cpa_lop_sinh_vien.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_cpa_lop_sinh_vien.LargeGlyph")));
+            this.m_cmd_cpa_lop_sinh_vien.Name = "m_cmd_cpa_lop_sinh_vien";
+            this.m_cmd_cpa_lop_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_cpa_lop_sinh_vien_ItemClick);
             // 
             // f999_main
             // 
@@ -621,5 +641,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_rib_tra_cuc;
         private DevExpress.XtraBars.BarButtonItem m_cmd_bc_lop_hoc;
         private DevExpress.XtraBars.BarButtonItem m_cmd_bc_sinh_vien;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_cpa_lop_sinh_vien;
     }
 }

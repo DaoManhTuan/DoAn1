@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+
 namespace TOSApp.BaoCao
 {
     public partial class f9900_bao_cao_hoc_tap_theo_lop_sin_vien : Form
@@ -21,13 +22,18 @@ namespace TOSApp.BaoCao
 
             load_data_2_cbo();
         }
-
+        int m_count = 0;
         private void load_data_2_grid()
         {
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithQuery(v_ds, "select * from v_bao_cao_hoc_tap where id_lop_sinh_vien=" + m_cbo_lop_sinh_vien.SelectedValue + "and id_hoc_ky=" + m_cbo_ky_hoc.SelectedValue + " order by ma_sinh_vien");
+            if (m_cbo_hoc_phan.SelectedIndex==0)
+            {
+                v_us.FillDatasetWithQuery(v_ds, "select * from v_bao_cao_hoc_tap where id_lop_sinh_vien=" + m_cbo_lop_sinh_vien.SelectedValue + "and id_hoc_ky=" + m_cbo_ky_hoc.SelectedValue + " order by ma_sinh_vien");
+            }
+            else v_us.FillDatasetWithQuery(v_ds, "select * from v_bao_cao_hoc_tap where id_lop_sinh_vien=" + m_cbo_lop_sinh_vien.SelectedValue + "and id_hoc_ky=" + m_cbo_ky_hoc.SelectedValue + "and id_hoc_phan ="+ m_cbo_hoc_phan.SelectedValue+" order by ma_sinh_vien");
+            m_count = v_ds.Tables[0].Rows.Count;
             m_grc_bao_cao_hoc_tap_theo_lop_sinh_vien.DataSource = v_ds.Tables[0];
             if (v_ds.Tables[0].Rows.Count==0)
             {
@@ -40,6 +46,12 @@ namespace TOSApp.BaoCao
         {
             load_data_2_cbo_lop_sinh_vien();
             load_data_2_cbo_hoc_ky();
+            load_data_2_cbo_hoc_phan();
+        }
+
+        private void load_data_2_cbo_hoc_phan()
+        {
+            WinFormControls.load_data_to_combobox("DM_hoc_phan", "ID", "ten_hoc_phan", " where trang_thai_hsd=7", WinFormControls.eTAT_CA.TAT_CA, m_cbo_hoc_phan);
         }
 
         private void load_data_2_cbo_lop_sinh_vien()
@@ -58,6 +70,7 @@ namespace TOSApp.BaoCao
             {
                 if (kiem_tra_du_lieu_truoc_luu())
                 {
+                   
                     load_data_2_grid();
                 }
             }
@@ -69,6 +82,7 @@ namespace TOSApp.BaoCao
 
         private bool kiem_tra_du_lieu_truoc_luu()
         {
+           
             if (m_cbo_lop_sinh_vien.SelectedIndex==0)
             {
                 MessageBox.Show("Hãy chọn lớp sinh viên");
@@ -103,5 +117,23 @@ namespace TOSApp.BaoCao
             }
           
         }
+
+        private void m_cbo_hoc_phan_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (m_cbo_hoc_phan.SelectedIndex == 0)
+            {
+                m_txt_ma_hoc_phan.Text = " ";
+            }
+            else
+            {
+                US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+                DataSet v_ds = new DataSet();
+                v_ds.Tables.Add(new DataTable());
+                v_us.FillDatasetWithQuery(v_ds, "select MA_HOC_PHAN from dm_hoc_phan where id = " + m_cbo_hoc_phan.SelectedValue);
+                m_txt_ma_hoc_phan.Text = v_ds.Tables[0].Rows[0][0].ToString();
+            }
+        }
+
+       
     }
 }
