@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using TOSApp.DanhMuc;
 using TOSApp.NghiepVu;
 using TOSApp.HeThong;
+using TOSApp.BaoCao;
 namespace TOSApp
 {
     public partial class f999_main : Form
@@ -36,6 +37,12 @@ namespace TOSApp
         f300_tra_cuu m_f300_tra_cuu;
         // Form quản trị hệ thống
         f1000_thong_tin_nguoi_dung f1000;
+        //form bao cao
+        f9900_bao_cao_hoc_tap_theo_lop_sin_vien f9900_bao_cao_hoc_tap_theo_lop_sin_vien;
+        f9901_bao_cao_theo_lop_hoc f9901_bao_cao_theo_lop_hoc;
+        f9902_bao_cao_theo_sinh_vien f9902_bao_cao_theo_sinh_vien;
+        f9903_danh_sach_sinh_vien_nhan_hoc_bong f9903_danh_sach_sinh_vien_nhan_hoc_bong;
+        f9904_danh_sach_sinh_vien_canh_cao f9904_danh_sach_sinh_vien_canh_cao;
         List<Control> ControlList = new List<Control>();
 
         private void phan_quyen_user( decimal id_nhom)
@@ -365,6 +372,73 @@ namespace TOSApp
                 else
                 {
                     m_f300_tra_cuu.Focus();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_bc_lop_sinh_vien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+                if (f9900_bao_cao_hoc_tap_theo_lop_sin_vien == null || !IsFormOpen(f9900_bao_cao_hoc_tap_theo_lop_sin_vien))
+                {
+                    f9900_bao_cao_hoc_tap_theo_lop_sin_vien = new BaoCao.f9900_bao_cao_hoc_tap_theo_lop_sin_vien();
+                    f9900_bao_cao_hoc_tap_theo_lop_sin_vien.MdiParent = this;
+                    f9900_bao_cao_hoc_tap_theo_lop_sin_vien.Show();
+                }
+                else
+                {
+                    f9900_bao_cao_hoc_tap_theo_lop_sin_vien.Focus();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_bc_lop_hoc_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+            try
+            {
+                if (f9901_bao_cao_theo_lop_hoc == null || !IsFormOpen(f9901_bao_cao_theo_lop_hoc))
+                {
+                    f9901_bao_cao_theo_lop_hoc = new BaoCao.f9901_bao_cao_theo_lop_hoc();
+                    f9901_bao_cao_theo_lop_hoc.MdiParent = this;
+                    f9901_bao_cao_theo_lop_hoc.Show();
+                }
+                else
+                {
+                    f9901_bao_cao_theo_lop_hoc.Focus();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_bc_sinh_vien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+                if (f9902_bao_cao_theo_sinh_vien == null || !IsFormOpen(f9902_bao_cao_theo_sinh_vien))
+                {
+                    f9902_bao_cao_theo_sinh_vien = new BaoCao.f9902_bao_cao_theo_sinh_vien();
+                    f9902_bao_cao_theo_sinh_vien.MdiParent = this;
+                    f9902_bao_cao_theo_sinh_vien.Show();
+                }
+                else
+                {
+                    f9902_bao_cao_theo_sinh_vien.Focus();
                 }
             }
             catch (Exception)

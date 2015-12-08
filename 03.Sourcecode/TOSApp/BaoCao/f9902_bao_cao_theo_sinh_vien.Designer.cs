@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f9902_bao_cao_theo_sinh_vien));
-            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -37,9 +36,9 @@
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.m_grv_bao_cao_hoc_tap = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.m_grv_bao_cao_hoc_tap_theo_sv = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.m_grc_bao_cao_hoc_tap = new DevExpress.XtraGrid.GridControl();
+            this.m_grc_bao_cao_hoc_tap_theo_sv = new DevExpress.XtraGrid.GridControl();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -47,7 +46,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.m_cbo_sinh_vien = new System.Windows.Forms.ComboBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -57,10 +55,11 @@
             this.m_cmd_xuat_excel = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xem = new DevExpress.XtraEditors.SimpleButton();
             this.label4 = new System.Windows.Forms.Label();
-            this.m_cbo_ky_hoc = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.m_grv_bao_cao_hoc_tap)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.m_grc_bao_cao_hoc_tap)).BeginInit();
+            this.m_cbo_hoc_ky = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.m_txt_ma_sinh_vien = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.m_grv_bao_cao_hoc_tap_theo_sv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_grc_bao_cao_hoc_tap_theo_sv)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -70,65 +69,65 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gridColumn9
-            // 
-            this.gridColumn9.Caption = "gridColumn9";
-            this.gridColumn9.Name = "gridColumn9";
-            this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 8;
-            // 
             // gridColumn7
             // 
-            this.gridColumn7.Caption = "gridColumn7";
+            this.gridColumn7.Caption = "Điểm chữ";
+            this.gridColumn7.FieldName = "DIEM_CHU";
             this.gridColumn7.Name = "gridColumn7";
             this.gridColumn7.Visible = true;
-            this.gridColumn7.VisibleIndex = 6;
+            this.gridColumn7.VisibleIndex = 7;
             // 
             // gridColumn6
             // 
-            this.gridColumn6.Caption = "gridColumn6";
+            this.gridColumn6.Caption = "Điểm thi";
+            this.gridColumn6.FieldName = "DIEM_THI";
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 5;
+            this.gridColumn6.VisibleIndex = 6;
             // 
             // gridColumn5
             // 
-            this.gridColumn5.Caption = "gridColumn5";
+            this.gridColumn5.Caption = "Điểm quá trình";
+            this.gridColumn5.FieldName = "DIEM_QUA_TRINH";
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
+            this.gridColumn5.VisibleIndex = 5;
             // 
             // gridColumn4
             // 
-            this.gridColumn4.Caption = "gridColumn4";
+            this.gridColumn4.Caption = "Số tín chỉ";
+            this.gridColumn4.FieldName = "SO_TIN_CHI_HOC_PHAN";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 3;
+            this.gridColumn4.VisibleIndex = 4;
             // 
             // gridColumn3
             // 
-            this.gridColumn3.Caption = "gridColumn3";
+            this.gridColumn3.Caption = "Học phần";
+            this.gridColumn3.FieldName = "TEN_HOC_PHAN";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
+            this.gridColumn3.VisibleIndex = 3;
             // 
             // gridColumn2
             // 
-            this.gridColumn2.Caption = "gridColumn2";
+            this.gridColumn2.Caption = "Tên sinh viên";
+            this.gridColumn2.FieldName = "TEN_SINH_VIEN";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
             // 
             // gridColumn1
             // 
-            this.gridColumn1.Caption = "gridColumn1";
+            this.gridColumn1.Caption = "Mã sinh viên";
+            this.gridColumn1.FieldName = "MA_SINH_VIEN";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
             // 
-            // m_grv_bao_cao_hoc_tap
+            // m_grv_bao_cao_hoc_tap_theo_sv
             // 
-            this.m_grv_bao_cao_hoc_tap.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3,
@@ -136,29 +135,29 @@
             this.gridColumn5,
             this.gridColumn6,
             this.gridColumn7,
-            this.gridColumn8,
-            this.gridColumn9});
-            this.m_grv_bao_cao_hoc_tap.GridControl = this.m_grc_bao_cao_hoc_tap;
-            this.m_grv_bao_cao_hoc_tap.Name = "m_grv_bao_cao_hoc_tap";
+            this.gridColumn8});
+            this.m_grv_bao_cao_hoc_tap_theo_sv.GridControl = this.m_grc_bao_cao_hoc_tap_theo_sv;
+            this.m_grv_bao_cao_hoc_tap_theo_sv.Name = "m_grv_bao_cao_hoc_tap_theo_sv";
             // 
             // gridColumn8
             // 
-            this.gridColumn8.Caption = "gridColumn8";
+            this.gridColumn8.Caption = "Mã học phần";
+            this.gridColumn8.FieldName = "MA_HOC_PHAN";
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 7;
+            this.gridColumn8.VisibleIndex = 2;
             // 
-            // m_grc_bao_cao_hoc_tap
+            // m_grc_bao_cao_hoc_tap_theo_sv
             // 
-            this.m_grc_bao_cao_hoc_tap.Cursor = System.Windows.Forms.Cursors.Default;
-            this.m_grc_bao_cao_hoc_tap.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.m_grc_bao_cao_hoc_tap.Location = new System.Drawing.Point(0, 0);
-            this.m_grc_bao_cao_hoc_tap.MainView = this.m_grv_bao_cao_hoc_tap;
-            this.m_grc_bao_cao_hoc_tap.Name = "m_grc_bao_cao_hoc_tap";
-            this.m_grc_bao_cao_hoc_tap.Size = new System.Drawing.Size(1149, 337);
-            this.m_grc_bao_cao_hoc_tap.TabIndex = 0;
-            this.m_grc_bao_cao_hoc_tap.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.m_grv_bao_cao_hoc_tap});
+            this.m_grc_bao_cao_hoc_tap_theo_sv.Cursor = System.Windows.Forms.Cursors.Default;
+            this.m_grc_bao_cao_hoc_tap_theo_sv.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m_grc_bao_cao_hoc_tap_theo_sv.Location = new System.Drawing.Point(0, 0);
+            this.m_grc_bao_cao_hoc_tap_theo_sv.MainView = this.m_grv_bao_cao_hoc_tap_theo_sv;
+            this.m_grc_bao_cao_hoc_tap_theo_sv.Name = "m_grc_bao_cao_hoc_tap_theo_sv";
+            this.m_grc_bao_cao_hoc_tap_theo_sv.Size = new System.Drawing.Size(1149, 337);
+            this.m_grc_bao_cao_hoc_tap_theo_sv.TabIndex = 0;
+            this.m_grc_bao_cao_hoc_tap_theo_sv.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.m_grv_bao_cao_hoc_tap_theo_sv});
             // 
             // label10
             // 
@@ -227,14 +226,6 @@
             this.panel7.Size = new System.Drawing.Size(296, 95);
             this.panel7.TabIndex = 2;
             // 
-            // m_cbo_sinh_vien
-            // 
-            this.m_cbo_sinh_vien.FormattingEnabled = true;
-            this.m_cbo_sinh_vien.Location = new System.Drawing.Point(113, 17);
-            this.m_cbo_sinh_vien.Name = "m_cbo_sinh_vien";
-            this.m_cbo_sinh_vien.Size = new System.Drawing.Size(167, 21);
-            this.m_cbo_sinh_vien.TabIndex = 1;
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.panel4);
@@ -247,7 +238,7 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.m_grc_bao_cao_hoc_tap);
+            this.panel4.Controls.Add(this.m_grc_bao_cao_hoc_tap_theo_sv);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 95);
             this.panel4.Name = "panel4";
@@ -288,12 +279,12 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.m_txt_ma_sinh_vien);
             this.panel1.Controls.Add(this.m_cmd_xuat_excel);
             this.panel1.Controls.Add(this.m_cmd_xem);
-            this.panel1.Controls.Add(this.m_cbo_sinh_vien);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.m_cbo_ky_hoc);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.m_cbo_hoc_ky);
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -308,6 +299,7 @@
             this.m_cmd_xuat_excel.Size = new System.Drawing.Size(103, 30);
             this.m_cmd_xuat_excel.TabIndex = 2;
             this.m_cmd_xuat_excel.Text = "Xuất Excel";
+            this.m_cmd_xuat_excel.Click += new System.EventHandler(this.m_cmd_xuat_excel_Click);
             // 
             // m_cmd_xem
             // 
@@ -317,32 +309,41 @@
             this.m_cmd_xem.Size = new System.Drawing.Size(82, 30);
             this.m_cmd_xem.TabIndex = 2;
             this.m_cmd_xem.Text = "Xem";
+            this.m_cmd_xem.Click += new System.EventHandler(this.m_cmd_xem_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(31, 20);
+            this.label4.Location = new System.Drawing.Point(12, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 13);
             this.label4.TabIndex = 0;
             this.label4.Text = "Mã sinh viên";
             // 
-            // m_cbo_ky_hoc
+            // m_cbo_hoc_ky
             // 
-            this.m_cbo_ky_hoc.FormattingEnabled = true;
-            this.m_cbo_ky_hoc.Location = new System.Drawing.Point(373, 17);
-            this.m_cbo_ky_hoc.Name = "m_cbo_ky_hoc";
-            this.m_cbo_ky_hoc.Size = new System.Drawing.Size(121, 21);
-            this.m_cbo_ky_hoc.TabIndex = 1;
+            this.m_cbo_hoc_ky.FormattingEnabled = true;
+            this.m_cbo_hoc_ky.Location = new System.Drawing.Point(371, 12);
+            this.m_cbo_hoc_ky.Name = "m_cbo_hoc_ky";
+            this.m_cbo_hoc_ky.Size = new System.Drawing.Size(121, 21);
+            this.m_cbo_hoc_ky.TabIndex = 1;
             // 
-            // label2
+            // label3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(315, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Kỳ học";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(313, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(40, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Kỳ học";
+            // 
+            // m_txt_ma_sinh_vien
+            // 
+            this.m_txt_ma_sinh_vien.Location = new System.Drawing.Point(104, 12);
+            this.m_txt_ma_sinh_vien.Name = "m_txt_ma_sinh_vien";
+            this.m_txt_ma_sinh_vien.Size = new System.Drawing.Size(168, 20);
+            this.m_txt_ma_sinh_vien.TabIndex = 3;
+            this.m_txt_ma_sinh_vien.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_ma_sinh_vien_KeyPress);
             // 
             // f9902_bao_cao_theo_sinh_vien
             // 
@@ -353,8 +354,9 @@
             this.Controls.Add(this.panel1);
             this.Name = "f9902_bao_cao_theo_sinh_vien";
             this.Text = "f9902_bao_cao_theo_sinh_vien";
-            ((System.ComponentModel.ISupportInitialize)(this.m_grv_bao_cao_hoc_tap)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.m_grc_bao_cao_hoc_tap)).EndInit();
+            this.Load += new System.EventHandler(this.f9902_bao_cao_theo_sinh_vien_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.m_grv_bao_cao_hoc_tap_theo_sv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_grc_bao_cao_hoc_tap_theo_sv)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -372,7 +374,6 @@
 
         #endregion
 
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
@@ -380,9 +381,9 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Views.Grid.GridView m_grv_bao_cao_hoc_tap;
+        private DevExpress.XtraGrid.Views.Grid.GridView m_grv_bao_cao_hoc_tap_theo_sv;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
-        private DevExpress.XtraGrid.GridControl m_grc_bao_cao_hoc_tap;
+        private DevExpress.XtraGrid.GridControl m_grc_bao_cao_hoc_tap_theo_sv;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
@@ -390,7 +391,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.ComboBox m_cbo_sinh_vien;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
@@ -400,7 +400,8 @@
         private DevExpress.XtraEditors.SimpleButton m_cmd_xuat_excel;
         private DevExpress.XtraEditors.SimpleButton m_cmd_xem;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox m_cbo_ky_hoc;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox m_cbo_hoc_ky;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox m_txt_ma_sinh_vien;
     }
 }

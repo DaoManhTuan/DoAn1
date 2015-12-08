@@ -41,9 +41,9 @@
             this.m_cmd_hoc_ky = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_thong_tin_nguoi_dung = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_tao_tai_khoan = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_bc_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_ds_bi_xu_ly = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_ds_hoc_bong = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
@@ -59,6 +59,8 @@
             this.m_cmd_quan_ly_diem = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_xu_ly_diem = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_tra_cuu = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_bc_lop_hoc = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_bc_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_rb_quan_ky_danh_muc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -111,9 +113,9 @@
             this.m_cmd_hoc_ky,
             this.m_cmd_thong_tin_nguoi_dung,
             this.m_cmd_tao_tai_khoan,
-            this.barButtonItem9,
-            this.barButtonItem10,
-            this.barButtonItem11,
+            this.m_cmd_bc_lop_sinh_vien,
+            this.m_cmd_ds_bi_xu_ly,
+            this.m_cmd_ds_hoc_bong,
             this.barButtonItem12,
             this.barButtonItem13,
             this.barButtonItem14,
@@ -128,9 +130,11 @@
             this.m_cmd_lop_sinh_vien,
             this.m_cmd_quan_ly_diem,
             this.m_cmd_xu_ly_diem,
-            this.m_cmd_tra_cuu});
+            this.m_cmd_tra_cuu,
+            this.m_cmd_bc_lop_hoc,
+            this.m_cmd_bc_sinh_vien});
             this.m_rib_main.Location = new System.Drawing.Point(0, 0);
-            this.m_rib_main.MaxItemId = 6;
+            this.m_rib_main.MaxItemId = 8;
             this.m_rib_main.Name = "m_rib_main";
             this.m_rib_main.PageHeaderItemLinks.Add(this.m_cmd_ca_nhan);
             this.m_rib_main.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -209,29 +213,30 @@
             this.m_cmd_tao_tai_khoan.Name = "m_cmd_tao_tai_khoan";
             this.m_cmd_tao_tai_khoan.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_tao_tai_khoan_ItemClick);
             // 
-            // barButtonItem9
+            // m_cmd_bc_lop_sinh_vien
             // 
-            this.barButtonItem9.Caption = "Kết quả học tập";
-            this.barButtonItem9.Glyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.Glyph")));
-            this.barButtonItem9.Id = 9;
-            this.barButtonItem9.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.LargeGlyph")));
-            this.barButtonItem9.Name = "barButtonItem9";
+            this.m_cmd_bc_lop_sinh_vien.Caption = "Lớp sinh viên";
+            this.m_cmd_bc_lop_sinh_vien.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_bc_lop_sinh_vien.Glyph")));
+            this.m_cmd_bc_lop_sinh_vien.Id = 9;
+            this.m_cmd_bc_lop_sinh_vien.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_bc_lop_sinh_vien.LargeGlyph")));
+            this.m_cmd_bc_lop_sinh_vien.Name = "m_cmd_bc_lop_sinh_vien";
+            this.m_cmd_bc_lop_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_lop_sinh_vien_ItemClick);
             // 
-            // barButtonItem10
+            // m_cmd_ds_bi_xu_ly
             // 
-            this.barButtonItem10.Caption = "Danh sách sinh viên bị xử lý";
-            this.barButtonItem10.Glyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.Glyph")));
-            this.barButtonItem10.Id = 10;
-            this.barButtonItem10.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.LargeGlyph")));
-            this.barButtonItem10.Name = "barButtonItem10";
+            this.m_cmd_ds_bi_xu_ly.Caption = "Danh sách sinh viên bị xử lý";
+            this.m_cmd_ds_bi_xu_ly.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ds_bi_xu_ly.Glyph")));
+            this.m_cmd_ds_bi_xu_ly.Id = 10;
+            this.m_cmd_ds_bi_xu_ly.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ds_bi_xu_ly.LargeGlyph")));
+            this.m_cmd_ds_bi_xu_ly.Name = "m_cmd_ds_bi_xu_ly";
             // 
-            // barButtonItem11
+            // m_cmd_ds_hoc_bong
             // 
-            this.barButtonItem11.Caption = "Danh sách sinh viên nhận học bổng";
-            this.barButtonItem11.Glyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.Glyph")));
-            this.barButtonItem11.Id = 11;
-            this.barButtonItem11.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.LargeGlyph")));
-            this.barButtonItem11.Name = "barButtonItem11";
+            this.m_cmd_ds_hoc_bong.Caption = "Danh sách sinh viên nhận học bổng";
+            this.m_cmd_ds_hoc_bong.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ds_hoc_bong.Glyph")));
+            this.m_cmd_ds_hoc_bong.Id = 11;
+            this.m_cmd_ds_hoc_bong.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ds_hoc_bong.LargeGlyph")));
+            this.m_cmd_ds_hoc_bong.Name = "m_cmd_ds_hoc_bong";
             // 
             // barButtonItem12
             // 
@@ -346,6 +351,24 @@
             this.m_cmd_tra_cuu.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_tra_cuu.LargeGlyph")));
             this.m_cmd_tra_cuu.Name = "m_cmd_tra_cuu";
             this.m_cmd_tra_cuu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_tra_cuu_ItemClick);
+            // 
+            // m_cmd_bc_lop_hoc
+            // 
+            this.m_cmd_bc_lop_hoc.Caption = "Lớp học";
+            this.m_cmd_bc_lop_hoc.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_bc_lop_hoc.Glyph")));
+            this.m_cmd_bc_lop_hoc.Id = 6;
+            this.m_cmd_bc_lop_hoc.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_bc_lop_hoc.LargeGlyph")));
+            this.m_cmd_bc_lop_hoc.Name = "m_cmd_bc_lop_hoc";
+            this.m_cmd_bc_lop_hoc.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_lop_hoc_ItemClick);
+            // 
+            // m_cmd_bc_sinh_vien
+            // 
+            this.m_cmd_bc_sinh_vien.Caption = "Sinh viên";
+            this.m_cmd_bc_sinh_vien.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_bc_sinh_vien.Glyph")));
+            this.m_cmd_bc_sinh_vien.Id = 7;
+            this.m_cmd_bc_sinh_vien.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_bc_sinh_vien.LargeGlyph")));
+            this.m_cmd_bc_sinh_vien.Name = "m_cmd_bc_sinh_vien";
+            this.m_cmd_bc_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_sinh_vien_ItemClick);
             // 
             // m_rb_quan_ky_danh_muc
             // 
@@ -504,21 +527,23 @@
             // ribbonPageGroup10
             // 
             this.ribbonPageGroup10.AllowTextClipping = false;
-            this.ribbonPageGroup10.ItemLinks.Add(this.barButtonItem9);
+            this.ribbonPageGroup10.ItemLinks.Add(this.m_cmd_bc_lop_sinh_vien);
+            this.ribbonPageGroup10.ItemLinks.Add(this.m_cmd_bc_lop_hoc);
+            this.ribbonPageGroup10.ItemLinks.Add(this.m_cmd_bc_sinh_vien);
             this.ribbonPageGroup10.Name = "ribbonPageGroup10";
             this.ribbonPageGroup10.Text = "Danh sách kết quả học tập";
             // 
             // ribbonPageGroup11
             // 
             this.ribbonPageGroup11.AllowTextClipping = false;
-            this.ribbonPageGroup11.ItemLinks.Add(this.barButtonItem10);
+            this.ribbonPageGroup11.ItemLinks.Add(this.m_cmd_ds_bi_xu_ly);
             this.ribbonPageGroup11.Name = "ribbonPageGroup11";
             this.ribbonPageGroup11.Text = "Danh sách sinh viên bị xử lý";
             // 
             // ribbonPageGroup12
             // 
             this.ribbonPageGroup12.AllowTextClipping = false;
-            this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem11);
+            this.ribbonPageGroup12.ItemLinks.Add(this.m_cmd_ds_hoc_bong);
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
             this.ribbonPageGroup12.Text = "Danh sách sinh viên nhận học bổng";
             // 
@@ -552,9 +577,9 @@
         private DevExpress.XtraBars.BarButtonItem m_cmd_hoc_ky;
         private DevExpress.XtraBars.BarButtonItem m_cmd_thong_tin_nguoi_dung;
         private DevExpress.XtraBars.BarButtonItem m_cmd_tao_tai_khoan;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem9;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem10;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_bc_lop_sinh_vien;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_ds_bi_xu_ly;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_ds_hoc_bong;
         private DevExpress.XtraBars.BarButtonItem barButtonItem12;
         private DevExpress.XtraBars.BarButtonItem barButtonItem13;
         private DevExpress.XtraBars.BarButtonItem barButtonItem14;
@@ -594,5 +619,7 @@
         private DevExpress.XtraBars.BarButtonItem m_cmd_tra_cuu;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_rib_xu_ly_diem;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_rib_tra_cuc;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_bc_lop_hoc;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_bc_sinh_vien;
     }
 }
