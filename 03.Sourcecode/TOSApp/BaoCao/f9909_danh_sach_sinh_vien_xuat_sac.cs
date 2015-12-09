@@ -62,7 +62,7 @@ namespace TOSApp.BaoCao
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            string v_str_query = "select * from V_KET_QUA_HOC_TAP as v inner join  (select  ID_KHOA_VIEN, MAX(CPA)as CPA from v_ket_qua_hoc_tap  where id_hoc_ky = " + m_cbo_hoc_ky.SelectedValue + "group by ID_KHOA_VIEN) a on v.ID_KHOA_VIEN = a.ID_KHOA_VIEN where v.CPA = a.CPA";
+            string v_str_query = "select * from V_KET_QUA_HOC_TAP as v inner join  (select  ID_KHOA_VIEN, MAX(CPA)as CPA from v_ket_qua_hoc_tap  where id_hoc_ky = " + m_cbo_hoc_ky.SelectedValue + " group by ID_KHOA_VIEN) a on v.ID_KHOA_VIEN = a.ID_KHOA_VIEN where v.CPA = a.CPA and v.CPA>=3.6";
             v_us.FillDatasetWithQuery(v_ds, v_str_query);
             m_grc_bao_cao_hoc_tap_theo_sv.DataSource = v_ds.Tables[0];
 

@@ -42,6 +42,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
             this.m_pivot = new DevExpress.XtraPivotGrid.PivotGridControl();
+            this.m_col_qua = new DevExpress.XtraPivotGrid.PivotGridField();
+            this.pivotGridField3 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.panel3 = new System.Windows.Forms.Panel();
             this.m_lb_ten_hoc_phan = new System.Windows.Forms.Label();
             this.m_cbo_ky_hoc = new System.Windows.Forms.ComboBox();
@@ -51,8 +53,6 @@
             this.m_cmd_loc = new DevExpress.XtraEditors.SimpleButton();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.m_col_qua = new DevExpress.XtraPivotGrid.PivotGridField();
-            this.pivotGridField3 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(simpleDiagram1)).BeginInit();
@@ -137,6 +137,23 @@
             this.m_pivot.Size = new System.Drawing.Size(735, 445);
             this.m_pivot.TabIndex = 0;
             // 
+            // m_col_qua
+            // 
+            this.m_col_qua.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
+            this.m_col_qua.AreaIndex = 0;
+            this.m_col_qua.Caption = "Tổng sinh viên";
+            this.m_col_qua.FieldName = "Qua";
+            this.m_col_qua.Name = "m_col_qua";
+            this.m_col_qua.SummaryDisplayType = DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfColumn;
+            // 
+            // pivotGridField3
+            // 
+            this.pivotGridField3.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.pivotGridField3.AreaIndex = 0;
+            this.pivotGridField3.Caption = "Trạng thaí";
+            this.pivotGridField3.FieldName = "HocKy";
+            this.pivotGridField3.Name = "pivotGridField3";
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.m_lb_ten_hoc_phan);
@@ -188,6 +205,7 @@
             this.m_cmd_xuat_pdf.Size = new System.Drawing.Size(75, 23);
             this.m_cmd_xuat_pdf.TabIndex = 12;
             this.m_cmd_xuat_pdf.Text = "Xuất PDF";
+            this.m_cmd_xuat_pdf.Click += new System.EventHandler(this.m_cmd_xuat_pdf_Click);
             // 
             // label2
             // 
@@ -224,23 +242,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(735, 445);
             this.panel4.TabIndex = 3;
-            // 
-            // m_col_qua
-            // 
-            this.m_col_qua.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
-            this.m_col_qua.AreaIndex = 0;
-            this.m_col_qua.Caption = "Tổng sinh viên";
-            this.m_col_qua.FieldName = "Qua";
-            this.m_col_qua.Name = "m_col_qua";
-            this.m_col_qua.SummaryDisplayType = DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfColumn;
-            // 
-            // pivotGridField3
-            // 
-            this.pivotGridField3.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
-            this.pivotGridField3.AreaIndex = 0;
-            this.pivotGridField3.Caption = "Trạng thaí";
-            this.pivotGridField3.FieldName = "HocKy";
-            this.pivotGridField3.Name = "pivotGridField3";
             // 
             // f9908_bieu_do_ty_le_qua_mon
             // 

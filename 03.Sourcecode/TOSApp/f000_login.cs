@@ -35,7 +35,7 @@ namespace TOSApp
                     User.id_nhom = (decimal)v_ds.Tables[0].Rows[0]["ID_NHOM"];
                     User.tai_khoan = v_ds.Tables[0].Rows[0]["TAI_KHOAN"].ToString();
                     User.mat_khau = v_ds.Tables[0].Rows[0]["MAT_KHAU"].ToString();
-
+                    User.id_user =(decimal) v_ds.Tables[0].Rows[0]["ID"];
                     this.Hide();
                     f999_main f999 = new f999_main();
                     User.trang_thai_dang_nhap = true;

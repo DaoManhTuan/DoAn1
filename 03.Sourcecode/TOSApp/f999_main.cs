@@ -37,6 +37,7 @@ namespace TOSApp
         f300_tra_cuu m_f300_tra_cuu;
         // Form quản trị hệ thống
         f1000_thong_tin_nguoi_dung f1000;
+        f1001_doi_mat_khau f1001;
         //form bao cao
         f9900_bao_cao_hoc_tap_theo_lop_sin_vien f9900_bao_cao_hoc_tap_theo_lop_sin_vien;
         f9901_bao_cao_theo_lop_hoc f9901_bao_cao_theo_lop_hoc;
@@ -607,6 +608,24 @@ namespace TOSApp
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
+
+        private void m_cmd_doi_mat_khau_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+               
+                    f1001 = new f1001_doi_mat_khau();
+                    f1001.ShowDialog();
+               
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+       
 
 
     }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DevExpress.XtraPrinting;
+using DevExpress.XtraPrintingLinks;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,7 +28,7 @@ namespace TOSApp.BaoCao
 
         private void load_data_2_cbo_ky_hoc()
         {
-
+            chartControl1.OptionsPrint.SizeMode = DevExpress.XtraCharts.Printing.PrintSizeMode.Zoom;
             WinFormControls.load_data_to_combobox("V_DM_HOC_KY", "ID", "MA_HOC_KY", "", WinFormControls.eTAT_CA.YES, m_cbo_ky_hoc);
         }
 
@@ -108,6 +110,33 @@ namespace TOSApp.BaoCao
                 MessageBox.Show("Dữ liệu mà bạn chọn hiện chưa có hãy chọn lại!");
             }
 
+        }
+
+        private void m_cmd_xuat_pdf_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DevExpress.XtraPrinting.PrintingSystem ps = new DevExpress.XtraPrinting.PrintingSystem();
+                CompositeLink cl = new CompositeLink(ps);
+                PrintableComponentLink pclChart = new PrintableComponentLink();
+                PrintableComponentLink pclPivot = new PrintableComponentLink();
+
+                pclChart.Component = chartControl1;
+                pclPivot.Component = m_pivot;
+
+                cl.Links.AddRange(new object[] { pclChart, pclPivot });
+
+
+
+                cl.ShowPreviewDialog();
+                cl.PrintingSystem.ExportToPdf(Application.StartupPath + "\\..\\..\\TiLeQuaMon.pdf");
+
+            }
+            catch (Exception v)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
+            }
         }
     }
 }

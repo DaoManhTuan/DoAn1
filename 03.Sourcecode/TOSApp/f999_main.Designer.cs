@@ -52,7 +52,7 @@
             this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
             this.m_cmd_ca_nhan = new DevExpress.XtraBars.BarSubItem();
             this.m_cmd_dang_xuat = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_doi_mat_khau = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_khoa = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
@@ -65,6 +65,7 @@
             this.m_cmd_ti_ly_hoc_bong = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_ti_le_CPA_GPA = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_ty_le_theo_ky = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_sinh_vien_xuat_sac = new DevExpress.XtraBars.BarButtonItem();
             this.m_rb_quan_ky_danh_muc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -91,7 +92,6 @@
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup15 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup16 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.m_cmd_sinh_vien_xuat_sac = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_rib_main)).BeginInit();
@@ -132,7 +132,7 @@
             this.barSubItem2,
             this.m_cmd_ca_nhan,
             this.m_cmd_dang_xuat,
-            this.barButtonItem17,
+            this.m_cmd_doi_mat_khau,
             this.barButtonItem18,
             this.m_cmd_khoa,
             this.m_cmd_lop_sinh_vien,
@@ -302,7 +302,7 @@
             this.m_cmd_ca_nhan.Id = 18;
             this.m_cmd_ca_nhan.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.m_cmd_dang_xuat),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem17)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.m_cmd_doi_mat_khau)});
             this.m_cmd_ca_nhan.Name = "m_cmd_ca_nhan";
             // 
             // m_cmd_dang_xuat
@@ -312,11 +312,12 @@
             this.m_cmd_dang_xuat.Name = "m_cmd_dang_xuat";
             this.m_cmd_dang_xuat.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_dang_xuat_ItemClick);
             // 
-            // barButtonItem17
+            // m_cmd_doi_mat_khau
             // 
-            this.barButtonItem17.Caption = "Thiết lập";
-            this.barButtonItem17.Id = 20;
-            this.barButtonItem17.Name = "barButtonItem17";
+            this.m_cmd_doi_mat_khau.Caption = "Đổi mật khẩu";
+            this.m_cmd_doi_mat_khau.Id = 20;
+            this.m_cmd_doi_mat_khau.Name = "m_cmd_doi_mat_khau";
+            this.m_cmd_doi_mat_khau.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_doi_mat_khau_ItemClick);
             // 
             // barButtonItem18
             // 
@@ -420,6 +421,15 @@
             this.m_cmd_ty_le_theo_ky.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ty_le_theo_ky.LargeGlyph")));
             this.m_cmd_ty_le_theo_ky.Name = "m_cmd_ty_le_theo_ky";
             this.m_cmd_ty_le_theo_ky.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ty_le_theo_ky_ItemClick);
+            // 
+            // m_cmd_sinh_vien_xuat_sac
+            // 
+            this.m_cmd_sinh_vien_xuat_sac.Caption = "Sinh viên xuất sắc";
+            this.m_cmd_sinh_vien_xuat_sac.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_sinh_vien_xuat_sac.Glyph")));
+            this.m_cmd_sinh_vien_xuat_sac.Id = 12;
+            this.m_cmd_sinh_vien_xuat_sac.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_sinh_vien_xuat_sac.LargeGlyph")));
+            this.m_cmd_sinh_vien_xuat_sac.Name = "m_cmd_sinh_vien_xuat_sac";
+            this.m_cmd_sinh_vien_xuat_sac.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_sinh_vien_xuat_sac_ItemClick);
             // 
             // m_rb_quan_ky_danh_muc
             // 
@@ -623,15 +633,6 @@
             this.ribbonPageGroup16.Name = "ribbonPageGroup16";
             this.ribbonPageGroup16.Text = "Sinh viên xuất sắc";
             // 
-            // m_cmd_sinh_vien_xuat_sac
-            // 
-            this.m_cmd_sinh_vien_xuat_sac.Caption = "Sinh viên xuất sắc";
-            this.m_cmd_sinh_vien_xuat_sac.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_sinh_vien_xuat_sac.Glyph")));
-            this.m_cmd_sinh_vien_xuat_sac.Id = 12;
-            this.m_cmd_sinh_vien_xuat_sac.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_sinh_vien_xuat_sac.LargeGlyph")));
-            this.m_cmd_sinh_vien_xuat_sac.Name = "m_cmd_sinh_vien_xuat_sac";
-            this.m_cmd_sinh_vien_xuat_sac.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_sinh_vien_xuat_sac_ItemClick);
-            // 
             // f999_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -674,7 +675,7 @@
         private DevExpress.XtraBars.BarSubItem barSubItem2;
         private DevExpress.XtraBars.BarSubItem m_cmd_ca_nhan;
         private DevExpress.XtraBars.BarButtonItem m_cmd_dang_xuat;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem17;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_doi_mat_khau;
         private DevExpress.XtraBars.Ribbon.RibbonPage m_rb_quan_ly_nghiep_vu;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_rib_quan_ly_diem_thi;
         private DevExpress.XtraBars.Ribbon.RibbonPage m_rb_tra_cuu;

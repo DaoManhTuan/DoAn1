@@ -45,8 +45,9 @@ namespace TOSApp.HeThong
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithTableName(v_ds, "V_USER_NAME");
+            v_ds.Tables[0].Rows[0].Delete();
             m_grc_user_name.DataSource = v_ds.Tables[0];
-            load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[0]);
+            load_data_2_thong_tin_chi_tiet(v_ds.Tables[0].Rows[1]);
         }
 
         private void m_grv_user_name_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)

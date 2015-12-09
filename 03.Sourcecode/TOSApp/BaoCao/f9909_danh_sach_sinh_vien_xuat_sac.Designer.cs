@@ -307,9 +307,9 @@
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 63);
+            this.panel1.Location = new System.Drawing.Point(0, 86);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1146, 130);
+            this.panel1.Size = new System.Drawing.Size(1146, 107);
             this.panel1.TabIndex = 5;
             // 
             // panel7
@@ -318,7 +318,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(371, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(293, 130);
+            this.panel7.Size = new System.Drawing.Size(293, 107);
             this.panel7.TabIndex = 2;
             // 
             // label10
@@ -339,7 +339,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel6.Location = new System.Drawing.Point(664, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(482, 130);
+            this.panel6.Size = new System.Drawing.Size(482, 107);
             this.panel6.TabIndex = 1;
             // 
             // label8
@@ -378,7 +378,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(371, 130);
+            this.panel5.Size = new System.Drawing.Size(371, 107);
             this.panel5.TabIndex = 0;
             // 
             // label9
@@ -409,13 +409,13 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1146, 63);
+            this.panel8.Size = new System.Drawing.Size(1146, 86);
             this.panel8.TabIndex = 0;
             // 
             // m_cmd_xuat_excel
             // 
             this.m_cmd_xuat_excel.Image = global::TOSApp.Properties.Resources.tải_xuống;
-            this.m_cmd_xuat_excel.Location = new System.Drawing.Point(371, 12);
+            this.m_cmd_xuat_excel.Location = new System.Drawing.Point(371, 22);
             this.m_cmd_xuat_excel.Name = "m_cmd_xuat_excel";
             this.m_cmd_xuat_excel.Size = new System.Drawing.Size(103, 30);
             this.m_cmd_xuat_excel.TabIndex = 5;
@@ -425,7 +425,7 @@
             // m_cmd_xem
             // 
             this.m_cmd_xem.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_xem.Image")));
-            this.m_cmd_xem.Location = new System.Drawing.Point(269, 12);
+            this.m_cmd_xem.Location = new System.Drawing.Point(269, 22);
             this.m_cmd_xem.Name = "m_cmd_xem";
             this.m_cmd_xem.Size = new System.Drawing.Size(82, 30);
             this.m_cmd_xem.TabIndex = 6;
@@ -435,7 +435,7 @@
             // m_cbo_hoc_ky
             // 
             this.m_cbo_hoc_ky.FormattingEnabled = true;
-            this.m_cbo_hoc_ky.Location = new System.Drawing.Point(120, 17);
+            this.m_cbo_hoc_ky.Location = new System.Drawing.Point(120, 27);
             this.m_cbo_hoc_ky.Name = "m_cbo_hoc_ky";
             this.m_cbo_hoc_ky.Size = new System.Drawing.Size(121, 21);
             this.m_cbo_hoc_ky.TabIndex = 4;
@@ -443,7 +443,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(50, 20);
+            this.label3.Location = new System.Drawing.Point(50, 30);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 3;

@@ -10,6 +10,7 @@ namespace TOSApp
 {
     class User
     {
+        public static decimal id_user;
         public static string tai_khoan;
         public static string mat_khau;
         public static decimal id_nhom;
