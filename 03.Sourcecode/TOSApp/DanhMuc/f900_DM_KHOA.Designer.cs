@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f900_DM_KHOA));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.m_panel_control = new System.Windows.Forms.Panel();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_them = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xoa = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_sua = new DevExpress.XtraEditors.SimpleButton();
@@ -76,7 +75,6 @@
             // 
             // m_panel_control
             // 
-            this.m_panel_control.Controls.Add(this.simpleButton1);
             this.m_panel_control.Controls.Add(this.m_cmd_them);
             this.m_panel_control.Controls.Add(this.m_cmd_xoa);
             this.m_panel_control.Controls.Add(this.m_cmd_sua);
@@ -85,16 +83,6 @@
             this.m_panel_control.Name = "m_panel_control";
             this.m_panel_control.Size = new System.Drawing.Size(548, 39);
             this.m_panel_control.TabIndex = 2;
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Image = global::TOSApp.Properties.Resources.tải_xuống1;
-            this.simpleButton1.Location = new System.Drawing.Point(431, 4);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(94, 33);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "Xuất Excel";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // m_cmd_them
             // 
@@ -404,6 +392,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox m_txt_khoa;
         private System.Windows.Forms.TextBox m_txt_nam_bat_dau;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

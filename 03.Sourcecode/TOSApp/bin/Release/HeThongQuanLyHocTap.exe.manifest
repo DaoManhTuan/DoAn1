@@ -43,13 +43,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BondUS.dll" size="57344">
-      <assemblyIdentity name="BondUS" version="1.0.5821.32012" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="BondUS" version="1.0.5821.42266" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>d7G8s0JrIc2ORcMkXbizk40pywA=</dsig:DigestValue>
+        <dsig:DigestValue>c0dFo+TU/LR6kI2V7AzsRQNlBdM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -630,14 +630,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HeThongQuanLyHocTap.exe" size="14209536">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HeThongQuanLyHocTap.exe" size="13790664">
       <assemblyIdentity name="HeThongQuanLyHocTap" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>cH59A5QUugdHN8Vuk24kDrJ/CGE=</dsig:DigestValue>
+        <dsig:DigestValue>s8RO9uuhoinbVJI+4Kz7TMzRcp4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -649,19 +649,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/5pu6V4hJabjvQAeVWVO9kImk/Q=</dsig:DigestValue>
+        <dsig:DigestValue>hqyY2JSOcUBYupb2lnwaQcYStIE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPBusinessService.dll" size="34304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPBusinessService.dll" size="35328">
       <assemblyIdentity name="IPBusinessService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>0Zs+4jm1kYCcfgJXjqKc55S5BG4=</dsig:DigestValue>
+        <dsig:DigestValue>Z1LNGh6WnzONwzqvAuKnaMII7w4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -679,61 +679,61 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPCOREDS.dll" size="356352">
-      <assemblyIdentity name="IPCOREDS" version="1.0.5821.32011" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="IPCOREDS" version="1.0.5821.42265" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>jkApELtvpuXF+xoLYm73LgErkZk=</dsig:DigestValue>
+        <dsig:DigestValue>3CEn4ZeEkbwshf72G7envQ2fZ3I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPData.dll" size="158720">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPData.dll" size="159744">
       <assemblyIdentity name="IPData" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>3aEF3YjOlLCPXlR264KHdtLy3ss=</dsig:DigestValue>
+        <dsig:DigestValue>kv4quuJtdKFG3hrFuiWKcJhn6xM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPException.dll" size="21504">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPException.dll" size="22528">
       <assemblyIdentity name="IPException" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>O2FzxVmPeV9/eFZrW6SdvObnShI=</dsig:DigestValue>
+        <dsig:DigestValue>3PUvHwxE9h+qUt7do1URr8nU4AU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPSystemAdmin.dll" size="161792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPSystemAdmin.dll" size="156160">
       <assemblyIdentity name="IPSystemAdmin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>PsheI6TuRnrZj/R3LL0RULptzyI=</dsig:DigestValue>
+        <dsig:DigestValue>0UHygqJ1G0TLWWBkJF4+rTz9cTw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPUserService.dll" size="53248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPUserService.dll" size="54272">
       <assemblyIdentity name="IPUserService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JCvKbWrhhc4KqtrFl+3zVxhmkWY=</dsig:DigestValue>
+        <dsig:DigestValue>83XXwqO4uiYJ0d7g96t7QoQdOak=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -809,7 +809,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>XQZElux9Sfb/QXPpDLza/TN3YHY=</dsig:DigestValue>
+      <dsig:DigestValue>q2TDk75CyeFSCEVdK0I18CQHyL0=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

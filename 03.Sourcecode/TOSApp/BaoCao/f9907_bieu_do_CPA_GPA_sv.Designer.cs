@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.LineSeriesView lineSeriesView1 = new DevExpress.XtraCharts.LineSeriesView();
-            DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.LineSeriesView lineSeriesView2 = new DevExpress.XtraCharts.LineSeriesView();
-            DevExpress.XtraCharts.LineSeriesView lineSeriesView3 = new DevExpress.XtraCharts.LineSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram2 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series3 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.LineSeriesView lineSeriesView4 = new DevExpress.XtraCharts.LineSeriesView();
+            DevExpress.XtraCharts.Series series4 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.LineSeriesView lineSeriesView5 = new DevExpress.XtraCharts.LineSeriesView();
+            DevExpress.XtraCharts.LineSeriesView lineSeriesView6 = new DevExpress.XtraCharts.LineSeriesView();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f9907_bieu_do_CPA_GPA_sv));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
-            this.pivotGridControl1 = new DevExpress.XtraPivotGrid.PivotGridControl();
+            this.m_chart_gpa_cpa = new DevExpress.XtraCharts.ChartControl();
+            this.m_pivot_kq_sinh_vien = new DevExpress.XtraPivotGrid.PivotGridControl();
             this.HO_TEN_SINH_VIEN = new DevExpress.XtraPivotGrid.PivotGridField();
             this.KY_HOC = new DevExpress.XtraPivotGrid.PivotGridField();
             this.CPA_ = new DevExpress.XtraPivotGrid.PivotGridField();
@@ -50,68 +51,68 @@
             this.m_txt_ma_sinh_vien = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(lineSeriesView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(lineSeriesView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(lineSeriesView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_chart_gpa_cpa)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(lineSeriesView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(lineSeriesView5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(lineSeriesView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_pivot_kq_sinh_vien)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.chartControl1);
+            this.panel1.Controls.Add(this.m_chart_gpa_cpa);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(686, 0);
+            this.panel1.Location = new System.Drawing.Point(555, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(440, 489);
+            this.panel1.Size = new System.Drawing.Size(571, 489);
             this.panel1.TabIndex = 0;
             // 
-            // chartControl1
+            // m_chart_gpa_cpa
             // 
-            this.chartControl1.DataSource = this.pivotGridControl1;
-            xyDiagram1.AxisX.Title.Text = "Kỳ học";
-            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisY.Title.Text = "CPA GPA";
-            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram1;
-            this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chartControl1.Legend.MaxHorizontalPercentage = 30D;
-            this.chartControl1.Location = new System.Drawing.Point(0, 0);
-            this.chartControl1.Name = "chartControl1";
-            this.chartControl1.SeriesDataMember = "Series";
-            series1.Name = "Series 1";
-            series1.View = lineSeriesView1;
-            series1.Visible = false;
-            series2.Name = "Series 2";
-            series2.View = lineSeriesView2;
-            series2.Visible = false;
-            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1,
-        series2};
-            this.chartControl1.SeriesTemplate.ArgumentDataMember = "Arguments";
-            this.chartControl1.SeriesTemplate.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            this.chartControl1.SeriesTemplate.ValueDataMembersSerializable = "Values";
-            this.chartControl1.SeriesTemplate.View = lineSeriesView3;
-            this.chartControl1.Size = new System.Drawing.Size(440, 489);
-            this.chartControl1.TabIndex = 0;
+            this.m_chart_gpa_cpa.DataSource = this.m_pivot_kq_sinh_vien;
+            xyDiagram2.AxisX.Title.Text = "Kỳ học";
+            xyDiagram2.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram2.AxisY.Title.Text = "CPA GPA";
+            xyDiagram2.AxisY.VisibleInPanesSerializable = "-1";
+            this.m_chart_gpa_cpa.Diagram = xyDiagram2;
+            this.m_chart_gpa_cpa.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m_chart_gpa_cpa.Legend.MaxHorizontalPercentage = 30D;
+            this.m_chart_gpa_cpa.Location = new System.Drawing.Point(0, 0);
+            this.m_chart_gpa_cpa.Name = "m_chart_gpa_cpa";
+            this.m_chart_gpa_cpa.SeriesDataMember = "Series";
+            series3.Name = "Series 1";
+            series3.View = lineSeriesView4;
+            series3.Visible = false;
+            series4.Name = "Series 2";
+            series4.View = lineSeriesView5;
+            series4.Visible = false;
+            this.m_chart_gpa_cpa.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
+        series3,
+        series4};
+            this.m_chart_gpa_cpa.SeriesTemplate.ArgumentDataMember = "Arguments";
+            this.m_chart_gpa_cpa.SeriesTemplate.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            this.m_chart_gpa_cpa.SeriesTemplate.ValueDataMembersSerializable = "Values";
+            this.m_chart_gpa_cpa.SeriesTemplate.View = lineSeriesView6;
+            this.m_chart_gpa_cpa.Size = new System.Drawing.Size(571, 489);
+            this.m_chart_gpa_cpa.TabIndex = 0;
             // 
-            // pivotGridControl1
+            // m_pivot_kq_sinh_vien
             // 
-            this.pivotGridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pivotGridControl1.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
+            this.m_pivot_kq_sinh_vien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m_pivot_kq_sinh_vien.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
             this.HO_TEN_SINH_VIEN,
             this.KY_HOC,
             this.CPA_,
             this.GPA_});
-            this.pivotGridControl1.Location = new System.Drawing.Point(0, 0);
-            this.pivotGridControl1.Name = "pivotGridControl1";
-            this.pivotGridControl1.Size = new System.Drawing.Size(686, 389);
-            this.pivotGridControl1.TabIndex = 0;
+            this.m_pivot_kq_sinh_vien.Location = new System.Drawing.Point(0, 0);
+            this.m_pivot_kq_sinh_vien.Name = "m_pivot_kq_sinh_vien";
+            this.m_pivot_kq_sinh_vien.Size = new System.Drawing.Size(555, 389);
+            this.m_pivot_kq_sinh_vien.TabIndex = 0;
             // 
             // HO_TEN_SINH_VIEN
             // 
@@ -158,14 +159,15 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(686, 100);
+            this.panel2.Size = new System.Drawing.Size(555, 100);
             this.panel2.TabIndex = 0;
             // 
             // m_cmd_xuat_pdf
             // 
-            this.m_cmd_xuat_pdf.Location = new System.Drawing.Point(445, 29);
+            this.m_cmd_xuat_pdf.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_xuat_pdf.Image")));
+            this.m_cmd_xuat_pdf.Location = new System.Drawing.Point(445, 23);
             this.m_cmd_xuat_pdf.Name = "m_cmd_xuat_pdf";
-            this.m_cmd_xuat_pdf.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_xuat_pdf.Size = new System.Drawing.Size(104, 36);
             this.m_cmd_xuat_pdf.TabIndex = 4;
             this.m_cmd_xuat_pdf.Text = "Xuất PDF";
             this.m_cmd_xuat_pdf.Click += new System.EventHandler(this.m_cmd_xuat_pdf_Click);
@@ -175,9 +177,8 @@
             this.m_lb_ho_ten_sinh_vien.AutoSize = true;
             this.m_lb_ho_ten_sinh_vien.Location = new System.Drawing.Point(127, 75);
             this.m_lb_ho_ten_sinh_vien.Name = "m_lb_ho_ten_sinh_vien";
-            this.m_lb_ho_ten_sinh_vien.Size = new System.Drawing.Size(87, 13);
+            this.m_lb_ho_ten_sinh_vien.Size = new System.Drawing.Size(0, 13);
             this.m_lb_ho_ten_sinh_vien.TabIndex = 3;
-            this.m_lb_ho_ten_sinh_vien.Text = "Họ tên sinh viên:";
             // 
             // label2
             // 
@@ -190,9 +191,10 @@
             // 
             // m_cmd_loc
             // 
-            this.m_cmd_loc.Location = new System.Drawing.Point(330, 30);
+            this.m_cmd_loc.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_loc.Image")));
+            this.m_cmd_loc.Location = new System.Drawing.Point(330, 23);
             this.m_cmd_loc.Name = "m_cmd_loc";
-            this.m_cmd_loc.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_loc.Size = new System.Drawing.Size(95, 36);
             this.m_cmd_loc.TabIndex = 2;
             this.m_cmd_loc.Text = "Lọc";
             this.m_cmd_loc.Click += new System.EventHandler(this.m_cmd_loc_Click);
@@ -209,17 +211,19 @@
             // m_txt_ma_sinh_vien
             // 
             this.m_txt_ma_sinh_vien.Location = new System.Drawing.Point(129, 32);
+            this.m_txt_ma_sinh_vien.MaxLength = 8;
             this.m_txt_ma_sinh_vien.Name = "m_txt_ma_sinh_vien";
             this.m_txt_ma_sinh_vien.Size = new System.Drawing.Size(160, 20);
             this.m_txt_ma_sinh_vien.TabIndex = 0;
+            this.m_txt_ma_sinh_vien.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_txt_ma_sinh_vien_KeyPress);
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.pivotGridControl1);
+            this.panel3.Controls.Add(this.m_pivot_kq_sinh_vien);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 100);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(686, 389);
+            this.panel3.Size = new System.Drawing.Size(555, 389);
             this.panel3.TabIndex = 0;
             // 
             // f9907_bieu_do_CPA_GPA_sv
@@ -231,17 +235,17 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "f9907_bieu_do_CPA_GPA_sv";
-            this.Text = "f9907_bieu_do_CPA_GPA_sv";
+            this.Text = "Biểu đồ kết quả sinh viên";
             this.Load += new System.EventHandler(this.f9907_bieu_do_CPA_GPA_sv_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(lineSeriesView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(lineSeriesView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(lineSeriesView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(lineSeriesView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(lineSeriesView5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(lineSeriesView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_chart_gpa_cpa)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_pivot_kq_sinh_vien)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -252,13 +256,13 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private DevExpress.XtraCharts.ChartControl chartControl1;
+        private DevExpress.XtraCharts.ChartControl m_chart_gpa_cpa;
         private System.Windows.Forms.Panel panel2;
         private DevExpress.XtraEditors.SimpleButton m_cmd_loc;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox m_txt_ma_sinh_vien;
         private System.Windows.Forms.Panel panel3;
-        private DevExpress.XtraPivotGrid.PivotGridControl pivotGridControl1;
+        private DevExpress.XtraPivotGrid.PivotGridControl m_pivot_kq_sinh_vien;
         private DevExpress.XtraPivotGrid.PivotGridField HO_TEN_SINH_VIEN;
         private DevExpress.XtraPivotGrid.PivotGridField KY_HOC;
         private DevExpress.XtraPivotGrid.PivotGridField CPA_;

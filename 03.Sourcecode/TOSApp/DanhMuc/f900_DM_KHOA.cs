@@ -168,22 +168,5 @@ namespace TOSApp.DanhMuc
             
         }
 
-        private void simpleButton1_Click(object sender, EventArgs e)
-        {
-            SaveFileDialog f = new SaveFileDialog();
-            
-            if (f.ShowDialog()==DialogResult.OK)
-            {               
-                User.xuat_excel(m_grv_dm_khoa, f.FileName);
-            }
-
-            
-        }
-
-       
-
-       
-
-
     }
 }

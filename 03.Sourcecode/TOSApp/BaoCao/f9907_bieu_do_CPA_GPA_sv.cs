@@ -20,7 +20,7 @@ namespace TOSApp.BaoCao
 
         private void f9907_bieu_do_CPA_GPA_sv_Load(object sender, EventArgs e)
         {
-            chartControl1.OptionsPrint.SizeMode = DevExpress.XtraCharts.Printing.PrintSizeMode.Zoom;
+            m_chart_gpa_cpa.OptionsPrint.SizeMode = DevExpress.XtraCharts.Printing.PrintSizeMode.Zoom;
         }
 
         private void load_data_2_grid()
@@ -29,7 +29,7 @@ namespace TOSApp.BaoCao
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithQuery(v_ds, "select * from v_ket_qua_hoc_tap where ma_sinh_vien = " + m_txt_ma_sinh_vien.Text);
-            pivotGridControl1.DataSource = v_ds.Tables[0];
+            m_pivot_kq_sinh_vien.DataSource = v_ds.Tables[0];
 
         }
 
@@ -56,7 +56,7 @@ namespace TOSApp.BaoCao
                 MessageBox.Show("Sinh viên có mã " + m_txt_ma_sinh_vien.Text + " không tồn tại!");
                 m_txt_ma_sinh_vien.Focus();
                 return false;
-               
+
             }
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
@@ -67,7 +67,7 @@ namespace TOSApp.BaoCao
                 MessageBox.Show("Sinh viên có mã " + m_txt_ma_sinh_vien.Text + " không tồn tại!");
                 m_txt_ma_sinh_vien.Focus();
                 return false;
-               
+
             }
             else
             {
@@ -84,17 +84,12 @@ namespace TOSApp.BaoCao
                 CompositeLink cl = new CompositeLink(ps);
                 PrintableComponentLink pclChart = new PrintableComponentLink();
                 PrintableComponentLink pclPivot = new PrintableComponentLink();
-
-                pclChart.Component = chartControl1;
-                pclPivot.Component = pivotGridControl1;
-
+                pclChart.Component = m_chart_gpa_cpa;
+                pclPivot.Component = m_pivot_kq_sinh_vien;
                 cl.Links.AddRange(new object[] { pclChart, pclPivot });
-               
+                cl.ShowPreviewDialog();
+                cl.PrintingSystem.ExportToPdf(Application.StartupPath + "\\..\\..\\CPA_GPA.pdf");
 
-               
-                    cl.ShowPreviewDialog();
-                    cl.PrintingSystem.ExportToPdf(Application.StartupPath + "\\..\\..\\CPA_GPA.pdf");
-               
             }
             catch (Exception v)
             {
@@ -103,6 +98,12 @@ namespace TOSApp.BaoCao
             }
         }
 
-      
+        private void m_txt_ma_sinh_vien_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
+        }
+
+
     }
 }

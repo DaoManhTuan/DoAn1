@@ -200,7 +200,12 @@ namespace TOSApp
             v_cstore.addNVarcharInputParam("@COLUMN_NAME", ip_str_column_name);
             v_cstore.fillDataSetByCommand(this, op_ds);
         }
-
+        public void FillDatasetDanhSachSV(DataSet op_ds, decimal v_id_hoc_ky)
+        {
+            CStoredProc v_cstore = new CStoredProc("pr_ds_sinh_vien_xuat_sac");
+            v_cstore.addDecimalInputParam("@v_dc_id_hoc_ky", v_id_hoc_ky);
+            v_cstore.fillDataSetByCommand(this, op_ds);
+        }
         public void FillDatasetCBO(DataSet op_ds, string ip_str_table_name, string ip_str_value_field, string ip_str_display_field, string ip_str_condition)
         {
             CStoredProc v_cstore = new CStoredProc("get_data_for_cbo");
@@ -225,12 +230,11 @@ namespace TOSApp
             v_cstore.fillDataSetByCommand(this, op_ds);
         }
 
-        public void FillDatasetLogin(DataSet v_ds, string user,string pass, decimal id_chi_nhanh)
+        public void FillDatasetLogin(DataSet v_ds, string user,string pass)
         {
-            CStoredProc v_cstore = new CStoredProc("check_login");
-            v_cstore.addNVarcharInputParam("@user", user);
-            v_cstore.addNVarcharInputParam("@pass", pass);
-            v_cstore.addDecimalInputParam("@id_chi_nhanh", id_chi_nhanh);
+            CStoredProc v_cstore = new CStoredProc("pr_check_login");
+            v_cstore.addNVarcharInputParam("@v_str_ma_sinh_vien", user);
+            v_cstore.addNVarcharInputParam("@v_str_mat_khau", pass);
             v_cstore.fillDataSetByCommand(this, v_ds);
         }
         public void Check_YN_thi_sinh(DataSet v_ds, string ma_thi_sinh)

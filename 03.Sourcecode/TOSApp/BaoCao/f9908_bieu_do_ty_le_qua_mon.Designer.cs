@@ -39,11 +39,12 @@
             DevExpress.XtraCharts.PieSeriesLabel pieSeriesLabel2 = new DevExpress.XtraCharts.PieSeriesLabel();
             DevExpress.XtraCharts.PieSeriesView pieSeriesView3 = new DevExpress.XtraCharts.PieSeriesView();
             DevExpress.XtraCharts.SeriesTitle seriesTitle2 = new DevExpress.XtraCharts.SeriesTitle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f9908_bieu_do_ty_le_qua_mon));
             this.panel1 = new System.Windows.Forms.Panel();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
-            this.m_pivot = new DevExpress.XtraPivotGrid.PivotGridControl();
-            this.m_col_qua = new DevExpress.XtraPivotGrid.PivotGridField();
-            this.pivotGridField3 = new DevExpress.XtraPivotGrid.PivotGridField();
+            this.m_pivot_ty_le_qua_mon = new DevExpress.XtraPivotGrid.PivotGridControl();
+            this.m_col_so_luong = new DevExpress.XtraPivotGrid.PivotGridField();
+            this.m_col_trang_thai = new DevExpress.XtraPivotGrid.PivotGridField();
             this.panel3 = new System.Windows.Forms.Panel();
             this.m_lb_ten_hoc_phan = new System.Windows.Forms.Label();
             this.m_cbo_ky_hoc = new System.Windows.Forms.ComboBox();
@@ -63,7 +64,7 @@
             ((System.ComponentModel.ISupportInitialize)(pieSeriesView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(pieSeriesLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(pieSeriesView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.m_pivot)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_pivot_ty_le_qua_mon)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -80,7 +81,7 @@
             // chartControl1
             // 
             this.chartControl1.AppearanceNameSerializable = "Chameleon";
-            this.chartControl1.DataSource = this.m_pivot;
+            this.chartControl1.DataSource = this.m_pivot_ty_le_qua_mon;
             simpleDiagram1.Dimension = 1;
             simpleDiagram1.EqualPieSize = false;
             this.chartControl1.Diagram = simpleDiagram1;
@@ -126,33 +127,33 @@
             this.chartControl1.Size = new System.Drawing.Size(390, 535);
             this.chartControl1.TabIndex = 0;
             // 
-            // m_pivot
+            // m_pivot_ty_le_qua_mon
             // 
-            this.m_pivot.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.m_pivot.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
-            this.m_col_qua,
-            this.pivotGridField3});
-            this.m_pivot.Location = new System.Drawing.Point(0, 0);
-            this.m_pivot.Name = "m_pivot";
-            this.m_pivot.Size = new System.Drawing.Size(735, 445);
-            this.m_pivot.TabIndex = 0;
+            this.m_pivot_ty_le_qua_mon.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m_pivot_ty_le_qua_mon.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
+            this.m_col_so_luong,
+            this.m_col_trang_thai});
+            this.m_pivot_ty_le_qua_mon.Location = new System.Drawing.Point(0, 0);
+            this.m_pivot_ty_le_qua_mon.Name = "m_pivot_ty_le_qua_mon";
+            this.m_pivot_ty_le_qua_mon.Size = new System.Drawing.Size(735, 445);
+            this.m_pivot_ty_le_qua_mon.TabIndex = 0;
             // 
-            // m_col_qua
+            // m_col_so_luong
             // 
-            this.m_col_qua.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
-            this.m_col_qua.AreaIndex = 0;
-            this.m_col_qua.Caption = "Tổng sinh viên";
-            this.m_col_qua.FieldName = "Qua";
-            this.m_col_qua.Name = "m_col_qua";
-            this.m_col_qua.SummaryDisplayType = DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfColumn;
+            this.m_col_so_luong.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
+            this.m_col_so_luong.AreaIndex = 0;
+            this.m_col_so_luong.Caption = "Tổng sinh viên";
+            this.m_col_so_luong.FieldName = "SoLuong";
+            this.m_col_so_luong.Name = "m_col_so_luong";
+            this.m_col_so_luong.SummaryDisplayType = DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfColumn;
             // 
-            // pivotGridField3
+            // m_col_trang_thai
             // 
-            this.pivotGridField3.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
-            this.pivotGridField3.AreaIndex = 0;
-            this.pivotGridField3.Caption = "Trạng thaí";
-            this.pivotGridField3.FieldName = "HocKy";
-            this.pivotGridField3.Name = "pivotGridField3";
+            this.m_col_trang_thai.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.m_col_trang_thai.AreaIndex = 0;
+            this.m_col_trang_thai.Caption = "Trạng thaí";
+            this.m_col_trang_thai.FieldName = "TrangThai";
+            this.m_col_trang_thai.Name = "m_col_trang_thai";
             // 
             // panel3
             // 
@@ -200,9 +201,10 @@
             // 
             // m_cmd_xuat_pdf
             // 
-            this.m_cmd_xuat_pdf.Location = new System.Drawing.Point(654, 27);
+            this.m_cmd_xuat_pdf.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_xuat_pdf.Image")));
+            this.m_cmd_xuat_pdf.Location = new System.Drawing.Point(640, 19);
             this.m_cmd_xuat_pdf.Name = "m_cmd_xuat_pdf";
-            this.m_cmd_xuat_pdf.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_xuat_pdf.Size = new System.Drawing.Size(89, 37);
             this.m_cmd_xuat_pdf.TabIndex = 12;
             this.m_cmd_xuat_pdf.Text = "Xuất PDF";
             this.m_cmd_xuat_pdf.Click += new System.EventHandler(this.m_cmd_xuat_pdf_Click);
@@ -218,9 +220,10 @@
             // 
             // m_cmd_loc
             // 
-            this.m_cmd_loc.Location = new System.Drawing.Point(573, 26);
+            this.m_cmd_loc.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_loc.Image")));
+            this.m_cmd_loc.Location = new System.Drawing.Point(537, 19);
             this.m_cmd_loc.Name = "m_cmd_loc";
-            this.m_cmd_loc.Size = new System.Drawing.Size(75, 23);
+            this.m_cmd_loc.Size = new System.Drawing.Size(82, 37);
             this.m_cmd_loc.TabIndex = 11;
             this.m_cmd_loc.Text = "Lọc";
             this.m_cmd_loc.Click += new System.EventHandler(this.m_cmd_loc_Click);
@@ -236,7 +239,7 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.m_pivot);
+            this.panel4.Controls.Add(this.m_pivot_ty_le_qua_mon);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 90);
             this.panel4.Name = "panel4";
@@ -252,7 +255,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Name = "f9908_bieu_do_ty_le_qua_mon";
-            this.Text = "f9908_bieu_do_ty_le_qua_mon";
+            this.Text = "Tỷ lệ kết quả theo môn học";
             this.Load += new System.EventHandler(this.f9908_bieu_do_ty_le_qua_mon_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(simpleDiagram1)).EndInit();
@@ -264,7 +267,7 @@
             ((System.ComponentModel.ISupportInitialize)(pieSeriesLabel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(pieSeriesView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.m_pivot)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_pivot_ty_le_qua_mon)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -284,9 +287,9 @@
         private DevExpress.XtraEditors.SimpleButton m_cmd_loc;
         private System.Windows.Forms.Label label1;
         private DevExpress.XtraCharts.ChartControl chartControl1;
-        private DevExpress.XtraPivotGrid.PivotGridControl m_pivot;
+        private DevExpress.XtraPivotGrid.PivotGridControl m_pivot_ty_le_qua_mon;
         private System.Windows.Forms.Label m_lb_ten_hoc_phan;
-        private DevExpress.XtraPivotGrid.PivotGridField m_col_qua;
-        private DevExpress.XtraPivotGrid.PivotGridField pivotGridField3;
+        private DevExpress.XtraPivotGrid.PivotGridField m_col_so_luong;
+        private DevExpress.XtraPivotGrid.PivotGridField m_col_trang_thai;
     }
 }

@@ -25,6 +25,7 @@ namespace TOSApp.HeThong
                 if (check_du_lieu())
                 {
                     update_mat_khau();
+                    m_lb_output.Text = "";
                     MessageBox.Show("Đổi mật khẩu thành công!");
                     this.Close();
                 }
@@ -41,20 +42,27 @@ namespace TOSApp.HeThong
             US_USER_NAME v_us = new US_USER_NAME(User.id_user);
             v_us.strMAT_KHAU = User.GetMD5(m_txt_mk_moi.Text);
             v_us.Update();
+            User.mat_khau = v_us.strMAT_KHAU;
         }
 
         private bool check_du_lieu()
         {
-            if (m_txt_mk_moi.Text.Contains(" "))
+            if(User.GetMD5(m_txt_mk_cu.Text) != User.mat_khau)
             {
-                MessageBox.Show("Mật khẩu không được chứa khoảng trắng!");
+                m_lb_output.Text = "Mật khẩu cũ chưa chính xác!";
+                m_txt_mk_cu.Focus();
+                return false;
+            }
+            if (m_txt_mk_moi.TextLength == 0)
+            {
+                m_lb_output.Text = "Nhập mật khẩu mới";
                 m_txt_mk_moi.Focus();
                 return false;
             }
-            if (m_txt_mk_moi.TextLength<=6)
+            if (m_txt_xac_nhan_mk.Text != m_txt_mk_moi.Text)
             {
-                MessageBox.Show("Mật khẩu phải dài hơn 6 ký tự!");
-                m_txt_mk_moi.Focus();
+                m_lb_output.Text = "Nhập lại mật khẩu xác nhận";
+                m_txt_xac_nhan_mk.Focus();
                 return false;
             }
             return true;
@@ -64,15 +72,5 @@ namespace TOSApp.HeThong
         {
             this.Close();
         }
-
-        private void m_txt_xac_nhan_mk_TextChanged(object sender, EventArgs e)
-        {
-            if (m_txt_xac_nhan_mk.Text == m_txt_mk_moi.Text && m_txt_mk_cu.TextLength != 0)
-            {
-                m_lb_output.Text = "Xác nhận chính xác!";
-            }
-            else m_lb_output.Text = "Chưa chính xác!";
-        }
-
     }
 }

@@ -39,20 +39,19 @@ namespace TOSApp.BaoCao
 
         private void load_data_2_cbo_hoc_ky()
         {
-            WinFormControls.load_data_to_combobox("V_DM_HOC_KY", "ID", "MA_HOC_KY", "", WinFormControls.eTAT_CA.YES, m_cbo_hoc_ky);
+            WinFormControls.load_data_to_combobox("V_DM_HOC_KY", "ID", "MA_HOC_KY", "", WinFormControls.eTAT_CA.NO, m_cbo_hoc_ky);
         } 
 
         private void m_cmd_xua_bao_cao_Click(object sender, EventArgs e)
         {
             try
             {
-                
                 DevExpress.XtraPrinting.PrintingSystem ps = new DevExpress.XtraPrinting.PrintingSystem();
                 CompositeLink cl = new CompositeLink(ps);
                 PrintableComponentLink pclChart = new PrintableComponentLink();
                 PrintableComponentLink pclPivot = new PrintableComponentLink();
                 pclChart.Component = chartControl1;
-                pclPivot.Component = pivotGridControl1;
+                pclPivot.Component = m_pivot_ty_le_hoc_bong;
                 cl.Links.AddRange(new object[] { pclChart, pclPivot });
                 cl.ShowPreviewDialog();
                 cl.PrintingSystem.ExportToPdf(Application.StartupPath + "\\..\\..\\BaoCao.pdf");
@@ -92,9 +91,9 @@ namespace TOSApp.BaoCao
             table.Columns.Add("PhanTram", typeof(int));
 
             table.Rows.Add(new object[] { m_cbo_hoc_ky.SelectedText, "Học bổng", m_int_count_hoc_bong, m_int_count_hoc_bong });
-            table.Rows.Add(new object[] { m_cbo_hoc_ky.SelectedText, "Đạt", m_int_count_binh_thuong, m_int_count_binh_thuong });
+            table.Rows.Add(new object[] { m_cbo_hoc_ky.SelectedText, "Trung bình", m_int_count_binh_thuong, m_int_count_binh_thuong });
             table.Rows.Add(new object[] { m_cbo_hoc_ky.SelectedText, "Không qua", m_int_count_khong_qua, m_int_count_khong_qua });
-            pivotGridControl1.DataSource = table;
+            m_pivot_ty_le_hoc_bong.DataSource = table;
 
             
             }

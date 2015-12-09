@@ -78,10 +78,14 @@ namespace TOSApp
             //fix code -> nhục
             if (User.id_nhom == 3)
             {
-                RibbonPageGroup group = m_rib_main.GetGroupByName("m_rib_quan_ly_diem_thi");
+                RibbonPageGroup group = m_rib_main.GetGroupByName("m_rib_xu_ly_diem");
                 group.Visible = false;
             }
-
+            else if (User.id_nhom==2)
+            {
+                 RibbonPageGroup group = m_rib_main.GetGroupByName("m_rib_quan_ly_diem_thi");
+                group.Visible = false;
+            }
 
         }
 

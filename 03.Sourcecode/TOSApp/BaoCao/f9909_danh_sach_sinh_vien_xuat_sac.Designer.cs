@@ -434,6 +434,7 @@
             // 
             // m_cbo_hoc_ky
             // 
+            this.m_cbo_hoc_ky.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_hoc_ky.FormattingEnabled = true;
             this.m_cbo_hoc_ky.Location = new System.Drawing.Point(120, 27);
             this.m_cbo_hoc_ky.Name = "m_cbo_hoc_ky";
@@ -456,7 +457,7 @@
             this.ClientSize = new System.Drawing.Size(1146, 590);
             this.Controls.Add(this.panel3);
             this.Name = "f9909_danh_sach_sinh_vien_xuat_sac";
-            this.Text = "f9909_danh_sach_sinh_vien_xuat_sac";
+            this.Text = "Danh sách sinh viên xuất sắc nhất";
             this.Load += new System.EventHandler(this.f9909_danh_sach_sinh_vien_xuat_sac_Load);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);

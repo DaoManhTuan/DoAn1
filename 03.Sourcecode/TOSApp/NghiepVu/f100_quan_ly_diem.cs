@@ -36,7 +36,7 @@ namespace TOSApp.NghiepVu
 
         private void load_data_2_cbo_hoc_ky()
         {
-            WinFormControls.load_data_to_combobox_with_query(m_cbo_hoc_ky, "ID", "MA_HOC_KY", WinFormControls.eTAT_CA.TAT_CA, "SELECT ID, MA_HOC_KY FROM V_DM_HOC_KY");
+            WinFormControls.load_data_to_combobox_with_query(m_cbo_hoc_ky, "ID", "MA_HOC_KY", WinFormControls.eTAT_CA.NO, "SELECT ID, MA_HOC_KY FROM V_DM_HOC_KY");
 
         }
 
@@ -70,6 +70,12 @@ namespace TOSApp.NghiepVu
                     US_DM_LOP_HOC v_us_lop_hoc = new US_DM_LOP_HOC(CIPConvert.ToDecimal(m_cbo_ma_lop_hoc.SelectedValue.ToString()));
                     load_data_2_thong_tin_lop_hoc(v_us_lop_hoc);
                 }
+                else
+                {
+                    m_txt_ma_hoc_phan.Text = "";
+                    m_txt_so_tin_chi_hoc_phan.Text = "";
+                    m_txt_trong_so.Text = "";
+                }
                 load_data_2_grid();
             }
             catch
@@ -84,19 +90,30 @@ namespace TOSApp.NghiepVu
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            if (CIPConvert.ToDecimal(m_cbo_ma_lop_hoc.SelectedValue.ToString()) > -1)
+            string v_str_query = "";
+            if (m_id_sinh_vien == 0)
             {
-                v_us.FillDatasetWithQuery(v_ds, "SELECT * FROM V_DIEM_THI WHERE ID_LOP_HOC = " + m_cbo_ma_lop_hoc.SelectedValue.ToString());
+                if (CIPConvert.ToDecimal(m_cbo_ma_lop_hoc.SelectedValue.ToString()) > -1)
+                {
+                    v_str_query = "SELECT * FROM V_DIEM_THI WHERE ID_LOP_HOC = " + m_cbo_ma_lop_hoc.SelectedValue.ToString() ;
+                }
+                else
+                {
+                    v_us.FillDatasetWithQuery(v_ds, "SELECT * FROM V_DIEM_THI WHERE ID_HOC_KY = " + m_cbo_hoc_ky.SelectedValue.ToString()); 
+                }
             }
             else
             {
-                if (CIPConvert.ToDecimal(m_cbo_hoc_ky.SelectedValue.ToString()) > -1)
+                if (CIPConvert.ToDecimal(m_cbo_ma_lop_hoc.SelectedValue.ToString()) > -1)
                 {
-                    v_us.FillDatasetWithQuery(v_ds, "SELECT * FROM V_DIEM_THI WHERE ID_HOC_KY = " + m_cbo_hoc_ky.SelectedValue.ToString());
+                    v_str_query = "SELECT * FROM V_DIEM_THI WHERE ID_LOP_HOC = " + m_cbo_ma_lop_hoc.SelectedValue.ToString() + "AND ID_SINH_VIEN = " + m_id_sinh_vien.ToString();
                 }
                 else
-                    v_us.FillDatasetWithQuery(v_ds, "SELECT * FROM V_DIEM_THI");
+                {
+                    v_us.FillDatasetWithQuery(v_ds, "SELECT * FROM V_DIEM_THI WHERE ID_HOC_KY = " + m_cbo_hoc_ky.SelectedValue.ToString() + "AND ID_SINH_VIEN = " + m_id_sinh_vien.ToString());
+                }
             }
+            v_us.FillDatasetWithQuery(v_ds, v_str_query);
             m_grc_diem_thi.DataSource = v_ds.Tables[0];
         }
 
@@ -115,10 +132,13 @@ namespace TOSApp.NghiepVu
         {
             try
             {
+                m_txt_diem_qua_trinh.Text = "";
+                m_txt_diem_thi.Text = "";
                 if (m_txt_ma_so_sinh_vien.Text == "")
                 {
                     m_lab_eror.Text = "";
                     m_id_sinh_vien = 0;
+                    load_data_2_grid();
                 }
                 else
                 {
@@ -136,6 +156,7 @@ namespace TOSApp.NghiepVu
                         load_data_2_thong_tin_sinh_vien(v_us_sinh_vien);
                         m_id_sinh_vien = v_us_sinh_vien.dcID;
                         m_lab_eror.Text = "";
+                        load_data_2_grid();
                     }
                 }
 
@@ -231,6 +252,11 @@ namespace TOSApp.NghiepVu
                 MessageBox.Show("Điểm nhập không hợp lệ!");
                 return false;
             }
+            if(CIPConvert.ToDecimal(m_cbo_ma_lop_hoc.SelectedValue.ToString()) ==-1)
+            {
+                MessageBox.Show("chọn mã lớp!");
+                return false;
+            }
             return true;
         }
 
@@ -261,6 +287,8 @@ namespace TOSApp.NghiepVu
                     load_data_2_thong_tin_sinh_vien(v_us_sinh_vien);
                     US_DM_LOP_HOC v_us_lop_hoc = new US_DM_LOP_HOC(CIPConvert.ToDecimal(v_dr["ID_LOP_HOC"].ToString()));
                     load_data_2_thong_tin_lop_hoc(v_us_lop_hoc);
+                    m_txt_diem_qua_trinh.Text = v_dr["DIEM_QUA_TRINH"].ToString();
+                    m_txt_diem_thi.Text = v_dr["DIEM_THI"].ToString();
                 }
             }
         }
@@ -305,13 +333,19 @@ namespace TOSApp.NghiepVu
                 }
                 else
                 {
-                    MessageBox.Show("chọn 1 dong để xóa");
+                    MessageBox.Show("chọn 1 dòng để xóa");
                 }
             }
             catch
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
+        }
+
+        private void m_txt_ma_so_sinh_vien_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
         }
 
     }

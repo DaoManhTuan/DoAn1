@@ -93,7 +93,6 @@
             this.m_txt_xac_nhan_mk.PasswordChar = '*';
             this.m_txt_xac_nhan_mk.Size = new System.Drawing.Size(193, 20);
             this.m_txt_xac_nhan_mk.TabIndex = 4;
-            this.m_txt_xac_nhan_mk.TextChanged += new System.EventHandler(this.m_txt_xac_nhan_mk_TextChanged);
             // 
             // m_cmd_doi_mat
             // 
@@ -139,7 +138,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.m_txt_mk_cu);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "f1001_doi_mat_khau";
             this.Text = "Đổi mật khẩu";
             this.ResumeLayout(false);
