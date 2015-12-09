@@ -56,6 +56,8 @@
             this.m_cbo_hoc_ky = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.m_grv_col_muc_hong_bong = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.m_grv_col_khoa_vien = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -92,11 +94,11 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(6, 94);
+            this.label10.Location = new System.Drawing.Point(48, 68);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(279, 24);
+            this.label10.Size = new System.Drawing.Size(212, 24);
             this.label10.TabIndex = 0;
-            this.label10.Text = "BẢNG ĐIỂM SV THEO HỌC KỲ";
+            this.label10.Text = "BẢNG ĐIỂM SINH VIÊN";
             // 
             // panel6
             // 
@@ -112,7 +114,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(160, 48);
+            this.label8.Location = new System.Drawing.Point(109, 52);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(181, 13);
             this.label8.TabIndex = 0;
@@ -134,9 +136,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(71, 3);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(268, 13);
+            this.label6.Size = new System.Drawing.Size(252, 13);
             this.label6.TabIndex = 0;
-            this.label6.Text = "CỘNG HÒA - XÃ HỘI - CHỦ NGHĨA-VỆT NAM";
+            this.label6.Text = "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VỆT NAM";
             // 
             // panel5
             // 
@@ -307,12 +309,13 @@
             this.gridColumn4,
             this.gridColumn5,
             this.gridColumn6,
-            this.gridColumn8});
+            this.gridColumn8,
+            this.m_grv_col_muc_hong_bong,
+            this.m_grv_col_khoa_vien});
             this.m_grv_bao_cao_hoc_tap_theo_sv.GridControl = this.m_grc_bao_cao_hoc_tap_theo_sv;
             this.m_grv_bao_cao_hoc_tap_theo_sv.Name = "m_grv_bao_cao_hoc_tap_theo_sv";
-            this.m_grv_bao_cao_hoc_tap_theo_sv.OptionsBehavior.Editable = false;
             this.m_grv_bao_cao_hoc_tap_theo_sv.OptionsBehavior.ReadOnly = true;
-            this.m_grv_bao_cao_hoc_tap_theo_sv.PaintStyleName = "UltraFlat";
+            this.m_grv_bao_cao_hoc_tap_theo_sv.OptionsView.ShowAutoFilterRow = true;
             // 
             // gridColumn1
             // 
@@ -320,7 +323,7 @@
             this.gridColumn1.FieldName = "MA_SINH_VIEN";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
+            this.gridColumn1.VisibleIndex = 1;
             // 
             // gridColumn2
             // 
@@ -328,7 +331,7 @@
             this.gridColumn2.FieldName = "TEN_SINH_VIEN";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 1;
+            this.gridColumn2.VisibleIndex = 2;
             // 
             // gridColumn3
             // 
@@ -336,7 +339,7 @@
             this.gridColumn3.FieldName = "GPA";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 6;
+            this.gridColumn3.VisibleIndex = 7;
             // 
             // gridColumn4
             // 
@@ -344,7 +347,7 @@
             this.gridColumn4.FieldName = "LOP_SINH_VIEN";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 2;
+            this.gridColumn4.VisibleIndex = 3;
             // 
             // gridColumn5
             // 
@@ -352,7 +355,7 @@
             this.gridColumn5.FieldName = "KHOA";
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 3;
+            this.gridColumn5.VisibleIndex = 4;
             // 
             // gridColumn6
             // 
@@ -360,7 +363,7 @@
             this.gridColumn6.FieldName = "MA_HOC_KY";
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 4;
+            this.gridColumn6.VisibleIndex = 5;
             // 
             // gridColumn8
             // 
@@ -368,7 +371,7 @@
             this.gridColumn8.FieldName = "CPA";
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 5;
+            this.gridColumn8.VisibleIndex = 6;
             // 
             // panel2
             // 
@@ -439,6 +442,22 @@
             this.panel3.Size = new System.Drawing.Size(1154, 649);
             this.panel3.TabIndex = 6;
             // 
+            // m_grv_col_muc_hong_bong
+            // 
+            this.m_grv_col_muc_hong_bong.Caption = "Mức học bổng";
+            this.m_grv_col_muc_hong_bong.FieldName = "MUC_HONG_BONG";
+            this.m_grv_col_muc_hong_bong.Name = "m_grv_col_muc_hong_bong";
+            this.m_grv_col_muc_hong_bong.Visible = true;
+            this.m_grv_col_muc_hong_bong.VisibleIndex = 8;
+            // 
+            // m_grv_col_khoa_vien
+            // 
+            this.m_grv_col_khoa_vien.Caption = "Khoa/Viện";
+            this.m_grv_col_khoa_vien.FieldName = "TEN_KHOA_VIEN";
+            this.m_grv_col_khoa_vien.Name = "m_grv_col_khoa_vien";
+            this.m_grv_col_khoa_vien.Visible = true;
+            this.m_grv_col_khoa_vien.VisibleIndex = 0;
+            // 
             // f9903_danh_sach_sinh_vien_nhan_hoc_bong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -446,7 +465,7 @@
             this.ClientSize = new System.Drawing.Size(1154, 649);
             this.Controls.Add(this.panel3);
             this.Name = "f9903_danh_sach_sinh_vien_nhan_hoc_bong";
-            this.Text = "f9903_danh_sach_sinh_vien_nhan_hoc_bong";
+            this.Text = "Danh sách sinh viên nhận học bổng";
             this.Load += new System.EventHandler(this.f9903_danh_sach_sinh_vien_nhan_hoc_bong_Load);
             this.panel1.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
@@ -495,5 +514,7 @@
         private DevExpress.XtraEditors.SimpleButton m_cmd_xem;
         private System.Windows.Forms.ComboBox m_cbo_hoc_ky;
         private System.Windows.Forms.Label label3;
+        private DevExpress.XtraGrid.Columns.GridColumn m_grv_col_muc_hong_bong;
+        private DevExpress.XtraGrid.Columns.GridColumn m_grv_col_khoa_vien;
     }
 }

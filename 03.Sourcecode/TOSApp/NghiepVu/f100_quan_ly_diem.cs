@@ -20,23 +20,36 @@ namespace TOSApp.NghiepVu
             InitializeComponent();
         }
         bool m_bol_isUpdate = true;
-        decimal m_id_sinh_vien;
+        decimal m_id_sinh_vien = 0;
         private void f100_quan_ly_diem_Load(object sender, EventArgs e)
         {
             try
             {
-                load_data_2_cbo_ma_lop_hoc();
+                load_data_2_cbo_hoc_ky();
             }
             catch
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
-            
+
         }
 
-        private void load_data_2_cbo_ma_lop_hoc()
+        private void load_data_2_cbo_hoc_ky()
         {
-            WinFormControls.load_data_to_combobox_with_query(m_cbo_ma_lop_hoc, "ID", "MA_LOP_HOC", WinFormControls.eTAT_CA.NO, "SELECT ID, MA_LOP_HOC FROM V_DM_LOP_HOC");
+            WinFormControls.load_data_to_combobox_with_query(m_cbo_hoc_ky, "ID", "MA_HOC_KY", WinFormControls.eTAT_CA.NO, "SELECT ID, MA_HOC_KY FROM V_DM_HOC_KY");
+        }
+
+        private void m_cbo_hoc_ky_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                WinFormControls.load_data_to_combobox_with_query(m_cbo_ma_lop_hoc, "ID", "MA_LOP_HOC", WinFormControls.eTAT_CA.NO, "SELECT ID, MA_LOP_HOC FROM V_DM_LOP_HOC WHERE ID_HOC_KY = " + m_cbo_hoc_ky.SelectedValue.ToString());
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
 
         }
 
@@ -52,7 +65,6 @@ namespace TOSApp.NghiepVu
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
-
         }
 
         private void load_data_2_grid()
@@ -69,18 +81,21 @@ namespace TOSApp.NghiepVu
             US_DM_HOC_KY v_us_hoc_ky = new US_DM_HOC_KY(CIPConvert.ToDecimal(v_us_lop_hoc.dcID_HOC_KY));
             US_DM_HOC_PHAN v_us_hoc_phan = new US_DM_HOC_PHAN(CIPConvert.ToDecimal(v_us_lop_hoc.dcID_HOC_PHAN));
             m_cbo_ma_lop_hoc.SelectedValue = v_us_lop_hoc.dcID;
-            m_txt_hoc_ky.Text = v_us_hoc_ky.strMA_HOC_KY.ToString();
             m_txt_ma_hoc_phan.Text = v_us_hoc_phan.strMA_HOC_PHAN.ToString();
             m_txt_trong_so.Text = v_us_hoc_phan.dcTRONG_SO.ToString();
             m_txt_so_tin_chi_hoc_phan.Text = v_us_hoc_phan.dcSO_TIN_CHI_HOC_PHAN.ToString();
+
         }
         private void m_txt_ma_so_sinh_vien_TextChanged(object sender, EventArgs e)
         {
             try
             {
-                if(m_txt_ma_so_sinh_vien.Text == "")
+                m_txt_diem_qua_trinh.Text = "";
+                m_txt_diem_thi.Text = "";
+                if (m_txt_ma_so_sinh_vien.Text == "")
                 {
                     m_lab_eror.Text = "";
+                    m_id_sinh_vien = 0;
                 }
                 else
                 {
@@ -90,7 +105,7 @@ namespace TOSApp.NghiepVu
                     v_us.FillDatasetWithQuery(v_ds, "SELECT ID FROM V_DM_SINH_VIEN WHERE MA_SINH_VIEN = '" + m_txt_ma_so_sinh_vien.Text + "'");
                     if (v_ds.Tables[0].Rows.Count == 0)
                     {
-                        m_lab_eror.Text = "Mã số sinh viên không tồn tại!";
+                        m_lab_eror.Text = "Mã số sinh viên\nkhông tồn tại!";
                     }
                     else
                     {
@@ -100,7 +115,7 @@ namespace TOSApp.NghiepVu
                         m_lab_eror.Text = "";
                     }
                 }
-                
+
             }
             catch
             {
@@ -143,7 +158,7 @@ namespace TOSApp.NghiepVu
                     }
                     else
                         m_bol_isUpdate = true;
-                    if(m_bol_isUpdate)
+                    if (m_bol_isUpdate)
                     {
                         US_DIEM_THI v_us_diem_thi = new US_DIEM_THI(CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0]["ID"].ToString()));
                         v_us_diem_thi.dcDIEM_QUA_TRINH = CIPConvert.ToDecimal(m_txt_diem_qua_trinh.Text);
@@ -161,8 +176,8 @@ namespace TOSApp.NghiepVu
                         v_us_diem_thi.dcDIEM_QUA_TRINH = CIPConvert.ToDecimal(m_txt_diem_qua_trinh.Text);
                         v_us_diem_thi.dcDIEM_THI = CIPConvert.ToDecimal(m_txt_diem_thi.Text);
                         v_us_diem_thi.dcID_SINH_VIEN = m_id_sinh_vien;
-                        v_us_diem_thi.dcID_LOP_HOC = CIPConvert.ToDecimal( m_cbo_ma_lop_hoc.SelectedValue);
-                        v_us_diem_thi.strDIEM_CHU = User.GetDiemChu(v_us_diem_thi.dcDIEM_QUA_TRINH,v_us_diem_thi.dcDIEM_THI,CIPConvert.ToDecimal(m_txt_trong_so.Text));
+                        v_us_diem_thi.dcID_LOP_HOC = CIPConvert.ToDecimal(m_cbo_ma_lop_hoc.SelectedValue);
+                        v_us_diem_thi.strDIEM_CHU = User.GetDiemChu(v_us_diem_thi.dcDIEM_QUA_TRINH, v_us_diem_thi.dcDIEM_THI, CIPConvert.ToDecimal(m_txt_trong_so.Text));
                         v_us_diem_thi.Insert();
                         MessageBox.Show("thêm thành công!");
                         load_data_2_grid();
@@ -183,14 +198,19 @@ namespace TOSApp.NghiepVu
                 MessageBox.Show("Nhập thông tin điểm thi!");
                 return false;
             }
-            if(m_lab_eror.Text != "")
+            if (m_lab_eror.Text != "")
             {
                 MessageBox.Show("Nhập mã số sinh viên hợp lệ!");
                 return false;
             }
-            if (CIPConvert.ToDecimal(m_txt_diem_qua_trinh.Text) < 0 || CIPConvert.ToDecimal(m_txt_diem_qua_trinh.Text) > 10 || CIPConvert.ToDecimal(m_txt_diem_thi.Text) > 10 || CIPConvert.ToDecimal(m_txt_diem_thi.Text)<0)
+            if (CIPConvert.ToDecimal(m_txt_diem_qua_trinh.Text) < 0 || CIPConvert.ToDecimal(m_txt_diem_qua_trinh.Text) > 10 || CIPConvert.ToDecimal(m_txt_diem_thi.Text) > 10 || CIPConvert.ToDecimal(m_txt_diem_thi.Text) < 0)
             {
                 MessageBox.Show("Điểm nhập không hợp lệ!");
+                return false;
+            }
+            if (CIPConvert.ToDecimal(m_cbo_ma_lop_hoc.SelectedValue.ToString()) == -1)
+            {
+                MessageBox.Show("chọn lớp học!");
                 return false;
             }
             return true;
@@ -219,10 +239,12 @@ namespace TOSApp.NghiepVu
                 DataRow v_dr = m_grv_diem_thi.GetDataRow(m_grv_diem_thi.FocusedRowHandle);
                 if (v_dr != null)
                 {
-                    US_DM_SINH_VIEN v_us_sinh_vien = new US_DM_SINH_VIEN(CIPConvert.ToDecimal( v_dr["ID_SINH_VIEN"].ToString()));
+                    US_DM_SINH_VIEN v_us_sinh_vien = new US_DM_SINH_VIEN(CIPConvert.ToDecimal(v_dr["ID_SINH_VIEN"].ToString()));
                     load_data_2_thong_tin_sinh_vien(v_us_sinh_vien);
                     US_DM_LOP_HOC v_us_lop_hoc = new US_DM_LOP_HOC(CIPConvert.ToDecimal(v_dr["ID_LOP_HOC"].ToString()));
                     load_data_2_thong_tin_lop_hoc(v_us_lop_hoc);
+                    m_txt_diem_qua_trinh.Text = v_dr["DIEM_QUA_TRINH"].ToString();
+                    m_txt_diem_thi.Text = v_dr["DIEM_THI"].ToString();
                 }
             }
         }
@@ -258,7 +280,7 @@ namespace TOSApp.NghiepVu
             try
             {
                 DataRow v_dr = m_grv_diem_thi.GetDataRow(m_grv_diem_thi.FocusedRowHandle);
-                if (v_dr!= null)
+                if (v_dr != null)
                 {
                     US_DIEM_THI v_us = new US_DIEM_THI(CIPConvert.ToDecimal(v_dr["ID"].ToString()));
                     v_us.Delete();

@@ -139,9 +139,8 @@ namespace TOSApp.NghiepVu
                     US_KET_QUA_HOC_TAP v_us_kq_hoc_tap = new US_KET_QUA_HOC_TAP(m_dc_id_ket_qua_hoc_tap);
                     m_txt_gpa.Text = v_us_kq_hoc_tap.dcGPA.ToString();
                     m_txt_cpa.Text = v_us_kq_hoc_tap.dcCPA.ToString();
+                    load_data_2_grid();
                 }
-                load_data_2_grid();
-
             }
             catch (Exception)
             {

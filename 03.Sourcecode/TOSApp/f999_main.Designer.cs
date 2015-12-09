@@ -232,6 +232,7 @@
             this.m_cmd_ds_bi_xu_ly.Id = 10;
             this.m_cmd_ds_bi_xu_ly.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ds_bi_xu_ly.LargeGlyph")));
             this.m_cmd_ds_bi_xu_ly.Name = "m_cmd_ds_bi_xu_ly";
+            this.m_cmd_ds_bi_xu_ly.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ds_bi_xu_ly_ItemClick);
             // 
             // m_cmd_ds_hoc_bong
             // 
@@ -240,6 +241,7 @@
             this.m_cmd_ds_hoc_bong.Id = 11;
             this.m_cmd_ds_hoc_bong.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ds_hoc_bong.LargeGlyph")));
             this.m_cmd_ds_hoc_bong.Name = "m_cmd_ds_hoc_bong";
+            this.m_cmd_ds_hoc_bong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ds_hoc_bong_ItemClick);
             // 
             // barButtonItem12
             // 

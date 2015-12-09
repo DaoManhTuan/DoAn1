@@ -18,12 +18,20 @@ namespace TOSApp.BaoCao
 
         private void f9903_danh_sach_sinh_vien_nhan_hoc_bong_Load(object sender, EventArgs e)
         {
-            load_data_2_cbo_hoc_ky();
+            try
+            {
+                load_data_2_cbo_hoc_ky();
+            }
+            catch
+            {
+                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
+            }
+            
         }
 
         private void load_data_2_cbo_hoc_ky()
         {
-            WinFormControls.load_data_to_combobox("DM_HOC_KY", "ID", "MA_HOC_KY", " where trang_thai_hsd = 7", WinFormControls.eTAT_CA.YES, m_cbo_hoc_ky);
+            WinFormControls.load_data_to_combobox("V_DM_HOC_KY", "ID", "MA_HOC_KY", "", WinFormControls.eTAT_CA.NO, m_cbo_hoc_ky);
         }
 
         private void load_data_2_grid()
@@ -31,13 +39,10 @@ namespace TOSApp.BaoCao
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithQuery(v_ds, "select top 10 from V_HOC_BONG_XU_LY_HOC_TAP where id_hoc_ky=" + m_cbo_hoc_ky.SelectedValue +" order by GPA desc");
+            string v_str_query = "SELECT  VKQHT.* ,DS_HOC_BONG.MUC_HONG_BONG FROM V_KET_QUA_HOC_TAP AS VKQHT, (SELECT * FROM dbo.fn_ds_hoc_bong(" + m_cbo_hoc_ky.SelectedValue.ToString() + ") ) AS DS_HOC_BONG WHERE DS_HOC_BONG.ID_SINH_VIEN = VKQHT.ID_SINH_VIEN AND VKQHT.ID_HOC_KY = " + m_cbo_hoc_ky.SelectedValue.ToString();
+            v_us.FillDatasetWithQuery(v_ds,v_str_query);
             m_grc_bao_cao_hoc_tap_theo_sv.DataSource = v_ds.Tables[0];
-            if (v_ds.Tables[0].Rows.Count == 0)
-            {
-                MessageBox.Show("Dữ liệu mà bạn chọn hiện chưa có hãy chọn lại!");
-            }
-
+            
         }
 
         private void m_cmd_xem_Click(object sender, EventArgs e)
@@ -45,7 +50,6 @@ namespace TOSApp.BaoCao
             try
             {               
                     load_data_2_grid();
-              
             }
             catch (Exception v)
             {

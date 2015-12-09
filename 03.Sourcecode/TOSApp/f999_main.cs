@@ -20,7 +20,7 @@ namespace TOSApp
         {
             InitializeComponent();
             phan_quyen_user(User.id_nhom);
-         
+
         }
         //Form danh mục
         f100_DM_SINH_VIEN f100;
@@ -46,19 +46,19 @@ namespace TOSApp
         f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien;
         List<Control> ControlList = new List<Control>();
 
-        private void phan_quyen_user( decimal id_nhom)
+        private void phan_quyen_user(decimal id_nhom)
         {
-            
+
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithQuery(v_ds, "select * from phan_quyen_nhom_user where trang_thai_hsd=7 and id_nhom =" +id_nhom);
+            v_us.FillDatasetWithQuery(v_ds, "select * from phan_quyen_nhom_user where trang_thai_hsd=7 and id_nhom =" + id_nhom);
 
             ArrayList visiblePages = m_rib_main.TotalPageCategory.GetVisiblePages();
 
             foreach (RibbonPage page in visiblePages)
             {
-              
+
                 for (int i = 0; i < v_ds.Tables[0].Rows.Count; i++)
                 {
                     if (page.Name == v_ds.Tables[0].Rows[i]["CONTROL"].ToString())
@@ -71,13 +71,13 @@ namespace TOSApp
                 }
             }
             //fix code -> nhục
-            if (User.id_nhom==3)
+            if (User.id_nhom == 3)
             {
                 RibbonPageGroup group = m_rib_main.GetGroupByName("m_rib_quan_ly_diem_thi");
                 group.Visible = false;
             }
-            
-           
+
+
         }
 
         public bool IsFormOpen(Form checkForm)
@@ -87,12 +87,12 @@ namespace TOSApp
                     return true;
             return false;
         }
-       
+
         private void m_cmd_sinh_vien_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             try
             {
-                if (f100 ==null || !IsFormOpen(f100))
+                if (f100 == null || !IsFormOpen(f100))
                 {
                     f100 = new f100_DM_SINH_VIEN();
                     f100.MdiParent = this;
@@ -107,7 +107,7 @@ namespace TOSApp
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
-            
+
         }
 
         private void m_cmd_giang_vien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -130,7 +130,7 @@ namespace TOSApp
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
-            
+
         }
 
         private void m_cmd_khoa_vien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -152,7 +152,7 @@ namespace TOSApp
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
-           
+
         }
 
         private void m_cmd_hoc_phan_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -174,7 +174,7 @@ namespace TOSApp
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
-            
+
         }
 
         private void m_cmd_lop_hoc_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -196,7 +196,7 @@ namespace TOSApp
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
-            
+
         }
 
         private void m_cmd_hoc_ky_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -218,7 +218,7 @@ namespace TOSApp
             {
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
-            
+
         }
 
         private void m_cmd_khoa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -275,7 +275,7 @@ namespace TOSApp
 
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
-            
+
 
         }
 
@@ -288,14 +288,14 @@ namespace TOSApp
             }
             catch (Exception)
             {
-                
+
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
 
         private void m_cmd_thong_tin_nguoi_dung_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-           
+
             try
             {
                 if (f1000 == null || !IsFormOpen(f1000))
@@ -472,5 +472,51 @@ namespace TOSApp
         }
 
        
+        private void m_cmd_ds_hoc_bong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+            try
+            {
+                if (f9903_danh_sach_sinh_vien_nhan_hoc_bong == null || !IsFormOpen(f9903_danh_sach_sinh_vien_nhan_hoc_bong))
+                {
+                    f9903_danh_sach_sinh_vien_nhan_hoc_bong = new BaoCao.f9903_danh_sach_sinh_vien_nhan_hoc_bong();
+                    f9903_danh_sach_sinh_vien_nhan_hoc_bong.MdiParent = this;
+                    f9903_danh_sach_sinh_vien_nhan_hoc_bong.Show();
+                }
+                else
+                {
+                    f9903_danh_sach_sinh_vien_nhan_hoc_bong.Focus();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_ds_bi_xu_ly_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+                if (f9904_danh_sach_sinh_vien_canh_cao == null || !IsFormOpen(f9904_danh_sach_sinh_vien_canh_cao))
+                {
+                    f9904_danh_sach_sinh_vien_canh_cao = new BaoCao.f9904_danh_sach_sinh_vien_canh_cao();
+                    f9904_danh_sach_sinh_vien_canh_cao.MdiParent = this;
+                    f9904_danh_sach_sinh_vien_canh_cao.Show();
+                }
+                else
+                {
+                    f9904_danh_sach_sinh_vien_canh_cao.Focus();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+
     }
 }
