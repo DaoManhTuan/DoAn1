@@ -294,11 +294,23 @@
     <Compile Include="BaoCao\f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.Designer.cs">
       <DependentUpon>f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.cs</DependentUpon>
     </Compile>
-    <Compile Include="BaoCao\f9906_bao_cao_demo.cs">
+    <Compile Include="BaoCao\f9906_bieu_do_boc_bong_truot_binh_thuong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BaoCao\f9906_bao_cao_demo.Designer.cs">
-      <DependentUpon>f9906_bao_cao_demo.cs</DependentUpon>
+    <Compile Include="BaoCao\f9906_bieu_do_boc_bong_truot_binh_thuong.Designer.cs">
+      <DependentUpon>f9906_bieu_do_boc_bong_truot_binh_thuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\f9907_bieu_do_CPA_GPA_sv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9907_bieu_do_CPA_GPA_sv.Designer.cs">
+      <DependentUpon>f9907_bieu_do_CPA_GPA_sv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\f9908_bieu_do_ty_le_qua_mon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9908_bieu_do_ty_le_qua_mon.Designer.cs">
+      <DependentUpon>f9908_bieu_do_ty_le_qua_mon.cs</DependentUpon>
     </Compile>
     <Compile Include="DanhMuc\f100_DM_SINH_VIEN.cs">
       <SubType>Form</SubType>
@@ -477,8 +489,14 @@
     <EmbeddedResource Include="BaoCao\f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.resx">
       <DependentUpon>f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BaoCao\f9906_bao_cao_demo.resx">
-      <DependentUpon>f9906_bao_cao_demo.cs</DependentUpon>
+    <EmbeddedResource Include="BaoCao\f9906_bieu_do_boc_bong_truot_binh_thuong.resx">
+      <DependentUpon>f9906_bieu_do_boc_bong_truot_binh_thuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f9907_bieu_do_CPA_GPA_sv.resx">
+      <DependentUpon>f9907_bieu_do_CPA_GPA_sv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f9908_bieu_do_ty_le_qua_mon.resx">
+      <DependentUpon>f9908_bieu_do_ty_le_qua_mon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\f100_DM_SINH_VIEN.resx">
       <DependentUpon>f100_DM_SINH_VIEN.cs</DependentUpon>

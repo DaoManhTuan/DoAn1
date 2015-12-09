@@ -10,7 +10,7 @@ using IP.Core.IPUserService;
 using System.Threading;
 using TOSApp.App_Code;
 using TOSApp.DanhMuc;
-
+using TOSApp.BaoCao;
 namespace TOSApp
 {
     #region Nhiệm vụ của Class
@@ -36,6 +36,9 @@ namespace TOSApp
             //f100_DM_SINH_VIEN v_f = new f100_DM_SINH_VIEN();
             //f999_main v_f = new f999_main();
             f000_login v_f = new f000_login();
+           // BaoCao.f9906_bao_cao_demo v_f = new BaoCao.f9906_bao_cao_demo();
+           // f9908_bieu_do_ty_le_qua_mon v_f = new f9908_bieu_do_ty_le_qua_mon();
+
             v_f.ShowDialog();
         }
     }

@@ -44,6 +44,9 @@ namespace TOSApp
         f9903_danh_sach_sinh_vien_nhan_hoc_bong f9903_danh_sach_sinh_vien_nhan_hoc_bong;
         f9904_danh_sach_sinh_vien_canh_cao f9904_danh_sach_sinh_vien_canh_cao;
         f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien;
+        f9906_bieu_do_boc_bong_truot_binh_thuong f9906_bao_cao_demo;
+        f9907_bieu_do_CPA_GPA_sv f9907_bieu_do_CPA_GPA_sv;
+        f9908_bieu_do_ty_le_qua_mon f9908_bieu_do_ty_le_qua_mon;
         List<Control> ControlList = new List<Control>();
 
         private void phan_quyen_user(decimal id_nhom)
@@ -470,8 +473,7 @@ namespace TOSApp
                 MessageBox.Show("Đã xảy ra lỗi hệ thống!");
             }
         }
-
-       
+      
         private void m_cmd_ds_hoc_bong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
@@ -508,6 +510,50 @@ namespace TOSApp
                 else
                 {
                     f9904_danh_sach_sinh_vien_canh_cao.Focus();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_ti_ly_hoc_bong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+                if (f9908_bieu_do_ty_le_qua_mon == null || !IsFormOpen(f9908_bieu_do_ty_le_qua_mon))
+                {
+                    f9908_bieu_do_ty_le_qua_mon = new BaoCao.f9908_bieu_do_ty_le_qua_mon();
+                    f9908_bieu_do_ty_le_qua_mon.MdiParent = this;
+                    f9908_bieu_do_ty_le_qua_mon.Show();
+                }
+                else
+                {
+                    f9908_bieu_do_ty_le_qua_mon.Focus();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_ti_le_CPA_GPA_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+                if (f9907_bieu_do_CPA_GPA_sv == null || !IsFormOpen(f9907_bieu_do_CPA_GPA_sv))
+                {
+                    f9907_bieu_do_CPA_GPA_sv = new BaoCao.f9907_bieu_do_CPA_GPA_sv();
+                    f9907_bieu_do_CPA_GPA_sv.MdiParent = this;
+                    f9907_bieu_do_CPA_GPA_sv.Show();
+                }
+                else
+                {
+                    f9907_bieu_do_CPA_GPA_sv.Focus();
                 }
             }
             catch (Exception)

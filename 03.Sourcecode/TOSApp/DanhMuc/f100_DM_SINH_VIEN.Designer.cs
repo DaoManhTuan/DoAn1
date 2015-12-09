@@ -457,6 +457,7 @@
             // 
             // m_dat_ngay_sinh
             // 
+            this.m_dat_ngay_sinh.CustomFormat = "";
             this.m_dat_ngay_sinh.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.m_dat_ngay_sinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.m_dat_ngay_sinh.Location = new System.Drawing.Point(0, 33);
