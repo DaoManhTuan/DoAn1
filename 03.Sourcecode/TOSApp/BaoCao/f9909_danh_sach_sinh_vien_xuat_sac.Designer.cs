@@ -40,7 +40,6 @@
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.m_grv_col_muc_canh_cao = new DevExpress.XtraGrid.Columns.GridColumn();
             this.m_grv_col_khoa_vien = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -221,7 +220,6 @@
             this.gridColumn5,
             this.gridColumn6,
             this.gridColumn8,
-            this.m_grv_col_muc_canh_cao,
             this.m_grv_col_khoa_vien});
             this.m_grv_bao_cao_hoc_tap_theo_sv.GridControl = this.m_grc_bao_cao_hoc_tap_theo_sv;
             this.m_grv_bao_cao_hoc_tap_theo_sv.Name = "m_grv_bao_cao_hoc_tap_theo_sv";
@@ -284,14 +282,6 @@
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 6;
-            // 
-            // m_grv_col_muc_canh_cao
-            // 
-            this.m_grv_col_muc_canh_cao.Caption = "Mức cảnh cáo";
-            this.m_grv_col_muc_canh_cao.FieldName = "MUC_CANH_CAO";
-            this.m_grv_col_muc_canh_cao.Name = "m_grv_col_muc_canh_cao";
-            this.m_grv_col_muc_canh_cao.Visible = true;
-            this.m_grv_col_muc_canh_cao.VisibleIndex = 8;
             // 
             // m_grv_col_khoa_vien
             // 
@@ -499,7 +489,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
-        private DevExpress.XtraGrid.Columns.GridColumn m_grv_col_muc_canh_cao;
         private DevExpress.XtraGrid.Columns.GridColumn m_grv_col_khoa_vien;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;

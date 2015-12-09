@@ -47,6 +47,7 @@ namespace TOSApp
         f9906_bieu_do_boc_bong_truot_binh_thuong f9906_bieu_do_boc_bong_truot_binh_thuong;
         f9907_bieu_do_CPA_GPA_sv f9907_bieu_do_CPA_GPA_sv;
         f9908_bieu_do_ty_le_qua_mon f9908_bieu_do_ty_le_qua_mon;
+        f9909_danh_sach_sinh_vien_xuat_sac f9909_danh_sach_sinh_vien_xuat_sac;
         List<Control> ControlList = new List<Control>();
 
         private void phan_quyen_user(decimal id_nhom)
@@ -576,6 +577,28 @@ namespace TOSApp
                 else
                 {
                     f9906_bieu_do_boc_bong_truot_binh_thuong.Focus();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_sinh_vien_xuat_sac_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+                if (f9909_danh_sach_sinh_vien_xuat_sac == null || !IsFormOpen(f9909_danh_sach_sinh_vien_xuat_sac))
+                {
+                    f9909_danh_sach_sinh_vien_xuat_sac = new BaoCao.f9909_danh_sach_sinh_vien_xuat_sac();
+                    f9909_danh_sach_sinh_vien_xuat_sac.MdiParent = this;
+                    f9909_danh_sach_sinh_vien_xuat_sac.Show();
+                }
+                else
+                {
+                    f9909_danh_sach_sinh_vien_xuat_sac.Focus();
                 }
             }
             catch (Exception)

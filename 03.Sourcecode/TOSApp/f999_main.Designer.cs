@@ -64,6 +64,7 @@
             this.m_cmd_cpa_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_ti_ly_hoc_bong = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_ti_le_CPA_GPA = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_ty_le_theo_ky = new DevExpress.XtraBars.BarButtonItem();
             this.m_rb_quan_ky_danh_muc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -90,8 +91,7 @@
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup15 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup16 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup17 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.m_cmd_ty_le_theo_ky = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_sinh_vien_xuat_sac = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_rib_main)).BeginInit();
@@ -144,9 +144,10 @@
             this.m_cmd_cpa_lop_sinh_vien,
             this.m_cmd_ti_ly_hoc_bong,
             this.m_cmd_ti_le_CPA_GPA,
-            this.m_cmd_ty_le_theo_ky});
+            this.m_cmd_ty_le_theo_ky,
+            this.m_cmd_sinh_vien_xuat_sac});
             this.m_rib_main.Location = new System.Drawing.Point(0, 0);
-            this.m_rib_main.MaxItemId = 12;
+            this.m_rib_main.MaxItemId = 13;
             this.m_rib_main.Name = "m_rib_main";
             this.m_rib_main.PageHeaderItemLinks.Add(this.m_cmd_ca_nhan);
             this.m_rib_main.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -411,6 +412,15 @@
             this.m_cmd_ti_le_CPA_GPA.Name = "m_cmd_ti_le_CPA_GPA";
             this.m_cmd_ti_le_CPA_GPA.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ti_le_CPA_GPA_ItemClick);
             // 
+            // m_cmd_ty_le_theo_ky
+            // 
+            this.m_cmd_ty_le_theo_ky.Caption = "Tỷ lệ sinh viên theo kỳ";
+            this.m_cmd_ty_le_theo_ky.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ty_le_theo_ky.Glyph")));
+            this.m_cmd_ty_le_theo_ky.Id = 11;
+            this.m_cmd_ty_le_theo_ky.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ty_le_theo_ky.LargeGlyph")));
+            this.m_cmd_ty_le_theo_ky.Name = "m_cmd_ty_le_theo_ky";
+            this.m_cmd_ty_le_theo_ky.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ty_le_theo_ky_ItemClick);
+            // 
             // m_rb_quan_ky_danh_muc
             // 
             this.m_rb_quan_ky_danh_muc.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -563,8 +573,7 @@
             this.ribbonPageGroup12,
             this.ribbonPageGroup2,
             this.ribbonPageGroup15,
-            this.ribbonPageGroup16,
-            this.ribbonPageGroup17});
+            this.ribbonPageGroup16});
             this.m_rd_bao_cao_thong_ke.Image = ((System.Drawing.Image)(resources.GetObject("m_rd_bao_cao_thong_ke.Image")));
             this.m_rd_bao_cao_thong_ke.Name = "m_rd_bao_cao_thong_ke";
             this.m_rd_bao_cao_thong_ke.Text = "Báo cáo thống kê";
@@ -602,30 +611,26 @@
             // 
             this.ribbonPageGroup15.AllowTextClipping = false;
             this.ribbonPageGroup15.ItemLinks.Add(this.m_cmd_ti_ly_hoc_bong);
+            this.ribbonPageGroup15.ItemLinks.Add(this.m_cmd_ti_le_CPA_GPA);
+            this.ribbonPageGroup15.ItemLinks.Add(this.m_cmd_ty_le_theo_ky);
             this.ribbonPageGroup15.Name = "ribbonPageGroup15";
             this.ribbonPageGroup15.Text = "Báo cáo tỉ lệ";
             // 
             // ribbonPageGroup16
             // 
             this.ribbonPageGroup16.AllowTextClipping = false;
-            this.ribbonPageGroup16.ItemLinks.Add(this.m_cmd_ti_le_CPA_GPA);
+            this.ribbonPageGroup16.ItemLinks.Add(this.m_cmd_sinh_vien_xuat_sac);
             this.ribbonPageGroup16.Name = "ribbonPageGroup16";
-            this.ribbonPageGroup16.Text = "Báo cáo CPA-GPA";
+            this.ribbonPageGroup16.Text = "Sinh viên xuất sắc";
             // 
-            // ribbonPageGroup17
+            // m_cmd_sinh_vien_xuat_sac
             // 
-            this.ribbonPageGroup17.ItemLinks.Add(this.m_cmd_ty_le_theo_ky);
-            this.ribbonPageGroup17.Name = "ribbonPageGroup17";
-            this.ribbonPageGroup17.Text = "Bá cáo tỉ lệ theo kỳ";
-            // 
-            // m_cmd_ty_le_theo_ky
-            // 
-            this.m_cmd_ty_le_theo_ky.Caption = "Tỷ lệ sinh viên theo kỳ";
-            this.m_cmd_ty_le_theo_ky.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ty_le_theo_ky.Glyph")));
-            this.m_cmd_ty_le_theo_ky.Id = 11;
-            this.m_cmd_ty_le_theo_ky.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ty_le_theo_ky.LargeGlyph")));
-            this.m_cmd_ty_le_theo_ky.Name = "m_cmd_ty_le_theo_ky";
-            this.m_cmd_ty_le_theo_ky.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ty_le_theo_ky_ItemClick);
+            this.m_cmd_sinh_vien_xuat_sac.Caption = "Sinh viên xuất sắc";
+            this.m_cmd_sinh_vien_xuat_sac.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_sinh_vien_xuat_sac.Glyph")));
+            this.m_cmd_sinh_vien_xuat_sac.Id = 12;
+            this.m_cmd_sinh_vien_xuat_sac.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_sinh_vien_xuat_sac.LargeGlyph")));
+            this.m_cmd_sinh_vien_xuat_sac.Name = "m_cmd_sinh_vien_xuat_sac";
+            this.m_cmd_sinh_vien_xuat_sac.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_sinh_vien_xuat_sac_ItemClick);
             // 
             // f999_main
             // 
@@ -706,8 +711,8 @@
         private DevExpress.XtraBars.BarButtonItem m_cmd_ti_ly_hoc_bong;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup15;
         private DevExpress.XtraBars.BarButtonItem m_cmd_ti_le_CPA_GPA;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup16;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup17;
         private DevExpress.XtraBars.BarButtonItem m_cmd_ty_le_theo_ky;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_sinh_vien_xuat_sac;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup16;
     }
 }
