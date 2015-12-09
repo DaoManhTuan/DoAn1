@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IP.Core.IPCommon;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,18 +19,26 @@ namespace TOSApp.BaoCao
 
         private void f9902_bao_cao_theo_sinh_vien_Load(object sender, EventArgs e)
         {
-            load_data_to_cbo();
+            try
+            {
+                load_data_to_cbo();
+            }
+            catch
+            {
+                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
+            }
+
         }
 
         private void load_data_to_cbo()
         {
             load_data_2_cbo_hoc_ky();
-         
+
         }
 
         private void load_data_2_cbo_hoc_ky()
         {
-            WinFormControls.load_data_to_combobox("DM_HOC_KY", "ID", "MA_HOC_KY", " where trang_thai_hsd = 7", WinFormControls.eTAT_CA.YES, m_cbo_hoc_ky);
+            WinFormControls.load_data_to_combobox("V_DM_HOC_KY", "ID", "MA_HOC_KY", "", WinFormControls.eTAT_CA.TAT_CA, m_cbo_hoc_ky);
         }
 
         private void load_data_2_grid()
@@ -37,12 +46,13 @@ namespace TOSApp.BaoCao
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithQuery(v_ds, "select * from v_bao_cao_hoc_tap where ma_sinh_vien=" + m_txt_ma_sinh_vien.Text + "and id_hoc_ky=" + m_cbo_hoc_ky.SelectedValue + " order by ma_sinh_vien");
+            string v_str_query = "";
+            if (CIPConvert.ToDecimal(m_cbo_hoc_ky.SelectedValue.ToString()) > -1)
+                v_str_query = "SELECT * FROM V_DIEM_THI WHERE MA_SINH_VIEN = '" + m_txt_ma_sinh_vien.Text + "' AND ID_HOC_KY = " + m_cbo_hoc_ky.SelectedValue.ToString() ;
+            else
+                v_str_query = "SELECT * FROM V_DIEM_THI WHERE MA_SINH_VIEN = '" + m_txt_ma_sinh_vien.Text+ "'";
+            v_us.FillDatasetWithQuery(v_ds, v_str_query);
             m_grc_bao_cao_hoc_tap_theo_sv.DataSource = v_ds.Tables[0];
-            if (v_ds.Tables[0].Rows.Count == 0)
-            {
-                MessageBox.Show("Dữ liệu mà bạn chọn hiện chưa có hãy chọn lại!");
-            }
 
         }
 
@@ -66,25 +76,12 @@ namespace TOSApp.BaoCao
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithQuery(v_ds, "select * from v_bao_cao_hoc_tap where ma_sinh_vien=" + m_txt_ma_sinh_vien.Text);
-            if (v_ds.Tables[0].Rows.Count==0)
+            v_us.FillDatasetWithQuery(v_ds, "SELECT ID FROM V_DM_SINH_VIEN WHERE MA_SINH_VIEN = '" + m_txt_ma_sinh_vien.Text+"'");
+            if (v_ds.Tables[0].Rows.Count == 0)
             {
-                 MessageBox.Show("Hãy chọn lại sinh viên! \n Không có sinh viên nào có mã số" + m_txt_ma_sinh_vien.Text);
-                return false;
+                MessageBox.Show("Hãy chọn lại sinh viên! \n Không có sinh viên nào có mã số: " + m_txt_ma_sinh_vien.Text);
                 m_txt_ma_sinh_vien.Focus();
-            }
-            if (m_txt_ma_sinh_vien.Text ==" ")
-            {
-                MessageBox.Show("Hãy chọn sinh viên!");
                 return false;
-                m_txt_ma_sinh_vien.Focus();
-            }
-
-            if (m_cbo_hoc_ky.SelectedIndex == 0)
-            {
-                MessageBox.Show("Hãy chọn học kỳ!");
-                return false;
-                m_cbo_hoc_ky.Focus();
             }
             return true;
         }

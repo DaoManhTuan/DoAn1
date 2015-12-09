@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IP.Core.IPCommon;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,23 +19,25 @@ namespace TOSApp.BaoCao
 
         private void f9901_bao_cao_theo_lop_hoc_Load(object sender, EventArgs e)
         {
-            load_data_2_cbo();
+            try
+            {
+                load_data_2_cbo();
+            }
+            catch 
+            {
+                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
+            }
+            
         }
 
         private void load_data_2_cbo()
         {
-            load_data_2_cbo_ma_lop_hoc();
             load_data_2_cbo_hoc_ky();
-        }
-
-        private void load_data_2_cbo_ma_lop_hoc()
-        {
-            WinFormControls.load_data_to_combobox("DM_LOP_HOC", "ID", "MA_LOP_HOC", " where trang_thai_hsd=7", WinFormControls.eTAT_CA.YES, m_cbo_ma_lop_hoc);
         }
 
         private void load_data_2_cbo_hoc_ky()
         {
-            WinFormControls.load_data_to_combobox("DM_HOC_KY", "ID", "MA_HOC_KY", " where trang_thai_hsd = 7", WinFormControls.eTAT_CA.YES, m_cbo_hoc_ky);
+            WinFormControls.load_data_to_combobox("V_DM_HOC_KY", "ID", "MA_HOC_KY", "", WinFormControls.eTAT_CA.NO, m_cbo_hoc_ky);
         }
 
         private void load_data_2_grid()
@@ -42,46 +45,23 @@ namespace TOSApp.BaoCao
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithQuery(v_ds, "select * from v_bao_cao_hoc_tap where id_lop_hoc=" + m_cbo_ma_lop_hoc.SelectedValue + "and id_hoc_ky=" + m_cbo_hoc_ky.SelectedValue + " order by ma_sinh_vien");
+            v_us.FillDatasetWithQuery(v_ds, "SELECT * FROM V_DIEM_THI WHERE ID_LOP_HOC=" + m_cbo_ma_lop_hoc.SelectedValue );
             m_grc_bao_cao_hoc_tap_theo_ma_lop_hoc.DataSource = v_ds.Tables[0];
-            if (v_ds.Tables[0].Rows.Count == 0)
-            {
-                MessageBox.Show("Dữ liệu mà bạn chọn hiện chưa có hãy chọn lại!");
-            }
-
         }
 
         private void m_cmd_xem_Click(object sender, EventArgs e)
         {
             try
             {
-                if (kiem_tra_du_lieu_truoc_luu())
-                {
+                if (CIPConvert.ToDecimal(m_cbo_ma_lop_hoc.SelectedValue.ToString()) > -1)
                     load_data_2_grid();
-                }
+                else
+                    MessageBox.Show("Hãy chọn một mã lớp học!");
             }
-            catch (Exception v)
+            catch
             {
                 MessageBox.Show("Đã xảy ra lỗi hệ thống!");
             }
-        }
-
-        private bool kiem_tra_du_lieu_truoc_luu()
-        {
-            if (m_cbo_ma_lop_hoc.SelectedIndex == 0)
-            {
-                MessageBox.Show("Hãy chọn mã lớp học");
-                return false;
-                m_cbo_ma_lop_hoc.Focus();
-            }
-
-            if (m_cbo_hoc_ky.SelectedIndex == 0)
-            {
-                MessageBox.Show("Hãy chọn học kỳ!");
-                return false;
-                m_cbo_hoc_ky.Focus();
-            }
-            return true;
         }
 
         private void m_cmd_xuat_excel_Click(object sender, EventArgs e)
@@ -102,6 +82,18 @@ namespace TOSApp.BaoCao
                 MessageBox.Show("Đã xảy ra lỗi hệ thống!");
             }
 
+        }
+
+        private void m_cbo_hoc_ky_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                WinFormControls.load_data_to_combobox("V_DIEM_THI", "ID_LOP_HOC", "MA_LOP_HOC", "WHERE ID_HOC_KY = " + m_cbo_hoc_ky.SelectedValue.ToString(), WinFormControls.eTAT_CA.YES, m_cbo_ma_lop_hoc);
+            }
+            catch
+            {
+                MessageBox.Show("Đã xảy ra lỗi hệ thống!");
+            }
         }
 
       

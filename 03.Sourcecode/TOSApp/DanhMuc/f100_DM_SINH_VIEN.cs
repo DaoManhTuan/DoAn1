@@ -41,13 +41,13 @@ namespace TOSApp.DanhMuc
         private void load_data_2_cbo_khoa_vien()
         {
             m_bol_check = true;
-            WinFormControls.load_data_to_combobox("V_DM_KHOA_VIEN", "ID", "TEN_KHOA_VIEN", "WHERE TRANG_THAI_HSD = 7 AND PHAN_LOAI != 4", WinFormControls.eTAT_CA.NO, m_cbo_khoa_vien);
+            WinFormControls.load_data_to_combobox("V_DM_KHOA_VIEN", "ID", "TEN_KHOA_VIEN", "WHERE PHAN_LOAI != 4", WinFormControls.eTAT_CA.NO, m_cbo_khoa_vien);
 
         }
 
         private void load_data_2_cbo_khoa()
         {
-            WinFormControls.load_data_to_combobox("V_DM_KHOA", "ID", "KHOA", "WHERE TRANG_THAI_HSD = 7 order by KHOA desc", WinFormControls.eTAT_CA.NO, m_cbo_khoa);
+            WinFormControls.load_data_to_combobox("V_DM_KHOA", "ID", "KHOA", " ORDER BY KHOA DESC", WinFormControls.eTAT_CA.NO, m_cbo_khoa);
         }
 
         private void load_data_2_grid()

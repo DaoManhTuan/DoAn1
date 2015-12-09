@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f9900_bao_cao_hoc_tap_theo_lop_sin_vien));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.m_txt_ma_hoc_phan = new System.Windows.Forms.TextBox();
-            this.m_cbo_hoc_phan = new System.Windows.Forms.ComboBox();
+            this.m_cbo_khoa_vien = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.m_cbo_hoc_phan = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.m_cmd_xuat_excel = new DevExpress.XtraEditors.SimpleButton();
             this.m_cmd_xem = new DevExpress.XtraEditors.SimpleButton();
@@ -62,6 +62,8 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.m_cbo_khoa = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -75,9 +77,11 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.m_txt_ma_hoc_phan);
-            this.panel1.Controls.Add(this.m_cbo_hoc_phan);
+            this.panel1.Controls.Add(this.m_cbo_khoa);
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.m_cbo_khoa_vien);
             this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.m_cbo_hoc_phan);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.m_cmd_xuat_excel);
             this.panel1.Controls.Add(this.m_cmd_xem);
@@ -91,36 +95,38 @@
             this.panel1.Size = new System.Drawing.Size(1251, 61);
             this.panel1.TabIndex = 0;
             // 
-            // m_txt_ma_hoc_phan
+            // m_cbo_khoa_vien
             // 
-            this.m_txt_ma_hoc_phan.Location = new System.Drawing.Point(417, 20);
-            this.m_txt_ma_hoc_phan.Name = "m_txt_ma_hoc_phan";
-            this.m_txt_ma_hoc_phan.ReadOnly = true;
-            this.m_txt_ma_hoc_phan.Size = new System.Drawing.Size(100, 20);
-            this.m_txt_ma_hoc_phan.TabIndex = 5;
-            // 
-            // m_cbo_hoc_phan
-            // 
-            this.m_cbo_hoc_phan.FormattingEnabled = true;
-            this.m_cbo_hoc_phan.Location = new System.Drawing.Point(615, 20);
-            this.m_cbo_hoc_phan.Name = "m_cbo_hoc_phan";
-            this.m_cbo_hoc_phan.Size = new System.Drawing.Size(232, 21);
-            this.m_cbo_hoc_phan.TabIndex = 4;
-            this.m_cbo_hoc_phan.SelectedIndexChanged += new System.EventHandler(this.m_cbo_hoc_phan_SelectedIndexChanged);
+            this.m_cbo_khoa_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbo_khoa_vien.FormattingEnabled = true;
+            this.m_cbo_khoa_vien.Location = new System.Drawing.Point(29, 24);
+            this.m_cbo_khoa_vien.Name = "m_cbo_khoa_vien";
+            this.m_cbo_khoa_vien.Size = new System.Drawing.Size(190, 21);
+            this.m_cbo_khoa_vien.TabIndex = 6;
+            this.m_cbo_khoa_vien.SelectedIndexChanged += new System.EventHandler(this.m_cbo_khoa_vien_SelectedIndexChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(341, 20);
+            this.label5.Location = new System.Drawing.Point(35, 8);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 13);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Mã học phần";
+            this.label5.Size = new System.Drawing.Size(58, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Khoa/Viện";
+            // 
+            // m_cbo_hoc_phan
+            // 
+            this.m_cbo_hoc_phan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbo_hoc_phan.FormattingEnabled = true;
+            this.m_cbo_hoc_phan.Location = new System.Drawing.Point(769, 24);
+            this.m_cbo_hoc_phan.Name = "m_cbo_hoc_phan";
+            this.m_cbo_hoc_phan.Size = new System.Drawing.Size(209, 21);
+            this.m_cbo_hoc_phan.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(526, 23);
+            this.label4.Location = new System.Drawing.Point(775, 8);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 13);
             this.label4.TabIndex = 3;
@@ -129,7 +135,7 @@
             // m_cmd_xuat_excel
             // 
             this.m_cmd_xuat_excel.Image = global::TOSApp.Properties.Resources.tải_xuống;
-            this.m_cmd_xuat_excel.Location = new System.Drawing.Point(1145, 12);
+            this.m_cmd_xuat_excel.Location = new System.Drawing.Point(1086, 19);
             this.m_cmd_xuat_excel.Name = "m_cmd_xuat_excel";
             this.m_cmd_xuat_excel.Size = new System.Drawing.Size(103, 30);
             this.m_cmd_xuat_excel.TabIndex = 2;
@@ -139,7 +145,7 @@
             // m_cmd_xem
             // 
             this.m_cmd_xem.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_xem.Image")));
-            this.m_cmd_xem.Location = new System.Drawing.Point(1047, 12);
+            this.m_cmd_xem.Location = new System.Drawing.Point(988, 19);
             this.m_cmd_xem.Name = "m_cmd_xem";
             this.m_cmd_xem.Size = new System.Drawing.Size(82, 30);
             this.m_cmd_xem.TabIndex = 2;
@@ -148,16 +154,17 @@
             // 
             // m_cbo_lop_sinh_vien
             // 
+            this.m_cbo_lop_sinh_vien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_lop_sinh_vien.FormattingEnabled = true;
-            this.m_cbo_lop_sinh_vien.Location = new System.Drawing.Point(103, 17);
+            this.m_cbo_lop_sinh_vien.Location = new System.Drawing.Point(411, 24);
             this.m_cbo_lop_sinh_vien.Name = "m_cbo_lop_sinh_vien";
-            this.m_cbo_lop_sinh_vien.Size = new System.Drawing.Size(232, 21);
+            this.m_cbo_lop_sinh_vien.Size = new System.Drawing.Size(181, 21);
             this.m_cbo_lop_sinh_vien.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 20);
+            this.label3.Location = new System.Drawing.Point(408, 8);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 0;
@@ -165,16 +172,18 @@
             // 
             // m_cbo_ky_hoc
             // 
+            this.m_cbo_ky_hoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_ky_hoc.FormattingEnabled = true;
-            this.m_cbo_ky_hoc.Location = new System.Drawing.Point(911, 20);
+            this.m_cbo_ky_hoc.Location = new System.Drawing.Point(626, 24);
             this.m_cbo_ky_hoc.Name = "m_cbo_ky_hoc";
-            this.m_cbo_ky_hoc.Size = new System.Drawing.Size(121, 21);
+            this.m_cbo_ky_hoc.Size = new System.Drawing.Size(96, 21);
             this.m_cbo_ky_hoc.TabIndex = 1;
+            this.m_cbo_ky_hoc.SelectedIndexChanged += new System.EventHandler(this.m_cbo_ky_hoc_SelectedIndexChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(853, 23);
+            this.label2.Location = new System.Drawing.Point(632, 8);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 0;
@@ -336,7 +345,8 @@
             this.m_grv_bao_cao_hoc_tap_theo_lop_sinh_vien.Name = "m_grv_bao_cao_hoc_tap_theo_lop_sinh_vien";
             this.m_grv_bao_cao_hoc_tap_theo_lop_sinh_vien.OptionsBehavior.Editable = false;
             this.m_grv_bao_cao_hoc_tap_theo_lop_sinh_vien.OptionsBehavior.ReadOnly = true;
-            this.m_grv_bao_cao_hoc_tap_theo_lop_sinh_vien.PaintStyleName = "Style3D";
+            this.m_grv_bao_cao_hoc_tap_theo_lop_sinh_vien.OptionsView.ShowAutoFilterRow = true;
+            this.m_grv_bao_cao_hoc_tap_theo_lop_sinh_vien.PaintStyleName = "Office2003";
             // 
             // gridColumn1
             // 
@@ -446,7 +456,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(160, 48);
+            this.label8.Location = new System.Drawing.Point(94, 49);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(181, 13);
             this.label8.TabIndex = 0;
@@ -501,6 +511,25 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "PHÒNG ĐÀO TẠO ";
             // 
+            // m_cbo_khoa
+            // 
+            this.m_cbo_khoa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbo_khoa.FormattingEnabled = true;
+            this.m_cbo_khoa.Location = new System.Drawing.Point(268, 24);
+            this.m_cbo_khoa.Name = "m_cbo_khoa";
+            this.m_cbo_khoa.Size = new System.Drawing.Size(98, 21);
+            this.m_cbo_khoa.TabIndex = 8;
+            this.m_cbo_khoa.SelectedIndexChanged += new System.EventHandler(this.m_cbo_khoa_SelectedIndexChanged);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(276, 8);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(32, 13);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "Khóa";
+            // 
             // f9900_bao_cao_hoc_tap_theo_lop_sin_vien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -509,7 +538,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Name = "f9900_bao_cao_hoc_tap_theo_lop_sin_vien";
-            this.Text = "f9900_bao_cao_hoc_tap";
+            this.Text = "Kết quả học tập theo lớp sinh viên";
             this.Load += new System.EventHandler(this.f9900_bao_cao_hoc_tap_theo_lop_sin_vien_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -560,8 +589,10 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private System.Windows.Forms.ComboBox m_cbo_hoc_phan;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox m_txt_ma_hoc_phan;
-        private System.Windows.Forms.Label label5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
+        private System.Windows.Forms.ComboBox m_cbo_khoa_vien;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox m_cbo_khoa;
+        private System.Windows.Forms.Label label11;
     }
 }

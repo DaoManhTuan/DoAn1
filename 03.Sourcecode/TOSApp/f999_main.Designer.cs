@@ -61,6 +61,7 @@
             this.m_cmd_tra_cuu = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_bc_lop_hoc = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_bc_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_cpa_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_rb_quan_ky_danh_muc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -85,7 +86,6 @@
             this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup12 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.m_cmd_cpa_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_rib_main)).BeginInit();
@@ -375,6 +375,15 @@
             this.m_cmd_bc_sinh_vien.Name = "m_cmd_bc_sinh_vien";
             this.m_cmd_bc_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_sinh_vien_ItemClick);
             // 
+            // m_cmd_cpa_lop_sinh_vien
+            // 
+            this.m_cmd_cpa_lop_sinh_vien.Caption = "Điểm tổng kết theo lớp sinh viên";
+            this.m_cmd_cpa_lop_sinh_vien.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_cpa_lop_sinh_vien.Glyph")));
+            this.m_cmd_cpa_lop_sinh_vien.Id = 8;
+            this.m_cmd_cpa_lop_sinh_vien.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_cpa_lop_sinh_vien.LargeGlyph")));
+            this.m_cmd_cpa_lop_sinh_vien.Name = "m_cmd_cpa_lop_sinh_vien";
+            this.m_cmd_cpa_lop_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_cpa_lop_sinh_vien_ItemClick);
+            // 
             // m_rb_quan_ky_danh_muc
             // 
             this.m_rb_quan_ky_danh_muc.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -548,26 +557,16 @@
             // 
             // ribbonPageGroup12
             // 
-            this.ribbonPageGroup12.AllowTextClipping = false;
             this.ribbonPageGroup12.ItemLinks.Add(this.m_cmd_ds_hoc_bong);
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
             this.ribbonPageGroup12.Text = "Danh sách sinh viên nhận học bổng";
             // 
             // ribbonPageGroup2
             // 
-            this.ribbonPageGroup2.AllowTextClipping = false;
+            this.ribbonPageGroup2.Glyph = ((System.Drawing.Image)(resources.GetObject("ribbonPageGroup2.Glyph")));
             this.ribbonPageGroup2.ItemLinks.Add(this.m_cmd_cpa_lop_sinh_vien);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
-            this.ribbonPageGroup2.Text = "CPA lớp sinh viên";
-            // 
-            // m_cmd_cpa_lop_sinh_vien
-            // 
-            this.m_cmd_cpa_lop_sinh_vien.Caption = "CPA lớp sinh viên";
-            this.m_cmd_cpa_lop_sinh_vien.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_cpa_lop_sinh_vien.Glyph")));
-            this.m_cmd_cpa_lop_sinh_vien.Id = 8;
-            this.m_cmd_cpa_lop_sinh_vien.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_cpa_lop_sinh_vien.LargeGlyph")));
-            this.m_cmd_cpa_lop_sinh_vien.Name = "m_cmd_cpa_lop_sinh_vien";
-            this.m_cmd_cpa_lop_sinh_vien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_cpa_lop_sinh_vien_ItemClick);
+            this.ribbonPageGroup2.Text = "CPA , GPA lớp sinh viên";
             // 
             // f999_main
             // 

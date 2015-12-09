@@ -196,7 +196,8 @@
             this.m_grv_bao_cao_hoc_tap_theo_ma_lop_hoc.Name = "m_grv_bao_cao_hoc_tap_theo_ma_lop_hoc";
             this.m_grv_bao_cao_hoc_tap_theo_ma_lop_hoc.OptionsBehavior.Editable = false;
             this.m_grv_bao_cao_hoc_tap_theo_ma_lop_hoc.OptionsBehavior.ReadOnly = true;
-            this.m_grv_bao_cao_hoc_tap_theo_ma_lop_hoc.PaintStyleName = "UltraFlat";
+            this.m_grv_bao_cao_hoc_tap_theo_ma_lop_hoc.OptionsView.ShowAutoFilterRow = true;
+            this.m_grv_bao_cao_hoc_tap_theo_ma_lop_hoc.PaintStyleName = "Office2003";
             // 
             // gridColumn1
             // 
@@ -304,7 +305,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(160, 48);
+            this.label8.Location = new System.Drawing.Point(109, 51);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(181, 13);
             this.label8.TabIndex = 0;
@@ -417,7 +418,7 @@
             // m_cmd_xuat_excel
             // 
             this.m_cmd_xuat_excel.Image = global::TOSApp.Properties.Resources.tải_xuống;
-            this.m_cmd_xuat_excel.Location = new System.Drawing.Point(619, 12);
+            this.m_cmd_xuat_excel.Location = new System.Drawing.Point(619, 19);
             this.m_cmd_xuat_excel.Name = "m_cmd_xuat_excel";
             this.m_cmd_xuat_excel.Size = new System.Drawing.Size(103, 30);
             this.m_cmd_xuat_excel.TabIndex = 2;
@@ -427,7 +428,7 @@
             // m_cmd_xem
             // 
             this.m_cmd_xem.Image = ((System.Drawing.Image)(resources.GetObject("m_cmd_xem.Image")));
-            this.m_cmd_xem.Location = new System.Drawing.Point(498, 12);
+            this.m_cmd_xem.Location = new System.Drawing.Point(498, 19);
             this.m_cmd_xem.Name = "m_cmd_xem";
             this.m_cmd_xem.Size = new System.Drawing.Size(82, 30);
             this.m_cmd_xem.TabIndex = 2;
@@ -436,8 +437,9 @@
             // 
             // m_cbo_ma_lop_hoc
             // 
+            this.m_cbo_ma_lop_hoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_ma_lop_hoc.FormattingEnabled = true;
-            this.m_cbo_ma_lop_hoc.Location = new System.Drawing.Point(95, 17);
+            this.m_cbo_ma_lop_hoc.Location = new System.Drawing.Point(284, 24);
             this.m_cbo_ma_lop_hoc.Name = "m_cbo_ma_lop_hoc";
             this.m_cbo_ma_lop_hoc.Size = new System.Drawing.Size(151, 21);
             this.m_cbo_ma_lop_hoc.TabIndex = 1;
@@ -445,7 +447,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(25, 20);
+            this.label5.Location = new System.Drawing.Point(214, 27);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 0;
@@ -453,16 +455,18 @@
             // 
             // m_cbo_hoc_ky
             // 
+            this.m_cbo_hoc_ky.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbo_hoc_ky.FormattingEnabled = true;
-            this.m_cbo_hoc_ky.Location = new System.Drawing.Point(333, 17);
+            this.m_cbo_hoc_ky.Location = new System.Drawing.Point(76, 24);
             this.m_cbo_hoc_ky.Name = "m_cbo_hoc_ky";
             this.m_cbo_hoc_ky.Size = new System.Drawing.Size(121, 21);
             this.m_cbo_hoc_ky.TabIndex = 1;
+            this.m_cbo_hoc_ky.SelectedIndexChanged += new System.EventHandler(this.m_cbo_hoc_ky_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(275, 20);
+            this.label3.Location = new System.Drawing.Point(18, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 0;
@@ -476,7 +480,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Name = "f9901_bao_cao_theo_lop_hoc";
-            this.Text = "f9901_bao_cao_theo_lop_hoc";
+            this.Text = "Kết quả học tập theo lớp học";
             this.Load += new System.EventHandler(this.f9901_bao_cao_theo_lop_hoc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.m_grv_bao_cao_hoc_tap_theo_ma_lop_hoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_bao_cao_hoc_tap_theo_ma_lop_hoc)).EndInit();
