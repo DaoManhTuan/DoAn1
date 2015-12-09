@@ -63,6 +63,7 @@
             this.m_cmd_bc_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_cpa_lop_sinh_vien = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_ti_ly_hoc_bong = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_ti_le_CPA_GPA = new DevExpress.XtraBars.BarButtonItem();
             this.m_rb_quan_ky_danh_muc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -90,7 +91,7 @@
             this.ribbonPageGroup15 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup16 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup17 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.m_cmd_ti_le_CPA_GPA = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_ty_le_theo_ky = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_rib_main)).BeginInit();
@@ -142,9 +143,10 @@
             this.m_cmd_bc_sinh_vien,
             this.m_cmd_cpa_lop_sinh_vien,
             this.m_cmd_ti_ly_hoc_bong,
-            this.m_cmd_ti_le_CPA_GPA});
+            this.m_cmd_ti_le_CPA_GPA,
+            this.m_cmd_ty_le_theo_ky});
             this.m_rib_main.Location = new System.Drawing.Point(0, 0);
-            this.m_rib_main.MaxItemId = 11;
+            this.m_rib_main.MaxItemId = 12;
             this.m_rib_main.Name = "m_rib_main";
             this.m_rib_main.PageHeaderItemLinks.Add(this.m_cmd_ca_nhan);
             this.m_rib_main.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -400,6 +402,15 @@
             this.m_cmd_ti_ly_hoc_bong.Name = "m_cmd_ti_ly_hoc_bong";
             this.m_cmd_ti_ly_hoc_bong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ti_ly_hoc_bong_ItemClick);
             // 
+            // m_cmd_ti_le_CPA_GPA
+            // 
+            this.m_cmd_ti_le_CPA_GPA.Caption = "CPA-GPA";
+            this.m_cmd_ti_le_CPA_GPA.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ti_le_CPA_GPA.Glyph")));
+            this.m_cmd_ti_le_CPA_GPA.Id = 10;
+            this.m_cmd_ti_le_CPA_GPA.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ti_le_CPA_GPA.LargeGlyph")));
+            this.m_cmd_ti_le_CPA_GPA.Name = "m_cmd_ti_le_CPA_GPA";
+            this.m_cmd_ti_le_CPA_GPA.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ti_le_CPA_GPA_ItemClick);
+            // 
             // m_rb_quan_ky_danh_muc
             // 
             this.m_rb_quan_ky_danh_muc.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -603,17 +614,18 @@
             // 
             // ribbonPageGroup17
             // 
+            this.ribbonPageGroup17.ItemLinks.Add(this.m_cmd_ty_le_theo_ky);
             this.ribbonPageGroup17.Name = "ribbonPageGroup17";
-            this.ribbonPageGroup17.Text = "ribbonPageGroup17";
+            this.ribbonPageGroup17.Text = "Bá cáo tỉ lệ theo kỳ";
             // 
-            // m_cmd_ti_le_CPA_GPA
+            // m_cmd_ty_le_theo_ky
             // 
-            this.m_cmd_ti_le_CPA_GPA.Caption = "CPA-GPA";
-            this.m_cmd_ti_le_CPA_GPA.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ti_le_CPA_GPA.Glyph")));
-            this.m_cmd_ti_le_CPA_GPA.Id = 10;
-            this.m_cmd_ti_le_CPA_GPA.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ti_le_CPA_GPA.LargeGlyph")));
-            this.m_cmd_ti_le_CPA_GPA.Name = "m_cmd_ti_le_CPA_GPA";
-            this.m_cmd_ti_le_CPA_GPA.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ti_le_CPA_GPA_ItemClick);
+            this.m_cmd_ty_le_theo_ky.Caption = "Tỷ lệ sinh viên theo kỳ";
+            this.m_cmd_ty_le_theo_ky.Glyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ty_le_theo_ky.Glyph")));
+            this.m_cmd_ty_le_theo_ky.Id = 11;
+            this.m_cmd_ty_le_theo_ky.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ty_le_theo_ky.LargeGlyph")));
+            this.m_cmd_ty_le_theo_ky.Name = "m_cmd_ty_le_theo_ky";
+            this.m_cmd_ty_le_theo_ky.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ty_le_theo_ky_ItemClick);
             // 
             // f999_main
             // 
@@ -696,5 +708,6 @@
         private DevExpress.XtraBars.BarButtonItem m_cmd_ti_le_CPA_GPA;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup16;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup17;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_ty_le_theo_ky;
     }
 }

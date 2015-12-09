@@ -44,7 +44,7 @@ namespace TOSApp
         f9903_danh_sach_sinh_vien_nhan_hoc_bong f9903_danh_sach_sinh_vien_nhan_hoc_bong;
         f9904_danh_sach_sinh_vien_canh_cao f9904_danh_sach_sinh_vien_canh_cao;
         f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien f9905_bao_cao_cpa_gpa_theo_lop_sinh_vien;
-        f9906_bieu_do_boc_bong_truot_binh_thuong f9906_bao_cao_demo;
+        f9906_bieu_do_boc_bong_truot_binh_thuong f9906_bieu_do_boc_bong_truot_binh_thuong;
         f9907_bieu_do_CPA_GPA_sv f9907_bieu_do_CPA_GPA_sv;
         f9908_bieu_do_ty_le_qua_mon f9908_bieu_do_ty_le_qua_mon;
         List<Control> ControlList = new List<Control>();
@@ -554,6 +554,28 @@ namespace TOSApp
                 else
                 {
                     f9907_bieu_do_CPA_GPA_sv.Focus();
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
+        }
+
+        private void m_cmd_ty_le_theo_ky_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            try
+            {
+                if (f9906_bieu_do_boc_bong_truot_binh_thuong == null || !IsFormOpen(f9906_bieu_do_boc_bong_truot_binh_thuong))
+                {
+                    f9906_bieu_do_boc_bong_truot_binh_thuong = new BaoCao.f9906_bieu_do_boc_bong_truot_binh_thuong();
+                    f9906_bieu_do_boc_bong_truot_binh_thuong.MdiParent = this;
+                    f9906_bieu_do_boc_bong_truot_binh_thuong.Show();
+                }
+                else
+                {
+                    f9906_bieu_do_boc_bong_truot_binh_thuong.Focus();
                 }
             }
             catch (Exception)

@@ -312,6 +312,12 @@
     <Compile Include="BaoCao\f9908_bieu_do_ty_le_qua_mon.Designer.cs">
       <DependentUpon>f9908_bieu_do_ty_le_qua_mon.cs</DependentUpon>
     </Compile>
+    <Compile Include="BaoCao\f9909_danh_sach_sinh_vien_xuat_sac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f9909_danh_sach_sinh_vien_xuat_sac.Designer.cs">
+      <DependentUpon>f9909_danh_sach_sinh_vien_xuat_sac.cs</DependentUpon>
+    </Compile>
     <Compile Include="DanhMuc\f100_DM_SINH_VIEN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -497,6 +503,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BaoCao\f9908_bieu_do_ty_le_qua_mon.resx">
       <DependentUpon>f9908_bieu_do_ty_le_qua_mon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f9909_danh_sach_sinh_vien_xuat_sac.resx">
+      <DependentUpon>f9909_danh_sach_sinh_vien_xuat_sac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\f100_DM_SINH_VIEN.resx">
       <DependentUpon>f100_DM_SINH_VIEN.cs</DependentUpon>

@@ -8,13 +8,14 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using IP.Core.IPCommon;
 
 
 
 using System.Data.OleDb;
 using DevExpress.XtraPivotGrid;
 using System.Collections;
+using DevExpress.XtraCharts;
 
 
 namespace TOSApp.BaoCao
@@ -24,25 +25,12 @@ namespace TOSApp.BaoCao
         public f9906_bieu_do_boc_bong_truot_binh_thuong()
         {
             InitializeComponent();
-            load_data_2_grid();
-
             chartControl1.OptionsPrint.SizeMode = DevExpress.XtraCharts.Printing.PrintSizeMode.Zoom;
         }
-
-        private void load_data_2_grid()
-        {
-            US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
-            DataSet v_ds = new DataSet();
-            v_ds.Tables.Add(new DataTable());
-            v_us.FillDatasetWithTableName(v_ds, "KET_QUA_HOC_TAP");
-            pivotGridControl1.DataSource = v_ds.Tables[0];
-
-        }
-
-        private void chartControl1_Click(object sender, EventArgs e)
-        {
-
-        }
+        int m_int_count_hoc_bong = 0;
+        int m_int_count_khong_qua = 0;
+        int m_int_count_binh_thuong = 0;
+     
 
         private void f9906_bao_cao_demo_Load(object sender, EventArgs e)
         {
@@ -58,6 +46,7 @@ namespace TOSApp.BaoCao
         {
             try
             {
+                
                 DevExpress.XtraPrinting.PrintingSystem ps = new DevExpress.XtraPrinting.PrintingSystem();
                 CompositeLink cl = new CompositeLink(ps);
                 PrintableComponentLink pclChart = new PrintableComponentLink();
@@ -83,7 +72,31 @@ namespace TOSApp.BaoCao
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithQuery(v_ds, "select * from dbo.fn_ds_hoc_bong(" + m_cbo_hoc_ky.SelectedValue + ")");
+            m_int_count_hoc_bong = v_ds.Tables[0].Rows.Count;
 
+            US_DUNG_CHUNG k_us = new US_DUNG_CHUNG();
+            DataSet k_ds = new DataSet();
+            k_ds.Tables.Add(new DataTable());
+            k_us.FillDatasetWithQuery(k_ds, "select * from dbo.fn_ds_xu_ly_hoc_tap(" + m_cbo_hoc_ky.SelectedValue + ")");
+            m_int_count_khong_qua = k_ds.Tables[0].Rows.Count;
+
+            US_DUNG_CHUNG t_us = new US_DUNG_CHUNG();
+            DataSet t_ds = new DataSet();
+            t_ds.Tables.Add(new DataTable());
+            t_us.FillDatasetWithQuery(t_ds, "select count(*) from v_ket_qua_hoc_tap where id_hoc_ky=" + m_cbo_hoc_ky.SelectedValue );
+            m_int_count_binh_thuong=Convert.ToInt32( t_ds.Tables[0].Rows[0][0]) - m_int_count_hoc_bong - m_int_count_khong_qua;
+            DataTable table = new DataTable();
+            table.Columns.Add("Ky", typeof(string));
+            table.Columns.Add("HocKy", typeof(string));
+            table.Columns.Add("TyLe", typeof(int));
+            table.Columns.Add("PhanTram", typeof(int));
+
+            table.Rows.Add(new object[] { m_cbo_hoc_ky.SelectedText, "Học bổng", m_int_count_hoc_bong, m_int_count_hoc_bong });
+            table.Rows.Add(new object[] { m_cbo_hoc_ky.SelectedText, "Đạt", m_int_count_binh_thuong, m_int_count_binh_thuong });
+            table.Rows.Add(new object[] { m_cbo_hoc_ky.SelectedText, "Không qua", m_int_count_khong_qua, m_int_count_khong_qua });
+            pivotGridControl1.DataSource = table;
+
+            
             }
             catch (Exception v)
             {
@@ -91,6 +104,8 @@ namespace TOSApp.BaoCao
                 MessageBox.Show("Đã xảy ra lỗi hệ thống!");
             }
         }
+
+        
 
 
     }

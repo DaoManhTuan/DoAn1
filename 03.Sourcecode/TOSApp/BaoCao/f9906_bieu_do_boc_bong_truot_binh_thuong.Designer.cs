@@ -28,17 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             DevExpress.XtraCharts.SimpleDiagram simpleDiagram1 = new DevExpress.XtraCharts.SimpleDiagram();
             DevExpress.XtraCharts.PieSeriesLabel pieSeriesLabel1 = new DevExpress.XtraCharts.PieSeriesLabel();
             DevExpress.XtraCharts.PieSeriesView pieSeriesView1 = new DevExpress.XtraCharts.PieSeriesView();
             DevExpress.XtraCharts.SeriesTitle seriesTitle1 = new DevExpress.XtraCharts.SeriesTitle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
-            this.kET_QUA_HOC_TAPTableAdapter = new TOSApp.QUAN_LY_DIEMDataSetTableAdapters.KET_QUA_HOC_TAPTableAdapter();
             this.pivotGridControl1 = new DevExpress.XtraPivotGrid.PivotGridControl();
             this.pivotGridField1 = new DevExpress.XtraPivotGrid.PivotGridField();
-            this.pivotGridField2 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.pivotGridField3 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.pivotGridField4 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -48,8 +45,7 @@
             this.m_cbo_hoc_ky = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.m_cmd_loc = new DevExpress.XtraEditors.SimpleButton();
-            this.qUAN_LY_DIEMDataSet = new TOSApp.QUAN_LY_DIEMDataSet();
-            this.kETQUAHOCTAPBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pivotGridField2 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(simpleDiagram1)).BeginInit();
@@ -59,8 +55,6 @@
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.qUAN_LY_DIEMDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kETQUAHOCTAPBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -74,7 +68,7 @@
             // 
             // chartControl1
             // 
-            this.chartControl1.DataAdapter = this.kET_QUA_HOC_TAPTableAdapter;
+            this.chartControl1.AppearanceNameSerializable = "Northern Lights";
             this.chartControl1.DataSource = this.pivotGridControl1;
             simpleDiagram1.Dimension = 1;
             simpleDiagram1.EqualPieSize = false;
@@ -98,58 +92,44 @@
             this.chartControl1.SeriesTemplate.View = pieSeriesView1;
             this.chartControl1.Size = new System.Drawing.Size(393, 482);
             this.chartControl1.TabIndex = 0;
-            this.chartControl1.Click += new System.EventHandler(this.chartControl1_Click);
-            // 
-            // kET_QUA_HOC_TAPTableAdapter
-            // 
-            this.kET_QUA_HOC_TAPTableAdapter.ClearBeforeFill = true;
             // 
             // pivotGridControl1
             // 
             this.pivotGridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pivotGridControl1.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
             this.pivotGridField1,
-            this.pivotGridField2,
             this.pivotGridField3,
-            this.pivotGridField4});
+            this.pivotGridField4,
+            this.pivotGridField2});
             this.pivotGridControl1.Location = new System.Drawing.Point(0, 0);
             this.pivotGridControl1.Name = "pivotGridControl1";
             this.pivotGridControl1.OptionsPrint.PrintColumnHeaders = DevExpress.Utils.DefaultBoolean.True;
             this.pivotGridControl1.OptionsPrint.PrintDataHeaders = DevExpress.Utils.DefaultBoolean.True;
-            this.pivotGridControl1.Size = new System.Drawing.Size(662, 423);
+            this.pivotGridControl1.Size = new System.Drawing.Size(662, 424);
             this.pivotGridControl1.TabIndex = 0;
             // 
             // pivotGridField1
             // 
             this.pivotGridField1.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
             this.pivotGridField1.AreaIndex = 0;
-            this.pivotGridField1.Caption = "tên";
-            this.pivotGridField1.FieldName = "ID_SINH_VIEN";
+            this.pivotGridField1.Caption = "Phân loại";
+            this.pivotGridField1.FieldName = "HocKy";
             this.pivotGridField1.Name = "pivotGridField1";
-            // 
-            // pivotGridField2
-            // 
-            this.pivotGridField2.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
-            this.pivotGridField2.AreaIndex = 0;
-            this.pivotGridField2.Caption = "cpa";
-            this.pivotGridField2.FieldName = "CPA";
-            this.pivotGridField2.Name = "pivotGridField2";
             // 
             // pivotGridField3
             // 
             this.pivotGridField3.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
-            this.pivotGridField3.AreaIndex = 1;
-            this.pivotGridField3.Caption = "gpa";
-            this.pivotGridField3.FieldName = "GPA";
-            this.pivotGridField3.GrandTotalCellFormat.FormatString = "0.0  kWatt/h";
-            this.pivotGridField3.GrandTotalText = "0.0  kWatt/h";
+            this.pivotGridField3.AreaIndex = 0;
+            this.pivotGridField3.Caption = "Tỷ lệ";
+            this.pivotGridField3.FieldName = "TyLe";
+            this.pivotGridField3.GrandTotalText = "Tỉ lệ";
             this.pivotGridField3.Name = "pivotGridField3";
             // 
             // pivotGridField4
             // 
             this.pivotGridField4.AreaIndex = 0;
-            this.pivotGridField4.Caption = "ky";
-            this.pivotGridField4.FieldName = "ID_HOC_KY";
+            this.pivotGridField4.Caption = "Học kỳ";
+            this.pivotGridField4.FieldName = "Ky";
             this.pivotGridField4.Name = "pivotGridField4";
             // 
             // panel2
@@ -166,9 +146,9 @@
             // 
             this.panel4.Controls.Add(this.pivotGridControl1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 59);
+            this.panel4.Location = new System.Drawing.Point(0, 58);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(662, 423);
+            this.panel4.Size = new System.Drawing.Size(662, 424);
             this.panel4.TabIndex = 1;
             // 
             // panel3
@@ -180,7 +160,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(662, 59);
+            this.panel3.Size = new System.Drawing.Size(662, 58);
             this.panel3.TabIndex = 0;
             // 
             // m_cmd_xua_bao_cao
@@ -219,15 +199,14 @@
             this.m_cmd_loc.Text = "Lọc";
             this.m_cmd_loc.Click += new System.EventHandler(this.m_cmd_loc_Click);
             // 
-            // qUAN_LY_DIEMDataSet
+            // pivotGridField2
             // 
-            this.qUAN_LY_DIEMDataSet.DataSetName = "QUAN_LY_DIEMDataSet";
-            this.qUAN_LY_DIEMDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // kETQUAHOCTAPBindingSource
-            // 
-            this.kETQUAHOCTAPBindingSource.DataMember = "KET_QUA_HOC_TAP";
-            this.kETQUAHOCTAPBindingSource.DataSource = this.qUAN_LY_DIEMDataSet;
+            this.pivotGridField2.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
+            this.pivotGridField2.AreaIndex = 1;
+            this.pivotGridField2.Caption = "Phần trăm";
+            this.pivotGridField2.FieldName = "PhanTram";
+            this.pivotGridField2.Name = "pivotGridField2";
+            this.pivotGridField2.SummaryDisplayType = DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfColumn;
             // 
             // f9906_bieu_do_boc_bong_truot_binh_thuong
             // 
@@ -249,8 +228,6 @@
             this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.qUAN_LY_DIEMDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kETQUAHOCTAPBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -264,15 +241,12 @@
         private DevExpress.XtraCharts.ChartControl chartControl1;
         private DevExpress.XtraPivotGrid.PivotGridControl pivotGridControl1;
         private DevExpress.XtraPivotGrid.PivotGridField pivotGridField1;
-        private DevExpress.XtraPivotGrid.PivotGridField pivotGridField2;
         private DevExpress.XtraPivotGrid.PivotGridField pivotGridField3;
         private DevExpress.XtraPivotGrid.PivotGridField pivotGridField4;
-        private QUAN_LY_DIEMDataSetTableAdapters.KET_QUA_HOC_TAPTableAdapter kET_QUA_HOC_TAPTableAdapter;
-        private QUAN_LY_DIEMDataSet qUAN_LY_DIEMDataSet;
-        private System.Windows.Forms.BindingSource kETQUAHOCTAPBindingSource;
         private DevExpress.XtraEditors.SimpleButton m_cmd_loc;
         private System.Windows.Forms.ComboBox m_cbo_hoc_ky;
         private System.Windows.Forms.Label label1;
         private DevExpress.XtraEditors.SimpleButton m_cmd_xua_bao_cao;
+        private DevExpress.XtraPivotGrid.PivotGridField pivotGridField2;
     }
 }
